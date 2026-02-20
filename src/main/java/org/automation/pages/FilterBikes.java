@@ -41,6 +41,12 @@ public class FilterBikes {
 
         js.scrollIntoView(wait.visible(applyFilterButton));
         // Capture old count text (if present) to detect refresh
+        String oldCount = "";
+        try {
+            oldCount = driver.findElement(bikeCountOnPage).getText().trim();
+        } catch (Exception ignored) {}
+
+        wait.safeClick(applyFilterButton);
 
     }
 
