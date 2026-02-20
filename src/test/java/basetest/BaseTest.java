@@ -18,13 +18,13 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(configReader.getProp("baseUrl"));
-        wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait=new WebDriverWait(driver,Duration.ofSeconds(15));
     }
     //@AfterSuite
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-            driver=null;
-        }
+//        if (driver != null) {
+//            driver.quit();
+//            driver=null;
+//        }
     }
 }
