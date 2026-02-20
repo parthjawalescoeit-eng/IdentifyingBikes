@@ -2,11 +2,10 @@ package testcases;
 
 import basetest.BaseTest;
 import org.automation.pages.HomePage;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class TC_01 extends BaseTest {
+public class TC_01_HomePage extends BaseTest {
 
     @Test
     public void getFilterBikes() throws InterruptedException {

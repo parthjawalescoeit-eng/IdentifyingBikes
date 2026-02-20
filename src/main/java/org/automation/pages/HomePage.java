@@ -1,4 +1,5 @@
 package org.automation.pages;
+import org.automation.utility.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,9 +14,9 @@ import java.util.List;
 
 public class HomePage {
     WebDriver driver;
-    WebDriverWait wait;
+    WaitUtils wait;
     JavaScriptUtil js;
-    public HomePage(WebDriver driver, WebDriverWait wait){
+    public HomePage(WebDriver driver, WaitUtils wait){
         this.wait=wait;
         this.driver=driver;
         this.js=new JavaScriptUtil(driver);
@@ -45,7 +46,7 @@ public class HomePage {
         js.clickByJS(upcoming_bikes);
         selectBrand.click();
         for(WebElement e:brandList){
-            if(e.getText().equals("Royal Enfield")){
+            if(e.getText().equalsIgnoreCase("Royal Enfield")){
                 js.clickByJS(e);
             }
         }
