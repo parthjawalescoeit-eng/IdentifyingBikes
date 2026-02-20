@@ -15,39 +15,44 @@ public class JavaScriptUtil {
 
     public JavaScriptUtil(WebDriver driver) {
         this.driver = driver;
+        this.js=(JavascriptExecutor)driver;
     }
 
-    public Object executeScript(String script, Object... args) {
-        js= (JavascriptExecutor) driver;
-        return js.executeScript(script, args);
-    }
+//    public Object executeScript(String script, Object... args) {
+//        js= (JavascriptExecutor) driver;
+//        return js.executeScript(script, args);
+//    }
 
     public void clickByJS(WebElement element) {
-        executeScript("arguments[0].click();", element);
+
+            js.executeScript(
+                    "arguments[0].click();",element
+            );
     }
 
+
     public void scrollIntoView(WebElement element) {
-        executeScript("arguments[0].scrollIntoView(true);", element);
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
     public void scrollToBottom() {
-        executeScript("window.scrollTo(0, document.body.scrollHeight);");
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
     }
 
     public void scrollToTop() {
-        executeScript("window.scrollTo(0, 0);");
+        js.executeScript("window.scrollTo(0, 0);");
     }
 
     public void highlightElement(WebElement element) {
-        executeScript("arguments[0].style.border='2px solid red'", element);
+        js.executeScript("arguments[0].style.border='2px solid red'", element);
     }
 
     public String getTitleByJS() {
-        return (String) executeScript("return document.title;");
+        return (String) js.executeScript("return document.title;");
     }
 
     public void refreshByJS() {
-        executeScript("history.go(0)");
+        js.executeScript("history.go(0)");
     }
 }
 
