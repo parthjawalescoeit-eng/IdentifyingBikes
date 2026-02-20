@@ -113,7 +113,7 @@ public class BuyUsedBikes {
         WaitUtil.waitForElementVisible(driver, bikeNames.get(0));
 
         // Loop through the names and pair them with prices
-        for (int i = 0; i < 24; i++) {
+        for (int i = 0; i < bikeNames.size(); i++) {
             String name = bikeNames.get(i).getText().trim();
             String price = bikePrices.get(i).getText().trim();
 
