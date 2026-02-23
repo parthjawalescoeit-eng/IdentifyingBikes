@@ -13,7 +13,8 @@ import java.time.Duration;
 public class BaseTest {
     static protected WebDriver driver;
     static protected WaitUtils wait;
-    @BeforeSuite
+
+    @BeforeClass
     public void driverSetup() throws IOException {
         ConfigReader configReader=new ConfigReader();
         driver = new ChromeDriver();
@@ -21,10 +22,11 @@ public class BaseTest {
         driver.get(configReader.getProp("baseUrl"));
         wait=new WaitUtils(driver,Duration.ofSeconds(10));
     }
-    //@AfterSuite
+
+    @AfterClass
     public void tearDown() {
         if (driver != null) {
-            driver.quit();
+            driver.close();
             driver=null;
         }
     }

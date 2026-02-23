@@ -31,21 +31,11 @@ public class WaitUtils {
 //        return getWait().until(ExpectedConditions.elementToBeClickable(locator));
 //    }
 
-//    public void clickWhenClickable(WebElement element) {
-//        // Wait until the element is clickable
-//        getWait().until(ExpectedConditions.elementToBeClickable(element));
-//
-//        // Click immediately
-//        element.click();
-//    }
-
-//
-//    public void clickWhenClickable(By locator) {
-//        WebElement element = getWait().until(ExpectedConditions.elementToBeClickable(locator));
-//        element.click();
-//    }
-
-
+    public void clickWhenClickable(WebElement element) {
+        // Wait until the element is clickable
+        getWait().until(ExpectedConditions.elementToBeClickable(element)).click();
+        // Click immediately
+    }
 
     public WebElement clickable(WebElement element) {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
@@ -71,23 +61,12 @@ public class WaitUtils {
         return getWait().until(ExpectedConditions.titleContains(text));
     }
 
-
     /** Wait for document.readyState === 'complete' */
     public void pageReady() {
         getWait().until(driver ->
-                ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete")
+                ((JavascriptExecutor) driver).executeScript("return document.readyState")
         );
     }
-
-
-    /** Wait until element has non-empty text */
-    public WebElement visibleWithText(By locator) {
-        return getWait().until(d -> {
-            WebElement el = d.findElement(locator);
-            return (el.isDisplayed() && !el.getText().trim().isEmpty()) ? el : null;
-        });
-    }
-
 
     /** Safe click: wait clickable, try WebDriver click, fallback to JS click */
     // WaitUtils.java (replace/add this method)
@@ -124,5 +103,54 @@ public class WaitUtils {
             attempts++;
         }
         throw new TimeoutException("safeClick failed after retries for locator: " + locator);
+    }
+
+    public void safeClickToWebElement(WebElement element) {
+        WebDriverWait wait = getWait();
+        int attempts = 0;
+        while (attempts < 3) {
+            try {
+                // 1) Wait until clickable on a fresh reference
+                WebElement el = wait.until(ExpectedConditions.elementToBeClickable(element));
+
+                // 2) Scroll element to center (helps with sticky headers)
+                ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
+
+                // 3) Try native click
+                el.click();
+                return;
+            } catch (StaleElementReferenceException sere) {
+                // Re-resolve the proxy and retry
+            } catch (ElementClickInterceptedException e) {
+                // Retry after small nudge/scroll
+                ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
+            } catch (JavascriptException ignored) {
+                // ignore and retry
+            }
+
+            attempts++;
+            try { Thread.sleep(200); } catch (InterruptedException ignored) {}
+        }
+
+        // Final fallback: JS click on a fresh element reference
+        try {
+            ((JavascriptExecutor) driver).executeScript(
+                    "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        } catch (Exception ex) {
+            throw new TimeoutException("safeClick(WebElement) failed after retries.", ex);
+        }
+    }
+    public void enterText(WebElement element,String text) {
+
+        WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
+        // Bring element into view
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].scrollIntoView({block: 'center'});", el);
+        el.clear();
+        el.sendKeys(text);
+
     }
 }

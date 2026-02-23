@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="TestBikeWale" verbose="2" preserve-order="true">
+        <classes>
+
+            <class name="testcases.TC_01_HomePage">
+<!--                <methods>-->
+<!--                    <include name="getFilterBikes"/>-->
+<!--                </methods>-->
+            </class>
+
+            <class name="testcases.TC_02_FilterBikes">
+<!--                <methods>-->
+<!--                    <include name="BikeFilterTestScenario"/>-->
+<!--                </methods>-->
+            </class>
+
+            <class name="testcases.TC_03_MileageBikes">
+<!--                <methods>-->
+<!--                    <include name="getBikesHavingBestMileage"/>-->
+<!--                </methods>-->
+            </class>
+
+            <class name="testcases.TC_04_SelectCity">
+<!--                <methods>-->
+<!--                    <include name="selectCityToPurchasedVehicle"/>-->
+<!--                </methods>-->
+            </class>
+
+            <class name="testcases.TC_05_ToggleButton">
+<!--                <methods>-->
+<!--                    <include name="checkToggleButton"/>-->
+<!--                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

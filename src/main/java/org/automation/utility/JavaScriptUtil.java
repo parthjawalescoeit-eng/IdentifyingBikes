@@ -7,11 +7,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptUtil {
 
     private WebDriver driver;
-
     private JavascriptExecutor js ;
-
-
-
 
     public JavaScriptUtil(WebDriver driver) {
         this.driver = driver;
@@ -27,7 +23,7 @@ public class JavaScriptUtil {
     }
 
     public void scrollIntoView(WebElement element) {
-        executeScript("arguments[0].scrollIntoView(true);", element);
+        executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", element);
     }
 
     public void scrollToBottom() {
