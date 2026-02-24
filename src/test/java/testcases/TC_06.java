@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TC_06 extends BaseTest {
 
         @Test
-        public  void getBikeAtLocation() throws InterruptedException {
+        public  void getBikeAtLocation(){
 
             OnRoadPrice on=new OnRoadPrice(driver,wait);
             String title=on.chequeAvailability("Pune");
