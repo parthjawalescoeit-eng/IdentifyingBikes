@@ -7,7 +7,12 @@
 
     <test name="Dropdown and Form Validation Tests">
         <classes>
-            <class name="testcases.TC_01" />
+            <class name="testcases.TC_16_Listed_Brands" />
+            <class name="testcases.TC_17_Compare_Bikes" />
+            <class name="testcases.TC_18_Calculate_EMI" />
+            <class name="testcases.TC_19_Similar_Bikes" />
+            <class name="testcases.TC_20_Bike_Style" />
+
         </classes>
     </test>
 

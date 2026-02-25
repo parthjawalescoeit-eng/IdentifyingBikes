@@ -1,0 +1,16 @@
+13:37:25.573 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+13:37:31.632 INFO  Log - Brands fetched successfully
+13:39:55.166 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+13:39:59.009 INFO  Log -  Comparing the Bikes ---
+13:40:37.501 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+13:57:34.721 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\IdentifyingBikes\src\test\resources\testing.xml
+
+13:57:40.137 INFO  Log - Brands fetched successfully
+13:57:45.459 INFO  Log -  Bikes Comparison done successfully 
