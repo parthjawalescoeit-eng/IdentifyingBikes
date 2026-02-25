@@ -18,11 +18,21 @@ public class TC_09_Validate_News_Headlines extends BaseTest {
         NewsPage newsPage = new NewsPage(driver);
         newsPage.navigateToNews();
         List<String> headlines = newsPage.getAllHeadlines();
-        String filePath = System.getProperty("user.dir") + "/ExcelData/report.xlsx";
+        String[] headers = {"Sr. No.", "Headline Title", "Date Extracted"};
+        List<String[]> dataToWrite = new java.util.ArrayList<>();
+        String currentTime = new java.util.Date().toString();
 
-        String sheetName = "Sheet_1";
-        ExcelUtil.writeHeadlinesToExcel(headlines, filePath, sheetName);
+        for (int i = 0; i < headlines.size(); i++) {
+            dataToWrite.add(new String[] {
+                    String.valueOf(i + 1),
+                    headlines.get(i),
+                    currentTime
+            });
+        }
 
+        String filePath = System.getProperty("user.dir") + "/ExcelData/BikeReport.xlsx";
+        String sheetName = "News_Report";
+        ExcelUtil.writeDynamicDataToExcel(filePath, sheetName, headers, dataToWrite);
         Assert.assertTrue(headlines.size() > 0, "No headlines found!");
     }
 }
