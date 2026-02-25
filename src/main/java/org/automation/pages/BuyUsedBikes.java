@@ -1,5 +1,6 @@
 package org.automation.pages;
 
+import org.automation.logs.Log;
 import org.automation.utility.JavaScriptUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,11 +38,9 @@ public class BuyUsedBikes {
     @FindBy(xpath="//span[@class='header__menu-icon']")
     WebElement sideBar;
 
-//    @FindBy(css="div[title='Used Bikes'] span[class='o-jr o-jJ o-j3 o-cE']")
     @FindBy(xpath = "//div[@title='Used Bikes']")
     WebElement usedBikes;
 
-//    @FindBy(css="a[title='Buy Bikes'] span[class='o-jr o-jJ o-j1 ']")
     @FindBy(xpath = "//a[@title='Buy Bikes']")
     WebElement buyBikes;
 
@@ -121,7 +120,7 @@ public class BuyUsedBikes {
             allBikes.add(new BuyUsedBikes(name, price));
 
             // Print to console
-            System.out.println("Found Bike " + (i + 1) + ": " + name + " -> " + price);
+            Log.info("Found Bike " + (i + 1) + ": " + name + " -> " + price);
         }
 
         return allBikes;
