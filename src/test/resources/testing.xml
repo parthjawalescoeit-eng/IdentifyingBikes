@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Bikewale Suite">
+
+    <parameter name="browser" value="chrome" />
+
+    <test name="Dropdown and Form Validation Tests">
+        <classes>
+            <class name="testcases.TC_06_Check_Bike_At_Location"/>
+            <class name="testcases.TC_07_Verify_Invalid_City_Error"/>
+            <class name="testcases.TC_08_Check_Notify_Functionality"/>
+            <class name="testcases.TC_09_Validate_News_Headlines"/>
+            <class name="testcases.TC_10_Validate_Bike_Reviews"/>
+        </classes>
+    </test>
+
+</suite>
