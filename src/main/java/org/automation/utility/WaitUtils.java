@@ -16,7 +16,11 @@ public class WaitUtils {
     }
 
     private WebDriverWait getWait() {
-        return new WebDriverWait(driver, timeout);
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.ignoring(StaleElementReferenceException.class);
+        wait.ignoring(NoSuchElementException.class);
+        wait.ignoring(ElementClickInterceptedException.class);
+        return wait;
     }
 
     public WebElement visible(By locator) {
@@ -51,7 +55,22 @@ public class WaitUtils {
         return getWait().until(ExpectedConditions.urlContains(text));
     }
 
+
+    public boolean urlToBe(String expectedUrl) {
+        return getWait().until(ExpectedConditions.urlToBe(expectedUrl));
+    }
+    public boolean attributeValueToBe(WebElement element, String expectedValue, String s) {
+        return getWait().until(ExpectedConditions.attributeToBe(element, "value", expectedValue));
+    }
+
     public boolean titleContains(String text) {
         return getWait().until(ExpectedConditions.titleContains(text));
+    }
+
+    public void frameAndSwitch(By iframeLocator) {
+        getWait().until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframeLocator));
+    }
+    public boolean numberOfWindowsToBe(int count) {
+        return getWait().until(ExpectedConditions.numberOfWindowsToBe(count));
     }
 }

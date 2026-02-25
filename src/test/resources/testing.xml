@@ -7,7 +7,11 @@
 
     <test name="Dropdown and Form Validation Tests">
         <classes>
-            <class name="testcases.TC_01" />
+            <class name="testcases.TC_06_YouTube_navigation_check" />
+            <class name="testcases.TC_07_Brochure_Download_Check" />
+            <class name="testcases.TC_08_Breadcrumb_Working_Check" />
+            <class name="testcases.TC_09_Browser_Navigation_Check" />
+            <class name="testcases.TC_10_Search_Electric_Bikes" />
         </classes>
     </test>
 
