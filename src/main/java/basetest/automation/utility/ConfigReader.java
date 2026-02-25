@@ -7,7 +7,7 @@ import java.util.Properties;
 public class ConfigReader {
 
     private Properties properties;
-
+    //test
     public ConfigReader() throws IOException {
         FileInputStream fis = new FileInputStream("src/main/java/basetest/automation/resources/config.properties");
         properties = new Properties();
