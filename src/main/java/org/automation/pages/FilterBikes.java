@@ -66,7 +66,7 @@ public class FilterBikes {
 
         commonCode.safeClickToWebElement(applyFilterBtn);
 
-        Thread.sleep(1000); // Wait for filtering to complete
+        Thread.sleep(500); // Wait for filtering to complete
 
             new TakeScreenShot(driver, "screenshots").take("TC_02");
         }

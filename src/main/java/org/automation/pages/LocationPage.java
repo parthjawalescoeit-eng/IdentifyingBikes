@@ -48,7 +48,7 @@ public class LocationPage {
         commonCode.safeClickToWebElement(mostTrendingBike);
 
         try{
-            Thread.sleep(1000);
+            Thread.sleep(500);
             TakeScreenShot ts = new TakeScreenShot(driver,"screenshots");
             ts.take("TC_04");
         } catch (InterruptedException e) {
