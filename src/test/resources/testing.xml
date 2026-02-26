@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Rediff Registration Suite">
+    <listeners>
+        <listener class-name="org.automation.utility.ExtentReportManager"/>
+    </listeners>
 
     <parameter name="browser" value="chrome" />
 

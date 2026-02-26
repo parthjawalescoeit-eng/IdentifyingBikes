@@ -1,11 +1,13 @@
 package org.automation.pages;
 
+import org.automation.log.Log;
+import org.automation.utility.CommonCode;
 import org.automation.utility.TakeScreenShot;
-import org.automation.utility.WaitUtils;
 import org.automation.utility.JavaScriptUtil;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Set;
@@ -13,14 +15,14 @@ import java.util.Set;
 public class YouTubenavigationcheck {
 
     private WebDriver driver;
-    private WaitUtils wait;
     private JavaScriptUtil j;
     private TakeScreenShot screenshot;
+    private CommonCode code;
 
-    public YouTubenavigationcheck(WebDriver driver,WaitUtils wait) {
+    public YouTubenavigationcheck(WebDriver driver,WebDriverWait wait) {
         this.driver = driver;
-        this.wait = wait;
         this.j = new JavaScriptUtil(driver);
+        this.code=new CommonCode(driver,Duration.ofSeconds(20));
         this.screenshot = new TakeScreenShot(driver, "screenshots");
         PageFactory.initElements(driver, this);
     }
@@ -34,20 +36,17 @@ public class YouTubenavigationcheck {
     @FindBy(css = "img[title='2025 Royal Enfield Hunter 350 Review | Finally Fixed? | BikeWale']")
     private WebElement youtubeThumbnailImg;
 
-    public boolean verifyVideoPlayback() {
-        try {
-            wait.visible(bikeModel);
+    public boolean verifyVideoPlayback() throws InterruptedException {
+            //wait.visible(bikeModel);
             j.scrollIntoView(bikeModel);
-            bikeModel.click();
+            //bikeModel.click();
+           code.clickWhenClickable(bikeModel);
+           code.visible(youtubeAnchor);
 
             String originalWindow = driver.getWindowHandle();
             Set<String> oldWindows = driver.getWindowHandles();
-
-            try {
-                youtubeAnchor.click();
-            } catch (Exception e) {
-                j.clickByJS(youtubeAnchor);
-            }
+            code.clickable(youtubeAnchor);
+             j.clickByJS(youtubeAnchor);
 
             Thread.sleep(3000);
             Set<String> newWindows = driver.getWindowHandles();
@@ -64,22 +63,14 @@ public class YouTubenavigationcheck {
             }
             screenshot.take("Opened_YouTube_On_New_Window");
 
-
             String url = driver.getCurrentUrl();
-            System.out.println(url);
+            Log.info(url);
             if (!(url.contains("youtube.com"))) {
                 return false;
             }
-
             driver.close();
             driver.switchTo().window(originalWindow);
 
             return true;
-
-        } catch (Exception e) {
-            return false;
-        }
     }
-
-
 }

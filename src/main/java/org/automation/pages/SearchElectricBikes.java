@@ -1,16 +1,17 @@
 
 package org.automation.pages;
 
-import org.automation.utility.ExcelUtil;
+import org.automation.log.Log;
+import org.automation.utility.CommonCode;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
-import org.automation.utility.WaitUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -18,128 +19,106 @@ import java.util.List;
 
 public class SearchElectricBikes {
     private WebDriver driver;
-    private WaitUtils wait;
-    private JavaScriptUtil j;
+    private WebDriverWait wait;
+    private CommonCode code;
+    private JavaScriptUtil js;
     private TakeScreenShot screenshot;
 
-    public SearchElectricBikes(WebDriver driver,WaitUtils wait) {
+    public SearchElectricBikes(WebDriver driver,WebDriverWait wait) {
         this.driver = driver;
-        this.wait = wait;
-        this.j = new JavaScriptUtil(driver);
+        code=new CommonCode(driver,Duration.ofSeconds(20));
         this.screenshot = new TakeScreenShot(driver, "screenshots");
+        this.wait=wait;
+        js=new JavaScriptUtil(driver);
         PageFactory.initElements(driver, this);
     }
     @FindBy(css = ".header__menu-icon")
     private WebElement menuIcon;
 
     @FindBy(css = "a[title='Electric Bikes'] span[class='o-jr o-jJ o-j3 o-cE']")
-    private WebElement electricBikes;
+    private WebElement electricBikesLnk;
 
     @FindBy(css = "div[data-display-name='Brand'] span[class='o-jK']")
-    private WebElement brand;
+    private WebElement brandChk;
 
-    @FindBy(css = "div[aria-hidden='false'] div ul li div input[value='1']")
-    private WebElement bajajInputBtn;
+    @FindBy(xpath = "//label[.//span[normalize-space(.)='Bajaj']]//input[@type='checkbox']")
+    private WebElement bajajInputChk;
 
     @FindBy(css = "input[value='79']")
-    private WebElement atherInputBtn;
+    private WebElement atherInputChk;
 
     @FindBy(xpath = "//p[normalize-space()='Start Type']")
-    private WebElement startType;
+    private WebElement startTypeBtn;
 
     @FindBy(css = "input[value='853']")
-    private WebElement electricStart;
+    private WebElement electricStartChk;
 
     @FindBy(xpath = "//p[normalize-space()='Body Style']")
-    private WebElement bodyStyle;
+    private WebElement bodyStyleBtn;
 
     @FindBy(xpath = "(//div[contains(@class,'o-aw o-aE o-kJ rt2FdX o-f')])[2]")
-    private WebElement scooter;
+    private WebElement scooterChk;
 
     @FindBy(xpath = "//p[normalize-space()='Brake Type']")
-    private WebElement brakeType;
+    private WebElement brakeTypeBtn;
 
     @FindBy(css = "input[value='911']")
-    private WebElement disc;
+    private WebElement discChk;
 
     @FindBy(xpath = "//p[normalize-space()='Wheels']")
-    private WebElement wheels;
+    private WebElement wheelsBtn;
 
     @FindBy(css = "input[value='846']")
-    private WebElement alloy;
+    private WebElement alloyChk;
 
     @FindBy(xpath = "//p[normalize-space()='Top Speed']")
-    private WebElement topSpeed;
+    private WebElement topSpeedBtn;
 
     @FindBy(xpath = "(//input[contains(@value,'2')])[23]")
-    private WebElement above25;
+    private WebElement above25Chk;
 
     @FindBy(css = "button[data-testid='filter-popup-apply-button-inner']")
-    private WebElement applyFilters;
+    private WebElement applyFiltersBtn;
 
-    public boolean SearchElectricBikes() throws InterruptedException {
-        wait.clickable(menuIcon).click();
-        wait.clickable(electricBikes).click();
+    @FindBy(xpath = "//div[contains(@class,'o-f o-hl o-aE')]//h3[@class='o-c6']/span")
+    private List<WebElement> bikeResults;
 
-        wait.clickable(brand).click();
+    public List<String> SearchElectricBikes() throws InterruptedException {
+        code.clickable(menuIcon).click();
+        code.clickable(electricBikesLnk).click();
+        code.clickable(brandChk).click();
 
-        wait.presence(By.cssSelector("input[value='1']"));
-        j.clickByJS(bajajInputBtn);
+        Thread.sleep(500);
+        js.clickByJS(bajajInputChk);
 
-        wait.presence(By.cssSelector("input[value='79']"));
-        j.clickByJS(atherInputBtn);
+        js.clickByJS(atherInputChk);
 
-        wait.presence(By.xpath("//p[normalize-space()='Start Type']"));
-        j.clickByJS(startType);
+        js.scrollIntoView(startTypeBtn);
+        js.clickByJS(startTypeBtn);
 
-        wait.presence(By.cssSelector("input[value='853']"));
-        j.clickByJS(electricStart);
+        js.clickByJS(electricStartChk);
 
-        j.scrollIntoView(bodyStyle);
-        wait.presence(By.xpath("//p[normalize-space()='Body Style']"));
-        j.clickByJS(bodyStyle);
+        js.scrollIntoView(bodyStyleBtn);
+        js.clickByJS(bodyStyleBtn);
 
-        wait.presence(By.xpath("(//div[contains(@class,'o-aw o-aE o-kJ rt2FdX o-f')])[2]"));
-        j.clickByJS(scooter);
+        js.clickByJS(scooterChk);
 
-        wait.presence(By.cssSelector("button[data-testid='filter-popup-apply-button-inner']"));
-        j.clickByJS(applyFilters);
+        js.clickByJS(applyFiltersBtn);
 
-        Thread.sleep(2000);
-        screenshot.take("Successfully_Displayed_Bikes");
         List<String> Bikes = new ArrayList<>();
-        String filePath = System.getProperty("user.dir") + "/Shared_News_Headlines.xlsx";
-        String teamMember = "Sheet_2";
 
-        By CARD = By.cssSelector("li.o-em.o-hk");
-        By NAME = By.cssSelector("h3.o-c6");
+        // Final Wait for results to update
+        Thread.sleep(5000);
+        screenshot.take("Final_Bike_Results");
 
-        wait.visible(CARD);
-
-        List<WebElement> bikeCards = driver.findElements(CARD);
-        int count = Math.min(6, bikeCards.size());
-
-        for (int i = 0; i < count; i++) {
-            WebElement card = bikeCards.get(i);
-
-//            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", card);
-            j.scrollIntoView(card);
-
-            String text = card.findElement(NAME).getText().trim();
-
-            if (text.isEmpty()) {
-                text = j.getInternalHeaderText(card);
-            }
-            if (text != null && !text.isEmpty()) {
-                String cleanedName = text.replaceAll("\\s+", " ");
-                System.out.println(cleanedName);
-
-                Bikes.add(cleanedName);
-            }
-
+        Log.info("Bikes Found: " + bikeResults.size());
+        for (int i = 0; i < Math.min(6, bikeResults.size()); i++) {
+            String ele=bikeResults.get(i).getText().trim();
+            Log.info((i + 1) + ". " + ele);
+            Bikes.add(ele);
         }
-        ExcelUtil.writeHeadlinesToExcel(Bikes, filePath, teamMember);
-        Assert.assertTrue(Bikes.size() > 0, "No bikes found!");
-        return true;
+
+        return Bikes;
     }
 }
+

@@ -6,8 +6,8 @@
       <class name="testcases.TC_10_Search_Electric_Bikes">
         <methods>
           <include name="tearDown"/>
-          <include name="SearchForElectricBikes"/>
           <include name="driverSetup"/>
+          <include name="SearchForElectricBikes"/>
         </methods>
       </class> <!-- testcases.TC_10_Search_Electric_Bikes -->
     </classes>

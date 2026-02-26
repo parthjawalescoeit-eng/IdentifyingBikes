@@ -1,57 +1,60 @@
 package org.automation.pages;
 
+import org.automation.utility.CommonCode;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
-import org.automation.utility.WaitUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Set;
 
 public class BrochureDownloadCheck {
     private WebDriver driver;
-    private WaitUtils wait;
     private JavaScriptUtil j;
+    private CommonCode code;
+    private WebDriverWait wait;
     private TakeScreenShot screenshot;
 
-    public BrochureDownloadCheck(WebDriver driver,WaitUtils wait) {
+    public BrochureDownloadCheck(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
-        this.wait = wait;
+        this.code=new CommonCode(driver, Duration.ofSeconds(20));
         this.j = new JavaScriptUtil(driver);
+        this.wait=wait;
         this.screenshot = new TakeScreenShot(driver, "screenshots");
         PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//div[contains(@class,'o-C') and contains(@class,'ccQ1nm')]//img[contains(@title,'Royal Enfield Hunter 350')]")
-    private WebElement bikeModel;
+    private WebElement bikeModelImg;
 
     @FindBy(css = "span[title='Royal Enfield Hunter 350 Mileage'] div")
-    private WebElement mileage;
+    private WebElement mileageBtn;
 
     @FindBy(css = "section[data-section-id='model-brochure-section'] div div button[type='button']")
     private WebElement brochureDownloadBtn;
 
     public boolean downloadBrochure() throws InterruptedException {
 
-        wait.visible(bikeModel);
-        j.scrollIntoView(bikeModel);
-        wait.clickable(bikeModel);
-        bikeModel.click();
+        code.visible(bikeModelImg);
+        j.scrollIntoView(bikeModelImg);
+        code.clickable(bikeModelImg);
+        bikeModelImg.click();
 
         String originalWindow = driver.getWindowHandle();
         Set<String> oldWindows = driver.getWindowHandles();
-        wait.clickable(mileage);
-        mileage.click();
+        code.clickable(mileageBtn);
+        mileageBtn.click();
         try {
-            wait.visible(brochureDownloadBtn);
-            wait.clickable(brochureDownloadBtn);
+            code.visible(brochureDownloadBtn);
+            code.clickable(brochureDownloadBtn);
             brochureDownloadBtn.click();
         } catch (Exception e) {
-            wait.visible(brochureDownloadBtn);
-            wait.clickable(brochureDownloadBtn);
+            code.visible(brochureDownloadBtn);
+            code.clickable(brochureDownloadBtn);
             j.clickByJS(brochureDownloadBtn);
         }
 

@@ -11,43 +11,44 @@ import java.util.List;
 public class ExcelUtil {
 
 
-    public static void writeHeadlinesToExcel(List<String> headlines, String filePath, String memberName) {
+    public static void writeDynamicDataToExcel(String filePath, String sheetName, String[] headers, List<String[]> dataRows) {
         Workbook workbook;
         File file = new File(filePath);
 
         try {
             if (file.exists()) {
-                FileInputStream fis = new FileInputStream(file);
-                workbook = WorkbookFactory.create(fis);
-                fis.close();
+                try (FileInputStream fis = new FileInputStream(file)) {
+                    workbook = WorkbookFactory.create(fis);
+                }
             } else {
                 workbook = new XSSFWorkbook();
             }
 
-            int sheetIndex = workbook.getSheetIndex(memberName);
-            if (sheetIndex != -1) {
-                workbook.removeSheetAt(sheetIndex);
+            if (workbook.getSheetIndex(sheetName) != -1) {
+                workbook.removeSheetAt(workbook.getSheetIndex(sheetName));
             }
+            Sheet sheet = workbook.createSheet(sheetName);
 
-            Sheet sheet = workbook.createSheet(memberName);
+            // Header loop
             Row headerRow = sheet.createRow(0);
-            headerRow.createCell(0).setCellValue("Sr. No.");
-            headerRow.createCell(1).setCellValue("Content");
-            for (int i = 0; i < headlines.size(); i++) {
-                Row row = sheet.createRow(i + 1);
-                row.createCell(0).setCellValue(i + 1);
-                row.createCell(1).setCellValue(headlines.get(i));
+            for (int i = 0; i < headers.length; i++) {
+                headerRow.createCell(i).setCellValue(headers[i]);
             }
 
-            sheet.autoSizeColumn(1);
+            // Data loop (handles any number of columns)
+            for (int i = 0; i < dataRows.size(); i++) {
+                Row row = sheet.createRow(i + 1);
+                String[] rowData = dataRows.get(i);
+                for (int j = 0; j < rowData.length; j++) {
+                    row.createCell(j).setCellValue(rowData[j]);
+                }
+            }
+
             try (FileOutputStream fileOut = new FileOutputStream(filePath)) {
                 workbook.write(fileOut);
-                System.out.println("Sheet '" + memberName + "' added/updated in: " + filePath);
             }
             workbook.close();
-
-        } catch (IOException e) {
-            System.err.println("Error accessing the Excel file: " + e.getMessage());
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
