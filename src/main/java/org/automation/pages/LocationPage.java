@@ -58,8 +58,8 @@ public class LocationPage {
         Log.info("\n=========== Pune's Most Favourite Bike ===========\n");
 
         String text = mostTrendingBike.getText().trim().replaceAll("\n{2,}", "\n"); // collapse extra blanks
-        System.out.println(text);
-        System.out.println("----------------------------------------------");
+        Log.info(text);
+        Log.info("----------------------------------------------");
 
         // Return true if text is not empty (success)
         return !text.isEmpty();

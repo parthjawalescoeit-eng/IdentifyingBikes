@@ -43,14 +43,14 @@ public class SortByMileagePage {
         js.scrollIntoView(bestMileageBike);
         // wait until the element is clickable and click (replaces Thread.sleep)
 
-        Thread.sleep(500);
+        Thread.sleep(1000);
         commonCode.safeClickToWebElement(bestMileageBike);
 
         // wait and click the 'All Mileage Bikes' tab
-        Thread.sleep(500);
+        Thread.sleep(1000);
         commonCode.safeClickToWebElement(allMileageBikes);
 
-        Thread.sleep(500);
+        Thread.sleep(1000);
         commonCode.safeClickToWebElement(bikeWithHighestMileage);
 
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
@@ -60,9 +60,9 @@ public class SortByMileagePage {
             Log.info("\n=========== Bike With Highest Mileage ===========\n");
 
                 String text = bikeWithHighestMileage.getText().trim().replaceAll("\\n{2,}", "\n"); // collapse extra blanks
-                System.out.println("The Beast is here");
-                System.out.println(text);
-                System.out.println("----------------------------------------------");
+                Log.info("The Beast is here");
+                Log.info(text);
+                Log.info("----------------------------------------------");
 
         return true;
 
