@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bikewale Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Dropdown and Form Validation Tests(failed)">
+    <classes>
+      <class name="testcases.TC_10_Validate_Bike_Reviews">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateReviewSearch"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- testcases.TC_10_Validate_Bike_Reviews -->
+    </classes>
+  </test> <!-- Dropdown and Form Validation Tests(failed) -->
+</suite> <!-- Failed suite [Bikewale Suite] -->

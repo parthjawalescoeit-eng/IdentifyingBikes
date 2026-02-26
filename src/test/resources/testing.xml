@@ -4,8 +4,10 @@
 <suite name="Bikewale Suite">
 
     <parameter name="browser" value="chrome" />
-
-    <test name="Dropdown and Form Validation Tests">
+    <listeners>
+        <listener class-name="basetest.automation.utility.ExtentReportManager"/>
+    </listeners>
+    <test name="Bikewale Automation Test">
         <classes>
             <class name="testcases.TC_06_Check_Bike_At_Location"/>
             <class name="testcases.TC_07_Verify_Invalid_City_Error"/>

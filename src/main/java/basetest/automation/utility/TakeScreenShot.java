@@ -1,4 +1,5 @@
 package basetest.automation.utility;
+import basetest.automation.logs.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 
@@ -19,9 +20,9 @@ public class TakeScreenShot {
             new File(System.getProperty("user.dir") + File.separator + outDir).mkdirs();
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(src, new File(path));
-            System.out.println("Screenshot saved: " + path);
+            Log.info("Screenshot saved: " + path);
         } catch (IOException e) {
-            System.out.println("Screenshot failed: " + e.getMessage());
+           Log.info("Screenshot failed: " + e.getMessage());
         }
     }
 }
