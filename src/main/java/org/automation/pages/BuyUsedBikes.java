@@ -6,25 +6,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.automation.utility.WaitUtil;
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.automation.utility.WaitUtil.waitForElementClickable;
 
 public class BuyUsedBikes {
     WebDriver driver;
     JavaScriptUtil js;
     WebDriverWait wait;
 
-    String name;
-    String price;
+    private String name;
+    private String price;
 
-    public BuyUsedBikes(WebDriver driver,WebDriverWait wait){
+    public BuyUsedBikes(WebDriver driver, WebDriverWait wait){
         this.driver=driver;
         this.js=new JavaScriptUtil(driver);
         this.wait=wait;
@@ -35,14 +31,17 @@ public class BuyUsedBikes {
         this.price = price;
     }
 
+    public String getName() { return name; }
+    public String getPrice() { return price; }
+
     @FindBy(xpath="//span[@class='header__menu-icon']")
     WebElement sideBar;
 
     @FindBy(xpath = "//div[@title='Used Bikes']")
-    WebElement usedBikes;
+    WebElement usedBikeBtn;
 
     @FindBy(xpath = "//a[@title='Buy Bikes']")
-    WebElement buyBikes;
+    WebElement buyBikesBtn;
 
     @FindBy(xpath="//div[@class='chosen-container chosen-container-single']")
     WebElement selectCity;
@@ -54,43 +53,35 @@ public class BuyUsedBikes {
     WebElement searchBtn;
 
     @FindBy(xpath="//*[text()='Suzuki']")
-    WebElement brand;
+    WebElement yammhaChk;
 
     @FindBy(xpath="//*[text()='Gixxer']")
-    WebElement gizzer;
+    WebElement gizzerChk;
 
     public void clickSideBar() throws InterruptedException{
-        WebElement sideBars=wait.until(ExpectedConditions.elementToBeClickable(sideBar));
-        Assert.assertNotNull(sideBars);
-        sideBars.click();
+        wait.until(ExpectedConditions.elementToBeClickable(sideBar));
+        js.clickByJS(sideBar);
 
-        WebElement used_Bikes=wait.until(ExpectedConditions.elementToBeClickable(usedBikes));
-        Assert.assertNotNull(used_Bikes);
-        used_Bikes.click();
+        wait.until(ExpectedConditions.elementToBeClickable(usedBikeBtn));
+        js.clickByJS(usedBikeBtn);
 
-        WebElement buy_Bikes=wait.until(ExpectedConditions.elementToBeClickable(buyBikes));
-        Assert.assertNotNull(buy_Bikes);
-        buy_Bikes.click();
+        wait.until(ExpectedConditions.elementToBeClickable(buyBikesBtn));
+        js.clickByJS(buyBikesBtn);
 
-        WebElement dropdown=wait.until(ExpectedConditions.elementToBeClickable(selectCity));
-        Assert.assertNotNull(dropdown);
-        dropdown.click();
-
-        WebElement selectCity=wait.until(ExpectedConditions.elementToBeClickable(city));
-        Assert.assertNotNull(selectCity);
+        wait.until(ExpectedConditions.elementToBeClickable(selectCity));
         selectCity.click();
 
-        WebElement button=wait.until(ExpectedConditions.elementToBeClickable(searchBtn));
-        Assert.assertNotNull(button);
-        button.click();
+        wait.until(ExpectedConditions.elementToBeClickable(city));
+        js.clickByJS(city);
 
-        WebElement brandSuzuki=wait.until(ExpectedConditions.elementToBeClickable(brand));
-        Assert.assertNotNull(brandSuzuki);
-        brandSuzuki.click();
+        wait.until(ExpectedConditions.elementToBeClickable(searchBtn));
+        js.clickByJS(searchBtn);
 
-        WebElement brandGizzer=wait.until(ExpectedConditions.elementToBeClickable(gizzer));
-        Assert.assertNotNull(brandGizzer);
-        brandGizzer.click();
+        wait.until(ExpectedConditions.elementToBeClickable(yammhaChk));
+        js.clickByJS(yammhaChk);
+
+        wait.until(ExpectedConditions.elementToBeClickable(gizzerChk));
+        js.clickByJS(gizzerChk);
 
     }
     @FindBy(css=".o-o.FTJfQA")
@@ -125,6 +116,5 @@ public class BuyUsedBikes {
 
         return allBikes;
     }
-
 
 }

@@ -18,7 +18,6 @@ public class WaitUtil {
         this.wait=wait;
     }
     public static WebElement waitForElementClickable(WebDriver driver, WebElement element) {
-        // Create the wait instance here using the driver passed from the Page Object
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }

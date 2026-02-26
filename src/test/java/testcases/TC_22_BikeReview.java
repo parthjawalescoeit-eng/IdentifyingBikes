@@ -18,7 +18,8 @@ public class TC_22_BikeReview extends BaseTest {
         BikeReview bike=new BikeReview(driver,wait);
         bike.selectBike();
         List<BikeReview> results = bike.getList();
-
         TakeScreenShot.takeScreenshot(driver, "TC_22_BikeReview");
+        // final assertion: there should be at least one review collected
+        Assert.assertTrue(results.size() > 0, "Expected one or more bike reviews after selecting a bike");
     }
 }

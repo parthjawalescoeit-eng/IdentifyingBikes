@@ -17,7 +17,6 @@ public class TakeScreenShot {
         File est=new File("./screenshots/"+fileName+".png");
         est.getParentFile().mkdirs();
         Files.copy(src.toPath(), est.toPath(), StandardCopyOption.REPLACE_EXISTING);
-
     }
 }
 

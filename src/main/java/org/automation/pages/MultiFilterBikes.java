@@ -27,19 +27,19 @@ public class MultiFilterBikes {
       }
 
       @FindBy(xpath="//span[@data-testing-id='brand-tab']")
-      WebElement brandInput;
+      WebElement brandInputBtn;
 
      @FindBy(xpath="(//div[@class='o-jr o-j1 o-jK o-ei'])[5]")
-     WebElement yamahaOption;
+     WebElement yamahaLnk;
 
      @FindBy(xpath="(//p[@class='o-jJ o-j2 o-ji'])[4]")
-     WebElement displacement;
+     WebElement displaceDrop;
 
      @FindBy(xpath="(//label[@class='o-os o-oz o-j1 o-g  o-bv'])[11]")
-     WebElement checkbox;
+     WebElement chk150_120;
 
      @FindBy(xpath="(//div[@data-display-name='Budget'])")
-     WebElement budgetClk;
+     WebElement budgetBtn;
 
      @FindBy(xpath="(//div[@class='o-gW o-if o-nh o-lc '])[2]")
      WebElement role;
@@ -48,55 +48,50 @@ public class MultiFilterBikes {
      WebElement budgetInput;
 
      @FindBy(xpath="(//input[@placeholder='Max'])")
-     WebElement budgetOption;
+     WebElement budgetOptionBtn;
 
      @FindBy(xpath="//button[@data-testid='filter-popup-apply-button-inner']")
-     WebElement btn;
+     WebElement applyBtn;
 
      @FindBy(xpath="//a[@href and contains(@href,'-bikes/')]")
      List<WebElement> bikeListings;
 
       public void multiFilterBikes() throws InterruptedException{
 
-          js.scrollIntoView(brandInput);
-       WebElement brandInputElement=wait.until(ExpectedConditions.elementToBeClickable(brandInput));
-       js.clickByJS(brandInputElement);
+          js.scrollIntoView(brandInputBtn);
+       wait.until(ExpectedConditions.elementToBeClickable(brandInputBtn));
+       js.clickByJS(brandInputBtn);
 
-        WebElement yamaha=wait.until(ExpectedConditions.elementToBeClickable(yamahaOption));
-        Assert.assertNotNull(yamaha);
-        yamaha.click();
+        wait.until(ExpectedConditions.elementToBeClickable(yamahaLnk));
+        yamahaLnk.click();
 
-        WebElement budget_clk=wait.until(ExpectedConditions.elementToBeClickable(budgetClk));
-        js.clickByJS(budget_clk);
+        wait.until(ExpectedConditions.elementToBeClickable(budgetBtn));
+        js.clickByJS(budgetBtn);
 
-          WebElement role_=wait.until(ExpectedConditions.elementToBeClickable(role));
-          assert role_ != null;
-          role_.click();
+        wait.until(ExpectedConditions.elementToBeClickable(role));
+        role.click();
 
-         WebElement budget=wait.until(ExpectedConditions.elementToBeClickable(budgetOption));
-          js.clickByJS(budget);
-          budget.sendKeys(Keys.CONTROL + "a");
-          budget.sendKeys(Keys.BACK_SPACE);
-          budget.sendKeys("200000");
+         wait.until(ExpectedConditions.elementToBeClickable(budgetOptionBtn));
+         js.clickByJS(budgetOptionBtn);
+         budgetOptionBtn.sendKeys(Keys.CONTROL + "a");
+         budgetOptionBtn.sendKeys(Keys.BACK_SPACE);
+         budgetOptionBtn.sendKeys("200000");
 
-          WebElement displacementInputElement=wait.until(ExpectedConditions.visibilityOf(displacement));
-          js.scrollIntoView(displacementInputElement);
-          js.clickByJS(displacementInputElement);
+          wait.until(ExpectedConditions.visibilityOf(displaceDrop));
+          js.scrollIntoView(displaceDrop);
+          js.clickByJS(displaceDrop);
 
-          js.scrollIntoView(checkbox);
-          WebElement checkbox150=wait.until(ExpectedConditions.visibilityOf(checkbox));
-          if(!checkbox150.isSelected()) {
-              checkbox150.click();
+          js.scrollIntoView(chk150_120);
+          wait.until(ExpectedConditions.visibilityOf(chk150_120));
+          if(!chk150_120.isSelected()) {
+              chk150_120.click();
           }
 
-          WebElement button=wait.until(ExpectedConditions.elementToBeClickable(btn));
-          assert button != null;
-          button.click();
+          wait.until(ExpectedConditions.elementToBeClickable(applyBtn));
+          applyBtn.click();
 
           verifyFilteredResults();
          }
-
-
 
     public void verifyFilteredResults() throws InterruptedException{
 

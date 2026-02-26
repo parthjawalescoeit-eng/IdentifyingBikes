@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.PageFactoryFinder;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -21,63 +20,48 @@ public class ComparingBikes {
         this.wait=wait;
         this.js=new JavaScriptUtil((driver));
         PageFactory.initElements(driver,this);
-
     }
 
     @FindBy(xpath="//a[@title='Hero' and @class='o-d o-os o-kY ']")
-    WebElement brand;
+    WebElement brandLnk;
 
     @FindBy(xpath="(//div[text()='Top Comparisons'])[2]")
-    WebElement compare;
+    WebElement compareBtn;
 
     @FindBy(xpath="(//div[@class='o-f o-av o-j1 o-js o-co o-c6 o-cC'])[1]")
-    WebElement bike;
+    WebElement bikeLnk;
 
     @FindBy(xpath="(//div[@class='o-kg o-j3 o-ei'])[1]")
-    WebElement plus;
+    WebElement plusBtn;
 
-    @FindBy(css="div[id='1280']")
-    WebElement bike3;
+    @FindBy(xpath="(//div[@class='o-ez wZQV4N o-aS'])[2]")
+    WebElement bike3Lnk;
 
     @FindBy(xpath="(//li[contains(@class,'BFykSq')])[2]")
     WebElement variant;
 
     public void compareBike() throws InterruptedException{
 
-        WebElement brandBike=wait.until(ExpectedConditions.elementToBeClickable(brand));
-        Assert.assertNotNull(brandBike);
-        js.clickByJS(brandBike);
+        wait.until(ExpectedConditions.elementToBeClickable(brandLnk));
+        js.clickByJS(brandLnk);
         Thread.sleep(2000);
 
-
-        WebElement compareBike=wait.until(ExpectedConditions.elementToBeClickable(compare));
-        js.scrollIntoView(compareBike);
-        js.clickByJS(compareBike);
+        wait.until(ExpectedConditions.elementToBeClickable(compareBtn));
+        js.scrollIntoView(compareBtn);
+        js.clickByJS(compareBtn);
         Thread.sleep(2000);
 
-        WebElement bikes=wait.until(ExpectedConditions.elementToBeClickable(bike));
-        assert bikes != null;
-        Assert.assertFalse(bikes.isSelected());
-        bikes.click();
+        wait.until(ExpectedConditions.elementToBeClickable(bikeLnk));
+        bikeLnk.click();
 
-        WebElement addBike=wait.until(ExpectedConditions.elementToBeClickable(plus));
-        Assert.assertNotNull(addBike);
-        js.clickByJS(addBike);
+        wait.until(ExpectedConditions.elementToBeClickable(plusBtn));
+        js.clickByJS(plusBtn);
 
-        WebElement bike_3=wait.until(ExpectedConditions.elementToBeClickable(bike3));
-        js.clickByJS(bike_3);
+        wait.until(ExpectedConditions.elementToBeClickable(bike3Lnk));
+        js.clickByJS(bike3Lnk);
 
-        WebElement variants=wait.until(ExpectedConditions.elementToBeClickable(variant));
-        Assert.assertNotNull(variants);
-        variants.click();
-
-
-
-
-
-
-
-
+        wait.until(ExpectedConditions.elementToBeClickable(variant));
+        variant.click();
 
     }
 }

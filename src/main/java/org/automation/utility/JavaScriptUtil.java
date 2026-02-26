@@ -8,17 +8,14 @@ public class JavaScriptUtil {
 
     private WebDriver driver;
 
-    private JavascriptExecutor js ;
-
-
-
+    private JavascriptExecutor js;
 
     public JavaScriptUtil(WebDriver driver) {
         this.driver = driver;
     }
 
     public Object executeScript(String script, Object... args) {
-        js= (JavascriptExecutor) driver;
+        js = (JavascriptExecutor) driver;
         return js.executeScript(script, args);
     }
 
@@ -30,25 +27,11 @@ public class JavaScriptUtil {
         executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
-    public void scrollToBottom() {
-        executeScript("window.scrollTo(0, document.body.scrollHeight);");
-    }
 
     public void scrollToTop() {
         executeScript("window.scrollTo(0, 0);");
     }
-
-    public void highlightElement(WebElement element) {
-        executeScript("arguments[0].style.border='2px solid red'", element);
-    }
-
-    public String getTitleByJS() {
-        return (String) executeScript("return document.title;");
-    }
-
-    public void refreshByJS() {
-        executeScript("history.go(0)");
-    }
 }
+
 
 

@@ -32,17 +32,14 @@ public class BikeProsAndCons {
     WebElement expertBtn;
 
     @FindBy(xpath="//li[@data-testid='pros-card' or @data-testid='cons-card']")
-    List<WebElement> pros;
+    public List<WebElement> pros;
 
     public void bikeColoursOption() throws InterruptedException {
-
 
         js.scrollIntoView(bike);
         String bikeModel=bike.getText();
         WebElement bikeClick=wait.until(ExpectedConditions.elementToBeClickable(bike));
         js.clickByJS(bikeClick);
-
-
 
         WebElement expert_btn=wait.until(ExpectedConditions.elementToBeClickable(expertBtn));
         js.clickByJS(expert_btn);
@@ -66,5 +63,4 @@ public class BikeProsAndCons {
         }
         Log.info("\n---------------------------------------");
     }
-
 }
