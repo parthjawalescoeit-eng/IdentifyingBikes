@@ -45,6 +45,7 @@ public class BikeProsAndCons {
         js.clickByJS(expert_btn);
 
         Log.info("\n--- Bike Expert Review: Pros & Cons of "+bikeModel+"---");
+        Thread.sleep(500);
         printProsAndCons();
     }
 

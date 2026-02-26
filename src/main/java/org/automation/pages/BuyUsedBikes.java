@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.automation.utility.WaitUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -100,7 +100,7 @@ public class BuyUsedBikes {
         List<BuyUsedBikes> allBikes = new ArrayList<>();
 
         // Wait for the first element to be visible to ensure list is loaded
-        WaitUtil.waitForElementVisible(driver, bikeNames.get(0));
+        wait.until(ExpectedConditions.visibilityOf(bikeNames.get(0)));
 
         // Loop through the names and pair them with prices
         for (int i = 0; i < bikeNames.size(); i++) {

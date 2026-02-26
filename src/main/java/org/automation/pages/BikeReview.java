@@ -37,7 +37,7 @@ public class BikeReview {
     WebElement searchBtn;
 
     @FindBy(xpath="(//div[@class='o-jA o-jJ o-j3  ']//li)[2]")
-    WebElement bikeClk;
+    WebElement bikeLnk;
 
     @FindBy(xpath="(//h3[@class='o-j4 o-jq o-hM o-c4 o-jK'])[4]")
     WebElement gt;
@@ -50,8 +50,9 @@ public class BikeReview {
         wait.until(ExpectedConditions.visibilityOf(searchBtn));
         searchBtn.sendKeys("Royal Enfield");
 
-        wait.until(ExpectedConditions.elementToBeClickable(bikeClk));
-        js.clickByJS(bikeClk);
+        wait.until(ExpectedConditions.visibilityOf(bikeLnk));
+        wait.until(ExpectedConditions.elementToBeClickable(bikeLnk));
+        js.clickByJS(bikeLnk);
 
         wait.until(ExpectedConditions.elementToBeClickable(gt));
         js.clickByJS(gt);
@@ -67,11 +68,13 @@ public class BikeReview {
     @FindBy(xpath="//div[@class='o-gZ o-ih o-C o-f o-aL o-aE o-nh o-aS']")
     List<WebElement> star;
 
+
     public String toString() {
         return "Bike: " + reviews + " | Price: " + stars;
     }
 
     public List<BikeReview> getList(){
+
         List<BikeReview> bikeReviewStar=new ArrayList<>();
 
         for(int i=0;i<9;i++){
