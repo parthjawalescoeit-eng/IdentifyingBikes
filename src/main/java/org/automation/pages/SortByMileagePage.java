@@ -34,7 +34,7 @@ public class SortByMileagePage {
     WebElement allMileageBikes;
 
     @FindBy(xpath = "(//div[contains(@class,'o-az o-hl o-f')])//div[10]")
-    WebElement bikeWithHighestMilage;
+    WebElement bikeWithHighestMileage;
 
     public boolean sortBikesByMileage(){
 
@@ -51,7 +51,7 @@ public class SortByMileagePage {
         commonCode.safeClickToWebElement(allMileageBikes);
 
         Thread.sleep(500);
-        commonCode.safeClickToWebElement(bikeWithHighestMilage);
+        commonCode.safeClickToWebElement(bikeWithHighestMileage);
 
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
         ts.take("TC_03");
@@ -59,7 +59,7 @@ public class SortByMileagePage {
 
             Log.info("\n=========== Bike With Highest Mileage ===========\n");
 
-                String text = bikeWithHighestMilage.getText().trim().replaceAll("\\n{2,}", "\n"); // collapse extra blanks
+                String text = bikeWithHighestMileage.getText().trim().replaceAll("\\n{2,}", "\n"); // collapse extra blanks
                 System.out.println("The Beast is here");
                 System.out.println(text);
                 System.out.println("----------------------------------------------");
