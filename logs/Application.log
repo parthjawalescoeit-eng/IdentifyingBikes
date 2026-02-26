@@ -1,0 +1,74 @@
+10:14:57.807 INFO  Utils - [TestNG] Running:
+  C:\Users\2464440\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+10:15:06.451 INFO  Log - Test passed: 48 bikes brands displayed
+10:15:14.067 INFO  Log - Filtered Bikes
+10:15:18.881 INFO  Log - 
+--- Processing 20 Bikes ---
+10:15:18.958 INFO  Log - Processed: Bajaj Pulsar N160
+10:15:19.015 INFO  Log - Processed: Bajaj Pulsar NS200
+10:15:19.076 INFO  Log - Processed: Bajaj Pulsar 125
+10:15:19.123 INFO  Log - Processed: Bajaj Pulsar NS400Z
+10:15:19.165 INFO  Log - Processed: Bajaj Pulsar NS125
+10:15:19.224 INFO  Log - Processed: Bajaj Pulsar 150
+10:15:19.275 INFO  Log - Processed: Bajaj Pulsar NS160
+10:15:19.345 INFO  Log - Processed: EV
+10:15:19.405 INFO  Log - Processed: Bajaj Pulsar N250
+10:15:19.457 INFO  Log - Processed: Bajaj Pulsar RS 200
+10:15:19.527 INFO  Log - Processed: Bajaj Pulsar 220 F
+10:15:19.593 INFO  Log - Processed: Bajaj Dominar 250
+10:15:19.651 INFO  Log - Processed: Bajaj Pulsar N125
+10:15:19.701 INFO  Log - Processed: CNG
+10:15:19.751 INFO  Log - Processed: EV
+10:15:19.801 INFO  Log - Processed: Bajaj Avenger Cruise 220
+10:15:19.856 INFO  Log - Processed: Bajaj Platina 100
+10:15:19.906 INFO  Log - Processed: Bajaj CT 110
+10:15:19.971 INFO  Log - Processed: Bajaj Platina 110
+10:15:20.016 INFO  Log - Processed: Bajaj Avenger Street 160
+10:15:21.307 INFO  Log - Test passed: 20 filtered bikes displayed
+10:15:32.161 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+10:15:32.204 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+10:15:45.907 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+10:15:45.935 INFO  Log - Bike get selected from particular city
+10:15:54.331 INFO  Log - Toggle button is working fine! 
+11:10:44.126 INFO  Utils - [TestNG] Running:
+  C:\Users\2464440\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+11:10:56.258 INFO  Log - Test passed: 48 bikes brands displayed
+11:11:05.652 INFO  Log - Filtered Bikes
+11:11:10.195 INFO  Log - 
+--- Processing 20 Bikes ---
+11:11:10.242 INFO  Log - Processed: Bajaj Pulsar N160
+11:11:10.287 INFO  Log - Processed: Bajaj Pulsar NS200
+11:11:10.328 INFO  Log - Processed: Bajaj Pulsar 125
+11:11:10.365 INFO  Log - Processed: Bajaj Pulsar NS400Z
+11:11:10.397 INFO  Log - Processed: Bajaj Pulsar NS125
+11:11:10.434 INFO  Log - Processed: Bajaj Pulsar 150
+11:11:10.476 INFO  Log - Processed: Bajaj Pulsar NS160
+11:11:10.515 INFO  Log - Processed: EV
+11:11:10.556 INFO  Log - Processed: Bajaj Pulsar N250
+11:11:10.594 INFO  Log - Processed: Bajaj Pulsar RS 200
+11:11:10.630 INFO  Log - Processed: Bajaj Pulsar 220 F
+11:11:10.665 INFO  Log - Processed: Bajaj Dominar 250
+11:11:10.692 INFO  Log - Processed: Bajaj Pulsar N125
+11:11:10.743 INFO  Log - Processed: CNG
+11:11:10.780 INFO  Log - Processed: EV
+11:11:10.824 INFO  Log - Processed: Bajaj Avenger Cruise 220
+11:11:10.878 INFO  Log - Processed: Bajaj Platina 100
+11:11:10.912 INFO  Log - Processed: Bajaj CT 110
+11:11:10.982 INFO  Log - Processed: Bajaj Platina 110
+11:11:11.010 INFO  Log - Processed: Bajaj Avenger Street 160
+11:11:12.746 INFO  Log - Test passed: 20 filtered bikes displayed
+11:11:22.773 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+11:11:22.813 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+11:11:32.706 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+11:11:32.724 INFO  Log - Bike get selected from particular city
+11:11:40.293 INFO  Log - Toggle button is working fine! 

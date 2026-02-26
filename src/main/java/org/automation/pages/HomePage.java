@@ -1,61 +1,57 @@
 package org.automation.pages;
-import org.automation.utility.WaitUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import org.automation.utility.CommonCode;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.automation.utility.JavaScriptUtil;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 
 public class HomePage {
     WebDriver driver;
-    WaitUtils wait;
+    CommonCode commonCode;
     JavaScriptUtil js;
-    public HomePage(WebDriver driver, WaitUtils wait){
-        this.wait=wait;
+    WebDriverWait wait;
+
+    public HomePage(WebDriver driver,WebDriverWait wait){
         this.driver=driver;
+        this.wait = wait;
+        this.commonCode = new CommonCode(driver, Duration.ofSeconds(20));
         this.js=new JavaScriptUtil(driver);
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(xpath ="//span[@class='header__menu-icon']")
-    WebElement options;
+    WebElement multipleBikes;
     @FindBy(xpath = "//span[text()='New Bikes' and @class='o-jr o-jJ o-j3 o-cE']")
-    WebElement New_Bikes;
+    WebElement bikesLnk;
     @FindBy(xpath = "//span[text()='Upcoming Bikes']")
-    WebElement upcoming_bikes;
-    @FindBy(xpath = "//div[text()='All Upcoming Bikes']")
-    WebElement allBikes;
+    WebElement futureBikes;
     @FindBy(xpath = "//input[@placeholder='All Brands']")
-    WebElement selectBrand;
+    WebElement BrandList;
     @FindBy(xpath = "//ul[@data-screen='make-model']/li//span")
-    List<WebElement> brandList;
-    @FindBy(xpath = "//h3[@class='o-j4 o-jJ']")
-    List<WebElement> bikeList;
-    @FindBy(xpath = "//div[@class='o-jr o-j1 o-jK o-ei' and text()='Royal Enfield']")
-    List<WebElement> bullet;
-    public void test() throws InterruptedException{
-        options.click();
-        Thread.sleep(2000);
-        js.clickByJS(New_Bikes);
-        Thread.sleep(2000);
-        js.clickByJS(upcoming_bikes);
-        selectBrand.click();
-        for(WebElement e:brandList){
+    List<WebElement> brands;
+
+    public int findUpcomingBikes(){
+
+        int bikeCount = 0;
+
+        commonCode.clickWhenClickable(multipleBikes);
+        commonCode.clickWhenClickable(bikesLnk);
+        commonCode.safeClickToWebElement(futureBikes);
+        commonCode.clickWhenClickable(BrandList);
+
+        for(WebElement e:brands){
+            bikeCount++;
             if(e.getText().equalsIgnoreCase("Royal Enfield")){
-                js.clickByJS(e);
+                commonCode.safeClickToWebElement(e);
             }
         }
-        for(WebElement e:bikeList){
-            System.out.println(e.getText());
-        }
 
-    }
-    void test1(){
-
+        return bikeCount;
     }
 }

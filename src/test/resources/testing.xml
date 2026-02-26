@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Rediff Registration Suite">
-
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="reports.ExtentReportManager"/>
+    </listeners>
     <parameter name="browser" value="chrome" />
 
-    <test name="Dropdown and Form Validation Tests">
+    <test name="TestBikeWale" verbose="2" preserve-order="true">
         <classes>
             <class name="testcases.TC_01_HomePage" />
+            <class name="testcases.TC_02_FilterBikes" />
+            <class name="testcases.TC_03_MileageBikes" />
+            <class name="testcases.TC_04_SelectCity" />
+            <class name="testcases.TC_05_ToggleButton" />
+
         </classes>
     </test>
 

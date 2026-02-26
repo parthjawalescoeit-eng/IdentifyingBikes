@@ -25,26 +25,6 @@ public class JavaScriptUtil {
     public void scrollIntoView(WebElement element) {
         executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", element);
     }
-
-    public void scrollToBottom() {
-        executeScript("window.scrollTo(0, document.body.scrollHeight);");
-    }
-
-    public void scrollToTop() {
-        executeScript("window.scrollTo(0, 0);");
-    }
-
-    public void highlightElement(WebElement element) {
-        executeScript("arguments[0].style.border='2px solid red'", element);
-    }
-
-    public String getTitleByJS() {
-        return (String) executeScript("return document.title;");
-    }
-
-    public void refreshByJS() {
-        executeScript("history.go(0)");
-    }
 }
 
 
