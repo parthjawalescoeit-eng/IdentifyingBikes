@@ -1,2278 +1,326 @@
-10:14:57.807 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+15:00:36.724 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:00:36.729 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.732 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.732 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.735 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:00:36.749 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+15:00:36.749 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.750 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.750 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.750 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.750 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.750 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.751 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.752 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.752 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.752 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.753 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.753 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.754 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.756 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.756 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.756 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.757 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:00:36.757 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.757 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.757 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.757 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.758 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.758 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.758 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.758 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.759 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.759 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.759 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.759 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.760 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.760 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.760 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.760 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.760 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.761 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.761 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.761 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.761 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.761 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.763 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.763 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.763 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.763 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.764 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.764 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.767 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.770 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.770 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.771 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.772 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.772 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.772 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.772 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.774 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.774 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.774 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.775 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.775 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.781 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+15:00:36.783 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.783 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.783 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:00:36.783 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:00:36.788 INFO  Utils - [TestNG] Running:
+  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
 
-10:15:06.451 INFO  Log - Test passed: 48 bikes brands displayed
-10:15:14.067 INFO  Log - Filtered Bikes
-10:15:18.881 INFO  Log - 
+15:00:37.005 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+15:00:44.771 INFO  Log - Test passed: 24 bikes brands displayed
+15:00:51.214 INFO  Log - Filtered Bikes
+15:00:54.810 INFO  Log - 
 --- Processing 20 Bikes ---
-10:15:18.958 INFO  Log - Processed: Bajaj Pulsar N160
-10:15:19.015 INFO  Log - Processed: Bajaj Pulsar NS200
-10:15:19.076 INFO  Log - Processed: Bajaj Pulsar 125
-10:15:19.123 INFO  Log - Processed: Bajaj Pulsar NS400Z
-10:15:19.165 INFO  Log - Processed: Bajaj Pulsar NS125
-10:15:19.224 INFO  Log - Processed: Bajaj Pulsar 150
-10:15:19.275 INFO  Log - Processed: Bajaj Pulsar NS160
-10:15:19.345 INFO  Log - Processed: EV
-10:15:19.405 INFO  Log - Processed: Bajaj Pulsar N250
-10:15:19.457 INFO  Log - Processed: Bajaj Pulsar RS 200
-10:15:19.527 INFO  Log - Processed: Bajaj Pulsar 220 F
-10:15:19.593 INFO  Log - Processed: Bajaj Dominar 250
-10:15:19.651 INFO  Log - Processed: Bajaj Pulsar N125
-10:15:19.701 INFO  Log - Processed: CNG
-10:15:19.751 INFO  Log - Processed: EV
-10:15:19.801 INFO  Log - Processed: Bajaj Avenger Cruise 220
-10:15:19.856 INFO  Log - Processed: Bajaj Platina 100
-10:15:19.906 INFO  Log - Processed: Bajaj CT 110
-10:15:19.971 INFO  Log - Processed: Bajaj Platina 110
-10:15:20.016 INFO  Log - Processed: Bajaj Avenger Street 160
-10:15:21.307 INFO  Log - Test passed: 20 filtered bikes displayed
-10:15:32.161 INFO  Log - 
+15:00:54.877 INFO  Log - Processed: Bajaj Pulsar N160
+15:00:54.928 INFO  Log - Processed: Bajaj Pulsar NS200
+15:00:54.971 INFO  Log - Processed: Bajaj Pulsar 125
+15:00:55.010 INFO  Log - Processed: Bajaj Pulsar NS400Z
+15:00:55.052 INFO  Log - Processed: Bajaj Pulsar NS125
+15:00:55.094 INFO  Log - Processed: Bajaj Pulsar 150
+15:00:55.127 INFO  Log - Processed: Bajaj Pulsar NS160
+15:00:55.179 INFO  Log - Processed: EV
+15:00:55.222 INFO  Log - Processed: Bajaj Pulsar N250
+15:00:55.262 INFO  Log - Processed: Bajaj Pulsar RS 200
+15:00:55.306 INFO  Log - Processed: Bajaj Pulsar 220 F
+15:00:55.345 INFO  Log - Processed: Bajaj Dominar 250
+15:00:55.382 INFO  Log - Processed: Bajaj Pulsar N125
+15:00:55.445 INFO  Log - Processed: CNG
+15:00:55.496 INFO  Log - Processed: EV
+15:00:55.527 INFO  Log - Processed: Bajaj Avenger Cruise 220
+15:00:55.573 INFO  Log - Processed: Bajaj Platina 100
+15:00:55.614 INFO  Log - Processed: Bajaj CT 110
+15:00:55.643 INFO  Log - Processed: Bajaj Platina 110
+15:00:55.695 INFO  Log - Processed: Bajaj Avenger Street 160
+15:00:56.894 INFO  Log - Test passed: 20 filtered bikes displayed
+15:01:08.503 INFO  Log - 
 =========== Bike With Highest Mileage ===========
 
-10:15:32.204 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-10:15:45.907 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-10:15:45.935 INFO  Log - Bike get selected from particular city
-10:15:54.331 INFO  Log - Toggle button is working fine! 
-11:10:44.126 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
-
-11:10:56.258 INFO  Log - Test passed: 48 bikes brands displayed
-11:11:05.652 INFO  Log - Filtered Bikes
-11:11:10.195 INFO  Log - 
---- Processing 20 Bikes ---
-11:11:10.242 INFO  Log - Processed: Bajaj Pulsar N160
-11:11:10.287 INFO  Log - Processed: Bajaj Pulsar NS200
-11:11:10.328 INFO  Log - Processed: Bajaj Pulsar 125
-11:11:10.365 INFO  Log - Processed: Bajaj Pulsar NS400Z
-11:11:10.397 INFO  Log - Processed: Bajaj Pulsar NS125
-11:11:10.434 INFO  Log - Processed: Bajaj Pulsar 150
-11:11:10.476 INFO  Log - Processed: Bajaj Pulsar NS160
-11:11:10.515 INFO  Log - Processed: EV
-11:11:10.556 INFO  Log - Processed: Bajaj Pulsar N250
-11:11:10.594 INFO  Log - Processed: Bajaj Pulsar RS 200
-11:11:10.630 INFO  Log - Processed: Bajaj Pulsar 220 F
-11:11:10.665 INFO  Log - Processed: Bajaj Dominar 250
-11:11:10.692 INFO  Log - Processed: Bajaj Pulsar N125
-11:11:10.743 INFO  Log - Processed: CNG
-11:11:10.780 INFO  Log - Processed: EV
-11:11:10.824 INFO  Log - Processed: Bajaj Avenger Cruise 220
-11:11:10.878 INFO  Log - Processed: Bajaj Platina 100
-11:11:10.912 INFO  Log - Processed: Bajaj CT 110
-11:11:10.982 INFO  Log - Processed: Bajaj Platina 110
-11:11:11.010 INFO  Log - Processed: Bajaj Avenger Street 160
-11:11:12.746 INFO  Log - Test passed: 20 filtered bikes displayed
-11:11:22.773 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-11:11:22.813 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-11:11:32.706 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-11:11:32.724 INFO  Log - Bike get selected from particular city
-11:11:40.293 INFO  Log - Toggle button is working fine! 
-11:56:53.793 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.798 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.799 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.799 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.799 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.800 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.800 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.800 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.802 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-11:56:53.812 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-11:56:53.814 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.814 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.815 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.815 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.815 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.815 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.817 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.817 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.818 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.818 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.820 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.820 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.820 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.820 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.820 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.821 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:56:53.821 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.821 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.821 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.822 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.822 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.823 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:56:53.823 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.823 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.823 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.824 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.824 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.824 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.824 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.824 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.825 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.827 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.827 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.828 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.828 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.829 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.829 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.829 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.830 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.830 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.830 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.830 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.830 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.832 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.833 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.833 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.834 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.835 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.837 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.837 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.837 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.837 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.838 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.838 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.838 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.839 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.842 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.842 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.842 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.842 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.843 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.849 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-11:56:53.851 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.851 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.851 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:56:53.851 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:56:53.855 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-11:56:54.087 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-11:57:01.912 INFO  Log - Test passed: 48 bikes brands displayed
-11:57:08.577 INFO  Log - Filtered Bikes
-11:57:12.346 INFO  Log - 
---- Processing 20 Bikes ---
-11:57:12.397 INFO  Log - Processed: Bajaj Pulsar N160
-11:57:12.439 INFO  Log - Processed: Bajaj Pulsar NS200
-11:57:12.481 INFO  Log - Processed: Bajaj Pulsar 125
-11:57:12.518 INFO  Log - Processed: Bajaj Pulsar NS400Z
-11:57:12.545 INFO  Log - Processed: Bajaj Pulsar NS125
-11:57:12.579 INFO  Log - Processed: Bajaj Pulsar 150
-11:57:12.612 INFO  Log - Processed: Bajaj Pulsar NS160
-11:57:12.678 INFO  Log - Processed: EV
-11:57:12.712 INFO  Log - Processed: Bajaj Pulsar N250
-11:57:12.751 INFO  Log - Processed: Bajaj Pulsar RS 200
-11:57:12.787 INFO  Log - Processed: Bajaj Pulsar 220 F
-11:57:12.812 INFO  Log - Processed: Bajaj Dominar 250
-11:57:12.845 INFO  Log - Processed: Bajaj Pulsar N125
-11:57:12.896 INFO  Log - Processed: CNG
-11:57:12.937 INFO  Log - Processed: EV
-11:57:12.985 INFO  Log - Processed: Bajaj Avenger Cruise 220
-11:57:13.023 INFO  Log - Processed: Bajaj Platina 100
-11:57:13.063 INFO  Log - Processed: Bajaj CT 110
-11:57:13.097 INFO  Log - Processed: Bajaj Platina 110
-11:57:13.135 INFO  Log - Processed: Bajaj Avenger Street 160
-11:57:14.470 INFO  Log - Test passed: 20 filtered bikes displayed
-11:57:32.700 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.704 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:57:32.705 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.705 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.705 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.705 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.705 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.706 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.708 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-11:57:32.718 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
-11:57:32.719 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.719 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.720 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.720 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.720 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.720 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.722 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.722 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.722 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.722 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.723 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.723 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.723 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.723 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.724 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.724 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.724 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.724 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.724 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.725 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.725 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.726 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.726 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.726 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.727 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.729 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.730 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.730 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.730 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.732 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.732 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.732 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.732 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.732 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.733 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.734 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.734 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.735 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.735 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.735 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.736 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.736 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.736 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.736 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.736 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.737 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.738 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.738 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.738 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.738 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.738 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.739 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.740 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.740 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.741 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.741 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.741 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.741 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.742 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.745 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.745 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.745 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.745 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.747 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.751 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-11:57:32.753 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.753 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.753 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:57:32.753 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:57:32.757 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-11:57:32.924 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-11:57:40.661 INFO  Log - Test passed: 48 bikes brands displayed
-11:57:46.422 INFO  Log - Filtered Bikes
-11:57:50.278 INFO  Log - 
---- Processing 20 Bikes ---
-11:57:50.327 INFO  Log - Processed: Bajaj Pulsar N160
-11:57:50.365 INFO  Log - Processed: Bajaj Pulsar NS200
-11:57:50.397 INFO  Log - Processed: Bajaj Pulsar 125
-11:57:50.443 INFO  Log - Processed: Bajaj Pulsar NS400Z
-11:57:50.478 INFO  Log - Processed: Bajaj Pulsar NS125
-11:57:50.513 INFO  Log - Processed: Bajaj Pulsar 150
-11:57:50.548 INFO  Log - Processed: Bajaj Pulsar NS160
-11:57:50.580 INFO  Log - Processed: EV
-11:57:50.622 INFO  Log - Processed: Bajaj Pulsar N250
-11:57:50.654 INFO  Log - Processed: Bajaj Pulsar RS 200
-11:57:50.697 INFO  Log - Processed: Bajaj Pulsar 220 F
-11:57:50.733 INFO  Log - Processed: Bajaj Dominar 250
-11:57:50.765 INFO  Log - Processed: Bajaj Pulsar N125
-11:57:50.811 INFO  Log - Processed: CNG
-11:57:50.849 INFO  Log - Processed: EV
-11:57:50.887 INFO  Log - Processed: Bajaj Avenger Cruise 220
-11:57:50.936 INFO  Log - Processed: Bajaj Platina 100
-11:57:50.970 INFO  Log - Processed: Bajaj CT 110
-11:57:51.007 INFO  Log - Processed: Bajaj Platina 110
-11:57:51.047 INFO  Log - Processed: Bajaj Avenger Street 160
-11:57:52.218 INFO  Log - Test passed: 20 filtered bikes displayed
-11:58:01.441 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-11:58:01.479 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-11:58:10.194 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-11:58:10.216 INFO  Log - Bike get selected from particular city
-11:58:18.330 INFO  Log - Toggle button is working fine! 
-11:58:20.336 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6ad6ae45: 0 ms
-11:59:34.581 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.585 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:59:34.586 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.586 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.587 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.587 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.587 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.587 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.590 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-11:59:34.600 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-11:59:34.600 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.601 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.601 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.601 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.601 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.601 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.602 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.602 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.602 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.602 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.603 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.603 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.603 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.604 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.606 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.607 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.607 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.607 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.607 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.608 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.609 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.610 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.610 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.610 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.610 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.610 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.611 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.612 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.613 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.614 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.615 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.615 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.615 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.615 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.615 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.616 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.618 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.618 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.618 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.618 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.620 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-11:59:34.625 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-11:59:34.629 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.629 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.629 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:34.629 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:34.633 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-11:59:34.793 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-11:59:39.764 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-11:59:39.768 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.773 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-11:59:39.783 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
-11:59:39.783 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.784 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.784 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.784 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.784 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.784 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.788 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.788 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.789 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.789 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.790 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.790 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.790 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.790 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.791 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.791 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.791 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.791 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.791 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.792 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:59:39.793 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-11:59:39.793 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.794 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.795 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.795 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.796 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.796 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.797 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.797 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.797 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.797 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.797 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.798 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.798 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.798 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.799 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.801 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.801 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.801 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.801 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.802 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.802 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.802 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.803 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.804 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.805 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.805 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.805 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.805 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.805 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.806 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.807 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.807 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.807 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.807 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.807 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.808 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.808 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.808 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.808 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.808 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.810 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.810 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.810 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.810 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.812 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.816 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-11:59:39.818 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.818 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.818 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:39.818 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:39.822 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-11:59:39.976 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-11:59:50.163 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.167 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.168 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.171 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-11:59:50.180 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-11:59:50.181 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.181 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.181 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.181 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.181 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.182 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.182 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.182 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.183 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.183 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.184 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.185 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.185 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.185 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.186 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.186 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.186 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.186 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.186 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.187 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.187 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.187 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.187 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.187 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.189 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.190 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.190 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.190 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.190 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.191 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.192 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.192 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.192 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.192 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.193 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.194 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.195 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.196 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.197 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.199 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.199 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.199 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.199 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.200 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.204 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
-11:59:50.205 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.205 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.205 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-11:59:50.205 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-11:59:50.210 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-11:59:50.371 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-11:59:58.293 INFO  Log - Test passed: 48 bikes brands displayed
-12:00:04.154 INFO  Log - Filtered Bikes
-12:00:08.026 INFO  Log - 
---- Processing 20 Bikes ---
-12:00:08.076 INFO  Log - Processed: Bajaj Pulsar N160
-12:00:08.112 INFO  Log - Processed: Bajaj Pulsar NS200
-12:00:08.161 INFO  Log - Processed: Bajaj Pulsar 125
-12:00:08.196 INFO  Log - Processed: Bajaj Pulsar NS400Z
-12:00:08.230 INFO  Log - Processed: Bajaj Pulsar NS125
-12:00:08.264 INFO  Log - Processed: Bajaj Pulsar 150
-12:00:08.293 INFO  Log - Processed: Bajaj Pulsar NS160
-12:00:08.336 INFO  Log - Processed: EV
-12:00:08.369 INFO  Log - Processed: Bajaj Pulsar N250
-12:00:08.412 INFO  Log - Processed: Bajaj Pulsar RS 200
-12:00:08.448 INFO  Log - Processed: Bajaj Pulsar 220 F
-12:00:08.476 INFO  Log - Processed: Bajaj Dominar 250
-12:00:08.521 INFO  Log - Processed: Bajaj Pulsar N125
-12:00:08.566 INFO  Log - Processed: CNG
-12:00:08.604 INFO  Log - Processed: EV
-12:00:08.647 INFO  Log - Processed: Bajaj Avenger Cruise 220
-12:00:08.681 INFO  Log - Processed: Bajaj Platina 100
-12:00:08.731 INFO  Log - Processed: Bajaj CT 110
-12:00:08.785 INFO  Log - Processed: Bajaj Platina 110
-12:00:08.821 INFO  Log - Processed: Bajaj Avenger Street 160
-12:00:09.976 INFO  Log - Test passed: 20 filtered bikes displayed
-12:00:47.298 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-12:00:47.325 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-12:00:47.325 INFO  Log - ----------------------------------------------
-12:00:47.325 INFO  Log - Bike get selected from particular city
-12:00:54.839 INFO  Log - Toggle button is working fine! 
-12:00:56.821 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@c4cceb: 0 ms
-12:01:55.633 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.637 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.638 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.641 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-12:01:55.651 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-12:01:55.652 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.652 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.652 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.652 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.653 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.653 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.653 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.654 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.654 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.654 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.655 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.656 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.656 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.656 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.656 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.657 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.658 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.658 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.658 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.659 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.660 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.660 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.660 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.660 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.661 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.662 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.663 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.663 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.663 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.663 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.663 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.664 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.664 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.664 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.664 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.665 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.665 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.665 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.665 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.665 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.666 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.667 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.668 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.668 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.668 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.668 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.670 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.670 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.670 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.670 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.671 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.675 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-12:01:55.678 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.678 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.678 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:01:55.678 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:01:55.682 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-12:01:55.844 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-12:02:03.074 INFO  Log - Test passed: 48 bikes brands displayed
-12:02:06.450 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-12:02:06.455 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-12:02:06.456 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.456 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.456 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.457 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.457 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.457 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.460 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-12:02:06.476 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
-12:02:06.478 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.478 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.478 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.478 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.479 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.479 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.481 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.481 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.481 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.481 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.483 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.484 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.484 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.484 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.485 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.485 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.485 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.486 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.487 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.487 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.488 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.488 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.489 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.489 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.489 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.490 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.490 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.490 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.490 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.491 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-12:02:06.491 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.491 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.491 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.492 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.493 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.493 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.493 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.493 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.493 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.494 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.494 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.494 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.494 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.494 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.495 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.496 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.498 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.498 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.498 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.498 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.499 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.499 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.499 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.499 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.500 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.503 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.503 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.503 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.503 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.504 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.513 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-12:02:06.514 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.514 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.514 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:02:06.514 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:02:06.517 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-12:02:06.688 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-12:02:14.810 INFO  Log - Test passed: 48 bikes brands displayed
-12:02:20.599 INFO  Log - Filtered Bikes
-12:02:24.190 INFO  Log - 
---- Processing 20 Bikes ---
-12:02:24.244 INFO  Log - Processed: Bajaj Pulsar N160
-12:02:24.284 INFO  Log - Processed: Bajaj Pulsar NS200
-12:02:24.323 INFO  Log - Processed: Bajaj Pulsar 125
-12:02:24.358 INFO  Log - Processed: Bajaj Pulsar NS400Z
-12:02:24.394 INFO  Log - Processed: Bajaj Pulsar NS125
-12:02:24.433 INFO  Log - Processed: Bajaj Pulsar 150
-12:02:24.473 INFO  Log - Processed: Bajaj Pulsar NS160
-12:02:24.512 INFO  Log - Processed: EV
-12:02:24.540 INFO  Log - Processed: Bajaj Pulsar N250
-12:02:24.591 INFO  Log - Processed: Bajaj Pulsar RS 200
-12:02:24.628 INFO  Log - Processed: Bajaj Pulsar 220 F
-12:02:24.663 INFO  Log - Processed: Bajaj Dominar 250
-12:02:24.702 INFO  Log - Processed: Bajaj Pulsar N125
-12:02:24.739 INFO  Log - Processed: CNG
-12:02:24.774 INFO  Log - Processed: EV
-12:02:24.823 INFO  Log - Processed: Bajaj Avenger Cruise 220
-12:02:24.857 INFO  Log - Processed: Bajaj Platina 100
-12:02:24.891 INFO  Log - Processed: Bajaj CT 110
-12:02:24.926 INFO  Log - Processed: Bajaj Platina 110
-12:02:24.961 INFO  Log - Processed: Bajaj Avenger Street 160
-12:02:26.106 INFO  Log - Test passed: 20 filtered bikes displayed
-12:02:36.874 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-12:02:36.897 INFO  Log - The Beast is here
-12:02:36.897 INFO  Log - #1
+15:01:08.535 INFO  Log - The Beast is here
+15:01:08.535 INFO  Log - #1
 Bajaj Platina 100
 102 cc|7.79 bhp|75 kmpl
 ₹ 66,593
 Avg. Ex-Showroom price
 Check On-Road Price
-12:02:36.897 INFO  Log - ----------------------------------------------
-12:02:36.897 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-12:02:45.753 INFO  Log - 
+15:01:08.535 INFO  Log - ----------------------------------------------
+15:01:08.535 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+15:01:17.979 INFO  Log - 
 =========== Pune's Most Favourite Bike ===========
 
-12:02:45.777 INFO  Log - Royal Enfield Hunter 350
+15:01:18.010 INFO  Log - Royal Enfield Hunter 350
 ₹ 1,76,752
 Onwards
 On-Road Price, Pune
 Check On-Road Price
-12:02:45.777 INFO  Log - ----------------------------------------------
-12:02:45.777 INFO  Log - Bike get selected from particular city
-12:02:53.481 INFO  Log - Toggle button is working fine! 
-12:02:55.692 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@754de353: 0 ms
-14:09:13.364 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.369 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.371 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.371 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.371 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.371 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.372 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.372 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.374 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-14:09:13.386 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
-14:09:13.388 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.388 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.388 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.389 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.389 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.389 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.392 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.392 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.392 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.393 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.394 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.394 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.395 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.395 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.395 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.395 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.396 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.396 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.396 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.396 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.397 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.397 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.399 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.399 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.400 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.400 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.400 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.400 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.402 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-14:09:13.402 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.402 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.404 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.404 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.404 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.404 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.405 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.405 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.405 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.405 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.405 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.406 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-14:09:13.406 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.406 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.407 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.408 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.408 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.409 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.409 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.410 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.411 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.411 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.412 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.412 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.412 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.412 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.412 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.413 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.413 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.413 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.413 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.413 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.416 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.416 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.416 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.416 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.417 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.421 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-14:09:13.422 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.422 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.422 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:09:13.423 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:09:13.427 INFO  Utils - [TestNG] Running:
+15:01:18.010 INFO  Log - ----------------------------------------------
+15:01:18.010 INFO  Log - Bike get selected from particular city
+15:01:26.000 INFO  Log - Toggle button is working fine! 
+15:01:28.441 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2fc7fa6e: 0 ms
+15:08:32.721 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.727 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.729 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.729 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.731 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.731 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.735 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+15:08:32.753 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+15:08:32.754 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.754 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.754 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.754 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.756 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.756 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.757 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.757 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.757 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.758 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.758 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.758 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.759 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.760 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.760 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.762 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.762 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.763 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.764 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.764 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.765 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.765 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.766 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.766 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.767 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.767 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.767 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.768 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.768 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.769 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.769 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.770 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.770 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.770 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.771 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.772 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.772 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.772 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.772 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.774 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.774 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.774 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.774 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.774 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.775 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.775 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.777 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.777 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.777 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.777 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.777 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.778 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.778 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.778 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.778 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.779 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.779 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.780 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.782 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.783 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:08:32.783 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.784 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.784 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.784 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.784 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.785 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.785 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.785 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.785 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.786 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.788 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.788 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.788 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.789 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.790 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:08:32.798 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+15:08:32.800 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.800 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.800 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:08:32.800 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:08:32.806 INFO  Utils - [TestNG] Running:
   C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
 
-14:09:13.592 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
-14:09:26.557 INFO  Log - Test passed: 48 bikes brands displayed
-14:09:32.307 INFO  Log - Filtered Bikes
-14:09:35.953 INFO  Log - 
+15:08:33.095 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+15:08:47.868 INFO  Log - Test passed: 24 bikes brands displayed
+15:08:58.232 INFO  Log - Filtered Bikes
+15:09:03.812 INFO  Log - 
 --- Processing 20 Bikes ---
-14:09:36.007 INFO  Log - Processed: Bajaj Pulsar N160
-14:09:36.042 INFO  Log - Processed: Bajaj Pulsar NS200
-14:09:36.090 INFO  Log - Processed: Bajaj Pulsar 125
-14:09:36.128 INFO  Log - Processed: Bajaj Pulsar NS400Z
-14:09:36.162 INFO  Log - Processed: Bajaj Pulsar NS125
-14:09:36.218 INFO  Log - Processed: Bajaj Pulsar 150
-14:09:36.259 INFO  Log - Processed: Bajaj Pulsar NS160
-14:09:36.301 INFO  Log - Processed: EV
-14:09:36.339 INFO  Log - Processed: Bajaj Pulsar N250
-14:09:36.377 INFO  Log - Processed: Bajaj Pulsar RS 200
-14:09:36.411 INFO  Log - Processed: Bajaj Pulsar 220 F
-14:09:36.449 INFO  Log - Processed: Bajaj Dominar 250
-14:09:36.486 INFO  Log - Processed: Bajaj Pulsar N125
-14:09:36.522 INFO  Log - Processed: CNG
-14:09:36.570 INFO  Log - Processed: EV
-14:09:36.607 INFO  Log - Processed: Bajaj Avenger Cruise 220
-14:09:36.643 INFO  Log - Processed: Bajaj Platina 100
-14:09:36.680 INFO  Log - Processed: Bajaj CT 110
-14:09:36.719 INFO  Log - Processed: Bajaj Platina 110
-14:09:36.756 INFO  Log - Processed: Bajaj Avenger Street 160
-14:09:38.119 INFO  Log - Test passed: 20 filtered bikes displayed
-14:09:48.071 INFO  Log - 
+15:09:03.898 INFO  Log - Processed: Bajaj Pulsar N160
+15:09:03.960 INFO  Log - Processed: Bajaj Pulsar NS200
+15:09:04.036 INFO  Log - Processed: Bajaj Pulsar 125
+15:09:04.084 INFO  Log - Processed: Bajaj Pulsar NS400Z
+15:09:04.130 INFO  Log - Processed: Bajaj Pulsar NS125
+15:09:04.174 INFO  Log - Processed: Bajaj Pulsar 150
+15:09:04.217 INFO  Log - Processed: Bajaj Pulsar NS160
+15:09:04.267 INFO  Log - Processed: EV
+15:09:04.313 INFO  Log - Processed: Bajaj Pulsar N250
+15:09:04.367 INFO  Log - Processed: Bajaj Pulsar RS 200
+15:09:04.414 INFO  Log - Processed: Bajaj Pulsar 220 F
+15:09:04.459 INFO  Log - Processed: Bajaj Dominar 250
+15:09:04.503 INFO  Log - Processed: Bajaj Pulsar N125
+15:09:04.549 INFO  Log - Processed: CNG
+15:09:04.598 INFO  Log - Processed: EV
+15:09:04.646 INFO  Log - Processed: Bajaj Avenger Cruise 220
+15:09:04.688 INFO  Log - Processed: Bajaj Platina 100
+15:09:04.733 INFO  Log - Processed: Bajaj CT 110
+15:09:04.792 INFO  Log - Processed: Bajaj Platina 110
+15:09:04.837 INFO  Log - Processed: Bajaj Avenger Street 160
+15:09:06.091 INFO  Log - Test passed: 20 filtered bikes displayed
+15:09:18.102 INFO  Log - 
 =========== Bike With Highest Mileage ===========
 
-14:09:48.099 INFO  Log - The Beast is here
-14:09:48.099 INFO  Log - #1
+15:09:18.156 INFO  Log - The Beast is here
+15:09:18.156 INFO  Log - #1
 Bajaj Platina 100
 102 cc|7.79 bhp|75 kmpl
 ₹ 66,593
 Avg. Ex-Showroom price
 Check On-Road Price
-14:09:48.099 INFO  Log - ----------------------------------------------
-14:09:48.099 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-14:09:57.248 INFO  Log - 
+15:09:18.156 INFO  Log - ----------------------------------------------
+15:09:18.156 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+15:09:29.272 INFO  Log - 
 =========== Pune's Most Favourite Bike ===========
 
-14:09:57.272 INFO  Log - Royal Enfield Hunter 350
+15:09:29.302 INFO  Log - Royal Enfield Hunter 350
 ₹ 1,76,752
 Onwards
 On-Road Price, Pune
 Check On-Road Price
-14:09:57.272 INFO  Log - ----------------------------------------------
-14:09:57.272 INFO  Log - Bike get selected from particular city
-14:10:04.695 INFO  Log - Toggle button is working fine! 
-14:10:06.846 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4fad51a3: 0 ms
-08:59:19.343 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.350 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-08:59:19.352 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.352 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.352 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.352 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.353 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.353 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.357 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-08:59:19.380 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
-08:59:19.381 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.382 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.382 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.382 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.383 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.383 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.385 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.385 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.386 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.386 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.387 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.387 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.388 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.388 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.388 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.388 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.389 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.389 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.390 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.390 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.391 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.391 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.392 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.392 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.393 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.395 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.396 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.396 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.397 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.397 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.397 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.398 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.398 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.398 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.399 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.399 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.399 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.399 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.400 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.400 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.402 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.402 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.403 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.403 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.404 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.405 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.405 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.406 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.406 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.406 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.407 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.407 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.407 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.407 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.408 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.408 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.409 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-08:59:19.409 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.409 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.409 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.410 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.410 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.410 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.410 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.411 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.415 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.415 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.416 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-08:59:19.416 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.417 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.425 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-08:59:19.428 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.428 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.428 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-08:59:19.428 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-08:59:19.434 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-08:59:19.787 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
-08:59:31.296 INFO  Log - Test passed: 48 bikes brands displayed
-08:59:37.589 INFO  Log - Filtered Bikes
-08:59:41.815 INFO  Log - 
---- Processing 20 Bikes ---
-08:59:41.892 INFO  Log - Processed: Bajaj Pulsar N160
-08:59:41.938 INFO  Log - Processed: Bajaj Pulsar NS200
-08:59:41.975 INFO  Log - Processed: Bajaj Pulsar 125
-08:59:42.022 INFO  Log - Processed: Bajaj Pulsar NS400Z
-08:59:42.064 INFO  Log - Processed: Bajaj Pulsar NS125
-08:59:42.117 INFO  Log - Processed: Bajaj Pulsar 150
-08:59:42.160 INFO  Log - Processed: Bajaj Pulsar NS160
-08:59:42.201 INFO  Log - Processed: EV
-08:59:42.233 INFO  Log - Processed: Bajaj Pulsar N250
-08:59:42.288 INFO  Log - Processed: Bajaj Pulsar RS 200
-08:59:42.342 INFO  Log - Processed: Bajaj Pulsar 220 F
-08:59:42.383 INFO  Log - Processed: Bajaj Dominar 250
-08:59:42.423 INFO  Log - Processed: Bajaj Pulsar N125
-08:59:42.469 INFO  Log - Processed: CNG
-08:59:42.516 INFO  Log - Processed: EV
-08:59:42.555 INFO  Log - Processed: Bajaj Avenger Cruise 220
-08:59:42.600 INFO  Log - Processed: Bajaj Platina 100
-08:59:42.638 INFO  Log - Processed: Bajaj CT 110
-08:59:42.690 INFO  Log - Processed: Bajaj Platina 110
-08:59:42.738 INFO  Log - Processed: Bajaj Avenger Street 160
-08:59:44.362 INFO  Log - Test passed: 20 filtered bikes displayed
-08:59:55.430 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-08:59:55.480 INFO  Log - The Beast is here
-08:59:55.480 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-08:59:55.480 INFO  Log - ----------------------------------------------
-08:59:55.480 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-09:00:05.150 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-09:00:05.185 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-09:00:05.185 INFO  Log - ----------------------------------------------
-09:00:05.185 INFO  Log - Bike get selected from particular city
-09:00:12.911 INFO  Log - Toggle button is working fine! 
-09:00:15.444 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@58186f9f: 0 ms
-09:02:59.218 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.224 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.226 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.226 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.227 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.227 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.227 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.227 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.232 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-09:02:59.253 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
-09:02:59.254 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.254 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.255 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.255 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.255 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.255 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.257 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.258 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.258 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.258 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.260 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.261 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.261 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.262 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:02:59.262 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.263 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.263 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.263 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.263 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.264 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.264 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.264 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.264 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.267 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.267 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.269 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.269 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.270 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.270 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.270 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.270 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.271 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.271 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.272 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.272 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.273 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.273 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.273 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.274 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.274 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.274 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.274 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.274 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.275 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.275 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.276 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.276 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.276 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.276 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.277 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.277 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.277 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.277 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.277 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.279 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.279 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.280 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.280 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.280 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.281 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.281 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.281 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.281 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.281 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.282 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.283 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.283 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.284 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.285 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.285 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.286 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.287 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:02:59.287 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.287 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.288 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.288 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.288 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.288 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.289 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.289 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.292 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.292 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.293 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.293 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.294 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.303 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-09:02:59.306 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.306 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.306 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:02:59.306 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:02:59.312 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-09:02:59.628 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-09:03:34.500 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.505 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.506 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.507 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.507 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.507 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.507 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.507 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.510 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.521 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.522 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.525 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.525 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.525 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.525 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.527 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.528 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.528 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.529 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.529 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.529 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.530 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.530 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.530 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.530 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.530 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.531 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.531 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.531 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.531 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.532 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.532 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.532 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.532 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.533 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.533 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.533 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.533 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.534 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.534 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.534 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.534 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.535 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.535 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.535 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.536 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.536 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.536 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.537 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.537 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.538 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.539 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.539 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.539 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.540 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.541 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.541 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.541 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.542 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.543 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.543 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.544 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.545 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.545 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.545 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.545 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.548 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.548 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.548 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.548 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.549 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.556 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
-09:03:34.557 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.557 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.557 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:03:34.557 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:03:34.562 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-09:03:34.777 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-09:04:13.216 INFO  Log - Filtered Bikes
-09:04:17.751 INFO  Log - 
---- Processing 20 Bikes ---
-09:04:17.817 INFO  Log - Processed: Bajaj Pulsar N160
-09:04:17.866 INFO  Log - Processed: Bajaj Pulsar NS200
-09:04:17.921 INFO  Log - Processed: Bajaj Pulsar 125
-09:04:17.976 INFO  Log - Processed: Bajaj Pulsar NS400Z
-09:04:18.029 INFO  Log - Processed: Bajaj Pulsar NS125
-09:04:18.091 INFO  Log - Processed: Bajaj Pulsar 150
-09:04:18.139 INFO  Log - Processed: Bajaj Pulsar NS160
-09:04:18.229 INFO  Log - Processed: EV
-09:04:18.294 INFO  Log - Processed: Bajaj Pulsar N250
-09:04:18.334 INFO  Log - Processed: Bajaj Pulsar RS 200
-09:04:18.410 INFO  Log - Processed: Bajaj Pulsar 220 F
-09:04:18.475 INFO  Log - Processed: Bajaj Dominar 250
-09:04:18.521 INFO  Log - Processed: Bajaj Pulsar N125
-09:04:18.562 INFO  Log - Processed: CNG
-09:04:18.623 INFO  Log - Processed: EV
-09:04:18.657 INFO  Log - Processed: Bajaj Avenger Cruise 220
-09:04:18.721 INFO  Log - Processed: Bajaj Platina 100
-09:04:18.770 INFO  Log - Processed: Bajaj CT 110
-09:04:18.822 INFO  Log - Processed: Bajaj Platina 110
-09:04:18.881 INFO  Log - Processed: Bajaj Avenger Street 160
-09:04:20.278 INFO  Log - Test passed: 20 filtered bikes displayed
-09:04:33.781 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-09:04:33.831 INFO  Log - The Beast is here
-09:04:33.831 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-09:04:33.831 INFO  Log - ----------------------------------------------
-09:04:33.831 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-09:04:43.494 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-09:04:43.509 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-09:04:43.509 INFO  Log - ----------------------------------------------
-09:04:43.509 INFO  Log - Bike get selected from particular city
-09:04:51.712 INFO  Log - Toggle button is working fine! 
-09:04:54.145 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7b3a6e95: 0 ms
-09:09:44.953 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:09:44.958 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.959 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.962 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:09:44.976 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
-09:09:44.977 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.977 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.978 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.978 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.978 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.978 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.980 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.980 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.980 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.981 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:09:44.982 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.982 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.983 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.983 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.983 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.983 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.984 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.984 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.984 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.985 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.985 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.986 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.986 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.987 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.987 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.987 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.987 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.987 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.988 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.988 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.989 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.989 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.989 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.989 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.990 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:09:44.990 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.990 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.990 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.991 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:09:44.991 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.992 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.992 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.992 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.992 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.992 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.993 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.993 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.993 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.993 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.993 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.995 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.995 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.995 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.996 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.997 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.997 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.997 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.997 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.998 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:44.999 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.000 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.001 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.004 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.004 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.005 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.005 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.006 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:09:45.011 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
-09:09:45.013 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.014 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.014 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:09:45.014 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:09:45.017 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-09:09:45.201 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
-09:09:52.955 INFO  Log - Test passed: 24 bikes brands displayed
-09:09:58.812 INFO  Log - Filtered Bikes
-09:10:03.153 INFO  Log - 
---- Processing 20 Bikes ---
-09:10:03.208 INFO  Log - Processed: Bajaj Pulsar N160
-09:10:03.254 INFO  Log - Processed: Bajaj Pulsar NS200
-09:10:03.299 INFO  Log - Processed: Bajaj Pulsar 125
-09:10:03.343 INFO  Log - Processed: Bajaj Pulsar NS400Z
-09:10:03.389 INFO  Log - Processed: Bajaj Pulsar NS125
-09:10:03.432 INFO  Log - Processed: Bajaj Pulsar 150
-09:10:03.480 INFO  Log - Processed: Bajaj Pulsar NS160
-09:10:03.541 INFO  Log - Processed: EV
-09:10:03.605 INFO  Log - Processed: Bajaj Pulsar N250
-09:10:03.654 INFO  Log - Processed: Bajaj Pulsar RS 200
-09:10:03.698 INFO  Log - Processed: Bajaj Pulsar 220 F
-09:10:03.740 INFO  Log - Processed: Bajaj Dominar 250
-09:10:03.780 INFO  Log - Processed: Bajaj Pulsar N125
-09:10:03.828 INFO  Log - Processed: CNG
-09:10:03.871 INFO  Log - Processed: EV
-09:10:03.914 INFO  Log - Processed: Bajaj Avenger Cruise 220
-09:10:03.956 INFO  Log - Processed: Bajaj Platina 100
-09:10:04.001 INFO  Log - Processed: Bajaj CT 110
-09:10:04.046 INFO  Log - Processed: Bajaj Platina 110
-09:10:04.089 INFO  Log - Processed: Bajaj Avenger Street 160
-09:10:05.407 INFO  Log - Test passed: 20 filtered bikes displayed
-09:10:16.438 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-09:10:16.478 INFO  Log - The Beast is here
-09:10:16.478 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-09:10:16.478 INFO  Log - ----------------------------------------------
-09:10:16.478 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-09:10:26.005 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-09:10:26.044 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-09:10:26.044 INFO  Log - ----------------------------------------------
-09:10:26.044 INFO  Log - Bike get selected from particular city
-09:10:34.317 INFO  Log - Toggle button is working fine! 
-09:10:36.937 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@15ac02d5: 1 ms
-09:13:31.918 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:13:31.923 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.926 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.929 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-09:13:31.942 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
-09:13:31.943 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.943 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.944 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.944 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.944 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.944 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.946 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.946 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.946 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.946 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.947 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.947 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.948 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.949 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.949 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.950 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.950 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.950 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.950 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.951 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.951 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.951 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.951 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.952 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.952 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.953 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.954 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.954 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.954 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.954 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.954 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.956 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.956 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.956 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.957 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:13:31.957 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.957 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.957 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.958 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.958 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.958 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.958 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.959 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.959 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.960 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.961 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.962 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.962 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.962 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.962 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.963 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.963 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.963 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.963 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.964 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-09:13:31.964 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.965 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.965 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.966 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.967 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.968 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.968 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.968 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.968 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.969 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.970 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.970 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.970 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.970 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.973 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.973 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.973 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.973 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.975 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:13:31.982 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
-09:13:31.983 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.984 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.984 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:13:31.984 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:13:31.988 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-09:13:32.200 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-09:13:40.564 INFO  Log - Test passed: 24 bikes brands displayed
-09:13:46.399 INFO  Log - Filtered Bikes
-09:13:50.544 INFO  Log - 
---- Processing 20 Bikes ---
-09:13:50.602 INFO  Log - Processed: Bajaj Pulsar N160
-09:13:50.652 INFO  Log - Processed: Bajaj Pulsar NS200
-09:13:50.720 INFO  Log - Processed: Bajaj Pulsar 125
-09:13:50.772 INFO  Log - Processed: Bajaj Pulsar NS400Z
-09:13:50.814 INFO  Log - Processed: Bajaj Pulsar NS125
-09:13:50.862 INFO  Log - Processed: Bajaj Pulsar 150
-09:13:50.906 INFO  Log - Processed: Bajaj Pulsar NS160
-09:13:50.950 INFO  Log - Processed: EV
-09:13:50.997 INFO  Log - Processed: Bajaj Pulsar N250
-09:13:51.043 INFO  Log - Processed: Bajaj Pulsar RS 200
-09:13:51.093 INFO  Log - Processed: Bajaj Pulsar 220 F
-09:13:51.134 INFO  Log - Processed: Bajaj Dominar 250
-09:13:51.181 INFO  Log - Processed: Bajaj Pulsar N125
-09:13:51.228 INFO  Log - Processed: CNG
-09:13:51.281 INFO  Log - Processed: EV
-09:13:51.331 INFO  Log - Processed: Bajaj Avenger Cruise 220
-09:13:51.379 INFO  Log - Processed: Bajaj Platina 100
-09:13:51.430 INFO  Log - Processed: Bajaj CT 110
-09:13:51.523 INFO  Log - Processed: Bajaj Platina 110
-09:13:51.586 INFO  Log - Processed: Bajaj Avenger Street 160
-09:13:52.957 INFO  Log - Test passed: 20 filtered bikes displayed
-09:14:03.874 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-09:14:03.918 INFO  Log - The Beast is here
-09:14:03.918 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-09:14:03.918 INFO  Log - ----------------------------------------------
-09:14:03.918 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-09:14:14.134 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-09:14:14.165 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-09:14:14.165 INFO  Log - ----------------------------------------------
-09:14:14.165 INFO  Log - Bike get selected from particular city
-09:14:22.411 INFO  Log - Toggle button is working fine! 
-09:14:24.812 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@33a47707: 0 ms
-09:16:59.392 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.399 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-09:16:59.400 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.400 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.401 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.401 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.405 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-09:16:59.420 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
-09:16:59.422 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.422 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.423 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.423 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.423 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.423 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.425 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.425 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.425 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.425 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.427 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.427 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.428 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.429 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.429 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.429 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.430 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.430 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.430 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.431 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.431 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.431 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.432 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.432 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.432 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.432 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.433 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.433 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.433 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.433 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.434 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.434 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.435 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.436 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.436 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.437 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.437 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.437 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.437 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.437 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.438 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.438 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.438 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.438 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.438 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.439 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.439 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.439 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.440 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.440 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.440 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.440 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.440 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.441 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.441 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.441 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.442 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.442 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.442 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.442 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.443 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.443 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.443 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.444 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.444 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.446 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.447 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.447 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.447 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.448 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.448 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.448 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.448 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.449 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.452 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.452 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.453 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.453 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.454 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.460 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
-09:16:59.462 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.462 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.463 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-09:16:59.463 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-09:16:59.471 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-09:16:59.710 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
-09:17:08.346 INFO  Log - Test passed: 24 bikes brands displayed
-09:17:14.730 INFO  Log - Filtered Bikes
-09:17:18.812 INFO  Log - 
---- Processing 20 Bikes ---
-09:17:18.877 INFO  Log - Processed: Bajaj Pulsar N160
-09:17:18.932 INFO  Log - Processed: Bajaj Pulsar NS200
-09:17:18.983 INFO  Log - Processed: Bajaj Pulsar 125
-09:17:19.037 INFO  Log - Processed: Bajaj Pulsar NS400Z
-09:17:19.087 INFO  Log - Processed: Bajaj Pulsar NS125
-09:17:19.133 INFO  Log - Processed: Bajaj Pulsar 150
-09:17:19.182 INFO  Log - Processed: Bajaj Pulsar NS160
-09:17:19.225 INFO  Log - Processed: EV
-09:17:19.271 INFO  Log - Processed: Bajaj Pulsar N250
-09:17:19.332 INFO  Log - Processed: Bajaj Pulsar RS 200
-09:17:19.376 INFO  Log - Processed: Bajaj Pulsar 220 F
-09:17:19.421 INFO  Log - Processed: Bajaj Dominar 250
-09:17:19.465 INFO  Log - Processed: Bajaj Pulsar N125
-09:17:19.509 INFO  Log - Processed: CNG
-09:17:19.558 INFO  Log - Processed: EV
-09:17:19.601 INFO  Log - Processed: Bajaj Avenger Cruise 220
-09:17:19.649 INFO  Log - Processed: Bajaj Platina 100
-09:17:19.698 INFO  Log - Processed: Bajaj CT 110
-09:17:19.737 INFO  Log - Processed: Bajaj Platina 110
-09:17:19.787 INFO  Log - Processed: Bajaj Avenger Street 160
-09:17:21.029 INFO  Log - Test passed: 20 filtered bikes displayed
-09:17:32.231 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-09:17:32.280 INFO  Log - The Beast is here
-09:17:32.280 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-09:17:32.280 INFO  Log - ----------------------------------------------
-09:17:32.280 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-09:17:42.532 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-09:17:42.555 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-09:17:42.555 INFO  Log - ----------------------------------------------
-09:17:42.555 INFO  Log - Bike get selected from particular city
-09:17:51.014 INFO  Log - Toggle button is working fine! 
-09:17:53.687 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@333d44f6: 76 ms
-09:17:53.689 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@16c5b50a: 1 ms
-09:17:53.696 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@205159dc: 7 ms
-09:17:53.701 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@22686ddb: 4 ms
-09:17:53.745 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@84f51d9: 44 ms
-09:17:53.745 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@45b96e4c: 0 ms
-14:34:46.286 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-14:34:46.292 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-14:34:46.294 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.294 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.294 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.294 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.295 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.295 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.298 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-14:34:46.317 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 19 ms.
-14:34:46.318 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.318 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.319 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.319 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.319 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.319 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.321 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.322 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.323 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.323 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.324 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.324 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.325 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.326 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.326 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.327 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.328 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.328 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.328 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.328 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.329 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.330 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.330 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.330 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.331 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.331 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.331 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.331 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.332 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.332 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.332 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.333 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.333 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.333 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.333 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.334 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.336 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.336 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.336 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.336 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.337 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.337 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.338 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.338 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.338 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.338 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.338 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.339 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.339 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.339 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.339 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.340 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.340 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.340 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.340 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.340 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.341 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.341 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.341 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.341 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.342 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.344 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.344 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.347 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.348 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.348 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.348 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.349 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.355 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
-14:34:46.357 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.357 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.357 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:34:46.357 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:34:46.361 INFO  Utils - [TestNG] Running:
-  C:\Users\2464440\IdentifyingBikes\src\test\resources\testing.xml
-
-14:34:46.629 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-14:35:05.690 INFO  Log - Test passed: 24 bikes brands displayed
-14:35:14.460 INFO  Log - Filtered Bikes
-14:35:19.238 INFO  Log - 
---- Processing 20 Bikes ---
-14:35:19.339 INFO  Log - Processed: Bajaj Pulsar N160
-14:35:19.398 INFO  Log - Processed: Bajaj Pulsar NS200
-14:35:19.458 INFO  Log - Processed: Bajaj Pulsar 125
-14:35:19.515 INFO  Log - Processed: Bajaj Pulsar NS400Z
-14:35:19.574 INFO  Log - Processed: Bajaj Pulsar NS125
-14:35:19.642 INFO  Log - Processed: Bajaj Pulsar 150
-14:35:19.694 INFO  Log - Processed: Bajaj Pulsar NS160
-14:35:19.751 INFO  Log - Processed: EV
-14:35:19.806 INFO  Log - Processed: Bajaj Pulsar N250
-14:35:19.861 INFO  Log - Processed: Bajaj Pulsar RS 200
-14:35:19.919 INFO  Log - Processed: Bajaj Pulsar 220 F
-14:35:19.974 INFO  Log - Processed: Bajaj Dominar 250
-14:35:20.037 INFO  Log - Processed: Bajaj Pulsar N125
-14:35:20.087 INFO  Log - Processed: CNG
-14:35:20.134 INFO  Log - Processed: EV
-14:35:20.179 INFO  Log - Processed: Bajaj Avenger Cruise 220
-14:35:20.223 INFO  Log - Processed: Bajaj Platina 100
-14:35:20.254 INFO  Log - Processed: Bajaj CT 110
-14:35:20.305 INFO  Log - Processed: Bajaj Platina 110
-14:35:20.345 INFO  Log - Processed: Bajaj Avenger Street 160
-14:35:21.987 INFO  Log - Test passed: 20 filtered bikes displayed
-14:35:33.616 INFO  Log - 
-=========== Bike With Highest Mileage ===========
-
-14:35:33.672 INFO  Log - The Beast is here
-14:35:33.672 INFO  Log - #1
-Bajaj Platina 100
-102 cc|7.79 bhp|75 kmpl
-₹ 66,593
-Avg. Ex-Showroom price
-Check On-Road Price
-14:35:33.672 INFO  Log - ----------------------------------------------
-14:35:33.672 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
-14:35:43.975 INFO  Log - 
-=========== Pune's Most Favourite Bike ===========
-
-14:35:43.995 INFO  Log - Royal Enfield Hunter 350
-₹ 1,76,752
-Onwards
-On-Road Price, Pune
-Check On-Road Price
-14:35:43.995 INFO  Log - ----------------------------------------------
-14:35:43.995 INFO  Log - Bike get selected from particular city
-14:35:52.736 INFO  Log - Toggle button is working fine! 
-14:35:55.389 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@56835f2f: 0 ms
+15:09:29.302 INFO  Log - ----------------------------------------------
+15:09:29.302 INFO  Log - Bike get selected from particular city
+15:09:37.902 INFO  Log - Toggle button is working fine! 
+15:09:40.364 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@d49e8c6: 1 ms
