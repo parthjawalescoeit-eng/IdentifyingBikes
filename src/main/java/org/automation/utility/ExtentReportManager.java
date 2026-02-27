@@ -1,4 +1,4 @@
-package basetest.automation.utility;
+package org.automation.utility;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;

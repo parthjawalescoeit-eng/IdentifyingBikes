@@ -1,4 +1,4 @@
-package basetest.automation.utility;
+package org.automation.utility;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 

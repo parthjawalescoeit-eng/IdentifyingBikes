@@ -3,8 +3,8 @@ package testcases;
 
 
 import basetest.BaseTest;
-import basetest.automation.pages.NewsPage;
-import basetest.automation.utility.ExcelUtil;
+import org.automation.pages.NewsPage;
+import org.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -26,7 +26,6 @@ public class TC_09_Validate_News_Headlines extends BaseTest {
                     headlines.get(i),
             });
         }
-
         String filePath = System.getProperty("user.dir") + "/ExcelData/BikeReport.xlsx";
         String sheetName = "Sheet_2";
         ExcelUtil.writeDynamicDataToExcel(filePath, sheetName, headers, dataToWrite);

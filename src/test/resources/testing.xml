@@ -5,7 +5,7 @@
 
     <parameter name="browser" value="chrome" />
     <listeners>
-        <listener class-name="basetest.automation.utility.ExtentReportManager"/>
+        <listener class-name="org.automation.utility.ExtentReportManager"/>
     </listeners>
     <test name="Bikewale Automation Test">
         <classes>

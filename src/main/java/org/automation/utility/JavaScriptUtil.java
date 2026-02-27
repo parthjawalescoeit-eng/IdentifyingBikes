@@ -1,4 +1,4 @@
-package basetest.automation.utility;
+package org.automation.utility;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,6 +1,6 @@
 package testcases;
 import basetest.BaseTest;
-import basetest.automation.pages.UpcomingBikes;
+import org.automation.pages.UpcomingBikes;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

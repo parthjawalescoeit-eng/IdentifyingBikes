@@ -1,4 +1,4 @@
-package basetest.automation.logs;
+package org.automation.log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

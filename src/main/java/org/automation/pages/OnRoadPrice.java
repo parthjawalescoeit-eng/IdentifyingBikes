@@ -1,8 +1,8 @@
-package basetest.automation.pages;
+package org.automation.pages;
 
-import basetest.automation.logs.Log;
-import basetest.automation.utility.CommonCode; // Import CommonCode
-import basetest.automation.utility.TakeScreenShot;
+import org.automation.log.Log;
+import org.automation.utility.CommonCode; // Import CommonCode
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,30 +43,30 @@ public class OnRoadPrice {
     WebElement firstActualModel;
 
     @FindBy(id = "ddlCity_chosen")
-    WebElement cityDropdownContainer;
+    WebElement cityDropdownCntnr;
 
     @FindBy(xpath = "//li[@class='no-results']")
     WebElement no_Result;
 
     @FindBy(xpath = "//div[@id='ddlCity_chosen']//div[@class='chosen-search']//input")
-    WebElement citySearchInput;
+    WebElement citySearchInpt;
 
     @FindBy(xpath = "//li[contains(@class,'active-result')]")
     WebElement firstCitySuggestion;
 
     @FindBy(xpath = "//input[@id='btnCheckOnRoadPrice' or @value='Check On-Road Price']")
-    WebElement chequeButton;
+    WebElement chequeBtn;
 
     public String checkInvalidCity(String invalidCity) {
         navigateToOnRoadPriceSection();
         common.selectByText(brandSelect, "Honda");
         wait.until(ExpectedConditions.visibilityOf(firstActualModel));
         common.selectByPartialText(modelSelect, "Shine");
-        common.clickWhenClickable(cityDropdownContainer);
-        common.enterText(citySearchInput, invalidCity);
+        common.clickWhenClickable(cityDropdownCntnr);
+        common.enterText(citySearchInpt, invalidCity);
         wait.until(ExpectedConditions.visibilityOf(no_Result));
         String errorMsg = no_Result.getText();
-        new TakeScreenShot(driver, "screenshots").take("InvalidCityError");
+        new TakeScreenShot(driver, "screenshots").take("Test_Case_07_InvalidCityError");
         Log.info("Msg: " +errorMsg);
         return errorMsg;
     }
@@ -77,9 +77,9 @@ public class OnRoadPrice {
         wait.until(ExpectedConditions.visibilityOf(firstActualModel));
         common.selectByPartialText(modelSelect, "Shine");
         selectCity(cityName);
-        common.safeClickToWebElement(chequeButton);
+        common.safeClickToWebElement(chequeBtn);
         wait.until(ExpectedConditions.not(ExpectedConditions.titleContains("On Road Price")));
-        String screenshotName = "Availability_Success_" + cityName;
+        String screenshotName = "Test_Case_06_City" + cityName;
         new TakeScreenShot(driver, "screenshots").take(screenshotName);
         Log.info("Availability Status: " + screenshotName);
         return driver.getTitle();
@@ -92,8 +92,8 @@ public class OnRoadPrice {
     }
 
     private void selectCity(String cityName) {
-        common.clickWhenClickable(cityDropdownContainer);
-        common.enterText(citySearchInput, cityName);
+        common.clickWhenClickable(cityDropdownCntnr);
+        common.enterText(citySearchInpt, cityName);
         common.clickWhenClickable(firstCitySuggestion);
     }
 }

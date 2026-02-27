@@ -1,5 +1,5 @@
-package basetest.automation.utility;
-import basetest.automation.logs.Log;
+package org.automation.utility;
+import org.automation.log.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 

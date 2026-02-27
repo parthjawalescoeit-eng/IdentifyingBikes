@@ -1,15 +1,15 @@
-package basetest.automation.pages;
+package org.automation.pages;
 
-import basetest.automation.utility.CommonCode;
-import basetest.automation.utility.JavaScriptUtil;
-import basetest.automation.utility.TakeScreenShot;
+import org.automation.utility.CommonCode;
+import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import basetest.automation.logs.Log;
+import org.automation.log.Log;
 
 import java.time.Duration;
 
@@ -50,12 +50,12 @@ public class UpcomingBikes {
             boolean isDisplayed = notifyPopUpHeader.isDisplayed();
 
             if (isDisplayed) {
-                new TakeScreenShot(driver, "screenshots").take("Notify_Me_PopUp_Visible");
-                Log.info("Success: Notify Me popup is visible. Screenshot captured: Notify_Me_PopUp_Visible.png");
+                new TakeScreenShot(driver, "screenshots").take("TC_08_Notify_Me");
+                Log.info("Notify_Me_ScreenShot Captured");
             }
             return isDisplayed;
         } catch (Exception e) {
-            Log.info("Failure screenshot captured: Notify_Me_Failure.png");
+            Log.info("Failure screenshot captured: Notify_Me");
             return false;
         }
     }

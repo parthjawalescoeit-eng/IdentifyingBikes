@@ -2,7 +2,7 @@ package testcases;
 
 
 import basetest.BaseTest;
-import basetest.automation.pages.OnRoadPrice;
+import org.automation.pages.OnRoadPrice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
