@@ -12,5 +12,4 @@ public class TC_20_Bike_Style extends BaseTest {
         bd.getAllBikes();
     }
 
-
 }
