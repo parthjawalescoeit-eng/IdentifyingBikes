@@ -27,7 +27,6 @@ public class JavaScriptUtil {
         executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
-
     public void scrollToTop() {
         executeScript("window.scrollTo(0, 0);");
     }

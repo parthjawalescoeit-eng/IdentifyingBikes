@@ -1,22 +1,31 @@
 package org.automation.utility;
 
+import org.automation.log.Log;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+
 import java.io.File;
 import java.io.IOException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 
 public class TakeScreenShot {
 
-
-    public static void takeScreenshot(WebDriver driver, String fileName) throws IOException {
-        File src=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File est=new File("./screenshots/"+fileName+".png");
-        est.getParentFile().mkdirs();
-        Files.copy(src.toPath(), est.toPath(), StandardCopyOption.REPLACE_EXISTING);
+    private final WebDriver driver;
+    private final String outDir;
+    public TakeScreenShot(WebDriver driver, String outDir) {
+        this.driver = driver;
+        this.outDir = outDir == null ? "screenshots" : outDir;
+    }
+    public void take(String name) {
+        String path = System.getProperty("user.dir") + File.separator + outDir + File.separator + name  + ".png";
+        try {
+            new File(System.getProperty("user.dir") + File.separator + outDir).mkdirs();
+            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(src, new File(path));
+            Log.info("Screenshot saved: " + path);
+        } catch (IOException e) {
+            Log.info("Screenshot failed: " + e.getMessage());
+        }
     }
 }
+
 

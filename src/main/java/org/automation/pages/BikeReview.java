@@ -1,7 +1,8 @@
 package org.automation.pages;
 
-import org.automation.logs.Log;
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -68,7 +69,6 @@ public class BikeReview {
     @FindBy(xpath="//div[@class='o-gZ o-ih o-C o-f o-aL o-aE o-nh o-aS']")
     List<WebElement> star;
 
-
     public String toString() {
         return "Bike: " + reviews + " | Price: " + stars;
     }
@@ -84,6 +84,9 @@ public class BikeReview {
             bikeReviewStar.add(new BikeReview(reviews,stars));
             Log.info((i + 1) + ": " + reviews + " -> " + stars);
         }
+
+        String screenshotName = "TC_22_BikeReview";
+        new TakeScreenShot(driver, "screenshots").take(screenshotName);
         return bikeReviewStar;
     }
 }

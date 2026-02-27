@@ -32,9 +32,6 @@ public class TC_21_BuyUsedBikes extends BaseTest {
         String filePath = System.getProperty("user.dir") + "/ExcelData/BikeReport.xlsx";
         ExcelUtil.writeDynamicDataToExcel(filePath, "Sheet_5", headers, dataToExport);
 
-        TakeScreenShot.takeScreenshot(driver, "TC_21_BuyUsedBikes");
-
-
     }
 }
 

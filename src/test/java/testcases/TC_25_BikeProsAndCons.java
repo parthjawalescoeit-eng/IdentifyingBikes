@@ -13,7 +13,6 @@ public class TC_25_BikeProsAndCons extends BaseTest {
     public void bikeColorVariantImageUpdate() throws InterruptedException, IOException {
         BikeProsAndCons page = new BikeProsAndCons(driver, wait);
         page.bikeColoursOption();
-        TakeScreenShot.takeScreenshot(driver, "TC_25_BikeProsAndCons");
         Assert.assertTrue(!page.pros.isEmpty(), "Expected at least one pros/cons card to be present");
     }
 }

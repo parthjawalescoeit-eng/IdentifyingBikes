@@ -14,7 +14,6 @@ public class TC_24_MultiFilterCombination extends BaseTest {
    public void multiFilterCombinationTest() throws InterruptedException, IOException {
       MultiFilterBikes mfb=new MultiFilterBikes(driver,wait);
       mfb.multiFilterBikes();
-      TakeScreenShot.takeScreenshot(driver, "TC_24_MultiFilterCombination");
       Assert.assertTrue(true);
    }
 }

@@ -1,7 +1,8 @@
 package org.automation.pages;
 
-import org.automation.logs.Log;
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -98,5 +99,8 @@ public class MultiFilterBikes {
     List<WebElement> bikes=driver.findElements(org.openqa.selenium.By.xpath("//a[@href and contains(@href,'-bikes/')]"));
     Assert.assertTrue(bikes.size()>0,"No bikes found matching the filters");
     Log.info("Total bikes found: "+bikes.size());
+
+        String screenshotName = "TC_24_MultiFilterCombination";
+        new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }
 }

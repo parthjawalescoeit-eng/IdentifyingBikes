@@ -1,7 +1,8 @@
 package org.automation.pages;
 
-import org.automation.logs.Log;
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -98,21 +99,19 @@ public class BuyUsedBikes {
 
     public List<BuyUsedBikes> getBikeResults() {
         List<BuyUsedBikes> allBikes = new ArrayList<>();
-
-        // Wait for the first element to be visible to ensure list is loaded
         wait.until(ExpectedConditions.visibilityOf(bikeNames.get(0)));
 
-        // Loop through the names and pair them with prices
         for (int i = 0; i < bikeNames.size(); i++) {
             String name = bikeNames.get(i).getText().trim();
             String price = bikePrices.get(i).getText().trim();
 
-            // Store in our list
             allBikes.add(new BuyUsedBikes(name, price));
 
-            // Print to console
             Log.info("Found Bike " + (i + 1) + ": " + name + " -> " + price);
         }
+
+        String screenshotName = "TC_21_BuyUsedBikes";
+        new TakeScreenShot(driver,"screenshots").take(screenshotName);
 
         return allBikes;
     }

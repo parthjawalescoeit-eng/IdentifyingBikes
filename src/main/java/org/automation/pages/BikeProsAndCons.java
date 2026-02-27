@@ -1,7 +1,8 @@
 package org.automation.pages;
 
-import org.automation.logs.Log;
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -62,6 +63,9 @@ public class BikeProsAndCons {
                 Log.info(" - " + point.getText());
             }
         }
-        Log.info("\n---------------------------------------");
+        System.out.println("\n---------------------------------------");
+
+        String screenshotName = "TC_25_BikeProsAndCons";
+        new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }
 }

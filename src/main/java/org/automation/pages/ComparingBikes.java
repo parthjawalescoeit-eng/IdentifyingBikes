@@ -1,6 +1,7 @@
 package org.automation.pages;
 
 import org.automation.utility.JavaScriptUtil;
+import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -63,5 +64,7 @@ public class ComparingBikes {
         wait.until(ExpectedConditions.elementToBeClickable(variant));
         variant.click();
 
+        String screenshotName = "TC_23_ComparingBikes";
+        new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }
 }
