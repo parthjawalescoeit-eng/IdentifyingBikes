@@ -2,80 +2,80 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-25T17:43:35 IST" name="Bikewale Suite" finished-at="2026-02-25T17:44:24 IST" duration-ms="48357">
+  <suite started-at="2026-02-26T12:59:19 IST" name="Bikewale Suite" finished-at="2026-02-26T13:00:23 IST" duration-ms="64562">
     <groups>
     </groups>
-    <test started-at="2026-02-25T17:43:35 IST" name="Dropdown and Form Validation Tests" finished-at="2026-02-25T17:44:24 IST" duration-ms="48357">
+    <test started-at="2026-02-26T12:59:19 IST" name="Bikewale Automation Test" finished-at="2026-02-26T13:00:23 IST" duration-ms="64562">
       <class name="testcases.TC_07_Verify_Invalid_City_Error">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@1283bb96]" started-at="2026-02-25T17:43:50 IST" name="driverSetup" finished-at="2026-02-25T17:43:53 IST" duration-ms="2826" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@16293aa2]" started-at="2026-02-26T12:59:39 IST" name="driverSetup" finished-at="2026-02-26T12:59:44 IST" duration-ms="4263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="verifyInvalidCityError()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@1283bb96]" started-at="2026-02-25T17:43:53 IST" name="verifyInvalidCityError" finished-at="2026-02-25T17:43:57 IST" duration-ms="4385" status="PASS">
+        <test-method signature="verifyInvalidCityError()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@16293aa2]" started-at="2026-02-26T12:59:44 IST" name="verifyInvalidCityError" finished-at="2026-02-26T12:59:49 IST" duration-ms="5292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidCityError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@1283bb96]" started-at="2026-02-25T17:43:57 IST" name="tearDown" finished-at="2026-02-25T17:43:59 IST" duration-ms="1834" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_07_Verify_Invalid_City_Error@16293aa2]" started-at="2026-02-26T12:59:49 IST" name="tearDown" finished-at="2026-02-26T12:59:51 IST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_07_Verify_Invalid_City_Error -->
       <class name="testcases.TC_08_Check_Notify_Functionality">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@799f10e1]" started-at="2026-02-25T17:43:59 IST" name="driverSetup" finished-at="2026-02-25T17:44:02 IST" duration-ms="3080" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@564fabc8]" started-at="2026-02-26T12:59:51 IST" name="driverSetup" finished-at="2026-02-26T12:59:55 IST" duration-ms="3969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="validateUpcomingBikeNotifyMe()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@799f10e1]" started-at="2026-02-25T17:44:02 IST" name="validateUpcomingBikeNotifyMe" finished-at="2026-02-25T17:44:04 IST" duration-ms="1676" status="PASS">
+        <test-method signature="validateUpcomingBikeNotifyMe()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@564fabc8]" started-at="2026-02-26T12:59:55 IST" name="validateUpcomingBikeNotifyMe" finished-at="2026-02-26T12:59:57 IST" duration-ms="1990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUpcomingBikeNotifyMe -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@799f10e1]" started-at="2026-02-25T17:44:04 IST" name="tearDown" finished-at="2026-02-25T17:44:05 IST" duration-ms="1738" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_08_Check_Notify_Functionality@564fabc8]" started-at="2026-02-26T12:59:57 IST" name="tearDown" finished-at="2026-02-26T12:59:59 IST" duration-ms="2143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_08_Check_Notify_Functionality -->
       <class name="testcases.TC_09_Validate_News_Headlines">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@459e9125]" started-at="2026-02-25T17:44:05 IST" name="driverSetup" finished-at="2026-02-25T17:44:08 IST" duration-ms="2856" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@7f3b84b8]" started-at="2026-02-26T12:59:59 IST" name="driverSetup" finished-at="2026-02-26T13:00:04 IST" duration-ms="4539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="validateNewsHeadlines()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@459e9125]" started-at="2026-02-25T17:44:08 IST" name="validateNewsHeadlines" finished-at="2026-02-25T17:44:11 IST" duration-ms="2922" status="PASS">
+        <test-method signature="validateNewsHeadlines()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@7f3b84b8]" started-at="2026-02-26T13:00:04 IST" name="validateNewsHeadlines" finished-at="2026-02-26T13:00:08 IST" duration-ms="3772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewsHeadlines -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@459e9125]" started-at="2026-02-25T17:44:11 IST" name="tearDown" finished-at="2026-02-25T17:44:13 IST" duration-ms="1672" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_09_Validate_News_Headlines@7f3b84b8]" started-at="2026-02-26T13:00:08 IST" name="tearDown" finished-at="2026-02-26T13:00:10 IST" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_09_Validate_News_Headlines -->
       <class name="testcases.TC_06_Check_Bike_At_Location">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@59662a0b]" started-at="2026-02-25T17:43:36 IST" name="driverSetup" finished-at="2026-02-25T17:43:39 IST" duration-ms="3298" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@1aa7ecca]" started-at="2026-02-26T12:59:19 IST" name="driverSetup" finished-at="2026-02-26T12:59:28 IST" duration-ms="9482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="getBikeAtLocation()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@59662a0b]" started-at="2026-02-25T17:43:39 IST" name="getBikeAtLocation" finished-at="2026-02-25T17:43:48 IST" duration-ms="8583" status="PASS">
+        <test-method signature="getBikeAtLocation()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@1aa7ecca]" started-at="2026-02-26T12:59:28 IST" name="getBikeAtLocation" finished-at="2026-02-26T12:59:36 IST" duration-ms="8029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBikeAtLocation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@59662a0b]" started-at="2026-02-25T17:43:48 IST" name="tearDown" finished-at="2026-02-25T17:43:50 IST" duration-ms="2234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_06_Check_Bike_At_Location@1aa7ecca]" started-at="2026-02-26T12:59:36 IST" name="tearDown" finished-at="2026-02-26T12:59:39 IST" duration-ms="2908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_06_Check_Bike_At_Location -->
       <class name="testcases.TC_10_Validate_Bike_Reviews">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@55182842]" started-at="2026-02-25T17:44:13 IST" name="driverSetup" finished-at="2026-02-25T17:44:16 IST" duration-ms="3131" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@4efbca5a]" started-at="2026-02-26T13:00:10 IST" name="driverSetup" finished-at="2026-02-26T13:00:14 IST" duration-ms="4357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="validateReviewSearch()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@55182842]" started-at="2026-02-25T17:44:16 IST" name="validateReviewSearch" finished-at="2026-02-25T17:44:22 IST" duration-ms="5620" status="PASS">
+        <test-method signature="validateReviewSearch()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@4efbca5a]" started-at="2026-02-26T13:00:14 IST" name="validateReviewSearch" finished-at="2026-02-26T13:00:20 IST" duration-ms="6306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateReviewSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@55182842]" started-at="2026-02-25T17:44:22 IST" name="tearDown" finished-at="2026-02-25T17:44:24 IST" duration-ms="2176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_10_Validate_Bike_Reviews@4efbca5a]" started-at="2026-02-26T13:00:20 IST" name="tearDown" finished-at="2026-02-26T13:00:23 IST" duration-ms="2777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_10_Validate_Bike_Reviews -->
-    </test> <!-- Dropdown and Form Validation Tests -->
+    </test> <!-- Bikewale Automation Test -->
   </suite> <!-- Bikewale Suite -->
 </testng-results>

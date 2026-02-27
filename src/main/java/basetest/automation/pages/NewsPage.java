@@ -18,6 +18,7 @@ public class NewsPage {
     List<WebElement> newsHeadlines;
     public void navigateToNews() {
         newsMenuLink.click();
+
     }
     public List<String> getAllHeadlines() {
         List<String> headlineTexts = new ArrayList<>();

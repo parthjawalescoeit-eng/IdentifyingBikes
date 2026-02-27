@@ -16,6 +16,5 @@ public class TC_06_Check_Bike_At_Location extends BaseTest {
         String title=on.chequeAvailability("Pune");
         Log.info(title);
         Assert.assertTrue(title.contains("Honda Shine price in Pune"),"Shine is not present in Pune");
-
     }
 }

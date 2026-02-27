@@ -17,11 +17,6 @@ public class JavaScriptUtil {
         this.js=(JavascriptExecutor)driver;
     }
 
-//    public Object executeScript(String script, Object... args) {
-//        js= (JavascriptExecutor) driver;
-//        return js.executeScript(script, args);
-//    }
-
     public void clickByJS(WebElement element) {
 
         js.executeScript(
