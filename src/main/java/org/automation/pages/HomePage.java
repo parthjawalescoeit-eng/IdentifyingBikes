@@ -26,24 +26,24 @@ public class HomePage {
     }
 
     @FindBy(xpath ="//span[@class='header__menu-icon']")
-    WebElement multipleBikes;
+    WebElement menuIcon;
     @FindBy(xpath = "//span[text()='New Bikes' and @class='o-jr o-jJ o-j3 o-cE']")
-    WebElement bikesLnk;
+    WebElement newBikesLnk;
     @FindBy(xpath = "//span[text()='Upcoming Bikes']")
-    WebElement futureBikes;
+    WebElement upcomingBikeLnk;
     @FindBy(xpath = "//input[@placeholder='All Brands']")
-    WebElement BrandList;
-    @FindBy(xpath = "//ul[@data-screen='make-model']/li//span")
+    WebElement AllBrandOpt;
+    @FindBy(xpath = "//ul[@data-screen='make-model']/li//span//span")
     List<WebElement> brands;
 
     public int findUpcomingBikes(){
 
         int bikeCount = 0;
 
-        commonCode.clickWhenClickable(multipleBikes);
-        commonCode.clickWhenClickable(bikesLnk);
-        commonCode.safeClickToWebElement(futureBikes);
-        commonCode.clickWhenClickable(BrandList);
+        commonCode.clickWhenClickable(menuIcon);
+        commonCode.clickWhenClickable(newBikesLnk);
+        commonCode.safeClickToWebElement(upcomingBikeLnk);
+        commonCode.clickWhenClickable(AllBrandOpt);
 
         for(WebElement e:brands){
             bikeCount++;
