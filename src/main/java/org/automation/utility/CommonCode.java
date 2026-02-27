@@ -16,7 +16,6 @@ public class CommonCode {
         this.timeout = timeout;
     }
 
-
     public WebDriverWait getWait() {
         return new WebDriverWait(driver, timeout);
     }

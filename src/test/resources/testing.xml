@@ -3,7 +3,7 @@
 
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="reports.ExtentReportManager"/>
+        <listener class-name="org.automation.utility.ExtentReportManager"/>
     </listeners>
     <parameter name="browser" value="chrome" />
 

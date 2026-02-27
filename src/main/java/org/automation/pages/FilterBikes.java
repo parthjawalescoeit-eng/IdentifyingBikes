@@ -1,6 +1,6 @@
 package org.automation.pages;
 import org.automation.log.Log;
-import org.automation.utility.ExcelUtils;
+import org.automation.utility.ExcelUtil;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
 import org.automation.utility.CommonCode;
@@ -99,7 +99,7 @@ public class FilterBikes {
 
         // 3. Handle File Path and Folder creation
         String folderPath = "C:\\Users\\2464440\\IdentifyingBikes\\ExcelData";
-        String filePath = folderPath + "\\report.xlsx";
+        String filePath = folderPath + "\\BikeReport.xlsx";
 
         File folder = new File(folderPath);
         if (!folder.exists()) {
@@ -108,7 +108,7 @@ public class FilterBikes {
 
         // 4. Call your specific ExcelUtil method
         // memberName = "Sheet2" will ensure only "Sheet2" is overwritten
-        ExcelUtils.writeHeadlinesToExcel(excelLines, filePath, "Sheet1");
+        ExcelUtil.writeHeadlinesToExcel(excelLines, filePath, "Sheet1");
 
         return bikeCount.size();
     }

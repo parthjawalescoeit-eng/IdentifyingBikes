@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
-public class ExcelUtils {
+public class ExcelUtil {
 
 
     public static void writeHeadlinesToExcel(List<String> headlines, String filePath, String memberName) {
