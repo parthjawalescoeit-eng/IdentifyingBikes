@@ -38,24 +38,24 @@ public class BreadcrumbWorkingCheck {
 
     public boolean BreadcrumbWorking() throws InterruptedException {
 
-            code.visible(SearchBar);
-            SearchBar.sendKeys("Hero Xtreme 125R");
-            Thread.sleep(1000);
-            SearchBar.sendKeys(Keys.ENTER);
+        code.visible(SearchBar);
+        SearchBar.sendKeys("Hero Xtreme 125R");
+        Thread.sleep(1000);
+        SearchBar.sendKeys(Keys.ENTER);
 
 //            j.scrollIntoView(HomeLnk);
 //            code.visible(HomeLnk);
-            code.clickable(HomeLnk);
-            Log.info("Title"+driver.getTitle());
-            code.clickable(HomeLnk);
-            j.clickByJS(HomeLnk);
-            screenshot.take("Successfully_Navigated_To_HomePage");
-            Log.info("Title"+driver.getTitle());
+        code.clickable(HomeLnk);
+        Log.info("Title"+driver.getTitle());
+        code.clickable(HomeLnk);
+        j.clickByJS(HomeLnk);
+        screenshot.take("Successfully_Navigated_To_HomePage");
+        Log.info("Title"+driver.getTitle());
 
-            String url = driver.getCurrentUrl();
-            if (!(url.contains("bikewale.com/"))) {
-                return false;
-            }
+        String url = driver.getCurrentUrl();
+        if (!(url.contains("bikewale.com/"))) {
+            return false;
+        }
         return true;
     }
 
