@@ -12,23 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.1.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.projectlombok</groupId>
-                    <artifactId>lombok</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
@@ -62,7 +48,6 @@
             <artifactId>log4j-api</artifactId>
             <version>2.25.3</version>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
@@ -81,14 +66,11 @@
             </exclusions>
         </dependency>
 
-=======
->>>>>>> tushar
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.25.3</version>
-<<<<<<< HEAD
             <scope>compile</scope>
         </dependency>
 
@@ -96,70 +78,3 @@
 
     </dependencies>
 </project>
-=======
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j2-impl</artifactId>
-            <version>2.25.3</version>
-        </dependency>
-
-    </dependencies>
-
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>com.aventstack</groupId>-->
-<!--            <artifactId>extentreports</artifactId>-->
-<!--            <version>5.1.2</version>-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>org.projectlombok</groupId>-->
-<!--                    <artifactId>lombok</artifactId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.testng</groupId>-->
-<!--            <artifactId>testng</artifactId>-->
-<!--            <version>7.11.0</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.apache.poi</groupId>-->
-<!--            <artifactId>poi</artifactId>-->
-<!--            <version>5.2.5</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.poi</groupId>-->
-<!--            <artifactId>poi-ooxml</artifactId>-->
-<!--            <version>5.2.5</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.seleniumhq.selenium</groupId>-->
-<!--            <artifactId>selenium-java</artifactId>-->
-<!--            <version>4.39.0</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.apache.logging.log4j</groupId>-->
-<!--            <artifactId>log4j-slf4j2-impl</artifactId>-->
-<!--            <version>2.24.3</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.apache.logging.log4j</groupId>-->
-<!--            <artifactId>log4j-core</artifactId>-->
-<!--            <version>2.24.3</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.apache.logging.log4j</groupId>-->
-<!--            <artifactId>log4j-api</artifactId>-->
-<!--            <version>2.24.3</version>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
-</project>
->>>>>>> tushar

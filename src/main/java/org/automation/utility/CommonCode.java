@@ -1,7 +1,9 @@
 package org.automation.utility;
 
 import org.openqa.selenium.*;
+
 import org.openqa.selenium.support.ui.*;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class CommonCode {
         this.timeout = timeout;
     }
 
+
     public WebDriverWait getWait() {
         return new WebDriverWait(driver, timeout);
     }
@@ -23,50 +26,51 @@ public class CommonCode {
         return getWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    public WebElement visible(WebElement element) {
-        return getWait().until(ExpectedConditions.visibilityOf(element));
-    }
-
     public void clickWhenClickable(WebElement element) {
+        // Wait until the element is clickable
         getWait().until(ExpectedConditions.elementToBeClickable(element)).click();
+        // Click immediately
     }
-
     public WebElement clickable(WebElement element) {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    /** Wait for document.readyState === 'complete' */
+
     public void pageReady() {
         getWait().until(driver ->
-                ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete")
+                ((JavascriptExecutor) driver).executeScript("return document.readyState")
         );
     }
 
-    /** Safe click: wait clickable, try WebDriver click, fallback to JS click */
     public void safeClick(By locator) {
         int attempts = 0;
         while (attempts < 3) {
             try {
+                // Re-find fresh element each attempt
                 WebElement el = getWait().until(ExpectedConditions.elementToBeClickable(locator));
                 try {
-                    el.click();
+                    el.click(); // native click
                     return;
                 } catch (ElementClickInterceptedException e) {
+                    // Scroll to center, try native again
                     ((JavascriptExecutor) driver).executeScript(
                             "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
                     el.click();
                     return;
                 }
             } catch (StaleElementReferenceException sere) {
-                // Retry loop for stale element
+                // DOM changed; retry by looping
             } catch (Exception e) {
+                // As a last resort, try JS click with a fresh element
                 try {
                     WebElement fresh = getWait().until(ExpectedConditions.presenceOfElementLocated(locator));
                     ((JavascriptExecutor) driver).executeScript(
                             "arguments[0].scrollIntoView({block:'center', inline:'center'});", fresh);
                     ((JavascriptExecutor) driver).executeScript("arguments[0].click();", fresh);
                     return;
-                } catch (StaleElementReferenceException ignored) {}
+                } catch (StaleElementReferenceException ignored) {
+                    // will retry loop
+                }
             }
             attempts++;
         }
@@ -81,17 +85,22 @@ public class CommonCode {
                 WebElement el = wait.until(ExpectedConditions.elementToBeClickable(element));
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
+
                 el.click();
                 return;
-            } catch (StaleElementReferenceException | ElementClickInterceptedException | JavascriptException e) {
-                // Retry logic for common selenium exceptions
+            } catch (StaleElementReferenceException sere) {
+            } catch (ElementClickInterceptedException e) {
+                ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
+            } catch (JavascriptException ignored) {
+
             }
 
             attempts++;
             try { Thread.sleep(200); } catch (InterruptedException ignored) {}
         }
 
-        // Final fallback: JS click
+        // Final fallback: JS click on a fresh element reference
         try {
             ((JavascriptExecutor) driver).executeScript(
                     "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
@@ -100,19 +109,25 @@ public class CommonCode {
             throw new TimeoutException("safeClick(WebElement) failed after retries.", ex);
         }
     }
+    public void enterText(WebElement element,String text) {
 
-    public void enterText(WebElement element, String text) {
         WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
+        // Bring element into view
         ((JavascriptExecutor) driver)
                 .executeScript("arguments[0].scrollIntoView({block: 'center'});", el);
         el.clear();
         el.sendKeys(text);
+
+    }
+
+
+    public WebElement visible(WebElement element) {
+        return getWait().until(ExpectedConditions.visibilityOf(element));
     }
 
     public boolean urlContains(String text) {
         return getWait().until(ExpectedConditions.urlContains(text));
     }
-
 
     public void selectByText(WebElement element, String text) {
         WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
@@ -131,4 +146,5 @@ public class CommonCode {
             }
         }
     }
+
 }

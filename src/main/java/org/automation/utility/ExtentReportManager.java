@@ -1,5 +1,4 @@
 package org.automation.utility;
-
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;

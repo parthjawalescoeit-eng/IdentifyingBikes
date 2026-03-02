@@ -6,6 +6,7 @@
         <listener class-name="org.automation.utility.ExtentReportManager"/>
     </listeners>
 
+
     <parameter name="browser" value="chrome" />
 
     <test name="TestBikeWale" verbose="2" preserve-order="true">
@@ -25,6 +26,11 @@
             <class name="testcases.TC_13_Breadcrumb_Working_Check"/>
             <class name="testcases.TC_14_Browser_Navigation_Check"/>
             <class name="testcases.TC_15_Search_Electric_Bikes"/>
+            <class name="testcases.TC_16_Listed_Brands" />
+            <class name="testcases.TC_17_Compare_Bikes" />
+            <class name="testcases.TC_18_Calculate_EMI" />
+            <class name="testcases.TC_19_Similar_Bikes" />
+            <class name="testcases.TC_20_Body_Style" />
 
         </classes>
     </test>
