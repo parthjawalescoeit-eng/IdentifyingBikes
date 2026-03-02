@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Bikewale">
+<suite name="Bikewale Suite">
     <parameter name="browser" value="chrome" />
     <listeners>
         <listener class-name="org.automation.utility.ExtentReportManager"/>

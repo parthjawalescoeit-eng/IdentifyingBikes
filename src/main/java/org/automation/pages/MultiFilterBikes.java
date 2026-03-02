@@ -100,6 +100,7 @@ public class MultiFilterBikes {
     Assert.assertTrue(bikes.size()>0,"No bikes found matching the filters");
     Log.info("Total bikes found: "+bikes.size());
 
+        Thread.sleep(300);
         String screenshotName = "TC_24_MultiFilterCombination";
         new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }

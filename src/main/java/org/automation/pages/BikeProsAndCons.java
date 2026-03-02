@@ -50,7 +50,7 @@ public class BikeProsAndCons {
         printProsAndCons();
     }
 
-    public void printProsAndCons() {
+    public void printProsAndCons() throws InterruptedException {
 
         for (WebElement card : pros) {
 
@@ -65,6 +65,7 @@ public class BikeProsAndCons {
         }
         System.out.println("\n---------------------------------------");
 
+        Thread.sleep(300);
         String screenshotName = "TC_25_BikeProsAndCons";
         new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }
