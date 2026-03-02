@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
+import java.util.List;
 
 public class CommonCode {
 
@@ -132,6 +133,24 @@ public class CommonCode {
 
     public boolean urlContains(String text) {
         return getWait().until(ExpectedConditions.urlContains(text));
+    }
+
+    public void selectByText(WebElement element, String text) {
+        WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
+        Select select = new Select(el);
+        select.selectByVisibleText(text);
+    }
+
+    public void selectByPartialText(WebElement element, String partialText) {
+        WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
+        Select select = new Select(el);
+        List<WebElement> options = select.getOptions();
+        for (WebElement option : options) {
+            if (option.getText().toLowerCase().contains(partialText.toLowerCase())) {
+                select.selectByVisibleText(option.getText());
+                return;
+            }
+        }
     }
 
 }

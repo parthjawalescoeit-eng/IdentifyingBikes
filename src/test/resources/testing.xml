@@ -6,16 +6,18 @@
         <listener class-name="org.automation.utility.ExtentReportManager"/>
     </listeners>
 
-    <parameter name="browser" value="chrome" />
-
-    <test name="Dropdown and Form Validation Tests">
+    <test name="Identifying Bikes Functional Testing">
         <classes>
-            <class name="testcases.TC_11_YouTube_navigation_check" />
-            <class name="testcases.TC_12_Brochure_Download_Check" />
-            <class name="testcases.TC_13_Breadcrumb_Working_Check" />
-            <class name="testcases.TC_14_Browser_Navigation_Check" />
-            <class name="testcases.TC_15_Search_Electric_Bikes" />
+            <class name="testcases.TC_06_Check_Bike_At_Location"/>
+            <class name="testcases.TC_07_Verify_Invalid_City_Error"/>
+            <class name="testcases.TC_08_Check_Notify_Functionality"/>
+            <class name="testcases.TC_09_Validate_News_Headlines"/>
+            <class name="testcases.TC_10_Validate_Bike_Reviews"/>
+            <class name="testcases.TC_11_YouTube_navigation_check"/>
+            <class name="testcases.TC_12_Brochure_Download_Check"/>
+            <class name="testcases.TC_13_Breadcrumb_Working_Check"/>
+            <class name="testcases.TC_14_Browser_Navigation_Check"/>
+            <class name="testcases.TC_15_Search_Electric_Bikes"/>
         </classes>
     </test>
-
 </suite>
