@@ -8,17 +8,19 @@ import java.util.List;
 
 public class NewsPage {
     WebDriver driver;
+
     public NewsPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
     @FindBy(xpath = "//div[text()='All News']")
-    WebElement newsMenuLink;
+    WebElement newsMenuLnk;
+
     @FindBy(xpath = "//a[@class='o-jJ o-jz']")
     List<WebElement> newsHeadlines;
-    public void navigateToNews() {
-        newsMenuLink.click();
 
+    public void navigateToNews() {
+        newsMenuLnk.click();
     }
     public List<String> getAllHeadlines() {
         List<String> headlineTexts = new ArrayList<>();

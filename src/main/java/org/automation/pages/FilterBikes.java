@@ -10,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.time.Duration;
 import java.util.ArrayList;
@@ -39,7 +38,7 @@ public class FilterBikes {
     WebElement applyFilterBtn;
 
     @FindBy(xpath = "//div[contains(@class,'o-cw o-c0 o-bK')]//ul[@data-skin='bg-transparent']//li")
-    List<WebElement> bikeCount;
+    List<WebElement> bikeCnt;
 
     public FilterBikes(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -59,51 +58,36 @@ public class FilterBikes {
             js.scrollIntoView(applyFilterBtn);
             commonCode.safeClickToWebElement(applyFilterBtn);
             Thread.sleep(2000);
-
             new TakeScreenShot(driver, "screenshots").take("TC_02");
         } catch (InterruptedException e) {
             e.printStackTrace();
             Thread.currentThread().interrupt();
         }
 
-        // 1. Prepare data structures to match ExcelUtil signature
-        // headers -> String[]
-        // dataRows -> List<String[]>
         String[] headers = {"Bike Name", "Rating/Reviews", "Specs", "Price"};
         List<String[]> dataRows = new ArrayList<>();
+        Log.info("\n--- Processing " + bikeCnt.size() + " Bikes ---");
 
-        Log.info("\n--- Processing " + bikeCount.size() + " Bikes ---");
-
-        for (WebElement bike : bikeCount) {
+        for (WebElement bike : bikeCnt) {
             String rawText = bike.getText().trim();
             String[] lines = rawText.split("\n");
 
-            // Extracting specific details
             String name = (lines.length > 0) ? lines[0] : "N/A";
             String rating = (lines.length > 2) ? lines[1] + " (" + lines[2] + ")" : "N/A";
             String specs = (lines.length > 3) ? lines[3] : "N/A";
             String price = (lines.length > 4) ? lines[4] : "N/A";
-
-            // 2. Create a String array for this row and add to the list
             String[] rowContent = {name, rating, specs, price};
             dataRows.add(rowContent);
-
             Log.info("Processed: " + name);
         }
 
-        // 3. Handle File Path and Folder creation
         String folderPath = "C:\\Users\\2464440\\IdentifyingBikes\\ExcelData";
         String filePath = folderPath + "\\BikeReport.xlsx";
-
         File folder = new File(folderPath);
         if (!folder.exists()) {
             folder.mkdirs();
         }
-
-        // 4. Call your ExcelUtil method exactly as it is defined:
-        // writeDynamicDataToExcel(String filePath, String sheetName, String[] headers, List<String[]> dataRows)
         ExcelUtil.writeDynamicDataToExcel(filePath, "Sheet1", headers, dataRows);
-
-        return bikeCount.size();
+        return bikeCnt.size();
     }
 }

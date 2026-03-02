@@ -2,17 +2,14 @@ package org.automation.pages;
 
 import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class ListedBrands {
     WebDriver driver;
@@ -38,7 +35,6 @@ public class ListedBrands {
     public List<String> getAllBrands() throws InterruptedException {
           js.scrollIntoView(helper);
           Log.info(" Scrolling TO Brands Page");
-
           WebElement view_Brands_Btn=wait.until(ExpectedConditions.elementToBeClickable(viewBrands));
           Thread.sleep(800);
           js.clickByJS(view_Brands_Btn);
@@ -50,7 +46,5 @@ public class ListedBrands {
                 Log.info("Brand Name Retrieved");
           }
           return  brandName;
-
     }
-
 }

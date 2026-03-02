@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class TogglePage {
@@ -47,10 +46,8 @@ public class TogglePage {
         wait.until(ExpectedConditions.visibilityOf(homeBtn));
         commonCode.clickWhenClickable(homeBtn);
 
-        // If no exception, assume success
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
         ts.take("TC_05");
         return true;
     }
-
 }

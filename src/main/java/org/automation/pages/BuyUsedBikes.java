@@ -59,6 +59,13 @@ public class BuyUsedBikes {
     @FindBy(xpath="//*[text()='Gixxer']")
     WebElement gizzerChk;
 
+    @FindBy(css=".o-o.FTJfQA")
+    private List<WebElement> bikeNames;
+
+    @FindBy(css= "div.o-f.o-ek")
+    private List<WebElement> bikePrices;
+
+
     public void clickSideBar() throws InterruptedException{
         wait.until(ExpectedConditions.elementToBeClickable(sideBar));
         js.clickByJS(sideBar);
@@ -84,14 +91,7 @@ public class BuyUsedBikes {
 
         wait.until(ExpectedConditions.elementToBeClickable(gizzerChk));
         js.clickByJS(gizzerChk);
-
     }
-    @FindBy(css=".o-o.FTJfQA")
-    private List<WebElement> bikeNames;
-
-    // List of Bike Prices
-    @FindBy(css= "div.o-f.o-ek")
-    private List<WebElement> bikePrices;
 
     @Override
     public String toString() {
@@ -105,16 +105,12 @@ public class BuyUsedBikes {
         for (int i = 0; i < bikeNames.size(); i++) {
             String name = bikeNames.get(i).getText().trim();
             String price = bikePrices.get(i).getText().trim();
-
             allBikes.add(new BuyUsedBikes(name, price));
-
             Log.info("Found Bike " + (i + 1) + ": " + name + " -> " + price);
         }
 
         String screenshotName = "TC_21_BuyUsedBikes";
         new TakeScreenShot(driver,"screenshots").take(screenshotName);
-
         return allBikes;
     }
-
 }

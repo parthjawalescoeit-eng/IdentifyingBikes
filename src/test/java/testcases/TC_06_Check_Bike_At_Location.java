@@ -1,6 +1,5 @@
 package testcases;
 
-
 import basetest.BaseTest;
 import org.automation.log.Log;
 import org.automation.pages.OnRoadPrice;
@@ -11,7 +10,6 @@ public class TC_06_Check_Bike_At_Location extends BaseTest {
 
     @Test
     public  void getBikeAtLocation(){
-
         OnRoadPrice on=new OnRoadPrice(driver,wait);
         String title=on.chequeAvailability("Pune");
         Log.info(title);

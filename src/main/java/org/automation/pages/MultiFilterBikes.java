@@ -20,7 +20,6 @@ public class MultiFilterBikes {
       JavaScriptUtil js;
 
       public MultiFilterBikes(WebDriver driver,WebDriverWait wait){
-
        this.driver=driver;
        this.wait=wait;
        this.js=new JavaScriptUtil((driver));
@@ -46,7 +45,7 @@ public class MultiFilterBikes {
      WebElement role;
 
      @FindBy(xpath="(//p[@class='o-jJ o-j2 o-ji'])[1]")
-     WebElement budgetInput;
+     WebElement budgetIpt;
 
      @FindBy(xpath="(//input[@placeholder='Max'])")
      WebElement budgetOptionBtn;
@@ -58,7 +57,6 @@ public class MultiFilterBikes {
      List<WebElement> bikeListings;
 
       public void multiFilterBikes() throws InterruptedException{
-
           js.scrollIntoView(brandInputBtn);
        wait.until(ExpectedConditions.elementToBeClickable(brandInputBtn));
        js.clickByJS(brandInputBtn);
@@ -96,11 +94,9 @@ public class MultiFilterBikes {
          }
 
     public void verifyFilteredResults() throws InterruptedException{
-
-    List<WebElement> bikes=driver.findElements(org.openqa.selenium.By.xpath("//a[@href and contains(@href,'-bikes/')]"));
-    Assert.assertTrue(bikes.size()>0,"No bikes found matching the filters");
-    Log.info("Total bikes found: "+bikes.size());
-
+        List<WebElement> bikes=driver.findElements(org.openqa.selenium.By.xpath("//a[@href and contains(@href,'-bikes/')]"));
+        Assert.assertTrue(bikes.size()>0,"No bikes found matching the filters");
+        Log.info("Total bikes found: "+bikes.size());
         Thread.sleep(300);
         String screenshotName = "TC_24_MultiFilterCombination";
         new TakeScreenShot(driver, "screenshots").take(screenshotName);

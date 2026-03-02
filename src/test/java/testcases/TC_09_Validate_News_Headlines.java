@@ -1,15 +1,11 @@
 package testcases;
 
-
-
 import basetest.BaseTest;
 import org.automation.pages.NewsPage;
 import org.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
-
 
 public class TC_09_Validate_News_Headlines extends BaseTest {
 

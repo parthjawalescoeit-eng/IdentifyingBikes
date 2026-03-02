@@ -46,6 +46,13 @@ public class BikeReview {
     @FindBy(xpath="(//div[@class='o-C o-o o-oz o-os YF8OI6   o-hl'])[8]")
     WebElement reviewStarBtn;
 
+    @FindBy(xpath="//p[@class='o-jH o-j1 o-js o-bO']")
+    List<WebElement> review;
+
+    @FindBy(xpath="//div[@class='o-gZ o-ih o-C o-f o-aL o-aE o-nh o-aS']")
+    List<WebElement> star;
+
+
     public void selectBike() throws InterruptedException {
 
         wait.until(ExpectedConditions.visibilityOf(searchBtn));
@@ -61,14 +68,8 @@ public class BikeReview {
 
         wait.until(ExpectedConditions.elementToBeClickable(reviewStarBtn));
         reviewStarBtn.click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
     }
-
-    @FindBy(xpath="//p[@class='o-jH o-j1 o-js o-bO']")
-    List<WebElement> review;
-
-    @FindBy(xpath="//div[@class='o-gZ o-ih o-C o-f o-aL o-aE o-nh o-aS']")
-    List<WebElement> star;
 
     public String toString() {
         return "Bike: " + reviews + " | Price: " + stars;

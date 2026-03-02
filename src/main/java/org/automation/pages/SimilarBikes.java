@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class SimilarBikes {
     WebDriver driver;
@@ -26,15 +25,15 @@ public class SimilarBikes {
     WebElement search;
 
     @FindBy(xpath = "//div//li[@class='o-C o-cC o-c6  o-kY o-os FO7dpx HP_G3h  o-bS o-co o-mo o-m1 o-f o-aM o-aD o-mO']")
-    WebElement clikk;
+    WebElement clk;
 
     @FindBy(xpath = "//div[text()='Similar Street Bikes']")
     WebElement similar;
 
     public void similarSearch() throws InterruptedException {
         search.sendKeys("Kawasaki Z650");
-        wait.until(ExpectedConditions.visibilityOf(clikk));
-        js.clickByJS(clikk);
+        wait.until(ExpectedConditions.visibilityOf(clk));
+        js.clickByJS(clk);
         Log.info("Searched Bike");
 
         wait.until(ExpectedConditions.visibilityOf(similar));
@@ -46,8 +45,5 @@ public class SimilarBikes {
         ts.take("TC_19");
         Log.info("Screenshot Taken Successfully");
     }
-
-
-
 }
 

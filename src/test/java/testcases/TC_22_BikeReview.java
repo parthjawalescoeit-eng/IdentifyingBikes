@@ -2,8 +2,6 @@ package testcases;
 
 import basetest.BaseTest;
 import org.automation.pages.BikeReview;
-import org.automation.pages.BuyUsedBikes;
-import org.automation.utility.TakeScreenShot;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

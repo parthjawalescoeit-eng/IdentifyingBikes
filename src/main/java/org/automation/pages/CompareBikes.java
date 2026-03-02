@@ -14,14 +14,15 @@ public class CompareBikes {
 
     WebDriver driver;
     WebDriverWait wait;
-
     JavaScriptUtil js;
+
     public CompareBikes(WebDriver driver,WebDriverWait wait){
         this.wait=wait;
         this.driver=driver;
         this.js=new JavaScriptUtil(driver);
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(xpath="//div[text()='Compare Bikes of Your Choice']")
     WebElement compareBtn;
 
@@ -94,7 +95,5 @@ public class CompareBikes {
         TakeScreenShot ts=new TakeScreenShot(driver,"screenshots");
         ts.take("TC_17");
         Log.info("Screenshot Taken Successfully");
-
     }
-
 }

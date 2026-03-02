@@ -14,10 +14,7 @@ public class TC_18_Calculate_EMI extends BaseTest {
         EMICalculate ec = new EMICalculate(driver,wait);
         ec.calculateEMI();
         Log.info("EMI Calculation Done Successfully");
-
         boolean emi = driver.getTitle().contains("EMI");
         Assert.assertTrue(emi,"EMI Page not loaded successfully");
-
     }
-
 }

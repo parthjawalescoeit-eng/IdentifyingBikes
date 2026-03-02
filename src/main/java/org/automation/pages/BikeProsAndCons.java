@@ -52,20 +52,15 @@ public class BikeProsAndCons {
     }
 
     public void printProsAndCons() throws InterruptedException {
-
         for (WebElement card : pros) {
-
             String header = card.findElement(By.tagName("h3")).getText();
             Log.info("\n" + header.toUpperCase() + ":");
-
             List<WebElement> points = card.findElements(By.tagName("li"));
-
             for (WebElement point : points) {
                 Log.info(" - " + point.getText());
             }
         }
         System.out.println("\n---------------------------------------");
-
         Thread.sleep(300);
         String screenshotName = "TC_25_BikeProsAndCons";
         new TakeScreenShot(driver, "screenshots").take(screenshotName);

@@ -37,7 +37,7 @@ public class BrowserNavigationCheck {
     private WebElement coloursBtn;
 
     public boolean verifyBrowserBackAndForwardNavigation() throws InterruptedException {
-//        code.visible(SearchBar);
+
         SearchBar.clear();
         SearchBar.sendKeys("Honda CB350RS");
         Thread.sleep(1000);
@@ -49,14 +49,12 @@ public class BrowserNavigationCheck {
             return false;
         }
 
-//        j.scrollIntoView(coloursBtn);
         code.clickable(coloursBtn);
         j.clickByJS(coloursBtn);
         Thread.sleep(1000);
         j.scrollIntoView(coloursBtn);
         code.clickable(coloursBtn);
         j.clickByJS(coloursBtn);
-
         driver.navigate().back();
         code.urlContains("cb350rs/");
         String backUrl1 = driver.getCurrentUrl().toLowerCase();

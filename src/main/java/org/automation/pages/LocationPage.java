@@ -1,6 +1,5 @@
 package org.automation.pages;
 
-
 import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
@@ -56,12 +55,9 @@ public class LocationPage {
         }
 
         Log.info("\n=========== Pune's Most Favourite Bike ===========\n");
-
         String text = mostTrendingBike.getText().trim().replaceAll("\n{2,}", "\n"); // collapse extra blanks
         Log.info(text);
         Log.info("----------------------------------------------");
-
-        // Return true if text is not empty (success)
         return !text.isEmpty();
     }
 }

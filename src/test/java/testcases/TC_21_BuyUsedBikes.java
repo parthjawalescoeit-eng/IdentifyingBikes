@@ -3,7 +3,6 @@ package testcases;
 import basetest.BaseTest;
 import org.automation.pages.BuyUsedBikes;
 import org.automation.utility.ExcelUtil;
-import org.automation.utility.TakeScreenShot;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.ArrayList;
@@ -18,7 +17,6 @@ public class TC_21_BuyUsedBikes extends BaseTest {
         buyBikes.clickSideBar();
         List<BuyUsedBikes> results = buyBikes.getBikeResults();
         Assert.assertTrue(results.size() > 0, "There is no bike for the brand Gizzer");
-
         String[] headers = {"Sr. No.", "Bike Name", "Price"};
         List<String[]> dataToExport = new ArrayList<>();
         for (int i = 0; i < results.size(); i++) {
@@ -31,7 +29,6 @@ public class TC_21_BuyUsedBikes extends BaseTest {
 
         String filePath = System.getProperty("user.dir") + "/ExcelData/BikeReport.xlsx";
         ExcelUtil.writeDynamicDataToExcel(filePath, "Sheet_5", headers, dataToExport);
-
     }
 }
 

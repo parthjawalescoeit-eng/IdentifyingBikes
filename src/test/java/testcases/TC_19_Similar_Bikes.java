@@ -14,9 +14,7 @@ public class TC_19_Similar_Bikes extends BaseTest {
         SimilarBikes simb = new SimilarBikes(driver,wait);
         simb.similarSearch();
         Log.info("Similar Bikes Fetched Successfully");
-
         boolean actual = driver.getTitle().contains("Kawasaki");
         Assert.assertTrue(actual,"Similar Bikes are not loaded");
     }
-
 }

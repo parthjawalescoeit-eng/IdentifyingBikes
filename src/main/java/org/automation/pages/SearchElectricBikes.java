@@ -32,6 +32,7 @@ public class SearchElectricBikes {
         js=new JavaScriptUtil(driver);
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(css = ".header__menu-icon")
     private WebElement menuIcon;
 
@@ -107,17 +108,14 @@ public class SearchElectricBikes {
 
         List<String> Bikes = new ArrayList<>();
 
-        // Final Wait for results to update
         Thread.sleep(5000);
         screenshot.take("Final_Bike_Results");
-
         Log.info("Bikes Found: " + bikeResults.size());
         for (int i = 0; i < Math.min(6, bikeResults.size()); i++) {
             String ele=bikeResults.get(i).getText().trim();
             Log.info((i + 1) + ". " + ele);
             Bikes.add(ele);
         }
-
         return Bikes;
     }
 }

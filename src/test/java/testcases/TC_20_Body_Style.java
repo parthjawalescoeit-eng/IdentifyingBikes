@@ -13,5 +13,4 @@ public class TC_20_Body_Style extends BaseTest {
         bd.getAllBikes();
         Log.info("Bikes Fetched Successfully");
     }
-
 }

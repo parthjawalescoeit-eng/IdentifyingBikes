@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptUtil {
 
     private WebDriver driver;
-
     private JavascriptExecutor js;
 
     public JavaScriptUtil(WebDriver driver) {
@@ -15,15 +14,15 @@ public class JavaScriptUtil {
         this.js = (JavascriptExecutor) driver;
     }
 
-
     public void clickByJS(WebElement element) {
-
         js.executeScript("arguments[0].click();", element);
     }
+
     public void doubleClickByJS(WebElement element) {
         js.executeScript("var evt = new MouseEvent('dblclick', {bubbles: true, cancelable: true, view: window});" +
                 "arguments[0].dispatchEvent(evt);", element);
     }
+
     public void sendKeysByJS(WebElement element, String value) {
         js.executeScript("arguments[0].setAttribute('value', arguments[1]);", element, value);
     }
@@ -31,6 +30,7 @@ public class JavaScriptUtil {
     public void scrollIntoView(WebElement element) {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
+    
     public String getInternalHeaderText(WebElement card) {
         return (String) ((JavascriptExecutor) driver).executeScript(
                 "return arguments[0].querySelector('h3').textContent;", card);

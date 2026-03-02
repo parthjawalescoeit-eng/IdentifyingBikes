@@ -2,7 +2,6 @@ package testcases;
 
 import basetest.BaseTest;
 import org.automation.pages.BikeProsAndCons;
-import org.automation.utility.TakeScreenShot;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import org.testng.Assert;

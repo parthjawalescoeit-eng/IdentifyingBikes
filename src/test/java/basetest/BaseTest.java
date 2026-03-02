@@ -17,7 +17,6 @@ public class BaseTest {
     @BeforeClass
     public void driverSetup() throws IOException {
         ConfigReader configReader = new ConfigReader();
-
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
         options.addArguments("--disable-notifications");

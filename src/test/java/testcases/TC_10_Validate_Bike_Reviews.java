@@ -1,6 +1,5 @@
 package testcases;
 
-
 import basetest.BaseTest;
 import org.automation.log.Log;
 import org.automation.pages.ReviewsPage;

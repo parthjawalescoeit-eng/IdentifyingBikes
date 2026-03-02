@@ -13,10 +13,7 @@ public class TC_02_FilterBikes extends BaseTest {
         FilterBikes filterPage = new FilterBikes(driver,wait);
         Log.info("Filtered Bikes");
         int filteredBikeCount = filterPage.filterBikesUnderTwoLacks();
-        
-        // Assert that filtered bikes are displayed
         Assert.assertTrue(filteredBikeCount > 0, "No bikes found after applying filter for Bajaj under 2 lakh");
         Log.info("Test passed: " + filteredBikeCount + " filtered bikes displayed");
     }
-
 }

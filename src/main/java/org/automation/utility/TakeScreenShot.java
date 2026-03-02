@@ -1,6 +1,5 @@
 package org.automation.utility;
 
-import org.automation.log.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import java.io.File;
@@ -15,6 +14,7 @@ public class TakeScreenShot {
         this.driver = driver;
         this.outDir = outDir == null ? "screenshots" : outDir;
     }
+
     public void take(String name) {
         String path = System.getProperty("user.dir") + File.separator + outDir + File.separator + name  + ".png";
         try {

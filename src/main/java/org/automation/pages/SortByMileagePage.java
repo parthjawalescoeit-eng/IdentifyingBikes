@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class SortByMileagePage {
@@ -41,12 +40,10 @@ public class SortByMileagePage {
         try{
 
         js.scrollIntoView(bestMileageBike);
-        // wait until the element is clickable and click (replaces Thread.sleep)
 
         Thread.sleep(1000);
         commonCode.safeClickToWebElement(bestMileageBike);
 
-        // wait and click the 'All Mileage Bikes' tab
         Thread.sleep(1000);
         commonCode.safeClickToWebElement(allMileageBikes);
 
@@ -56,19 +53,14 @@ public class SortByMileagePage {
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
         ts.take("TC_03");
 
-
-            Log.info("\n=========== Bike With Highest Mileage ===========\n");
-
-                String text = bikeWithHighestMileage.getText().trim().replaceAll("\\n{2,}", "\n"); // collapse extra blanks
-                Log.info("The Beast is here");
-                Log.info(text);
-                Log.info("----------------------------------------------");
-
-        return true;
-
+        Log.info("\n=========== Bike With Highest Mileage ===========\n");
+        String text = bikeWithHighestMileage.getText().trim().replaceAll("\\n{2,}", "\n"); // collapse extra blanks
+            Log.info("The Beast is here");
+            Log.info(text);
+            Log.info("----------------------------------------------");
+            return true;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-
     }
 }

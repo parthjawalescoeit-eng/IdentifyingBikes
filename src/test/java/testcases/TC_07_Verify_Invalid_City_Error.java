@@ -1,6 +1,5 @@
 package testcases;
 
-
 import basetest.BaseTest;
 import org.automation.pages.OnRoadPrice;
 import org.testng.Assert;

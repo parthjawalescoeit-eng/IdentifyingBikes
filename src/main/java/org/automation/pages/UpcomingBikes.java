@@ -29,26 +29,28 @@ public class UpcomingBikes {
 
     @FindBy(xpath = "//span[@class='header__menu-icon']")
     WebElement menuIcon;
+
     @FindBy(xpath = "//span[text()='New Bikes']")
     WebElement newBikesMenu;
+
     @FindBy(xpath = "//span[text()='Upcoming Bikes']")
-    WebElement upcomingBikesOption;
+    WebElement upcomingBikesOptn;
+
     @FindBy(xpath = "//p[text()='Notify Me on Launch']")
     WebElement notifyMe;
+
     @FindBy(xpath = "//p[text()='Notify me']")
     WebElement notifyPopUpHeader;
-    @FindBy(xpath = "//span[@aria-label='Close Popup']")
-    WebElement closePopupButton;
+
     public boolean verifyNotifyMeForm() {
         common.clickWhenClickable(menuIcon);
         common.safeClickToWebElement(newBikesMenu);
-        common.safeClickToWebElement(upcomingBikesOption);
+        common.safeClickToWebElement(upcomingBikesOptn);
         common.safeClickToWebElement(notifyMe);
 
         try {
             wait.until(ExpectedConditions.visibilityOf(notifyPopUpHeader));
             boolean isDisplayed = notifyPopUpHeader.isDisplayed();
-
             if (isDisplayed) {
                 new TakeScreenShot(driver, "screenshots").take("TC_08_Notify_Me");
                 Log.info("Notify_Me_ScreenShot Captured");

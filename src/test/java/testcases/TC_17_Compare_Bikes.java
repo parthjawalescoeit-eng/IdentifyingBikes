@@ -14,9 +14,7 @@ public class TC_17_Compare_Bikes extends BaseTest {
         CompareBikes cb = new CompareBikes(driver,wait);
         cb.compare();
         Log.info(" Bikes Comparison Done Successfully ...");
-
         boolean compareTitle = driver.getTitle().contains("Know Which Is Better");
         Assert.assertTrue(compareTitle,"Chosen Bikes Not Loaded Successfully");
     }
-
 }

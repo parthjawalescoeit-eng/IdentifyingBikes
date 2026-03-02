@@ -1,7 +1,6 @@
 package testcases;
 
 import basetest.BaseTest;
-
 import org.automation.log.Log;
 import org.automation.pages.TogglePage;
 import org.testng.Assert;

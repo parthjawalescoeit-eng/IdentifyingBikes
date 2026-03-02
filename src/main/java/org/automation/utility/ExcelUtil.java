@@ -5,12 +5,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
-
 import java.util.List;
 
 public class ExcelUtil {
-
 
     public static void writeDynamicDataToExcel(String filePath, String sheetName, String[] headers, List<String[]> dataRows) {
         Workbook workbook;
@@ -30,13 +27,11 @@ public class ExcelUtil {
             }
             Sheet sheet = workbook.createSheet(sheetName);
 
-            // Header loop
             Row headerRow = sheet.createRow(0);
             for (int i = 0; i < headers.length; i++) {
                 headerRow.createCell(i).setCellValue(headers[i]);
             }
 
-            // Data loop (handles any number of columns)
             for (int i = 0; i < dataRows.size(); i++) {
                 Row row = sheet.createRow(i + 1);
                 String[] rowData = dataRows.get(i);
@@ -53,7 +48,6 @@ public class ExcelUtil {
             e.printStackTrace();
         }
     }
-
 }
 
 

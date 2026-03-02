@@ -1,9 +1,7 @@
 package org.automation.utility;
 
 import org.openqa.selenium.*;
-
 import org.openqa.selenium.support.ui.*;
-
 import java.time.Duration;
 import java.util.List;
 
@@ -17,7 +15,6 @@ public class CommonCode {
         this.timeout = timeout;
     }
 
-
     public WebDriverWait getWait() {
         return new WebDriverWait(driver, timeout);
     }
@@ -27,14 +24,11 @@ public class CommonCode {
     }
 
     public void clickWhenClickable(WebElement element) {
-        // Wait until the element is clickable
         getWait().until(ExpectedConditions.elementToBeClickable(element)).click();
-        // Click immediately
     }
     public WebElement clickable(WebElement element) {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
-
 
     public void pageReady() {
         getWait().until(driver ->
@@ -46,22 +40,18 @@ public class CommonCode {
         int attempts = 0;
         while (attempts < 3) {
             try {
-                // Re-find fresh element each attempt
                 WebElement el = getWait().until(ExpectedConditions.elementToBeClickable(locator));
                 try {
-                    el.click(); // native click
+                    el.click();
                     return;
                 } catch (ElementClickInterceptedException e) {
-                    // Scroll to center, try native again
                     ((JavascriptExecutor) driver).executeScript(
                             "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
                     el.click();
                     return;
                 }
             } catch (StaleElementReferenceException sere) {
-                // DOM changed; retry by looping
             } catch (Exception e) {
-                // As a last resort, try JS click with a fresh element
                 try {
                     WebElement fresh = getWait().until(ExpectedConditions.presenceOfElementLocated(locator));
                     ((JavascriptExecutor) driver).executeScript(
@@ -69,7 +59,6 @@ public class CommonCode {
                     ((JavascriptExecutor) driver).executeScript("arguments[0].click();", fresh);
                     return;
                 } catch (StaleElementReferenceException ignored) {
-                    // will retry loop
                 }
             }
             attempts++;
@@ -85,7 +74,6 @@ public class CommonCode {
                 WebElement el = wait.until(ExpectedConditions.elementToBeClickable(element));
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
-
                 el.click();
                 return;
             } catch (StaleElementReferenceException sere) {
@@ -95,12 +83,10 @@ public class CommonCode {
             } catch (JavascriptException ignored) {
 
             }
-
             attempts++;
             try { Thread.sleep(200); } catch (InterruptedException ignored) {}
         }
 
-        // Final fallback: JS click on a fresh element reference
         try {
             ((JavascriptExecutor) driver).executeScript(
                     "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
@@ -110,14 +96,11 @@ public class CommonCode {
         }
     }
     public void enterText(WebElement element,String text) {
-
         WebElement el = getWait().until(ExpectedConditions.visibilityOf(element));
-        // Bring element into view
         ((JavascriptExecutor) driver)
                 .executeScript("arguments[0].scrollIntoView({block: 'center'});", el);
         el.clear();
         el.sendKeys(text);
-
     }
 
 
@@ -146,5 +129,4 @@ public class CommonCode {
             }
         }
     }
-
 }

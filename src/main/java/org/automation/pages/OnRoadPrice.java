@@ -25,7 +25,7 @@ public class OnRoadPrice {
     }
 
     @FindBy(xpath = "//span[@class='header__menu-icon']")
-    WebElement options;
+    WebElement opts;
 
     @FindBy(xpath = "//span[text()='New Bikes']")
     WebElement new_Bikes;
@@ -86,7 +86,7 @@ public class OnRoadPrice {
     }
 
     private void navigateToOnRoadPriceSection() {
-        common.clickWhenClickable(options);
+        common.clickWhenClickable(opts);
         common.safeClickToWebElement(new_Bikes);
         common.safeClickToWebElement(check_On_Road_Price);
     }
