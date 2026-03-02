@@ -7,7 +7,7 @@
     </listeners>
     <parameter name="browser" value="chrome" />
 
-    <test name="Dropdown and Form Validation Tests">
+    <test name="Bikewale Validation">
         <classes>
             <class name="testcases.TC_16_Listed_Brands" />
             <class name="testcases.TC_17_Compare_Bikes" />

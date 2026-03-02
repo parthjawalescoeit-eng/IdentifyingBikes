@@ -121,4 +121,7 @@ public class CommonCode {
         el.sendKeys(text);
 
     }
+    public boolean urlContains(String text) {
+        return getWait().until(ExpectedConditions.urlContains(text));
+    }
 }
