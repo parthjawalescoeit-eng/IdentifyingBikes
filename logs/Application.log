@@ -99,3 +99,212 @@
 10:27:55.599 INFO  Log - Bike Name - husqvarna vitpilen 250
 10:27:55.623 INFO  Log - Bike Name - bmw r 12 nine t
 10:27:55.623 INFO  Log - Bikes Fetched Successfully
+12:17:32.585 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\IdentifyingBikes\src\test\resources\testing.xml
+
+12:17:41.743 INFO  Log -  Scrolling TO Brands Page
+12:17:42.664 INFO  Log - Brands Button Selected
+12:17:43.450 INFO  Log - Brand Name Retrieved
+12:17:43.450 INFO  Log - Brand Name Retrieved
+12:17:43.466 INFO  Log - Brand Name Retrieved
+12:17:43.482 INFO  Log - Brand Name Retrieved
+12:17:43.482 INFO  Log - Brand Name Retrieved
+12:17:43.497 INFO  Log - Brand Name Retrieved
+12:17:43.513 INFO  Log - Brand Name Retrieved
+12:17:43.513 INFO  Log - Brand Name Retrieved
+12:17:43.529 INFO  Log - Brand Name Retrieved
+12:17:43.550 INFO  Log - Brand Name Retrieved
+12:17:43.561 INFO  Log - Brand Name Retrieved
+12:17:43.573 INFO  Log - Brand Name Retrieved
+12:17:43.577 INFO  Log - Brand Name Retrieved
+12:17:43.592 INFO  Log - Brand Name Retrieved
+12:17:43.595 INFO  Log - Brand Name Retrieved
+12:17:43.608 INFO  Log - Brand Name Retrieved
+12:17:43.613 INFO  Log - Brand Name Retrieved
+12:17:43.624 INFO  Log - Brand Name Retrieved
+12:17:43.640 INFO  Log - Brand Name Retrieved
+12:17:43.640 INFO  Log - Brand Name Retrieved
+12:17:43.690 INFO  Log - Brand Name Retrieved
+12:17:43.715 INFO  Log - Brand Name Retrieved
+12:17:43.724 INFO  Log - Brand Name Retrieved
+12:17:43.754 INFO  Log - Brand Name Retrieved
+12:17:43.784 INFO  Log - Brand Name Retrieved
+12:17:43.784 INFO  Log - Brand Name Retrieved
+12:17:43.801 INFO  Log - Brand Name Retrieved
+12:17:43.816 INFO  Log - Brand Name Retrieved
+12:17:43.831 INFO  Log - Brand Name Retrieved
+12:17:43.831 INFO  Log - Brand Name Retrieved
+12:17:43.864 INFO  Log - Brand Name Retrieved
+12:17:43.883 INFO  Log - Brand Name Retrieved
+12:17:43.893 INFO  Log - Brand Name Retrieved
+12:17:43.905 INFO  Log - Brand Name Retrieved
+12:17:43.914 INFO  Log - Brand Name Retrieved
+12:17:43.928 INFO  Log - Brand Name Retrieved
+12:17:43.928 INFO  Log - Brand Name Retrieved
+12:17:43.945 INFO  Log - Brand Name Retrieved
+12:17:43.960 INFO  Log - Brand Name Retrieved
+12:17:43.960 INFO  Log - Brand Name Retrieved
+12:17:43.976 INFO  Log - Brand Name Retrieved
+12:17:43.992 INFO  Log - Brand Name Retrieved
+12:17:44.007 INFO  Log - Brand Name Retrieved
+12:17:44.014 INFO  Log - Brand Name Retrieved
+12:17:44.039 INFO  Log - Brand Name Retrieved
+12:17:44.039 INFO  Log - Brand Name Retrieved
+12:17:44.058 INFO  Log - Brand Name Retrieved
+12:17:44.070 INFO  Log - Brand Name Retrieved
+12:17:44.070 INFO  Log - Brand Name Retrieved
+12:17:44.094 INFO  Log - Brand Name Retrieved
+12:17:44.103 INFO  Log - Brand Name Retrieved
+12:17:44.135 INFO  Log - Brand Name Retrieved
+12:17:44.149 INFO  Log - Brand Name Retrieved
+12:17:44.149 INFO  Log - Brand Name Retrieved
+12:17:44.165 INFO  Log - Brand Name Retrieved
+12:17:44.182 INFO  Log - Brand Name Retrieved
+12:17:44.192 INFO  Log - Brand Name Retrieved
+12:17:44.201 INFO  Log - Brand Name Retrieved
+12:17:44.209 INFO  Log - Brand Name Retrieved
+12:17:44.216 INFO  Log - Brand Name Retrieved
+12:17:44.228 INFO  Log - Brand Name Retrieved
+12:17:45.423 INFO  Log - Data Written To Excel Successfully
+12:17:51.605 INFO  Log -  Bikes Comparison Started ....
+12:17:54.001 INFO  Log - First Bike Added
+12:17:54.666 INFO  Log - Selected Brand For First Bike
+12:17:55.212 INFO  Log - Choosed First Bike
+12:17:55.881 INFO  Log - Choosed Variant For First Bike
+12:17:57.109 INFO  Log - Second Bike Added
+12:17:57.876 INFO  Log - Selected Brand For Second Bike
+12:17:58.440 INFO  Log - Choosed Second Bike
+12:18:00.402 INFO  Log - Choosed variant For Second Bike
+12:18:01.321 INFO  Log - Showing Specs Of Bikes
+12:18:02.094 INFO  Log - Screenshot Taken Successfully
+12:18:02.094 INFO  Log -  Bikes Comparison Done Successfully ...
+12:18:08.977 INFO  Log - EMI Calculation Started
+12:18:09.026 INFO  Log - Menu Opened
+12:18:11.619 INFO  Log - EMI Option Selected
+12:18:11.822 INFO  Log - Passed Loan Amount 
+12:18:11.958 INFO  Log - Passed Rate Of Interest 
+12:18:11.988 INFO  Log - EMI IN Advance Selected
+12:18:12.016 INFO  Log - EMI Calculated
+12:18:12.733 INFO  Log - Screenshot Taken Successfully
+12:18:12.733 INFO  Log - EMI Calculation Done Successfully
+12:18:18.057 INFO  Log - Fetching Similar Bikes
+12:18:37.679 INFO  Log - Scrolling for View
+12:18:38.215 INFO  Log - Scrolled to Bikes
+12:18:38.946 INFO  Log - Screenshot taken successfully
+12:18:39.064 INFO  Log - Bike Name - royal enfield continental gt 650
+12:18:39.093 INFO  Log - Bike Name - triumph thruxton 400
+12:18:39.109 INFO  Log - Bike Name - husqvarna vitpilen 250
+12:18:39.143 INFO  Log - Bike Name - bmw r 12 nine t
+12:18:39.143 INFO  Log - Bikes Fetched Successfully
+12:21:17.035 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+12:21:21.861 INFO  Log - Fetching Similar Bikes
+12:21:23.210 INFO  Log - Searched Bike
+12:21:24.761 INFO  Log - Similar Bikes Retrieved
+12:21:27.010 INFO  Log - Screenshot Taken Successfully
+12:21:27.010 INFO  Log - Similar Bikes Fetched Successfully
+12:21:38.258 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+12:21:51.947 INFO  Utils - [TestNG] Running:
+  C:\Users\2464286\IdentifyingBikes\src\test\resources\testing.xml
+
+12:21:57.097 INFO  Log -  Scrolling TO Brands Page
+12:21:58.076 INFO  Log - Brands Button Selected
+12:21:59.059 INFO  Log - Brand Name Retrieved
+12:21:59.078 INFO  Log - Brand Name Retrieved
+12:21:59.091 INFO  Log - Brand Name Retrieved
+12:21:59.106 INFO  Log - Brand Name Retrieved
+12:21:59.120 INFO  Log - Brand Name Retrieved
+12:21:59.131 INFO  Log - Brand Name Retrieved
+12:21:59.147 INFO  Log - Brand Name Retrieved
+12:21:59.163 INFO  Log - Brand Name Retrieved
+12:21:59.173 INFO  Log - Brand Name Retrieved
+12:21:59.192 INFO  Log - Brand Name Retrieved
+12:21:59.204 INFO  Log - Brand Name Retrieved
+12:21:59.245 INFO  Log - Brand Name Retrieved
+12:21:59.259 INFO  Log - Brand Name Retrieved
+12:21:59.273 INFO  Log - Brand Name Retrieved
+12:21:59.306 INFO  Log - Brand Name Retrieved
+12:21:59.311 INFO  Log - Brand Name Retrieved
+12:21:59.328 INFO  Log - Brand Name Retrieved
+12:21:59.336 INFO  Log - Brand Name Retrieved
+12:21:59.336 INFO  Log - Brand Name Retrieved
+12:21:59.357 INFO  Log - Brand Name Retrieved
+12:21:59.362 INFO  Log - Brand Name Retrieved
+12:21:59.374 INFO  Log - Brand Name Retrieved
+12:21:59.386 INFO  Log - Brand Name Retrieved
+12:21:59.396 INFO  Log - Brand Name Retrieved
+12:21:59.402 INFO  Log - Brand Name Retrieved
+12:21:59.418 INFO  Log - Brand Name Retrieved
+12:21:59.428 INFO  Log - Brand Name Retrieved
+12:21:59.437 INFO  Log - Brand Name Retrieved
+12:21:59.447 INFO  Log - Brand Name Retrieved
+12:21:59.447 INFO  Log - Brand Name Retrieved
+12:21:59.463 INFO  Log - Brand Name Retrieved
+12:21:59.472 INFO  Log - Brand Name Retrieved
+12:21:59.495 INFO  Log - Brand Name Retrieved
+12:21:59.508 INFO  Log - Brand Name Retrieved
+12:21:59.520 INFO  Log - Brand Name Retrieved
+12:21:59.534 INFO  Log - Brand Name Retrieved
+12:21:59.546 INFO  Log - Brand Name Retrieved
+12:21:59.557 INFO  Log - Brand Name Retrieved
+12:21:59.570 INFO  Log - Brand Name Retrieved
+12:21:59.585 INFO  Log - Brand Name Retrieved
+12:21:59.592 INFO  Log - Brand Name Retrieved
+12:21:59.608 INFO  Log - Brand Name Retrieved
+12:21:59.618 INFO  Log - Brand Name Retrieved
+12:21:59.631 INFO  Log - Brand Name Retrieved
+12:21:59.643 INFO  Log - Brand Name Retrieved
+12:21:59.656 INFO  Log - Brand Name Retrieved
+12:21:59.671 INFO  Log - Brand Name Retrieved
+12:21:59.686 INFO  Log - Brand Name Retrieved
+12:21:59.697 INFO  Log - Brand Name Retrieved
+12:21:59.715 INFO  Log - Brand Name Retrieved
+12:21:59.727 INFO  Log - Brand Name Retrieved
+12:21:59.749 INFO  Log - Brand Name Retrieved
+12:21:59.760 INFO  Log - Brand Name Retrieved
+12:21:59.776 INFO  Log - Brand Name Retrieved
+12:21:59.785 INFO  Log - Brand Name Retrieved
+12:21:59.799 INFO  Log - Brand Name Retrieved
+12:21:59.799 INFO  Log - Brand Name Retrieved
+12:21:59.819 INFO  Log - Brand Name Retrieved
+12:21:59.829 INFO  Log - Brand Name Retrieved
+12:21:59.840 INFO  Log - Brand Name Retrieved
+12:21:59.845 INFO  Log - Brand Name Retrieved
+12:22:01.013 INFO  Log - Data Written To Excel Successfully
+12:22:06.763 INFO  Log -  Bikes Comparison Started ....
+12:22:09.050 INFO  Log - First Bike Added
+12:22:09.661 INFO  Log - Selected Brand For First Bike
+12:22:10.209 INFO  Log - Choosed First Bike
+12:22:10.917 INFO  Log - Choosed Variant For First Bike
+12:22:12.118 INFO  Log - Second Bike Added
+12:22:12.871 INFO  Log - Selected Brand For Second Bike
+12:22:13.427 INFO  Log - Choosed Second Bike
+12:22:14.887 INFO  Log - Choosed variant For Second Bike
+12:22:15.593 INFO  Log - Showing Specs Of Bikes
+12:22:16.268 INFO  Log - Screenshot Taken Successfully
+12:22:16.268 INFO  Log -  Bikes Comparison Done Successfully ...
+12:22:22.499 INFO  Log - EMI Calculation Started
+12:22:22.549 INFO  Log - Menu Opened
+12:22:24.968 INFO  Log - EMI Option Selected
+12:22:25.150 INFO  Log - Passed Loan Amount 
+12:22:25.262 INFO  Log - Passed Rate Of Interest 
+12:22:25.288 INFO  Log - EMI IN Advance Selected
+12:22:25.309 INFO  Log - EMI Calculated
+12:22:26.007 INFO  Log - Screenshot Taken Successfully
+12:22:26.007 INFO  Log - EMI Calculation Done Successfully
+12:22:31.980 INFO  Log - Fetching Similar Bikes
+12:22:33.329 INFO  Log - Searched Bike
+12:22:34.948 INFO  Log - Similar Bikes Retrieved
+12:22:37.219 INFO  Log - Screenshot Taken Successfully
+12:22:37.219 INFO  Log - Similar Bikes Fetched Successfully
+12:22:46.113 INFO  Log - Scrolling for View
+12:22:46.652 INFO  Log - Scrolled to Bikes
+12:22:47.360 INFO  Log - Screenshot taken successfully
+12:22:47.482 INFO  Log - Bike Name - royal enfield continental gt 650
+12:22:47.509 INFO  Log - Bike Name - triumph thruxton 400
+12:22:47.533 INFO  Log - Bike Name - husqvarna vitpilen 250
+12:22:47.555 INFO  Log - Bike Name - bmw r 12 nine t
+12:22:47.555 INFO  Log - Bikes Fetched Successfully

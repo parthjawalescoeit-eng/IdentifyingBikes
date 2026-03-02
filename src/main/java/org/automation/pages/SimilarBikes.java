@@ -41,7 +41,7 @@ public class SimilarBikes {
         js.clickByJS(similar);
         Log.info("Similar Bikes Retrieved");
 
-        Thread.sleep(2500);
+        Thread.sleep(2000);
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
         ts.take("TC_19");
         Log.info("Screenshot Taken Successfully");
