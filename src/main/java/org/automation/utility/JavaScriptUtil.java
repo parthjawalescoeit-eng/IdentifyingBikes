@@ -17,19 +17,26 @@ public class JavaScriptUtil {
     public void clickByJS(WebElement element) {
         js.executeScript("arguments[0].click();", element);
     }
+
     public void doubleClickByJS(WebElement element) {
         js.executeScript("var evt = new MouseEvent('dblclick', {bubbles: true, cancelable: true, view: window});" +
                 "arguments[0].dispatchEvent(evt);", element);
     }
+
     public void sendKeysByJS(WebElement element, String value) {
         js.executeScript("arguments[0].setAttribute('value', arguments[1]);", element, value);
     }
 
+    /**
+     * Merged logic: Uses Tushar's centering logic for better visibility
+     * but remains compatible with the standard scroll approach.
+     */
     public void scrollIntoView(WebElement element) {
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", element);
     }
+
     public String getInternalHeaderText(WebElement card) {
-        return (String) ((JavascriptExecutor) driver).executeScript(
+        return (String) js.executeScript(
                 "return arguments[0].querySelector('h3').textContent;", card);
     }
 

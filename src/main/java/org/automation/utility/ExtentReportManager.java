@@ -1,4 +1,5 @@
 package org.automation.utility;
+
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
@@ -15,10 +16,11 @@ public class ExtentReportManager implements ITestListener {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
         extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("Tester", "Yash");
-        extent.setSystemInfo("Tester", "Satyam");
-        extent.setSystemInfo("Tester", "Anand");
-        extent.setSystemInfo("Tester", "Ashish");
+        extent.setSystemInfo("Tester", "Shubham");
+        extent.setSystemInfo("Tester", "Tushar");
+        extent.setSystemInfo("Tester", "Parth");
+        extent.setSystemInfo("Tester", "Viresh");
+        extent.setSystemInfo("Tester", "Aditya");
     }
     public void onTestSuccess(ITestResult result) {
         test = extent.createTest(result.getName()); // create a new enty in the report

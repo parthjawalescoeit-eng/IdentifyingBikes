@@ -8,13 +8,19 @@
 
     <parameter name="browser" value="chrome" />
 
-    <test name="Dropdown and Form Validation Tests">
+    <test name="TestBikeWale" verbose="2" preserve-order="true">
         <classes>
+            <class name="testcases.TC_01_HomePage" />
+            <class name="testcases.TC_02_FilterBikes" />
+            <class name="testcases.TC_03_MileageBikes" />
+            <class name="testcases.TC_04_SelectCity" />
+            <class name="testcases.TC_05_ToggleButton" />
             <class name="testcases.TC_06_YouTube_navigation_check" />
             <class name="testcases.TC_07_Brochure_Download_Check" />
             <class name="testcases.TC_08_Breadcrumb_Working_Check" />
             <class name="testcases.TC_09_Browser_Navigation_Check" />
             <class name="testcases.TC_10_Search_Electric_Bikes" />
+
         </classes>
     </test>
 

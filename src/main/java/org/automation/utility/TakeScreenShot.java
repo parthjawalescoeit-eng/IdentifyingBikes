@@ -12,6 +12,7 @@ public class TakeScreenShot {
 
     private final WebDriver driver;
     private final String outDir;
+
     public TakeScreenShot(WebDriver driver, String outDir) {
         this.driver = driver;
         this.outDir = outDir == null ? "screenshots" : outDir;
