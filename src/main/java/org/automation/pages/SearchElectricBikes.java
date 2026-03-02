@@ -109,7 +109,7 @@ public class SearchElectricBikes {
 
         // Final Wait for results to update
         Thread.sleep(5000);
-        screenshot.take("Final_Bike_Results");
+        screenshot.take("TC_15_Final_Bike_Results");
 
         Log.info("Bikes Found: " + bikeResults.size());
         for (int i = 0; i < Math.min(6, bikeResults.size()); i++) {

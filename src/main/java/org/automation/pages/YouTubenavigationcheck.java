@@ -61,7 +61,7 @@ public class YouTubenavigationcheck {
                     break;
                 }
             }
-            screenshot.take("Opened_YouTube_On_New_Window");
+            screenshot.take("TC_11_Opened_YouTube_On_New_Window");
 
             String url = driver.getCurrentUrl();
             Log.info(url);

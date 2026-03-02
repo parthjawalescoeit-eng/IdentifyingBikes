@@ -76,7 +76,7 @@ public class BrochureDownloadCheck {
             return false;
         }
         Thread.sleep(2000);
-        screenshot.take("Brochure_Downloaded_Successfully");
+        screenshot.take("TC_12_Brochure_Downloaded_Successfully");
 
         driver.close();
         driver.switchTo().window(originalWindow);
