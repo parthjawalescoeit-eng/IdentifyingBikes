@@ -2,26 +2,83 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-02T10:34:19 IST" name="Bikewale Suite" finished-at="2026-03-02T10:35:21 IST" duration-ms="62796">
+  <suite started-at="2026-03-02T11:21:21 IST" name="Bikewale Suite" finished-at="2026-03-02T11:22:45 IST" duration-ms="84166">
     <groups>
     </groups>
-    <test started-at="2026-03-02T10:34:19 IST" name="Dropdown and Form Validation Tests" finished-at="2026-03-02T10:35:21 IST" duration-ms="62796">
-      <class name="testcases.TC_12_Brochure_Download_Check">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@175c2241]" started-at="2026-03-02T10:34:35 IST" name="driverSetup" finished-at="2026-03-02T10:34:40 IST" duration-ms="4978" status="PASS">
+    <test started-at="2026-03-02T11:21:21 IST" name="Dropdown and Form Validation Tests" finished-at="2026-03-02T11:22:45 IST" duration-ms="84166">
+      <class name="testcases.TC_14_Browser_Navigation_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@77c2494c]" started-at="2026-03-02T11:22:17 IST" name="driverSetup" finished-at="2026-03-02T11:22:20 IST" duration-ms="3289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="downloadBrochureOfModel()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@175c2241]" started-at="2026-03-02T10:34:40 IST" name="downloadBrochureOfModel" finished-at="2026-03-02T10:34:43 IST" duration-ms="3642" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="BrowserNavigationCheck()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@77c2494c]" started-at="2026-03-02T11:22:20 IST" name="BrowserNavigationCheck" finished-at="2026-03-02T11:22:27 IST" duration-ms="6344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserNavigationCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@77c2494c]" started-at="2026-03-02T11:22:27 IST" name="tearDown" finished-at="2026-03-02T11:22:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_14_Browser_Navigation_Check -->
+      <class name="testcases.TC_11_YouTube_navigation_check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@292b08d6]" started-at="2026-03-02T11:21:21 IST" name="driverSetup" finished-at="2026-03-02T11:21:30 IST" duration-ms="9297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="verifyVideoPopupPlayback_TC06()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@292b08d6]" started-at="2026-03-02T11:21:30 IST" name="verifyVideoPopupPlayback_TC06" finished-at="2026-03-02T11:21:43 IST" duration-ms="12651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoPopupPlayback_TC06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@292b08d6]" started-at="2026-03-02T11:21:43 IST" name="tearDown" finished-at="2026-03-02T11:21:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_11_YouTube_navigation_check -->
+      <class name="testcases.TC_13_Breadcrumb_Working_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@3fc2959f]" started-at="2026-03-02T11:22:09 IST" name="driverSetup" finished-at="2026-03-02T11:22:12 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="BreadcrumbWorkingCheck()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@3fc2959f]" started-at="2026-03-02T11:22:12 IST" name="BreadcrumbWorkingCheck" finished-at="2026-03-02T11:22:17 IST" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BreadcrumbWorkingCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@3fc2959f]" started-at="2026-03-02T11:22:17 IST" name="tearDown" finished-at="2026-03-02T11:22:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_13_Breadcrumb_Working_Check -->
+      <class name="testcases.TC_15_Search_Electric_Bikes">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@4116aac9]" started-at="2026-03-02T11:22:27 IST" name="driverSetup" finished-at="2026-03-02T11:22:31 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="SearchForElectricBikes()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@4116aac9]" started-at="2026-03-02T11:22:31 IST" name="SearchForElectricBikes" finished-at="2026-03-02T11:22:45 IST" duration-ms="14365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForElectricBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@4116aac9]" started-at="2026-03-02T11:22:45 IST" name="tearDown" finished-at="2026-03-02T11:22:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_15_Search_Electric_Bikes -->
+      <class name="testcases.TC_12_Brochure_Download_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@4c12331b]" started-at="2026-03-02T11:21:43 IST" name="driverSetup" finished-at="2026-03-02T11:21:45 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="downloadBrochureOfModel()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@4c12331b]" started-at="2026-03-02T11:21:45 IST" name="downloadBrochureOfModel" finished-at="2026-03-02T11:22:06 IST" duration-ms="20937" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Download Failed. expected [true] but found [false]]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: span[title='Royal Enfield Hunter 350 Mileage'] div' (tried for 20 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Download Failed. expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel(TC_07_Brochure_Download_Check.java:16)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: span[title='Royal Enfield Hunter 350 Mileage'] div' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at org.automation.utility.CommonCode.clickable(CommonCode.java:34)
+at org.automation.pages.BrochureDownloadCheck.downloadBrochure(BrochureDownloadCheck.java:49)
+at testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel(TC_12_Brochure_Download_Check.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -47,73 +104,50 @@ at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"span[title='Royal Enfield Hunter 350 Mileage'] div"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3dccadb8f51a2f8c02acedea6c229d1, findElement {using=css selector, value=span[title='Royal Enfield Hunter 350 Mileage'] div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59541}, goog:processID: 2028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59541/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3dccadb8f51a2f8c02acedea6c229d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadBrochureOfModel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@175c2241]" started-at="2026-03-02T10:34:43 IST" name="tearDown" finished-at="2026-03-02T10:34:46 IST" duration-ms="2385" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_12_Brochure_Download_Check@4c12331b]" started-at="2026-03-02T11:22:06 IST" name="tearDown" finished-at="2026-03-02T11:22:09 IST" duration-ms="2641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_12_Brochure_Download_Check -->
-      <class name="testcases.TC_15_Search_Electric_Bikes">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@6a78afa0]" started-at="2026-03-02T10:35:04 IST" name="driverSetup" finished-at="2026-03-02T10:35:08 IST" duration-ms="3837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method signature="SearchForElectricBikes()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@6a78afa0]" started-at="2026-03-02T10:35:08 IST" name="SearchForElectricBikes" finished-at="2026-03-02T10:35:21 IST" duration-ms="13598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchForElectricBikes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_15_Search_Electric_Bikes@6a78afa0]" started-at="2026-03-02T10:35:21 IST" name="tearDown" finished-at="2026-03-02T10:35:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC_15_Search_Electric_Bikes -->
-      <class name="testcases.TC_13_Breadcrumb_Working_Check">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@22555ebf]" started-at="2026-03-02T10:34:46 IST" name="driverSetup" finished-at="2026-03-02T10:34:50 IST" duration-ms="3683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method signature="BreadcrumbWorkingCheck()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@22555ebf]" started-at="2026-03-02T10:34:50 IST" name="BreadcrumbWorkingCheck" finished-at="2026-03-02T10:34:55 IST" duration-ms="5009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BreadcrumbWorkingCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_13_Breadcrumb_Working_Check@22555ebf]" started-at="2026-03-02T10:34:55 IST" name="tearDown" finished-at="2026-03-02T10:34:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC_13_Breadcrumb_Working_Check -->
-      <class name="testcases.TC_14_Browser_Navigation_Check">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@4c402120]" started-at="2026-03-02T10:34:55 IST" name="driverSetup" finished-at="2026-03-02T10:34:58 IST" duration-ms="3200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method signature="BrowserNavigationCheck()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@4c402120]" started-at="2026-03-02T10:34:58 IST" name="BrowserNavigationCheck" finished-at="2026-03-02T10:35:04 IST" duration-ms="6254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserNavigationCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_14_Browser_Navigation_Check@4c402120]" started-at="2026-03-02T10:35:04 IST" name="tearDown" finished-at="2026-03-02T10:35:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC_14_Browser_Navigation_Check -->
-      <class name="testcases.TC_11_YouTube_navigation_check">
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@5fe94a96]" started-at="2026-03-02T10:34:19 IST" name="driverSetup" finished-at="2026-03-02T10:34:23 IST" duration-ms="4004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method signature="verifyVideoPopupPlayback_TC06()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@5fe94a96]" started-at="2026-03-02T10:34:23 IST" name="verifyVideoPopupPlayback_TC06" finished-at="2026-03-02T10:34:35 IST" duration-ms="11875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyVideoPopupPlayback_TC06 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_11_YouTube_navigation_check@5fe94a96]" started-at="2026-03-02T10:34:35 IST" name="tearDown" finished-at="2026-03-02T10:34:35 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC_11_YouTube_navigation_check -->
     </test> <!-- Dropdown and Form Validation Tests -->
   </suite> <!-- Bikewale Suite -->
 </testng-results>

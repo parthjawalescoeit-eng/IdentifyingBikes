@@ -9,8 +9,8 @@
     <classes>
       <class name="testcases.TC_12_Brochure_Download_Check">
         <methods>
-          <include name="downloadBrochureOfModel"/>
           <include name="tearDown"/>
+          <include name="downloadBrochureOfModel"/>
           <include name="driverSetup"/>
         </methods>
       </class> <!-- testcases.TC_12_Brochure_Download_Check -->
