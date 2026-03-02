@@ -3,7 +3,6 @@ package org.automation.utility;
 import org.automation.log.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -11,6 +10,7 @@ public class TakeScreenShot {
 
     private final WebDriver driver;
     private final String outDir;
+
     public TakeScreenShot(WebDriver driver, String outDir) {
         this.driver = driver;
         this.outDir = outDir == null ? "screenshots" : outDir;

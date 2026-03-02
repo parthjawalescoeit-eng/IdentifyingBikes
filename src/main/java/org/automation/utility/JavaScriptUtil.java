@@ -1,4 +1,5 @@
 package org.automation.utility;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,17 +15,25 @@ public class JavaScriptUtil {
         this.js = (JavascriptExecutor) driver;
     }
 
-    public Object executeScript(String script, Object... args) {
-        js = (JavascriptExecutor) driver;
-        return js.executeScript(script, args);
-    }
 
     public void clickByJS(WebElement element) {
-        executeScript("arguments[0].click();", element);
+
+        js.executeScript("arguments[0].click();", element);
+    }
+    public void doubleClickByJS(WebElement element) {
+        js.executeScript("var evt = new MouseEvent('dblclick', {bubbles: true, cancelable: true, view: window});" +
+                "arguments[0].dispatchEvent(evt);", element);
+    }
+    public void sendKeysByJS(WebElement element, String value) {
+        js.executeScript("arguments[0].setAttribute('value', arguments[1]);", element, value);
     }
 
     public void scrollIntoView(WebElement element) {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+    public String getInternalHeaderText(WebElement card) {
+        return (String) ((JavascriptExecutor) driver).executeScript(
+                "return arguments[0].querySelector('h3').textContent;", card);
     }
 
     public void scrollToBottom() {
@@ -41,6 +50,11 @@ public class JavaScriptUtil {
 
     public String getTitleByJS() {
         return (String) js.executeScript("return document.title;");
+    }
+
+    public Object executeScript(String script, Object... args) {
+        js= (JavascriptExecutor) driver;
+        return js.executeScript(script, args);
     }
 
     public void refreshByJS() {

@@ -7,8 +7,16 @@
         <listener class-name="org.automation.utility.ExtentReportManager"/>
     </listeners>
 
-    <test name="Identifying Bikes Functional Testing">
+
+    <parameter name="browser" value="chrome" />
+
+    <test name="TestBikeWale" verbose="2" preserve-order="true">
         <classes>
+            <class name="testcases.TC_01_HomePage" />
+            <class name="testcases.TC_02_FilterBikes" />
+            <class name="testcases.TC_03_MileageBikes" />
+            <class name="testcases.TC_04_SelectCity" />
+            <class name="testcases.TC_05_ToggleButton" />
             <class name="testcases.TC_06_Check_Bike_At_Location"/>
             <class name="testcases.TC_07_Verify_Invalid_City_Error"/>
             <class name="testcases.TC_08_Check_Notify_Functionality"/>
@@ -19,11 +27,17 @@
             <class name="testcases.TC_13_Breadcrumb_Working_Check"/>
             <class name="testcases.TC_14_Browser_Navigation_Check"/>
             <class name="testcases.TC_15_Search_Electric_Bikes"/>
+            <class name="testcases.TC_16_Listed_Brands" />
+            <class name="testcases.TC_17_Compare_Bikes" />
+            <class name="testcases.TC_18_Calculate_EMI" />
+            <class name="testcases.TC_19_Similar_Bikes" />
+            <class name="testcases.TC_20_Body_Style" />
             <class name="testcases.TC_21_BuyUsedBikes" />
             <class name="testcases.TC_22_BikeReview" />
             <class name="testcases.TC_23_ComparingBikes" />
             <class name="testcases.TC_24_MultiFilterCombination" />
             <class name="testcases.TC_25_BikeProsAndCons"/>
+
 
         </classes>
     </test>

@@ -1,5 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-02T11:46:53 IST" name="Bikewale Suite" finished-at="2026-03-02T11:48:53 IST" duration-ms="120172">
+    <groups>
+    </groups>
+    <test started-at="2026-03-02T11:46:53 IST" name="TestBikeWale" finished-at="2026-03-02T11:48:53 IST" duration-ms="120172">
+      <class name="testcases.TC_10_Search_Electric_Bikes">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_10_Search_Electric_Bikes@62ddbd7e]" started-at="2026-03-02T11:48:36 IST" name="driverSetup" finished-at="2026-03-02T11:48:39 IST" duration-ms="3943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="SearchForElectricBikes()[pri:0, instance:testcases.TC_10_Search_Electric_Bikes@62ddbd7e]" started-at="2026-03-02T11:48:39 IST" name="SearchForElectricBikes" finished-at="2026-03-02T11:48:53 IST" duration-ms="13749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForElectricBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_10_Search_Electric_Bikes@62ddbd7e]" started-at="2026-03-02T11:48:53 IST" name="tearDown" finished-at="2026-03-02T11:48:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_10_Search_Electric_Bikes -->
+      <class name="testcases.TC_07_Brochure_Download_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_07_Brochure_Download_Check@7586beff]" started-at="2026-03-02T11:47:59 IST" name="driverSetup" finished-at="2026-03-02T11:48:04 IST" duration-ms="4577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="downloadBrochureOfModel()[pri:0, instance:testcases.TC_07_Brochure_Download_Check@7586beff]" started-at="2026-03-02T11:48:04 IST" name="downloadBrochureOfModel" finished-at="2026-03-02T11:48:15 IST" duration-ms="11253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadBrochureOfModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_07_Brochure_Download_Check@7586beff]" started-at="2026-03-02T11:48:15 IST" name="tearDown" finished-at="2026-03-02T11:48:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_07_Brochure_Download_Check -->
+      <class name="testcases.TC_04_SelectCity">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_04_SelectCity@6b2ea799]" started-at="2026-03-02T11:47:31 IST" name="driverSetup" finished-at="2026-03-02T11:47:34 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="selectCityToPurchasedVehicle()[pri:0, instance:testcases.TC_04_SelectCity@6b2ea799]" started-at="2026-03-02T11:47:34 IST" name="selectCityToPurchasedVehicle" finished-at="2026-03-02T11:47:37 IST" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityToPurchasedVehicle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_04_SelectCity@6b2ea799]" started-at="2026-03-02T11:47:37 IST" name="tearDown" finished-at="2026-03-02T11:47:39 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_04_SelectCity -->
+      <class name="testcases.TC_05_ToggleButton">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_05_ToggleButton@7c7a06ec]" started-at="2026-03-02T11:47:39 IST" name="driverSetup" finished-at="2026-03-02T11:47:43 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="checkToggleButton()[pri:0, instance:testcases.TC_05_ToggleButton@7c7a06ec]" started-at="2026-03-02T11:47:43 IST" name="checkToggleButton" finished-at="2026-03-02T11:47:45 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkToggleButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_05_ToggleButton@7c7a06ec]" started-at="2026-03-02T11:47:45 IST" name="tearDown" finished-at="2026-03-02T11:47:47 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_05_ToggleButton -->
+      <class name="testcases.TC_03_MileageBikes">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_03_MileageBikes@397fbdb]" started-at="2026-03-02T11:47:19 IST" name="driverSetup" finished-at="2026-03-02T11:47:24 IST" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="getBikesHavingBestMileage()[pri:0, instance:testcases.TC_03_MileageBikes@397fbdb]" started-at="2026-03-02T11:47:24 IST" name="getBikesHavingBestMileage" finished-at="2026-03-02T11:47:29 IST" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBikesHavingBestMileage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_03_MileageBikes@397fbdb]" started-at="2026-03-02T11:47:29 IST" name="tearDown" finished-at="2026-03-02T11:47:31 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_03_MileageBikes -->
+      <class name="testcases.TC_01_HomePage">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_01_HomePage@7cc0cdad]" started-at="2026-03-02T11:46:53 IST" name="driverSetup" finished-at="2026-03-02T11:46:59 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="getBikes()[pri:0, instance:testcases.TC_01_HomePage@7cc0cdad]" started-at="2026-03-02T11:46:59 IST" name="getBikes" finished-at="2026-03-02T11:47:02 IST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_01_HomePage@7cc0cdad]" started-at="2026-03-02T11:47:03 IST" name="tearDown" finished-at="2026-03-02T11:47:04 IST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_01_HomePage -->
+      <class name="testcases.TC_08_Breadcrumb_Working_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_08_Breadcrumb_Working_Check@5aa9e4eb]" started-at="2026-03-02T11:48:15 IST" name="driverSetup" finished-at="2026-03-02T11:48:20 IST" duration-ms="4297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="BreadcrumbWorkingCheck()[pri:0, instance:testcases.TC_08_Breadcrumb_Working_Check@5aa9e4eb]" started-at="2026-03-02T11:48:20 IST" name="BreadcrumbWorkingCheck" finished-at="2026-03-02T11:48:25 IST" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BreadcrumbWorkingCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_08_Breadcrumb_Working_Check@5aa9e4eb]" started-at="2026-03-02T11:48:25 IST" name="tearDown" finished-at="2026-03-02T11:48:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_08_Breadcrumb_Working_Check -->
+      <class name="testcases.TC_02_FilterBikes">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_02_FilterBikes@14cd1699]" started-at="2026-03-02T11:47:04 IST" name="driverSetup" finished-at="2026-03-02T11:47:09 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="BikeFilterTestScenario()[pri:0, instance:testcases.TC_02_FilterBikes@14cd1699]" started-at="2026-03-02T11:47:09 IST" name="BikeFilterTestScenario" finished-at="2026-03-02T11:47:17 IST" duration-ms="7915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BikeFilterTestScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_02_FilterBikes@14cd1699]" started-at="2026-03-02T11:47:17 IST" name="tearDown" finished-at="2026-03-02T11:47:19 IST" duration-ms="2561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_02_FilterBikes -->
+      <class name="testcases.TC_09_Browser_Navigation_Check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_09_Browser_Navigation_Check@f5958c9]" started-at="2026-03-02T11:48:25 IST" name="driverSetup" finished-at="2026-03-02T11:48:29 IST" duration-ms="4006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="BrowserNavigationCheck()[pri:0, instance:testcases.TC_09_Browser_Navigation_Check@f5958c9]" started-at="2026-03-02T11:48:29 IST" name="BrowserNavigationCheck" finished-at="2026-03-02T11:48:36 IST" duration-ms="6816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserNavigationCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_09_Browser_Navigation_Check@f5958c9]" started-at="2026-03-02T11:48:36 IST" name="tearDown" finished-at="2026-03-02T11:48:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_09_Browser_Navigation_Check -->
+      <class name="testcases.TC_06_YouTube_navigation_check">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testcases.TC_06_YouTube_navigation_check@54d9d12d]" started-at="2026-03-02T11:47:47 IST" name="driverSetup" finished-at="2026-03-02T11:47:51 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="verifyVideoPopupPlayback_TC06()[pri:0, instance:testcases.TC_06_YouTube_navigation_check@54d9d12d]" started-at="2026-03-02T11:47:51 IST" name="verifyVideoPopupPlayback_TC06" finished-at="2026-03-02T11:47:59 IST" duration-ms="8660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoPopupPlayback_TC06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_06_YouTube_navigation_check@54d9d12d]" started-at="2026-03-02T11:47:59 IST" name="tearDown" finished-at="2026-03-02T11:47:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC_06_YouTube_navigation_check -->
+    </test> <!-- TestBikeWale -->
+=======
+>>>>>>> 800204e573184dab41a445ef82664c463238d0fd
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -150,6 +302,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_12_Brochure_Download_Check -->
     </test> <!-- Dropdown and Form Validation Tests -->
+>>>>>>> 17a6e4871980f985f6ec478f76d9cfd64dc6e9d9
   </suite> <!-- Bikewale Suite -->
 =======
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
