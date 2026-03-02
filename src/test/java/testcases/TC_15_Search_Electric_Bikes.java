@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TC_10_Search_Electric_Bikes extends BaseTest {
+public class TC_15_Search_Electric_Bikes extends BaseTest {
 
     @Test
     public void SearchForElectricBikes() throws InterruptedException {
@@ -33,7 +33,7 @@ public class TC_10_Search_Electric_Bikes extends BaseTest {
         }
         ExcelUtil.writeDynamicDataToExcel( filePath,sheet,header,dataToWrite);
         Assert.assertTrue(dataToWrite.size()>0, "Searching Electric Bikes Failed.");
-        System.out.println("TC_10_Search_Electric_Bikes Passed Successfully");
+        System.out.println("TC_15_Search_Electric_Bikes Passed Successfully");
 
         driver.quit();
     }

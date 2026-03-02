@@ -1,5 +1,4 @@
 package org.automation.utility;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,6 +24,7 @@ public class JavaScriptUtil {
 
     public void sendKeysByJS(WebElement element, String value) {
         js.executeScript("arguments[0].setAttribute('value', arguments[1]);", element, value);
+
     }
 
     /**
