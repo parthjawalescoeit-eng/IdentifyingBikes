@@ -1,12 +1,11 @@
 package org.automation.utility;
 
+import org.automation.log.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class TakeScreenShot {
 
@@ -22,9 +21,11 @@ public class TakeScreenShot {
             new File(System.getProperty("user.dir") + File.separator + outDir).mkdirs();
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(src, new File(path));
-            System.out.println("Screenshot saved: " + path);
+            Log.info("Screenshot saved: " + path);
         } catch (IOException e) {
-            System.out.println("Screenshot failed: " + e.getMessage());
+            Log.info("Screenshot failed: " + e.getMessage());
         }
     }
 }
+
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 09:42:35.886 INFO  Log - https://www.youtube.com/channel/UCYq67N0oJticIVD36iaXXgQ
 09:43:59.087 INFO  Log - Bikes Found: 6
 09:43:59.160 INFO  Log - 1. Bajaj Chetak
@@ -92,3 +93,985 @@
 11:23:03.039 INFO  Log - 5. 
 11:23:03.071 INFO  Log - 6. 
 >>>>>>> df1ac23220d3d78d33721a320ac61525fe620941
+=======
+11:13:33.965 INFO  Log - Total bikes found: 135
+11:19:22.893 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+11:19:22.956 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+11:19:23.052 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+11:19:23.128 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+11:19:23.199 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+11:19:23.272 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+11:19:23.339 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+11:19:23.404 INFO  Log - Found Bike 8: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+11:19:23.461 INFO  Log - Found Bike 9: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+11:19:23.527 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+11:19:23.590 INFO  Log - Found Bike 11: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+11:19:23.652 INFO  Log - Found Bike 12: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+11:19:23.735 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+11:19:23.800 INFO  Log - Found Bike 14: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+11:19:23.873 INFO  Log - Found Bike 15: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+11:19:23.943 INFO  Log - Found Bike 16: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+11:19:24.008 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+11:19:24.067 INFO  Log - Found Bike 18: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+11:19:24.140 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+11:19:24.198 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+11:19:24.261 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+11:19:24.355 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+11:19:24.412 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+11:19:24.517 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+11:19:38.885 INFO  Log - 1: Design and styling -> 4
+11:19:38.982 INFO  Log - 2: Reliability -> 4
+11:19:39.133 INFO  Log - 3: Performance -> 4
+11:19:39.298 INFO  Log - 4: Service experience -> 4
+11:19:39.733 INFO  Log - 5: Maintenance cost -> 3
+11:19:40.066 INFO  Log - 6: Extra Features -> 4
+11:19:40.267 INFO  Log - 7: Comfort -> 4
+11:19:40.326 INFO  Log - 8: Value for money -> 4
+11:19:40.392 INFO  Log - 9: Features and Technology -> 4
+11:20:11.050 INFO  Log - Total bikes found: 135
+11:20:21.293 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+11:20:21.328 INFO  Log - 
+---------------------------------------
+14:56:50.418 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+14:56:50.485 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+14:56:50.539 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+14:56:50.603 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:56:50.669 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+14:56:50.732 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+14:56:50.789 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+14:56:50.843 INFO  Log - Found Bike 8: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:56:50.901 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+14:56:50.956 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+14:56:51.009 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+14:56:51.069 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+14:56:51.132 INFO  Log - Found Bike 13: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:56:51.217 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+14:56:51.275 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+14:56:51.331 INFO  Log - Found Bike 16: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+14:56:51.393 INFO  Log - Found Bike 17: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:56:51.459 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+14:56:51.509 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+14:56:51.555 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+14:56:51.607 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+14:56:51.666 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+14:56:51.727 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+14:56:51.783 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+14:58:13.213 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+14:58:13.275 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+14:58:13.329 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+14:58:13.394 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:58:13.446 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+14:58:13.500 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+14:58:13.552 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+14:58:13.606 INFO  Log - Found Bike 8: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:58:13.662 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+14:58:13.714 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+14:58:13.764 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+14:58:13.821 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+14:58:13.879 INFO  Log - Found Bike 13: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:58:13.946 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+14:58:14.014 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+14:58:14.065 INFO  Log - Found Bike 16: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+14:58:14.124 INFO  Log - Found Bike 17: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:58:14.185 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+14:58:14.257 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+14:58:14.322 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+14:58:14.382 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+14:58:14.436 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+14:58:14.507 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+14:58:14.576 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+14:59:29.369 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+14:59:29.430 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+14:59:29.480 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+14:59:29.535 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:59:29.602 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+14:59:29.656 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+14:59:29.715 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+14:59:29.772 INFO  Log - Found Bike 8: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+14:59:29.824 INFO  Log - Found Bike 9: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+14:59:29.875 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+14:59:29.936 INFO  Log - Found Bike 11: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+14:59:30.004 INFO  Log - Found Bike 12: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+14:59:30.075 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+14:59:30.134 INFO  Log - Found Bike 14: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:59:30.191 INFO  Log - Found Bike 15: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+14:59:30.245 INFO  Log - Found Bike 16: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+14:59:30.299 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+14:59:30.351 INFO  Log - Found Bike 18: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+14:59:30.400 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+14:59:30.449 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+14:59:30.501 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+14:59:30.581 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+14:59:30.652 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+14:59:30.713 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+15:04:14.125 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+15:04:14.204 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+15:04:14.273 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+15:04:14.458 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+15:04:14.535 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+15:04:14.657 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+15:04:14.728 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+15:04:14.787 INFO  Log - Found Bike 8: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+15:04:14.842 INFO  Log - Found Bike 9: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+15:04:14.975 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+15:04:15.064 INFO  Log - Found Bike 11: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+15:04:15.147 INFO  Log - Found Bike 12: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+15:04:15.220 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+15:04:15.285 INFO  Log - Found Bike 14: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+15:04:15.343 INFO  Log - Found Bike 15: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+15:04:15.399 INFO  Log - Found Bike 16: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+15:04:15.486 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+15:04:15.553 INFO  Log - Found Bike 18: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+15:04:15.614 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+15:04:15.679 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+15:04:15.754 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+15:04:15.810 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+15:04:15.884 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+15:04:16.407 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+15:07:05.365 INFO  Log - 1: Design and styling -> 4
+15:07:05.924 INFO  Log - 2: Reliability -> 4
+15:07:06.343 INFO  Log - 3: Performance -> 4
+15:07:06.706 INFO  Log - 4: Service experience -> 4
+15:07:06.866 INFO  Log - 5: Maintenance cost -> 3
+15:07:07.007 INFO  Log - 6: Extra Features -> 4
+15:07:07.166 INFO  Log - 7: Comfort -> 4
+15:07:07.334 INFO  Log - 8: Value for money -> 4
+15:07:07.460 INFO  Log - 9: Features and Technology -> 4
+16:51:58.672 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+16:51:58.741 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+16:51:58.810 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+16:51:58.873 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:51:58.931 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+16:51:58.993 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+16:51:59.054 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+16:51:59.119 INFO  Log - Found Bike 8: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+16:51:59.180 INFO  Log - Found Bike 9: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:51:59.236 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+16:51:59.303 INFO  Log - Found Bike 11: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+16:51:59.370 INFO  Log - Found Bike 12: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+16:51:59.431 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+16:51:59.493 INFO  Log - Found Bike 14: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:51:59.551 INFO  Log - Found Bike 15: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+16:51:59.617 INFO  Log - Found Bike 16: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+16:51:59.679 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+16:51:59.739 INFO  Log - Found Bike 18: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:51:59.798 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+16:51:59.853 INFO  Log - Found Bike 20: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+16:51:59.918 INFO  Log - Found Bike 21: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+16:51:59.982 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+16:52:00.038 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+16:52:00.108 INFO  Log - Found Bike 24: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+16:53:10.013 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+16:53:10.104 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+16:53:10.169 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+16:53:10.234 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:53:10.298 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+16:53:10.362 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+16:53:10.423 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+16:53:10.480 INFO  Log - Found Bike 8: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:53:10.528 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+16:53:10.599 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+16:53:10.662 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+16:53:10.736 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+16:53:10.815 INFO  Log - Found Bike 13: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:53:10.868 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+16:53:10.931 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+16:53:10.990 INFO  Log - Found Bike 16: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+16:53:11.054 INFO  Log - Found Bike 17: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:53:11.111 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+16:53:11.169 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+16:53:11.229 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+16:53:11.292 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+16:53:11.349 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+16:53:11.403 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+16:53:11.471 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+16:54:02.363 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+16:54:02.440 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+16:54:02.513 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+16:54:02.590 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:54:02.657 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+16:54:02.722 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+16:54:02.811 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+16:54:02.883 INFO  Log - Found Bike 8: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+16:54:02.948 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+16:54:03.015 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+16:54:03.077 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+16:54:03.143 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+16:54:03.197 INFO  Log - Found Bike 13: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:54:03.274 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+16:54:03.337 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+16:54:03.392 INFO  Log - Found Bike 16: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+16:54:03.445 INFO  Log - Found Bike 17: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+16:54:03.516 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+16:54:03.579 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+16:54:03.646 INFO  Log - Found Bike 20: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+16:54:03.704 INFO  Log - Found Bike 21: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+16:54:03.771 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+16:54:03.846 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+16:54:03.903 INFO  Log - Found Bike 24: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+17:00:37.491 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 20,000
+17:00:37.568 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:00:37.632 INFO  Log - Found Bike 3: 2025 Suzuki Gixxer Special Edition -> ₹ 2 Lakh
+17:00:37.690 INFO  Log - Found Bike 4: 2023 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+17:00:37.743 INFO  Log - Found Bike 5: 2018 Suzuki Gixxer ABS -> ₹ 54,000
+17:00:37.819 INFO  Log - Found Bike 6: 2016 Suzuki Gixxer Special MOTOGP Edition -> ₹ 40,000
+17:00:37.879 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer MotoGP Edition - BS IV -> ₹ 1.1 Lakh
+17:00:37.952 INFO  Log - Found Bike 8: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.4 Lakh
+17:00:38.021 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 45,000
+17:00:38.088 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 35,000
+17:00:38.149 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+17:00:38.220 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+17:00:38.296 INFO  Log - Found Bike 13: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+17:00:38.396 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Ride Connect -> ₹ N/A
+17:00:38.463 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 25,000
+17:00:38.543 INFO  Log - Found Bike 16: 2020 Suzuki Gixxer Standard -> ₹ 85,000
+17:00:38.614 INFO  Log - Found Bike 17: 2024 Suzuki Gixxer Standard - BS4 -> ₹ 1.2 Lakh
+17:00:38.676 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer MotoGP Edition - BS VI -> ₹ 90,000
+17:00:38.748 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+17:00:38.805 INFO  Log - Found Bike 20: 2023 Suzuki Gixxer Race Edition Ride Connect [2023-2024] -> ₹ 1.65 Lakh
+17:00:38.883 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer MotoGP Edition -> ₹ 58,000
+17:00:39.032 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer SP Rear Disc -> ₹ 40,000
+17:00:39.135 INFO  Log - Found Bike 23: 2020 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 60,000
+17:00:39.264 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+17:19:13.925 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+17:19:13.995 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+17:19:14.051 INFO  Log - Found Bike 3: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:19:14.107 INFO  Log - Found Bike 4: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:19:14.162 INFO  Log - Found Bike 5: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:19:14.220 INFO  Log - Found Bike 6: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:19:14.278 INFO  Log - Found Bike 7: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:19:14.361 INFO  Log - Found Bike 8: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:19:14.421 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:19:14.474 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:19:14.527 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:19:14.593 INFO  Log - Found Bike 12: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:19:14.648 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:19:14.701 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:19:14.760 INFO  Log - Found Bike 15: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:19:14.820 INFO  Log - Found Bike 16: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:19:14.886 INFO  Log - Found Bike 17: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:19:14.979 INFO  Log - Found Bike 18: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:19:15.059 INFO  Log - Found Bike 19: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:19:15.115 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:19:15.171 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:19:15.222 INFO  Log - Found Bike 22: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:19:15.279 INFO  Log - Found Bike 23: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:19:15.333 INFO  Log - Found Bike 24: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:21:12.827 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:21:12.892 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:21:12.958 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:21:13.020 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:21:13.085 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:21:13.172 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:21:13.236 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:21:13.306 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:21:13.387 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:21:13.465 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:21:13.548 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:21:13.607 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:21:13.674 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:21:13.722 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:21:13.793 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:21:13.841 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:21:13.905 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:21:13.960 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:21:14.021 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:21:14.087 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:21:14.146 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:21:14.204 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:21:14.283 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+17:21:14.339 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+17:22:03.539 INFO  Log - Total bikes found: 135
+17:22:13.966 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+17:22:14.032 INFO  Log - 
+---------------------------------------
+17:34:24.198 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+17:34:24.275 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+17:34:24.324 INFO  Log - Found Bike 3: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:34:24.387 INFO  Log - Found Bike 4: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:34:24.467 INFO  Log - Found Bike 5: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:34:24.537 INFO  Log - Found Bike 6: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:34:24.607 INFO  Log - Found Bike 7: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:34:24.678 INFO  Log - Found Bike 8: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:34:24.744 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:34:24.810 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:34:24.878 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:34:24.943 INFO  Log - Found Bike 12: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:34:25.008 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:34:25.074 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:34:25.143 INFO  Log - Found Bike 15: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:34:25.201 INFO  Log - Found Bike 16: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:34:25.255 INFO  Log - Found Bike 17: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:34:25.335 INFO  Log - Found Bike 18: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:34:25.410 INFO  Log - Found Bike 19: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:34:25.462 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:34:25.532 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:34:25.598 INFO  Log - Found Bike 22: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:34:25.655 INFO  Log - Found Bike 23: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:34:25.743 INFO  Log - Found Bike 24: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:51:52.437 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+17:51:52.512 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+17:51:52.592 INFO  Log - Found Bike 3: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:51:52.673 INFO  Log - Found Bike 4: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:51:52.765 INFO  Log - Found Bike 5: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:51:52.846 INFO  Log - Found Bike 6: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:51:52.920 INFO  Log - Found Bike 7: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:51:52.988 INFO  Log - Found Bike 8: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:51:53.047 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:51:53.127 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:51:53.202 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:51:53.279 INFO  Log - Found Bike 12: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:51:53.348 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:51:53.418 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:51:53.489 INFO  Log - Found Bike 15: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:51:53.558 INFO  Log - Found Bike 16: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:51:53.620 INFO  Log - Found Bike 17: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:51:53.699 INFO  Log - Found Bike 18: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:51:53.765 INFO  Log - Found Bike 19: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:51:53.827 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:51:53.890 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:51:53.943 INFO  Log - Found Bike 22: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:51:54.005 INFO  Log - Found Bike 23: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:51:54.080 INFO  Log - Found Bike 24: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:52:39.630 INFO  Log - Total bikes found: 135
+17:52:49.676 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+17:52:49.737 INFO  Log - 
+---------------------------------------
+17:56:26.655 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:56:26.742 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:56:26.823 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:56:26.903 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:56:26.975 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:56:27.053 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:56:27.122 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:56:27.191 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:56:27.262 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:56:27.335 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:56:27.414 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:56:27.483 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:56:27.549 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:56:27.616 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:56:27.676 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:56:27.754 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:56:27.840 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:56:27.914 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:56:27.971 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:56:28.032 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:56:28.080 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:56:28.143 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:56:28.240 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+17:56:28.301 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+17:57:13.046 INFO  Log - Total bikes found: 135
+17:57:22.283 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+17:57:22.321 INFO  Log - 
+---------------------------------------
+18:03:35.011 INFO  Log - 1: Design and styling -> 4
+18:03:35.353 INFO  Log - 2: Reliability -> 4
+18:03:35.594 INFO  Log - 3: Performance -> 4
+18:03:35.750 INFO  Log - 4: Service experience -> 4
+18:03:35.825 INFO  Log - 5: Maintenance cost -> 3
+18:03:35.903 INFO  Log - 6: Extra Features -> 4
+18:03:35.977 INFO  Log - 7: Comfort -> 4
+18:03:36.046 INFO  Log - 8: Value for money -> 4
+18:03:36.109 INFO  Log - 9: Features and Technology -> 4
+18:04:59.369 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+18:04:59.462 INFO  Log - Found Bike 2: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+18:04:59.528 INFO  Log - Found Bike 3: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+18:04:59.599 INFO  Log - Found Bike 4: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+18:04:59.664 INFO  Log - Found Bike 5: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+18:04:59.733 INFO  Log - Found Bike 6: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+18:04:59.790 INFO  Log - Found Bike 7: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+18:04:59.854 INFO  Log - Found Bike 8: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+18:04:59.922 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+18:04:59.986 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+18:05:00.052 INFO  Log - Found Bike 11: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+18:05:00.122 INFO  Log - Found Bike 12: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+18:05:00.186 INFO  Log - Found Bike 13: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+18:05:00.247 INFO  Log - Found Bike 14: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+18:05:00.315 INFO  Log - Found Bike 15: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+18:05:00.375 INFO  Log - Found Bike 16: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+18:05:00.449 INFO  Log - Found Bike 17: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+18:05:00.512 INFO  Log - Found Bike 18: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+18:05:00.567 INFO  Log - Found Bike 19: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+18:05:00.672 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+18:05:00.753 INFO  Log - Found Bike 21: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+18:05:00.809 INFO  Log - Found Bike 22: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+18:05:00.915 INFO  Log - Found Bike 23: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+18:05:01.014 INFO  Log - Found Bike 24: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+18:05:14.450 INFO  Log - 1: Design and styling -> 4
+18:05:14.557 INFO  Log - 2: Reliability -> 4
+18:05:14.659 INFO  Log - 3: Performance -> 4
+18:05:15.132 INFO  Log - 4: Service experience -> 4
+18:05:15.677 INFO  Log - 5: Maintenance cost -> 3
+18:05:15.877 INFO  Log - 6: Extra Features -> 4
+18:05:16.023 INFO  Log - 7: Comfort -> 4
+18:05:16.133 INFO  Log - 8: Value for money -> 4
+18:05:16.203 INFO  Log - 9: Features and Technology -> 4
+18:05:44.744 INFO  Log - Total bikes found: 135
+18:05:54.173 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+18:05:54.191 INFO  Log - 
+---------------------------------------
+10:58:12.811 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Standard - BS4 -> ₹ 35,000
+10:58:12.875 INFO  Log - Found Bike 2: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:58:12.962 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:58:13.063 INFO  Log - Found Bike 4: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:58:13.134 INFO  Log - Found Bike 5: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:58:13.190 INFO  Log - Found Bike 6: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:58:13.255 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:58:13.317 INFO  Log - Found Bike 8: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:58:13.380 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:58:13.438 INFO  Log - Found Bike 10: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:58:13.491 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:58:13.536 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:58:13.600 INFO  Log - Found Bike 13: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:58:13.664 INFO  Log - Found Bike 14: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:58:13.711 INFO  Log - Found Bike 15: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:58:13.790 INFO  Log - Found Bike 16: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:58:13.865 INFO  Log - Found Bike 17: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:58:13.936 INFO  Log - Found Bike 18: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:58:14.007 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:58:14.086 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:58:14.148 INFO  Log - Found Bike 21: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:58:14.207 INFO  Log - Found Bike 22: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+10:58:14.299 INFO  Log - Found Bike 23: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:58:14.349 INFO  Log - Found Bike 24: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+10:58:37.633 INFO  Log - 1: Design and styling -> 4
+10:58:37.867 INFO  Log - 2: Reliability -> 4
+10:58:38.045 INFO  Log - 3: Performance -> 4
+10:58:38.251 INFO  Log - 4: Service experience -> 4
+10:58:38.673 INFO  Log - 5: Maintenance cost -> 3
+10:58:38.993 INFO  Log - 6: Extra Features -> 4
+10:58:39.098 INFO  Log - 7: Comfort -> 4
+10:58:39.169 INFO  Log - 8: Value for money -> 4
+10:58:39.232 INFO  Log - 9: Features and Technology -> 4
+10:59:13.280 INFO  Log - Total bikes found: 135
+10:59:13.529 INFO  Log - Total bikes found: 135
+10:59:29.628 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+10:59:29.667 INFO  Log - 
+---------------------------------------
+11:04:41.888 INFO  Log - Total bikes found: 135
+11:04:42.165 INFO  Log - Total bikes found: 7
+11:06:09.770 INFO  Log - Total bikes found: 135
+11:50:01.066 INFO  Log - Found Bike 1: 2015 Suzuki Gixxer Standard - BS4 -> ₹ 35,000
+11:50:01.162 INFO  Log - Found Bike 2: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+11:50:01.243 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+11:50:01.314 INFO  Log - Found Bike 4: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+11:50:01.376 INFO  Log - Found Bike 5: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+11:50:01.443 INFO  Log - Found Bike 6: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+11:50:01.505 INFO  Log - Found Bike 7: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+11:50:01.570 INFO  Log - Found Bike 8: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+11:50:01.646 INFO  Log - Found Bike 9: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+11:50:01.743 INFO  Log - Found Bike 10: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+11:50:01.814 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+11:50:01.896 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+11:50:01.957 INFO  Log - Found Bike 13: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+11:50:02.042 INFO  Log - Found Bike 14: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+11:50:02.105 INFO  Log - Found Bike 15: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+11:50:02.170 INFO  Log - Found Bike 16: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+11:50:02.229 INFO  Log - Found Bike 17: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+11:50:02.289 INFO  Log - Found Bike 18: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+11:50:02.386 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+11:50:02.445 INFO  Log - Found Bike 20: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+11:50:02.509 INFO  Log - Found Bike 21: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+11:50:02.570 INFO  Log - Found Bike 22: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+11:50:02.631 INFO  Log - Found Bike 23: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+11:50:02.703 INFO  Log - Found Bike 24: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+11:50:55.487 INFO  Log - Total bikes found: 135
+11:51:06.076 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+11:51:06.108 INFO  Log - 
+---------------------------------------
+11:54:20.508 INFO  Log - 1: Design and styling -> 4
+11:54:20.777 INFO  Log - 2: Reliability -> 4
+11:54:20.867 INFO  Log - 3: Performance -> 4
+11:54:21.203 INFO  Log - 4: Service experience -> 4
+11:54:21.272 INFO  Log - 5: Maintenance cost -> 3
+11:54:21.343 INFO  Log - 6: Extra Features -> 4
+11:54:21.408 INFO  Log - 7: Comfort -> 4
+11:54:21.506 INFO  Log - 8: Value for money -> 4
+11:54:21.571 INFO  Log - 9: Features and Technology -> 4
+11:54:54.599 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+11:54:54.662 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+11:54:54.729 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+11:54:54.792 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+11:54:54.863 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+11:54:54.923 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+11:54:54.981 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+11:54:55.035 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+11:54:55.113 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+11:54:55.167 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+11:54:55.232 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+11:54:55.295 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+11:54:55.360 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+11:54:55.421 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+11:54:55.485 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+11:54:55.553 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+11:54:55.626 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+11:54:55.721 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+11:54:55.790 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+11:54:55.846 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+11:54:55.903 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+11:54:55.961 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+11:54:56.012 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+11:54:56.113 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+11:55:11.975 INFO  Log - 1: Design and styling -> 4
+11:55:12.080 INFO  Log - 2: Reliability -> 4
+11:55:12.165 INFO  Log - 3: Performance -> 4
+11:55:12.331 INFO  Log - 4: Service experience -> 4
+11:55:12.431 INFO  Log - 5: Maintenance cost -> 3
+11:55:12.969 INFO  Log - 6: Extra Features -> 4
+11:55:13.501 INFO  Log - 7: Comfort -> 4
+11:55:13.625 INFO  Log - 8: Value for money -> 4
+11:55:13.714 INFO  Log - 9: Features and Technology -> 4
+11:55:45.565 INFO  Log - Total bikes found: 135
+11:55:56.218 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+11:55:56.256 INFO  Log - 
+---------------------------------------
+12:01:56.463 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+12:01:57.042 INFO  Log - 
+GOOD THINGS:
+12:01:57.075 INFO  Log -  - Revised rear suspension is more comfortable, without sacrificing ride quality
+12:01:57.090 INFO  Log -  - J-Series 349cc engine is characterful, while retaining excellent fuel economy
+12:01:57.104 INFO  Log -  - New slip and assist clutch makes commuting in traffic less fatiguing
+12:01:57.116 INFO  Log -  - Wide range of colours, styles and accessories makes personalisation easy
+12:01:57.145 INFO  Log - 
+COULD BE BETTER:
+12:01:57.169 INFO  Log -  - Higher variants have become more expensive
+12:01:57.181 INFO  Log -  - Analog-digital hybrid cluster feels a tad outdated
+12:01:57.194 INFO  Log -  - Seating position and ergonomics could be uncomfortable for taller riders
+12:01:57.194 INFO  Log - 
+---------------------------------------
+14:10:58.394 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+14:10:58.496 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+14:10:58.572 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+14:10:58.641 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+14:10:58.701 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+14:10:58.768 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+14:10:58.826 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+14:10:58.901 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+14:10:58.957 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+14:10:59.017 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+14:10:59.096 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+14:10:59.162 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+14:10:59.235 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+14:10:59.294 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+14:10:59.376 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+14:10:59.444 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+14:10:59.504 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+14:10:59.560 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+14:10:59.626 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+14:10:59.688 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+14:10:59.736 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+14:10:59.803 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+14:10:59.876 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+14:10:59.933 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+14:11:15.279 INFO  Log - 1: Design and styling -> 4
+14:11:15.378 INFO  Log - 2: Reliability -> 4
+14:11:15.497 INFO  Log - 3: Performance -> 4
+14:11:15.664 INFO  Log - 4: Service experience -> 4
+14:11:16.075 INFO  Log - 5: Maintenance cost -> 3
+14:11:16.468 INFO  Log - 6: Extra Features -> 4
+14:11:16.692 INFO  Log - 7: Comfort -> 4
+14:11:16.757 INFO  Log - 8: Value for money -> 4
+14:11:16.831 INFO  Log - 9: Features and Technology -> 4
+14:11:48.804 INFO  Log - Total bikes found: 135
+14:11:59.090 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+14:12:00.034 INFO  Log - 
+GOOD THINGS:
+14:12:00.089 INFO  Log -  - Revised rear suspension is more comfortable, without sacrificing ride quality
+14:12:00.101 INFO  Log -  - J-Series 349cc engine is characterful, while retaining excellent fuel economy
+14:12:00.114 INFO  Log -  - New slip and assist clutch makes commuting in traffic less fatiguing
+14:12:00.132 INFO  Log -  - Wide range of colours, styles and accessories makes personalisation easy
+14:12:00.163 INFO  Log - 
+COULD BE BETTER:
+14:12:00.192 INFO  Log -  - Higher variants have become more expensive
+14:12:00.205 INFO  Log -  - Analog-digital hybrid cluster feels a tad outdated
+14:12:00.218 INFO  Log -  - Seating position and ergonomics could be uncomfortable for taller riders
+14:12:00.219 INFO  Log - 
+---------------------------------------
+10:29:05.727 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:29:05.793 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:29:05.868 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:29:05.932 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:29:05.996 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:29:06.068 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:29:06.138 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:29:06.203 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:29:06.268 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:29:06.338 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:29:06.398 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:29:06.456 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:29:06.516 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:29:06.595 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:29:06.695 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:29:06.762 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:29:06.815 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:29:06.883 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:29:06.965 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:29:07.020 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:29:07.071 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+10:29:07.162 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:29:07.234 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+10:29:07.299 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+15:04:32.082 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+15:04:32.150 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+15:04:32.213 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+15:04:32.275 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+15:04:32.342 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+15:04:32.445 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+15:04:32.506 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+15:04:32.570 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+15:04:32.634 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+15:04:32.698 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+15:04:32.763 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+15:04:32.838 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+15:04:32.899 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+15:04:32.961 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+15:04:33.021 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+15:04:33.094 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+15:04:33.157 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+15:04:33.217 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+15:04:33.277 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+15:04:33.345 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+15:04:33.405 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+15:04:33.462 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+15:04:33.521 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+15:04:33.589 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+15:04:33.996 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+15:04:54.269 INFO  Log - 1: Design and styling -> 4
+15:04:54.616 INFO  Log - 2: Reliability -> 4
+15:04:54.811 INFO  Log - 3: Performance -> 4
+15:04:54.989 INFO  Log - 4: Service experience -> 4
+15:04:55.176 INFO  Log - 5: Maintenance cost -> 3
+15:04:55.407 INFO  Log - 6: Extra Features -> 4
+15:04:55.998 INFO  Log - 7: Comfort -> 4
+15:04:56.425 INFO  Log - 8: Value for money -> 4
+15:04:56.699 INFO  Log - 9: Features and Technology -> 4
+15:04:56.968 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_22_BikeReview.png
+15:05:18.825 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_23_ComparingBikes.png
+15:05:36.084 INFO  Log - Total bikes found: 135
+15:05:36.321 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_24_MultiFilterCombination.png
+15:05:49.823 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+15:05:50.381 INFO  Log - 
+GOOD THINGS:
+15:05:50.409 INFO  Log -  - Revised rear suspension is more comfortable, without sacrificing ride quality
+15:05:50.420 INFO  Log -  - J-Series 349cc engine is characterful, while retaining excellent fuel economy
+15:05:50.434 INFO  Log -  - New slip and assist clutch makes commuting in traffic less fatiguing
+15:05:50.647 INFO  Log -  - Wide range of colours, styles and accessories makes personalisation easy
+15:05:50.707 INFO  Log - 
+COULD BE BETTER:
+15:05:50.741 INFO  Log -  - Higher variants have become more expensive
+15:05:50.811 INFO  Log -  - Analog-digital hybrid cluster feels a tad outdated
+15:05:50.822 INFO  Log -  - Seating position and ergonomics could be uncomfortable for taller riders
+15:05:51.097 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+15:12:58.067 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+15:12:58.632 INFO  Log - 
+GOOD THINGS:
+15:12:58.666 INFO  Log -  - Revised rear suspension is more comfortable, without sacrificing ride quality
+15:12:58.683 INFO  Log -  - J-Series 349cc engine is characterful, while retaining excellent fuel economy
+15:12:58.704 INFO  Log -  - New slip and assist clutch makes commuting in traffic less fatiguing
+15:12:58.718 INFO  Log -  - Wide range of colours, styles and accessories makes personalisation easy
+15:12:58.748 INFO  Log - 
+COULD BE BETTER:
+15:12:58.780 INFO  Log -  - Higher variants have become more expensive
+15:12:58.800 INFO  Log -  - Analog-digital hybrid cluster feels a tad outdated
+15:12:58.817 INFO  Log -  - Seating position and ergonomics could be uncomfortable for taller riders
+15:12:59.282 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+15:15:24.832 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+15:15:26.036 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+15:16:16.626 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Royal Enfield Hunter 350---
+15:16:17.201 INFO  Log - 
+GOOD THINGS:
+15:16:17.235 INFO  Log -  - Revised rear suspension is more comfortable, without sacrificing ride quality
+15:16:17.254 INFO  Log -  - J-Series 349cc engine is characterful, while retaining excellent fuel economy
+15:16:17.269 INFO  Log -  - New slip and assist clutch makes commuting in traffic less fatiguing
+15:16:17.282 INFO  Log -  - Wide range of colours, styles and accessories makes personalisation easy
+15:16:17.307 INFO  Log - 
+COULD BE BETTER:
+15:16:17.330 INFO  Log -  - Higher variants have become more expensive
+15:16:17.342 INFO  Log -  - Analog-digital hybrid cluster feels a tad outdated
+15:16:17.357 INFO  Log -  - Seating position and ergonomics could be uncomfortable for taller riders
+15:16:17.637 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+09:25:51.302 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+09:25:51.371 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+09:25:51.471 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+09:25:51.530 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+09:25:51.642 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+09:25:51.740 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+09:25:51.823 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+09:25:51.907 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+09:25:52.003 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+09:25:52.078 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+09:25:52.158 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+09:25:52.302 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+09:25:52.383 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+09:25:52.502 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+09:25:52.641 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+09:25:52.769 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+09:25:53.007 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+09:25:53.181 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+09:25:53.433 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+09:25:53.568 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+09:25:53.917 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+09:25:53.989 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+09:25:54.075 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+09:25:54.151 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+09:25:54.500 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+09:26:08.614 INFO  Log - 1: Design and styling -> 4
+09:26:08.727 INFO  Log - 2: Reliability -> 4
+09:26:08.837 INFO  Log - 3: Performance -> 4
+09:26:09.198 INFO  Log - 4: Service experience -> 4
+09:26:09.575 INFO  Log - 5: Maintenance cost -> 3
+09:26:09.848 INFO  Log - 6: Extra Features -> 4
+09:26:09.948 INFO  Log - 7: Comfort -> 4
+09:26:10.039 INFO  Log - 8: Value for money -> 4
+09:26:10.093 INFO  Log - 9: Features and Technology -> 4
+09:26:10.303 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_22_BikeReview.png
+09:26:28.285 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_23_ComparingBikes.png
+09:26:42.389 INFO  Log - Total bikes found: 135
+09:26:42.648 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_24_MultiFilterCombination.png
+09:26:52.349 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+09:26:53.173 INFO  Log - 
+GOOD THINGS:
+09:26:53.202 INFO  Log -  - The aggressive styling is enticing
+09:26:53.216 INFO  Log -  - Gets dual-channel ABS system
+09:26:53.226 INFO  Log -  - Access to affordable spares
+09:26:53.284 INFO  Log - 
+COULD BE BETTER:
+09:26:53.307 INFO  Log -  - Misses out of full digital instrument cluster
+09:26:53.325 INFO  Log -  - A bit pricier than rivals
+09:26:53.340 INFO  Log -  - Ride quality is a bit stiff
+09:26:53.597 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+10:08:23.263 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+10:08:23.338 INFO  Log - Found Bike 2: 2016 Suzuki Gixxer Standard -> ₹ 48,500
+10:08:23.407 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 70,000
+10:08:23.484 INFO  Log - Found Bike 4: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+10:08:23.548 INFO  Log - Found Bike 5: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:08:23.631 INFO  Log - Found Bike 6: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:08:23.697 INFO  Log - Found Bike 7: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:08:23.761 INFO  Log - Found Bike 8: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:08:23.846 INFO  Log - Found Bike 9: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:08:23.907 INFO  Log - Found Bike 10: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:08:24.020 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:08:24.087 INFO  Log - Found Bike 12: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:08:24.150 INFO  Log - Found Bike 13: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:08:24.251 INFO  Log - Found Bike 14: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:08:24.324 INFO  Log - Found Bike 15: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:08:24.400 INFO  Log - Found Bike 16: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:08:24.460 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:08:24.757 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:08:24.826 INFO  Log - Found Bike 19: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:08:24.899 INFO  Log - Found Bike 20: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:08:25.035 INFO  Log - Found Bike 21: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:08:25.096 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:08:25.160 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:08:25.223 INFO  Log - Found Bike 24: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:08:25.551 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+10:08:40.538 INFO  Log - 1: Design and styling -> 4
+10:08:40.667 INFO  Log - 2: Reliability -> 4
+10:08:40.806 INFO  Log - 3: Performance -> 4
+10:08:41.195 INFO  Log - 4: Service experience -> 4
+10:08:41.948 INFO  Log - 5: Maintenance cost -> 3
+10:08:42.170 INFO  Log - 6: Extra Features -> 4
+10:08:42.309 INFO  Log - 7: Comfort -> 4
+10:08:42.388 INFO  Log - 8: Value for money -> 4
+10:08:42.467 INFO  Log - 9: Features and Technology -> 4
+10:08:42.700 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_22_BikeReview.png
+10:09:02.064 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_23_ComparingBikes.png
+10:09:16.805 INFO  Log - Total bikes found: 135
+10:09:17.103 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_24_MultiFilterCombination.png
+10:09:26.711 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+10:09:27.574 INFO  Log - 
+GOOD THINGS:
+10:09:27.606 INFO  Log -  - The aggressive styling is enticing
+10:09:27.622 INFO  Log -  - Gets dual-channel ABS system
+10:09:27.637 INFO  Log -  - Access to affordable spares
+10:09:27.660 INFO  Log - 
+COULD BE BETTER:
+10:09:27.690 INFO  Log -  - Misses out of full digital instrument cluster
+10:09:27.737 INFO  Log -  - A bit pricier than rivals
+10:09:27.758 INFO  Log -  - Ride quality is a bit stiff
+10:09:28.027 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+10:11:01.744 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+10:11:01.812 INFO  Log - Found Bike 2: 2016 Suzuki Gixxer Standard -> ₹ 48,500
+10:11:01.877 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 70,000
+10:11:01.934 INFO  Log - Found Bike 4: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+10:11:02.013 INFO  Log - Found Bike 5: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:11:02.071 INFO  Log - Found Bike 6: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:11:02.131 INFO  Log - Found Bike 7: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:11:02.187 INFO  Log - Found Bike 8: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:11:02.251 INFO  Log - Found Bike 9: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:11:02.340 INFO  Log - Found Bike 10: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:11:02.415 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:11:02.474 INFO  Log - Found Bike 12: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:11:02.572 INFO  Log - Found Bike 13: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:11:02.641 INFO  Log - Found Bike 14: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:11:02.704 INFO  Log - Found Bike 15: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:11:02.764 INFO  Log - Found Bike 16: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:11:02.971 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:11:03.116 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:11:03.180 INFO  Log - Found Bike 19: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:11:03.239 INFO  Log - Found Bike 20: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:11:03.295 INFO  Log - Found Bike 21: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:11:03.348 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:11:03.404 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:11:03.516 INFO  Log - Found Bike 24: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:11:03.865 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+10:11:17.690 INFO  Log - 1: Design and styling -> 4
+10:11:17.805 INFO  Log - 2: Reliability -> 4
+10:11:18.147 INFO  Log - 3: Performance -> 4
+10:11:18.734 INFO  Log - 4: Service experience -> 4
+10:11:19.008 INFO  Log - 5: Maintenance cost -> 3
+10:11:19.210 INFO  Log - 6: Extra Features -> 4
+10:11:19.281 INFO  Log - 7: Comfort -> 4
+10:11:19.347 INFO  Log - 8: Value for money -> 4
+10:11:19.410 INFO  Log - 9: Features and Technology -> 4
+10:11:19.601 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_22_BikeReview.png
+10:11:37.651 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_23_ComparingBikes.png
+10:11:50.654 INFO  Log - Total bikes found: 135
+10:11:50.881 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_24_MultiFilterCombination.png
+10:12:00.374 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+10:12:01.202 INFO  Log - 
+GOOD THINGS:
+10:12:01.229 INFO  Log -  - The aggressive styling is enticing
+10:12:01.241 INFO  Log -  - Gets dual-channel ABS system
+10:12:01.253 INFO  Log -  - Access to affordable spares
+10:12:01.279 INFO  Log - 
+COULD BE BETTER:
+10:12:01.338 INFO  Log -  - Misses out of full digital instrument cluster
+10:12:01.373 INFO  Log -  - A bit pricier than rivals
+10:12:01.387 INFO  Log -  - Ride quality is a bit stiff
+10:12:01.680 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+10:13:23.437 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:13:23.509 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:13:23.583 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:13:23.647 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:13:23.711 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:13:23.790 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:13:23.849 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:13:23.912 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:13:23.972 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:13:24.036 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:13:24.096 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:13:24.162 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:13:24.225 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:13:24.288 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:13:24.350 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:13:24.414 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:13:24.478 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:13:24.543 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:13:24.640 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:13:24.709 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:13:24.764 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+10:13:24.825 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:13:24.920 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+10:13:25.017 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+10:13:25.330 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+10:24:55.704 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+10:24:55.787 INFO  Log - Found Bike 2: 2016 Suzuki Gixxer Standard -> ₹ 48,500
+10:24:55.853 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 70,000
+10:24:55.923 INFO  Log - Found Bike 4: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+10:24:55.987 INFO  Log - Found Bike 5: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:24:56.050 INFO  Log - Found Bike 6: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:24:56.114 INFO  Log - Found Bike 7: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:24:56.179 INFO  Log - Found Bike 8: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:24:56.241 INFO  Log - Found Bike 9: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:24:56.304 INFO  Log - Found Bike 10: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:24:56.367 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:24:56.432 INFO  Log - Found Bike 12: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:24:56.497 INFO  Log - Found Bike 13: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:24:56.558 INFO  Log - Found Bike 14: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:24:56.621 INFO  Log - Found Bike 15: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:24:56.685 INFO  Log - Found Bike 16: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:24:56.748 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:24:56.812 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:24:56.875 INFO  Log - Found Bike 19: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:24:56.938 INFO  Log - Found Bike 20: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:24:57.049 INFO  Log - Found Bike 21: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+10:24:57.112 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+10:24:57.177 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+10:24:57.270 INFO  Log - Found Bike 24: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+10:24:57.607 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+10:33:40.168 INFO  Log - Found Bike 1: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+10:33:40.245 INFO  Log - Found Bike 2: 2021 Suzuki Gixxer Standard -> ₹ 1 Lakh
+10:33:40.308 INFO  Log - Found Bike 3: 2015 Suzuki Gixxer Standard - BS4 -> ₹ 35,000
+10:33:40.369 INFO  Log - Found Bike 4: 2024 Suzuki Gixxer Ride Connect -> ₹ 1.25 Lakh
+10:33:40.426 INFO  Log - Found Bike 5: 2024 Suzuki Gixxer Ride Connect [2023-2024] -> ₹ 1.55 Lakh
+10:33:40.498 INFO  Log - Found Bike 6: 2021 Suzuki Gixxer ABS -> ₹ 95,000
+10:33:40.566 INFO  Log - Found Bike 7: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+10:33:40.626 INFO  Log - Found Bike 8: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+10:33:40.689 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+10:33:40.736 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+10:33:40.815 INFO  Log - Found Bike 11: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+10:33:40.879 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+10:33:40.928 INFO  Log - Found Bike 13: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+10:33:41.005 INFO  Log - Found Bike 14: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+10:33:41.067 INFO  Log - Found Bike 15: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+10:33:41.130 INFO  Log - Found Bike 16: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+10:33:41.193 INFO  Log - Found Bike 17: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+10:33:41.257 INFO  Log - Found Bike 18: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+10:33:41.321 INFO  Log - Found Bike 19: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+10:33:41.385 INFO  Log - Found Bike 20: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+10:33:41.479 INFO  Log - Found Bike 21: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+10:33:41.540 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+10:33:41.606 INFO  Log - Found Bike 23: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+10:33:41.667 INFO  Log - Found Bike 24: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+10:33:42.089 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_21_BuyUsedBikes.png
+10:33:56.835 INFO  Log - 1: Design and styling -> 4
+10:33:56.965 INFO  Log - 2: Reliability -> 4
+10:33:57.214 INFO  Log - 3: Performance -> 4
+10:33:57.706 INFO  Log - 4: Service experience -> 4
+10:33:58.203 INFO  Log - 5: Maintenance cost -> 3
+10:33:58.298 INFO  Log - 6: Extra Features -> 4
+10:33:58.361 INFO  Log - 7: Comfort -> 4
+10:33:58.432 INFO  Log - 8: Value for money -> 4
+10:33:58.741 INFO  Log - 9: Features and Technology -> 4
+10:33:58.953 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_22_BikeReview.png
+10:34:17.708 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_23_ComparingBikes.png
+10:34:32.164 INFO  Log - Total bikes found: 135
+10:34:32.876 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_24_MultiFilterCombination.png
+10:34:43.497 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+10:34:44.262 INFO  Log - 
+GOOD THINGS:
+10:34:44.301 INFO  Log -  - The aggressive styling is enticing
+10:34:44.316 INFO  Log -  - Gets dual-channel ABS system
+10:34:44.328 INFO  Log -  - Access to affordable spares
+10:34:44.352 INFO  Log - 
+COULD BE BETTER:
+10:34:44.395 INFO  Log -  - Misses out of full digital instrument cluster
+10:34:44.409 INFO  Log -  - A bit pricier than rivals
+10:34:44.420 INFO  Log -  - Ride quality is a bit stiff
+10:34:45.009 INFO  Log - Screenshot saved: C:\Users\2464113\OneDrive - Cognizant\Desktop\IdentifyingBikes\screenshots\TC_25_BikeProsAndCons.png
+>>>>>>> viresh
+12:10:33.099 INFO  Log - Availability Status: Test_Case_06_CityPune
+12:10:33.117 INFO  Log - Honda Shine price in Pune - March 2026 on road price of Shine in Pune
+12:10:47.427 INFO  Log - Msg: No results match "InvalidCityName123"
+12:10:58.348 INFO  Log - Notify_Me_ScreenShot Captured
+12:11:23.551 INFO  Log - Current Page Title: Reviews of Honda Shine | User Reviews on Honda Shine- BikeWale
+12:12:02.068 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+12:12:02.475 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+12:12:11.468 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+12:12:52.082 INFO  Log - Bikes Found: 60
+12:12:52.192 INFO  Log - 1. TVS iQube
+12:12:52.238 INFO  Log - 2. Bajaj Chetak
+12:12:52.286 INFO  Log - 3. 
+12:12:52.333 INFO  Log - 4. 
+12:12:52.402 INFO  Log - 5. 
+12:12:52.447 INFO  Log - 6. 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
+
 <suite name="Bikewale Suite">
     <listeners>
         <listener class-name="org.automation.utility.ExtentReportManager"/>
@@ -18,6 +19,12 @@
             <class name="testcases.TC_13_Breadcrumb_Working_Check"/>
             <class name="testcases.TC_14_Browser_Navigation_Check"/>
             <class name="testcases.TC_15_Search_Electric_Bikes"/>
+            <class name="testcases.TC_21_BuyUsedBikes" />
+            <class name="testcases.TC_22_BikeReview" />
+            <class name="testcases.TC_23_ComparingBikes" />
+            <class name="testcases.TC_24_MultiFilterCombination" />
+            <class name="testcases.TC_25_BikeProsAndCons"/>
+
         </classes>
     </test>
 </suite>

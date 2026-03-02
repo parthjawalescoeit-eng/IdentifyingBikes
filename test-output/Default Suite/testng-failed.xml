@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="IdentifyingBikes(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testcases.TC_15_Search_Electric_Bikes">
         <methods>
           <include name="tearDown"/>
@@ -10,6 +11,15 @@
           <include name="SearchForElectricBikes"/>
         </methods>
       </class> <!-- testcases.TC_15_Search_Electric_Bikes -->
+=======
+      <class name="testcases.TC_24_MultiFilterCombination">
+        <methods>
+          <include name="multiFilterCombinationTest"/>
+          <include name="tearDown"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- testcases.TC_24_MultiFilterCombination -->
+>>>>>>> viresh
     </classes>
   </test> <!-- IdentifyingBikes(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

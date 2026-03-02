@@ -35,7 +35,7 @@ public class CommonCode {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    /** Wait for document.readyState === 'complete' */
+
     public void pageReady() {
         getWait().until(driver ->
                 ((JavascriptExecutor) driver).executeScript("return document.readyState")
@@ -82,24 +82,18 @@ public class CommonCode {
         int attempts = 0;
         while (attempts < 3) {
             try {
-                // 1) Wait until clickable on a fresh reference
                 WebElement el = wait.until(ExpectedConditions.elementToBeClickable(element));
-
-                // 2) Scroll element to center (helps with sticky headers)
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].scrollIntoView({block:'center', inline:'center'});", el);
 
-                // 3) Try native click
                 el.click();
                 return;
             } catch (StaleElementReferenceException sere) {
-                // Re-resolve the proxy and retry
             } catch (ElementClickInterceptedException e) {
-                // Retry after small nudge/scroll
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].scrollIntoView({block:'center', inline:'center'});", element);
             } catch (JavascriptException ignored) {
-                // ignore and retry
+
             }
 
             attempts++;

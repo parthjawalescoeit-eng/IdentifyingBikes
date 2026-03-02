@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptUtil {
 
     private WebDriver driver;
+
     private JavascriptExecutor js;
 
     public JavaScriptUtil(WebDriver driver) {
@@ -13,7 +14,13 @@ public class JavaScriptUtil {
         this.js = (JavascriptExecutor) driver;
     }
 
+    public Object executeScript(String script, Object... args) {
+        js = (JavascriptExecutor) driver;
+        return js.executeScript(script, args);
+    }
+
     public void clickByJS(WebElement element) {
+        executeScript("arguments[0].click();", element);
     }
 
     public void scrollIntoView(WebElement element) {
@@ -40,3 +47,6 @@ public class JavaScriptUtil {
         js.executeScript("history.go(0)");
     }
 }
+
+
+
