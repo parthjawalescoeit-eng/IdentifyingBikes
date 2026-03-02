@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Rediff_Registration_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Rediff Registration Suite</span>
+              <span class="suite-name border-failed">Rediff Registration Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rediff_Registration_Suite" class="hide-methods failed suite-Rediff_Registration_Suite"> (hide)</a> <!-- hide-methods failed suite-Rediff_Registration_Suite -->
+                      <a href="#" panel-name="suite-Rediff_Registration_Suite" class="show-methods failed suite-Rediff_Registration_Suite"> (show)</a> <!-- show-methods failed suite-Rediff_Registration_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rediff_Registration_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Registration_Suite" title="testcases.TC_08_Breadcrumb_Working_Check" class="method navigator-link" hash-for-method="BreadcrumbWorkingCheck">BreadcrumbWorkingCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Registration_Suite" title="testcases.TC_09_Browser_Navigation_Check" class="method navigator-link" hash-for-method="BrowserNavigationCheck">BrowserNavigationCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rediff_Registration_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,16 +120,6 @@
                       <a href="#" panel-name="suite-Rediff_Registration_Suite" class="show-methods passed suite-Rediff_Registration_Suite"> (show)</a> <!-- show-methods passed suite-Rediff_Registration_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Rediff_Registration_Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Rediff_Registration_Suite" title="testcases.TC_08_Breadcrumb_Working_Check" class="method navigator-link" hash-for-method="BreadcrumbWorkingCheck">BreadcrumbWorkingCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Rediff_Registration_Suite" title="testcases.TC_09_Browser_Navigation_Check" class="method navigator-link" hash-for-method="BrowserNavigationCheck">BrowserNavigationCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Rediff_Registration_Suite" title="testcases.TC_10_Search_Electric_Bikes" class="method navigator-link" hash-for-method="SearchForElectricBikes">SearchForElectricBikes</a> <!-- method navigator-link -->
@@ -138,9 +147,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Rediff_Registration_Suite" class="panel Rediff_Registration_Suite">
-          <div class="suite-Rediff_Registration_Suite-class-passed">
+          <div class="suite-Rediff_Registration_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testcases.TC_09_Browser_Navigation_Check</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -149,13 +158,43 @@
                   <a name="BrowserNavigationCheck">
                   </a> <!-- BrowserNavigationCheck -->
                   <span class="method-name">BrowserNavigationCheck</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[placeholder=&apos;Search your bike here, e.g. Royal Enfield Hunter 350&apos;]&quot;}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [521be29d9cbc1b02ea9defd5ff096c5b, findElement {using=css selector, value=input[placeholder=&apos;Search your bike here, e.g. Royal Enfield Hunter 350&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52927}, goog:processID: 26776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52927/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 521be29d9cbc1b02ea9defd5ff096c5b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.clear(Unknown Source)
+	at org.automation.pages.BrowserNavigationCheck.verifyBrowserBackAndForwardNavigation(BrowserNavigationCheck.java:41)
+	at testcases.TC_09_Browser_Navigation_Check.BrowserNavigationCheck(TC_09_Browser_Navigation_Check.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Rediff_Registration_Suite-class-passed -->
-          <div class="suite-Rediff_Registration_Suite-class-passed">
+          </div> <!-- suite-Rediff_Registration_Suite-class-failed -->
+          <div class="suite-Rediff_Registration_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testcases.TC_08_Breadcrumb_Working_Check</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -164,25 +203,40 @@
                   <a name="BreadcrumbWorkingCheck">
                   </a> <!-- BreadcrumbWorkingCheck -->
                   <span class="method-name">BreadcrumbWorkingCheck</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[placeholder=&apos;Search your bike here, e.g. Royal Enfield Hunter 350&apos;]&quot;}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c306b5111695425da365f1a0391829b, findElement {using=css selector, value=input[placeholder=&apos;Search your bike here, e.g. Royal Enfield Hunter 350&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51940}, goog:processID: 6404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51940/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c306b5111695425da365f1a0391829b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+	at org.automation.pages.BreadcrumbWorkingCheck.BreadcrumbWorking(BreadcrumbWorkingCheck.java:42)
+	at testcases.TC_08_Breadcrumb_Working_Check.BreadcrumbWorkingCheck(TC_08_Breadcrumb_Working_Check.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Rediff_Registration_Suite-class-passed -->
-          <div class="suite-Rediff_Registration_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_06_YouTube_navigation_check</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyVideoPopupPlayback_TC06">
-                  </a> <!-- verifyVideoPopupPlayback_TC06 -->
-                  <span class="method-name">verifyVideoPopupPlayback_TC06</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Rediff_Registration_Suite-class-passed -->
+          </div> <!-- suite-Rediff_Registration_Suite-class-failed -->
           <div class="suite-Rediff_Registration_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -209,6 +263,21 @@
                   <a name="downloadBrochureOfModel">
                   </a> <!-- downloadBrochureOfModel -->
                   <span class="method-name">downloadBrochureOfModel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Registration_Suite-class-passed -->
+          <div class="suite-Rediff_Registration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_06_YouTube_navigation_check</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVideoPopupPlayback_TC06">
+                  </a> <!-- verifyVideoPopupPlayback_TC06 -->
+                  <span class="method-name">verifyVideoPopupPlayback_TC06</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,28 +346,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SearchForElectricBikes')
 data.setCell(0, 2, 'testcases.TC_10_Search_Electric_Bikes')
-data.setCell(0, 3, 12787);
+data.setCell(0, 3, 12803);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyVideoPopupPlayback_TC06')
-data.setCell(1, 2, 'testcases.TC_06_YouTube_navigation_check')
-data.setCell(1, 3, 10499);
+data.setCell(1, 1, 'downloadBrochureOfModel')
+data.setCell(1, 2, 'testcases.TC_07_Brochure_Download_Check')
+data.setCell(1, 3, 10533);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'downloadBrochureOfModel')
-data.setCell(2, 2, 'testcases.TC_07_Brochure_Download_Check')
-data.setCell(2, 3, 10231);
+data.setCell(2, 1, 'verifyVideoPopupPlayback_TC06')
+data.setCell(2, 2, 'testcases.TC_06_YouTube_navigation_check')
+data.setCell(2, 3, 9044);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'BrowserNavigationCheck')
 data.setCell(3, 2, 'testcases.TC_09_Browser_Navigation_Check')
-data.setCell(3, 3, 6233);
+data.setCell(3, 3, 42);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'BreadcrumbWorkingCheck')
 data.setCell(4, 2, 'testcases.TC_08_Breadcrumb_Working_Check')
-data.setCell(4, 3, 4881);
+data.setCell(4, 3, 12);
 window.suiteTableData['Rediff_Registration_Suite']= { tableData: data, tableDiv: 'times-div-Rediff_Registration_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Rediff_Registration_Suite">
               </div> <!-- times-div-Rediff_Registration_Suite -->
             </div> <!-- times-div -->
@@ -331,83 +400,75 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyVideoPopupPlayback_TC06</span>
-                <span class="method-start">4688 ms</span>
+                <span class="method-start">3804 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15187 ms</span>
+                <span class="method-start">12858 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_07_Brochure_Download_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">15198 ms</span>
+                <span class="method-start">12861 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">downloadBrochureOfModel</span>
-                <span class="method-start">20739 ms</span>
+                <span class="method-start">16315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30970 ms</span>
+                <span class="method-start">26849 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_08_Breadcrumb_Working_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">30971 ms</span>
+                <span class="method-start">26850 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">BreadcrumbWorkingCheck</span>
-                <span class="method-start">34888 ms</span>
+                <span class="method-start">30278 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30298 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_09_Browser_Navigation_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">39769 ms</span>
+                <span class="method-start">32167 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_08_Breadcrumb_Working_Check</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">39769 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_09_Browser_Navigation_Check</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">BrowserNavigationCheck</span>
-                <span class="method-start">43506 ms</span>
+                <span class="method-start">35406 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35448 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_10_Search_Electric_Bikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">49739 ms</span>
+                <span class="method-start">37286 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_09_Browser_Navigation_Check</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">49739 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_10_Search_Electric_Bikes</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">SearchForElectricBikes</span>
-                <span class="method-start">53486 ms</span>
+                <span class="method-start">40439 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">66273 ms</span>
+                <span class="method-start">53242 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

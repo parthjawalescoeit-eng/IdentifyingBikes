@@ -7,13 +7,20 @@
   </listeners>
   <test thread-count="5" name="Dropdown and Form Validation Tests(failed)">
     <classes>
-      <class name="testcases.TC_07_Brochure_Download_Check">
+      <class name="testcases.TC_09_Browser_Navigation_Check">
         <methods>
-          <include name="downloadBrochureOfModel"/>
           <include name="tearDown"/>
+          <include name="BrowserNavigationCheck"/>
           <include name="driverSetup"/>
         </methods>
-      </class> <!-- testcases.TC_07_Brochure_Download_Check -->
+      </class> <!-- testcases.TC_09_Browser_Navigation_Check -->
+      <class name="testcases.TC_08_Breadcrumb_Working_Check">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BreadcrumbWorkingCheck"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- testcases.TC_08_Breadcrumb_Working_Check -->
     </classes>
   </test> <!-- Dropdown and Form Validation Tests(failed) -->
 </suite> <!-- Failed suite [Rediff Registration Suite] -->

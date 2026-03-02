@@ -37,7 +37,7 @@ public class BrowserNavigationCheck {
     private WebElement coloursBtn;
 
     public boolean verifyBrowserBackAndForwardNavigation() throws InterruptedException {
-        code.visible(SearchBar);
+//        code.visible(SearchBar);
         SearchBar.clear();
         SearchBar.sendKeys("Honda CB350RS");
         Thread.sleep(1000);
