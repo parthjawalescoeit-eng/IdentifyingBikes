@@ -37,3 +37,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# --- Selenium & Automation Output ---
+/screenshots/
+/logs/
+/ExcelData/
+/test-output/
+/target/
+*.log
+index.lock
