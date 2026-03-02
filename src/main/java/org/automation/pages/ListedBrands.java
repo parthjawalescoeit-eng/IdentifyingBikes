@@ -1,5 +1,6 @@
 package org.automation.pages;
 
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class ListedBrands {
     WebDriver driver;
@@ -25,20 +28,29 @@ public class ListedBrands {
 
     @FindBy(xpath = "//span[@data-testing-id='brand-tab']")
     WebElement helper;
+
     @FindBy(xpath = "//div[@role='button']")
     WebElement viewBrands;
 
-    public void getAllBrands() throws InterruptedException {
+    @FindBy(xpath = "//div[@class='o-jr o-j1 o-jK o-ei']")
+    List<WebElement> brandLst;
+
+    public List<String> getAllBrands() throws InterruptedException {
           js.scrollIntoView(helper);
+          Log.info(" Scrolling TO Brands Page");
+
           WebElement view_Brands_Btn=wait.until(ExpectedConditions.elementToBeClickable(viewBrands));
-          Thread.sleep(500);
+          Thread.sleep(800);
           js.clickByJS(view_Brands_Btn);
-
-          List<WebElement> lst = driver.findElements(By.xpath("//div[@class='o-jr o-j1 o-jK o-ei']"));
-
-          for (WebElement wb : lst){
-              System.out.println(wb.getText());
+          Log.info("Brands Button Selected");
+          List<WebElement> Brandlst =wait.until(ExpectedConditions.visibilityOfAllElements(brandLst));
+          List<String> brandName=new ArrayList<>();
+          for (WebElement e:Brandlst){
+                brandName.add(e.getText());
+                Log.info("Brand Name Retrieved");
           }
+          return  brandName;
+
     }
 
 }

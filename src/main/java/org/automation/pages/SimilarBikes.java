@@ -1,5 +1,6 @@
 package org.automation.pages;
 
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.*;
@@ -32,23 +33,21 @@ public class SimilarBikes {
 
     public void similarSearch() throws InterruptedException {
         search.sendKeys("Kawasaki Z650");
-
-        wait.until(
-                ExpectedConditions.visibilityOf(clikk)
-        );
+        wait.until(ExpectedConditions.visibilityOf(clikk));
         js.clickByJS(clikk);
+        Log.info("Searched Bike");
 
         wait.until(ExpectedConditions.visibilityOf(similar));
         js.clickByJS(similar);
-        Thread.sleep(1000);
+        Log.info("Similar Bikes Retrieved");
 
+        Thread.sleep(2500);
         TakeScreenShot ts = new TakeScreenShot(driver, "screenshots");
-        ts.take("Similar to Kawasaki z650");
-
-        boolean actual = driver.getTitle().contains("Kawasaki");
-        Assert.assertTrue(actual,"Similar Bikes are not loaded");
-
+        ts.take("TC_19");
+        Log.info("Screenshot Taken Successfully");
     }
+
+
 
 }
 

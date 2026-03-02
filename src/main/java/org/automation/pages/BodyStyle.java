@@ -1,5 +1,6 @@
 package org.automation.pages;
 
+import org.automation.log.Log;
 import org.automation.utility.JavaScriptUtil;
 import org.automation.utility.TakeScreenShot;
 import org.openqa.selenium.By;
@@ -25,28 +26,44 @@ public class BodyStyle {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "(//div[@class='o-C o-o o-oz o-os YF8OI6   o-hl'])[8]")
+    @FindBy(xpath = "//div[@class='o-C o-o o-oz o-os YF8OI6   o-hl']//span[text()='Body Style']")
     WebElement bodyStyle;
+
     @FindBy(xpath = "//div[text()='Cafe Racer']")
     WebElement type;
+
     @FindBy(xpath = "//h2[@class='o-kD o-js o-j7 o-jK']")
-    WebElement scroll;
+    WebElement helper;
+
+    @FindBy(xpath = "//span[@class='o-jJ o-j3 o-js o-ez']")
+    List<WebElement> bikeLst;
 
     public void getAllBikes() throws InterruptedException {
 
-        WebElement body_style=wait.until(ExpectedConditions.elementToBeClickable(bodyStyle));
-        js.clickByJS(body_style);
-        js.clickByJS(type);
+        js.executeScript("arguments[0].scrollIntoView(false);",bodyStyle);
+        wait.until(ExpectedConditions.elementToBeClickable(bodyStyle));
+        Thread.sleep(800);
+        js.clickByJS(bodyStyle);
+
+
         Thread.sleep(500);
-        js.scrollIntoView(scroll);
+        wait.until(ExpectedConditions.visibilityOf(type));
+        js.clickByJS(type);
+        Log.info("Scrolling for View");
+
+        Thread.sleep(500);
+        js.scrollIntoView(helper);
+        Log.info("Scrolled to Bikes");
+
         Thread.sleep(500);
         TakeScreenShot ts=new TakeScreenShot(driver,"screenshots");
-        ts.take("Same Body Style");
+        ts.take("TC_20");
+        Log.info("Screenshot taken successfully");
 
-        List<WebElement> lst = driver.findElements(By.xpath("//span[@class='o-jJ o-j3 o-js o-ez']"));
-
+        List<WebElement> lst = wait.until(ExpectedConditions.visibilityOfAllElements(bikeLst));
         for(WebElement w : lst){
             System.out.println(w.getText());
+            Log.info("Bike Name - "+w.getText().toLowerCase());
         }
     }
 

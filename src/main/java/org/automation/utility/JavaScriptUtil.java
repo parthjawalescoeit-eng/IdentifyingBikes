@@ -7,11 +7,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptUtil {
 
     private WebDriver driver;
-
     private JavascriptExecutor js ;
-
-
-
 
     public JavaScriptUtil(WebDriver driver) {
         this.driver = driver;

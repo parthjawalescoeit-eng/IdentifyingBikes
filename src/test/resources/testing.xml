@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Rediff Registration Suite">
-
+<suite name="Bikewale Suite">
+    <listeners>
+        <listener class-name="org.automation.utility.ExtentReportManager"/>
+    </listeners>
     <parameter name="browser" value="chrome" />
 
     <test name="Dropdown and Form Validation Tests">
@@ -11,7 +13,7 @@
             <class name="testcases.TC_17_Compare_Bikes" />
             <class name="testcases.TC_18_Calculate_EMI" />
             <class name="testcases.TC_19_Similar_Bikes" />
-            <class name="testcases.TC_20_Bike_Style" />
+            <class name="testcases.TC_20_Body_Style" />
 
         </classes>
     </test>

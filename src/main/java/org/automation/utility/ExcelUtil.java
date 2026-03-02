@@ -1,39 +1,53 @@
 package org.automation.utility;
-
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
 public class ExcelUtil {
 
-    public static void writeHeadlinesToExcel(List<String> headlines, String filePath) {
-        Workbook workbook = new XSSFWorkbook();
-        Sheet sheet = workbook.createSheet("News Headlines");
+    public static void writeDynamicDataToExcel(String filePath, String sheetName, String[] headers, List<String[]> dataRows) {
+        Workbook workbook;
+        File file = new File(filePath);
 
-        Row headerRow = sheet.createRow(0);
-        headerRow.createCell(0).setCellValue("Sr. No.");
-        headerRow.createCell(1).setCellValue("Headline Text");
-
-        for (int i = 0; i < headlines.size(); i++) {
-            Row row = sheet.createRow(i + 1);
-            row.createCell(0).setCellValue(i + 1);
-            row.createCell(1).setCellValue(headlines.get(i));
-        }
-
-        sheet.autoSizeColumn(1);
-        try (FileOutputStream fileOut = new FileOutputStream(filePath)) {
-            workbook.write(fileOut);
-            System.out.println("Excel file created successfully at: " + filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                workbook.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+        try {
+            if (file.exists()) {
+                try (FileInputStream fis = new FileInputStream(file)) {
+                    workbook = WorkbookFactory.create(fis);
+                }
+            } else {
+                workbook = new XSSFWorkbook();
             }
+
+            if (workbook.getSheetIndex(sheetName) != -1) {
+                workbook.removeSheetAt(workbook.getSheetIndex(sheetName));
+            }
+            Sheet sheet = workbook.createSheet(sheetName);
+
+            // Header loop
+            Row headerRow = sheet.createRow(0);
+            for (int i = 0; i < headers.length; i++) {
+                headerRow.createCell(i).setCellValue(headers[i]);
+            }
+
+            // Data loop (handles any number of columns)
+            for (int i = 0; i < dataRows.size(); i++) {
+                Row row = sheet.createRow(i + 1);
+                String[] rowData = dataRows.get(i);
+                for (int j = 0; j < rowData.length; j++) {
+                    row.createCell(j).setCellValue(rowData[j]);
+                }
+            }
+
+            try (FileOutputStream fileOut = new FileOutputStream(filePath)) {
+                workbook.write(fileOut);
+            }
+            workbook.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
