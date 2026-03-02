@@ -1,6 +1,7 @@
 package testcases;
 
 import basetest.BaseTest;
+import org.automation.pages.BrowserNavigationCheck;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

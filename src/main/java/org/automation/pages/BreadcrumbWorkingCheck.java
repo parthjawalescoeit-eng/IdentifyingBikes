@@ -42,9 +42,6 @@ public class BreadcrumbWorkingCheck {
         SearchBar.sendKeys("Hero Xtreme 125R");
         Thread.sleep(1000);
         SearchBar.sendKeys(Keys.ENTER);
-
-//            j.scrollIntoView(HomeLnk);
-//            code.visible(HomeLnk);
         code.clickable(HomeLnk);
         Log.info("Title"+driver.getTitle());
         code.clickable(HomeLnk);
