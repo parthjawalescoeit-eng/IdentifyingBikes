@@ -30,7 +30,7 @@ public class BreadcrumbWorkingCheck {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = "input[placeholder='Search your bike here, e.g. Royal Enfield Hunter 350']")
+    @FindBy(css = "input[placeholder='Search your bike here, e.g. Bajaj Pulsar N160']")
     private WebElement SearchBar;
 
     @FindBy(css = "a[title='Home'] span[itemprop='name']")

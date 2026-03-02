@@ -5,7 +5,7 @@ import org.automation.pages.BrowserNavigationCheck;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC_09_Browser_Navigation_Check extends BaseTest {
+public class TC_14_Browser_Navigation_Check extends BaseTest {
 
     @Test
     public void BrowserNavigationCheck() throws InterruptedException {
@@ -14,7 +14,7 @@ public class TC_09_Browser_Navigation_Check extends BaseTest {
         BrowserNavigationCheck page = new BrowserNavigationCheck(driver,wait);
         boolean ok = page.verifyBrowserBackAndForwardNavigation();
         Assert.assertTrue(ok, "Browser Navigation Check Failed.");
-        System.out.println("TC_09_Browser_Navigation_Check: Browser Navigation Check Successfull");
+        System.out.println("TC_14_Browser_Navigation_Check: Browser Navigation Check Successfull");
 
         driver.quit();
     }

@@ -30,7 +30,7 @@ public class BrowserNavigationCheck {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = "input[placeholder='Search your bike here, e.g. Royal Enfield Hunter 350']")
+    @FindBy(css = "input[placeholder='Search your bike here, e.g. Bajaj Pulsar N160']")
     private WebElement SearchBar;
 
     @FindBy(xpath = "(//a[contains(@href,'/honda-bikes/cb350rs/')])[1]")

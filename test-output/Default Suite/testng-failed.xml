@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="IdentifyingBikes(failed)">
     <classes>
-      <class name="testcases.TC_10_Search_Electric_Bikes">
+      <class name="testcases.TC_15_Search_Electric_Bikes">
         <methods>
           <include name="tearDown"/>
           <include name="driverSetup"/>
           <include name="SearchForElectricBikes"/>
         </methods>
-      </class> <!-- testcases.TC_10_Search_Electric_Bikes -->
+      </class> <!-- testcases.TC_15_Search_Electric_Bikes -->
     </classes>
   </test> <!-- IdentifyingBikes(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

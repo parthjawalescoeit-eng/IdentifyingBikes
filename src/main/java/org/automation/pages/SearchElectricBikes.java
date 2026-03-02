@@ -44,13 +44,13 @@ public class SearchElectricBikes {
     @FindBy(xpath = "//label[.//span[normalize-space(.)='Bajaj']]//input[@type='checkbox']")
     private WebElement bajajInputChk;
 
-    @FindBy(css = "input[value='79']")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div/div[11]/div[2]/div[2]/div/ul/li[1]/div/div[2]/div/ul[2]/li[3]/div/label/span[1]/input")
     private WebElement atherInputChk;
 
     @FindBy(xpath = "//p[normalize-space()='Start Type']")
     private WebElement startTypeBtn;
 
-    @FindBy(css = "input[value='853']")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div/div[11]/div[2]/div[2]/div/ul/li[2]/div/div[2]/div/ul/li[1]/div/label/span[1]/input")
     private WebElement electricStartChk;
 
     @FindBy(xpath = "//p[normalize-space()='Body Style']")
@@ -62,13 +62,13 @@ public class SearchElectricBikes {
     @FindBy(xpath = "//p[normalize-space()='Brake Type']")
     private WebElement brakeTypeBtn;
 
-    @FindBy(css = "input[value='911']")
+    @FindBy(css = "//*[@id=\"root\"]/div/div[2]/div/div[11]/div[2]/div[2]/div/ul/li[5]/div/div[2]/div/ul/li[1]/div/label/span[1]/input")
     private WebElement discChk;
 
     @FindBy(xpath = "//p[normalize-space()='Wheels']")
     private WebElement wheelsBtn;
 
-    @FindBy(css = "input[value='846']")
+    @FindBy(css = "//*[@id=\"root\"]/div/div[2]/div/div[11]/div[2]/div[2]/div/ul/li[7]/div/div[2]/div/ul/li[1]/div/label/span[1]/input")
     private WebElement alloyChk;
 
     @FindBy(xpath = "//p[normalize-space()='Top Speed']")
