@@ -63,6 +63,7 @@ public class BuyUsedBikes {
         wait.until(ExpectedConditions.elementToBeClickable(sideBar));
         js.clickByJS(sideBar);
 
+        wait.until(ExpectedConditions.visibilityOf(usedBikeBtn));
         wait.until(ExpectedConditions.elementToBeClickable(usedBikeBtn));
         js.clickByJS(usedBikeBtn);
 

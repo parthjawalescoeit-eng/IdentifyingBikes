@@ -42,6 +42,7 @@ public class BikeProsAndCons {
         WebElement bikeClick=wait.until(ExpectedConditions.elementToBeClickable(bike));
         js.clickByJS(bikeClick);
 
+        wait.until(ExpectedConditions.visibilityOf(expertBtn));
         WebElement expert_btn=wait.until(ExpectedConditions.elementToBeClickable(expertBtn));
         js.clickByJS(expert_btn);
 

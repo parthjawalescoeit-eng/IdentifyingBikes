@@ -69,6 +69,7 @@ public class MultiFilterBikes {
         wait.until(ExpectedConditions.elementToBeClickable(budgetBtn));
         js.clickByJS(budgetBtn);
 
+        wait.until(ExpectedConditions.visibilityOf(role));
         wait.until(ExpectedConditions.elementToBeClickable(role));
         role.click();
 

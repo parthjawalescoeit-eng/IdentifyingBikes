@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class ComparingBikes {
 
@@ -47,6 +46,7 @@ public class ComparingBikes {
         js.clickByJS(brandLnk);
         Thread.sleep(2000);
 
+        wait.until(ExpectedConditions.visibilityOf(compareBtn));
         wait.until(ExpectedConditions.elementToBeClickable(compareBtn));
         js.scrollIntoView(compareBtn);
         js.clickByJS(compareBtn);

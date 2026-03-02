@@ -14,7 +14,7 @@ public class TC_21_BuyUsedBikes extends BaseTest {
     @Test
     public void usedBikeCity() throws Exception{
 
-        BuyUsedBikes buyBikes=new BuyUsedBikes(driver,wait );
+        BuyUsedBikes buyBikes=new BuyUsedBikes(driver,wait);
         buyBikes.clickSideBar();
         List<BuyUsedBikes> results = buyBikes.getBikeResults();
         Assert.assertTrue(results.size() > 0, "There is no bike for the brand Gizzer");

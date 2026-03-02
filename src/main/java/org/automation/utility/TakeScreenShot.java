@@ -21,9 +21,9 @@ public class TakeScreenShot {
             new File(System.getProperty("user.dir") + File.separator + outDir).mkdirs();
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(src, new File(path));
-            Log.info("Screenshot saved: " + path);
+            System.out.println("Screenshot saved: " + path);
         } catch (IOException e) {
-            Log.info("Screenshot failed: " + e.getMessage());
+            System.out.println("Screenshot failed: " + e.getMessage());
         }
     }
 }

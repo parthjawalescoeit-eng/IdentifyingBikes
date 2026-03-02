@@ -55,6 +55,7 @@ public class BikeReview {
         wait.until(ExpectedConditions.elementToBeClickable(bikeLnk));
         js.clickByJS(bikeLnk);
 
+        wait.until(ExpectedConditions.visibilityOf(gt));
         wait.until(ExpectedConditions.elementToBeClickable(gt));
         js.clickByJS(gt);
 
