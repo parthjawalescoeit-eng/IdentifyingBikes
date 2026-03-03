@@ -65,7 +65,7 @@ public class BrowserNavigationCheck {
 
         driver.navigate().back();
         code.urlContains("honda-bikes/");
-        screenshot.take("Successfully_Working_Of_Back_Navigation");
+        screenshot.take("TC_14_Successfully_Working_Of_Back_Navigation");
         String backUrl2 = driver.getCurrentUrl().toLowerCase();
         Log.info("URL"+backUrl2);
         if (!(backUrl2.contains("honda-bikes/"))) {

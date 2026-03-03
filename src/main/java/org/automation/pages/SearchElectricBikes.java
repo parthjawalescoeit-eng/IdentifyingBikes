@@ -106,18 +106,14 @@ public class SearchElectricBikes {
         js.clickByJS(applyFiltersBtn);
 
         List<String> Bikes = new ArrayList<>();
-
-        // Final Wait for results to update
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         screenshot.take("TC_15_Final_Bike_Results");
-
         Log.info("Bikes Found: " + bikeResults.size());
         for (int i = 0; i < Math.min(6, bikeResults.size()); i++) {
             String ele=bikeResults.get(i).getText().trim();
             Log.info((i + 1) + ". " + ele);
             Bikes.add(ele);
         }
-
         return Bikes;
     }
 }

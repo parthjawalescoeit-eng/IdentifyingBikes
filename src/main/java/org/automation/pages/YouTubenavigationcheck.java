@@ -37,9 +37,7 @@ public class YouTubenavigationcheck {
     private WebElement youtubeThumbnailImg;
 
     public boolean verifyVideoPlayback() throws InterruptedException {
-            //wait.visible(bikeModel);
-            j.scrollIntoView(bikeModel);
-            //bikeModel.click();
+           j.scrollIntoView(bikeModel);
            code.clickWhenClickable(bikeModel);
            code.visible(youtubeAnchor);
 

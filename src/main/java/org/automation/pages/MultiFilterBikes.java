@@ -97,7 +97,7 @@ public class MultiFilterBikes {
         List<WebElement> bikes=driver.findElements(org.openqa.selenium.By.xpath("//a[@href and contains(@href,'-bikes/')]"));
         Assert.assertTrue(bikes.size()>0,"No bikes found matching the filters");
         Log.info("Total bikes found: "+bikes.size());
-        Thread.sleep(300);
+        Thread.sleep(800);
         String screenshotName = "TC_24_MultiFilterCombination";
         new TakeScreenShot(driver, "screenshots").take(screenshotName);
     }
