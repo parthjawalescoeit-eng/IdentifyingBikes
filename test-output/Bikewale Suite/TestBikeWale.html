@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestBikeWale</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 02 14:17:35 IST 2026</td>
+<td>Started on:</td><td>Tue Mar 03 17:40:16 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>333 seconds (333311 ms)</td>
+<tr><td>Total time:</td><td>268 seconds (268174 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,161 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TC_07_Verify_Invalid_City_Error.verifyInvalidCityError()'><b>verifyInvalidCityError</b><br>Test class: testcases.TC_07_Verify_Invalid_City_Error</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (d56c8030ef883244d6fdbaadeab431f5)] -&gt; xpath: //span[text()=&apos;New Bikes&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51388}, goog:processID: 12768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51388/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56c8030ef883244d6fdbaadeab431f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.automation.utility.CommonCode.safeClickToWebElement(CommonCode.java:74)
+	at org.automation.pages.OnRoadPrice.navigateToOnRoadPriceSection(OnRoadPrice.java:90)
+	at org.automation.pages.OnRoadPrice.checkInvalidCity(OnRoadPrice.java:61)
+	at testcases.TC_07_Verify_Invalid_City_Error.verifyInvalidCityError(TC_07_Verify_Invalid_City_Error.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1038754411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1038754411'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (d56c8030ef883244d6fdbaadeab431f5)] -&gt; xpath: //span[text()=&apos;New Bikes&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51388}, goog:processID: 12768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51388/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56c8030ef883244d6fdbaadeab431f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.automation.utility.CommonCode.safeClickToWebElement(CommonCode.java:74)
+	at org.automation.pages.OnRoadPrice.navigateToOnRoadPriceSection(OnRoadPrice.java:90)
+	at org.automation.pages.OnRoadPrice.checkInvalidCity(OnRoadPrice.java:61)
+	at testcases.TC_07_Verify_Invalid_City_Error.verifyInvalidCityError(TC_07_Verify_Invalid_City_Error.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>10</td>
+<td>testcases.TC_07_Verify_Invalid_City_Error@5e5d171f</td></tr>
+<tr>
+<td title='testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel()'><b>downloadBrochureOfModel</b><br>Test class: testcases.TC_12_Brochure_Download_Check</td>
+<td><div><pre>java.lang.AssertionError: Download Failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel(TC_12_Brochure_Download_Check.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1321368652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1321368652'><pre>java.lang.AssertionError: Download Failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel(TC_12_Brochure_Download_Check.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>2</td>
+<td>testcases.TC_12_Brochure_Download_Check@7494f96a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,130 +231,120 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TC_09_Validate_News_Headlines.validateNewsHeadlines()'><b>validateNewsHeadlines</b><br>Test class: testcases.TC_09_Validate_News_Headlines</td>
-<td></td>
-<td>2</td>
-<td>testcases.TC_09_Validate_News_Headlines@2002fc1d</td></tr>
-<tr>
-<td title='testcases.TC_17_Compare_Bikes.compareBikes()'><b>compareBikes</b><br>Test class: testcases.TC_17_Compare_Bikes</td>
-<td></td>
-<td>10</td>
-<td>testcases.TC_17_Compare_Bikes@6a03bcb1</td></tr>
-<tr>
-<td title='testcases.TC_13_Breadcrumb_Working_Check.BreadcrumbWorkingCheck()'><b>BreadcrumbWorkingCheck</b><br>Test class: testcases.TC_13_Breadcrumb_Working_Check</td>
-<td></td>
-<td>5</td>
-<td>testcases.TC_13_Breadcrumb_Working_Check@1757cd72</td></tr>
-<tr>
-<td title='testcases.TC_25_BikeProsAndCons.bikeColorVariantImageUpdate()'><b>bikeColorVariantImageUpdate</b><br>Test class: testcases.TC_25_BikeProsAndCons</td>
-<td></td>
-<td>3</td>
-<td>testcases.TC_25_BikeProsAndCons@6a6afff2</td></tr>
-<tr>
-<td title='testcases.TC_03_MileageBikes.getBikesHavingBestMileage()'><b>getBikesHavingBestMileage</b><br>Test class: testcases.TC_03_MileageBikes</td>
-<td></td>
-<td>5</td>
-<td>testcases.TC_03_MileageBikes@1e800aaa</td></tr>
-<tr>
-<td title='testcases.TC_06_Check_Bike_At_Location.getBikeAtLocation()'><b>getBikeAtLocation</b><br>Test class: testcases.TC_06_Check_Bike_At_Location</td>
-<td></td>
-<td>8</td>
-<td>testcases.TC_06_Check_Bike_At_Location@24aed80c</td></tr>
-<tr>
-<td title='testcases.TC_10_Validate_Bike_Reviews.validateReviewSearch()'><b>validateReviewSearch</b><br>Test class: testcases.TC_10_Validate_Bike_Reviews</td>
-<td></td>
-<td>6</td>
-<td>testcases.TC_10_Validate_Bike_Reviews@305b7c14</td></tr>
-<tr>
-<td title='testcases.TC_18_Calculate_EMI.EMICalculator()'><b>EMICalculator</b><br>Test class: testcases.TC_18_Calculate_EMI</td>
-<td></td>
-<td>3</td>
-<td>testcases.TC_18_Calculate_EMI@32910148</td></tr>
-<tr>
-<td title='testcases.TC_21_BuyUsedBikes.usedBikeCity()'><b>usedBikeCity</b><br>Test class: testcases.TC_21_BuyUsedBikes</td>
-<td></td>
-<td>8</td>
-<td>testcases.TC_21_BuyUsedBikes@87a85e1</td></tr>
-<tr>
-<td title='testcases.TC_04_SelectCity.selectCityToPurchasedVehicle()'><b>selectCityToPurchasedVehicle</b><br>Test class: testcases.TC_04_SelectCity</td>
-<td></td>
-<td>3</td>
-<td>testcases.TC_04_SelectCity@15de0b3c</td></tr>
-<tr>
-<td title='testcases.TC_07_Verify_Invalid_City_Error.verifyInvalidCityError()'><b>verifyInvalidCityError</b><br>Test class: testcases.TC_07_Verify_Invalid_City_Error</td>
-<td></td>
-<td>6</td>
-<td>testcases.TC_07_Verify_Invalid_City_Error@7817fd62</td></tr>
-<tr>
-<td title='testcases.TC_19_Similar_Bikes.getSimilarBikes()'><b>getSimilarBikes</b><br>Test class: testcases.TC_19_Similar_Bikes</td>
+<td title='testcases.TC_20_Body_Style.getBikes()'><b>getBikes</b><br>Test class: testcases.TC_20_Body_Style</td>
 <td></td>
 <td>4</td>
-<td>testcases.TC_19_Similar_Bikes@2f54a33d</td></tr>
+<td>testcases.TC_20_Body_Style@5f16132a</td></tr>
 <tr>
 <td title='testcases.TC_14_Browser_Navigation_Check.BrowserNavigationCheck()'><b>BrowserNavigationCheck</b><br>Test class: testcases.TC_14_Browser_Navigation_Check</td>
 <td></td>
-<td>7</td>
-<td>testcases.TC_14_Browser_Navigation_Check@38102d01</td></tr>
-<tr>
-<td title='testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel()'><b>downloadBrochureOfModel</b><br>Test class: testcases.TC_12_Brochure_Download_Check</td>
-<td></td>
-<td>11</td>
-<td>testcases.TC_12_Brochure_Download_Check@291caca8</td></tr>
-<tr>
-<td title='testcases.TC_22_BikeReview.bikeReviewsPrint()'><b>bikeReviewsPrint</b><br>Test class: testcases.TC_22_BikeReview</td>
-<td></td>
-<td>6</td>
-<td>testcases.TC_22_BikeReview@4f67eb2a</td></tr>
-<tr>
-<td title='testcases.TC_08_Check_Notify_Functionality.validateUpcomingBikeNotifyMe()'><b>validateUpcomingBikeNotifyMe</b><br>Test class: testcases.TC_08_Check_Notify_Functionality</td>
-<td></td>
 <td>3</td>
-<td>testcases.TC_08_Check_Notify_Functionality@77f1baf5</td></tr>
-<tr>
-<td title='testcases.TC_11_YouTube_navigation_check.verifyVideoPopupPlayback_TC06()'><b>verifyVideoPopupPlayback_TC06</b><br>Test class: testcases.TC_11_YouTube_navigation_check</td>
-<td></td>
-<td>11</td>
-<td>testcases.TC_11_YouTube_navigation_check@7530ad9c</td></tr>
+<td>testcases.TC_14_Browser_Navigation_Check@68e5eea7</td></tr>
 <tr>
 <td title='testcases.TC_16_Listed_Brands.getBrandNames()'><b>getBrandNames</b><br>Test class: testcases.TC_16_Listed_Brands</td>
 <td></td>
 <td>2</td>
-<td>testcases.TC_16_Listed_Brands@2898ac89</td></tr>
+<td>testcases.TC_16_Listed_Brands@175b9425</td></tr>
 <tr>
-<td title='testcases.TC_02_FilterBikes.BikeFilterTestScenario()'><b>BikeFilterTestScenario</b><br>Test class: testcases.TC_02_FilterBikes</td>
+<td title='testcases.TC_25_BikeProsAndCons.bikeColorVariantImageUpdate()'><b>bikeColorVariantImageUpdate</b><br>Test class: testcases.TC_25_BikeProsAndCons</td>
 <td></td>
-<td>7</td>
-<td>testcases.TC_02_FilterBikes@682b2fa</td></tr>
-<tr>
-<td title='testcases.TC_20_Body_Style.getBikes()'><b>getBikes</b><br>Test class: testcases.TC_20_Body_Style</td>
-<td></td>
-<td>4</td>
-<td>testcases.TC_20_Body_Style@574b560f</td></tr>
+<td>3</td>
+<td>testcases.TC_25_BikeProsAndCons@51f116b8</td></tr>
 <tr>
 <td title='testcases.TC_23_ComparingBikes.bikeCompare()'><b>bikeCompare</b><br>Test class: testcases.TC_23_ComparingBikes</td>
 <td></td>
-<td>9</td>
-<td>testcases.TC_23_ComparingBikes@2525ff7e</td></tr>
+<td>8</td>
+<td>testcases.TC_23_ComparingBikes@5136d012</td></tr>
+<tr>
+<td title='testcases.TC_15_Search_Electric_Bikes.SearchForElectricBikes()'><b>SearchForElectricBikes</b><br>Test class: testcases.TC_15_Search_Electric_Bikes</td>
+<td></td>
+<td>6</td>
+<td>testcases.TC_15_Search_Electric_Bikes@7a675056</td></tr>
 <tr>
 <td title='testcases.TC_24_MultiFilterCombination.multiFilterCombinationTest()'><b>multiFilterCombinationTest</b><br>Test class: testcases.TC_24_MultiFilterCombination</td>
 <td></td>
 <td>4</td>
-<td>testcases.TC_24_MultiFilterCombination@52102734</td></tr>
+<td>testcases.TC_24_MultiFilterCombination@55b53d44</td></tr>
 <tr>
-<td title='testcases.TC_05_ToggleButton.checkToggleButton()'><b>checkToggleButton</b><br>Test class: testcases.TC_05_ToggleButton</td>
+<td title='testcases.TC_09_Validate_News_Headlines.validateNewsHeadlines()'><b>validateNewsHeadlines</b><br>Test class: testcases.TC_09_Validate_News_Headlines</td>
 <td></td>
 <td>2</td>
-<td>testcases.TC_05_ToggleButton@3d285d7e</td></tr>
+<td>testcases.TC_09_Validate_News_Headlines@63475ace</td></tr>
+<tr>
+<td title='testcases.TC_10_Validate_Bike_Reviews.validateReviewSearch()'><b>validateReviewSearch</b><br>Test class: testcases.TC_10_Validate_Bike_Reviews</td>
+<td></td>
+<td>5</td>
+<td>testcases.TC_10_Validate_Bike_Reviews@5fbe4146</td></tr>
+<tr>
+<td title='testcases.TC_21_BuyUsedBikes.usedBikeCity()'><b>usedBikeCity</b><br>Test class: testcases.TC_21_BuyUsedBikes</td>
+<td></td>
+<td>8</td>
+<td>testcases.TC_21_BuyUsedBikes@53aad5d5</td></tr>
+<tr>
+<td title='testcases.TC_06_Check_Bike_At_Location.getBikeAtLocation()'><b>getBikeAtLocation</b><br>Test class: testcases.TC_06_Check_Bike_At_Location</td>
+<td></td>
+<td>7</td>
+<td>testcases.TC_06_Check_Bike_At_Location@61322f9d</td></tr>
+<tr>
+<td title='testcases.TC_03_MileageBikes.getBikesHavingBestMileage()'><b>getBikesHavingBestMileage</b><br>Test class: testcases.TC_03_MileageBikes</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC_03_MileageBikes@74e52ef6</td></tr>
+<tr>
+<td title='testcases.TC_02_FilterBikes.BikeFilterTestScenario()'><b>BikeFilterTestScenario</b><br>Test class: testcases.TC_02_FilterBikes</td>
+<td></td>
+<td>6</td>
+<td>testcases.TC_02_FilterBikes@233795b6</td></tr>
+<tr>
+<td title='testcases.TC_04_SelectCity.selectCityToPurchasedVehicle()'><b>selectCityToPurchasedVehicle</b><br>Test class: testcases.TC_04_SelectCity</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_04_SelectCity@bcec361</td></tr>
+<tr>
+<td title='testcases.TC_22_BikeReview.bikeReviewsPrint()'><b>bikeReviewsPrint</b><br>Test class: testcases.TC_22_BikeReview</td>
+<td></td>
+<td>11</td>
+<td>testcases.TC_22_BikeReview@7e9131d5</td></tr>
 <tr>
 <td title='testcases.TC_01_HomePage.getBikes()'><b>getBikes</b><br>Test class: testcases.TC_01_HomePage</td>
 <td></td>
 <td>3</td>
-<td>testcases.TC_01_HomePage@4c12331b</td></tr>
+<td>testcases.TC_01_HomePage@2f4948e4</td></tr>
 <tr>
-<td title='testcases.TC_15_Search_Electric_Bikes.SearchForElectricBikes()'><b>SearchForElectricBikes</b><br>Test class: testcases.TC_15_Search_Electric_Bikes</td>
+<td title='testcases.TC_11_YouTube_navigation_check.verifyVideoPopupPlayback_TC06()'><b>verifyVideoPopupPlayback_TC06</b><br>Test class: testcases.TC_11_YouTube_navigation_check</td>
 <td></td>
-<td>14</td>
-<td>testcases.TC_15_Search_Electric_Bikes@762ef0ea</td></tr>
+<td>6</td>
+<td>testcases.TC_11_YouTube_navigation_check@6a2f6f80</td></tr>
+<tr>
+<td title='testcases.TC_18_Calculate_EMI.EMICalculator()'><b>EMICalculator</b><br>Test class: testcases.TC_18_Calculate_EMI</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_18_Calculate_EMI@37f1104d</td></tr>
+<tr>
+<td title='testcases.TC_19_Similar_Bikes.getSimilarBikes()'><b>getSimilarBikes</b><br>Test class: testcases.TC_19_Similar_Bikes</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC_19_Similar_Bikes@11c9af63</td></tr>
+<tr>
+<td title='testcases.TC_05_ToggleButton.checkToggleButton()'><b>checkToggleButton</b><br>Test class: testcases.TC_05_ToggleButton</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC_05_ToggleButton@7a8c8dcf</td></tr>
+<tr>
+<td title='testcases.TC_13_Breadcrumb_Working_Check.BreadcrumbWorkingCheck()'><b>BreadcrumbWorkingCheck</b><br>Test class: testcases.TC_13_Breadcrumb_Working_Check</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_13_Breadcrumb_Working_Check@37271612</td></tr>
+<tr>
+<td title='testcases.TC_17_Compare_Bikes.compareBikes()'><b>compareBikes</b><br>Test class: testcases.TC_17_Compare_Bikes</td>
+<td></td>
+<td>8</td>
+<td>testcases.TC_17_Compare_Bikes@7c1e2a9e</td></tr>
+<tr>
+<td title='testcases.TC_08_Check_Notify_Functionality.validateUpcomingBikeNotifyMe()'><b>validateUpcomingBikeNotifyMe</b><br>Test class: testcases.TC_08_Check_Notify_Functionality</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_08_Check_Notify_Functionality@7c9d8e2</td></tr>
 </table><p>
 </body>
 </html>
