@@ -13,7 +13,7 @@ public class TC_12_Brochure_Download_Check extends BaseTest {
 
         BrochureDownloadCheck page = new BrochureDownloadCheck(driver,wait);
         boolean ok = page.downloadBrochure();
-        Assert.assertTrue(true);
+        Assert.assertTrue(ok, "Download Failed.");
         Log.info("TC_12_Brochure_Download_Check Passed: Brochure Download Successfully");
     }
 }
