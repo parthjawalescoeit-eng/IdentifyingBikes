@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 import java.util.Set;
 
@@ -36,28 +37,32 @@ public class YouTubenavigationcheck {
     private WebElement youtubeThumbnailImg;
 
     public boolean verifyVideoPlayback() throws InterruptedException {
-
-           j.scrollIntoView(bikeModel);
+            //wait.visible(bikeModel);
+            j.scrollIntoView(bikeModel);
+            //bikeModel.click();
            code.clickWhenClickable(bikeModel);
            code.visible(youtubeAnchor);
 
             String originalWindow = driver.getWindowHandle();
             Set<String> oldWindows = driver.getWindowHandles();
             code.clickable(youtubeAnchor);
-            j.clickByJS(youtubeAnchor);
+             j.clickByJS(youtubeAnchor);
 
             Thread.sleep(3000);
             Set<String> newWindows = driver.getWindowHandles();
+
             if (newWindows.size() == oldWindows.size()) {
                 return false;
             }
+
             for (String window : newWindows) {
                 if (!oldWindows.contains(window)) {
                     driver.switchTo().window(window);
                     break;
                 }
             }
-            screenshot.take("Opened_YouTube_On_New_Window");
+            screenshot.take("TC_11_Opened_YouTube_On_New_Window");
+
             String url = driver.getCurrentUrl();
             Log.info(url);
             if (!(url.contains("youtube.com"))) {
@@ -65,6 +70,7 @@ public class YouTubenavigationcheck {
             }
             driver.close();
             driver.switchTo().window(originalWindow);
+
             return true;
     }
 }

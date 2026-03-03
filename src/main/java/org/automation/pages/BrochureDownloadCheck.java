@@ -59,9 +59,11 @@ public class BrochureDownloadCheck {
         }
 
         Set<String> newWindows = driver.getWindowHandles();
+
         if (newWindows.size() == oldWindows.size()) {
             return false;
         }
+
         for (String window : newWindows) {
             if (!oldWindows.contains(window)) {
                 driver.switchTo().window(window);
@@ -74,9 +76,12 @@ public class BrochureDownloadCheck {
             return false;
         }
         Thread.sleep(2000);
-        screenshot.take("Brochure_Downloaded_Successfully");
+        screenshot.take("TC_12_Brochure_Downloaded_Successfully");
+
         driver.close();
         driver.switchTo().window(originalWindow);
+
         return true;
+
     }
 }

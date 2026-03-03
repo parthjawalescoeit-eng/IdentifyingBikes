@@ -46,7 +46,7 @@ public class BreadCrumbWorkingCheck {
         Log.info("Title"+driver.getTitle());
         code.clickable(HomeLnk);
         j.clickByJS(HomeLnk);
-        screenshot.take("Successfully_Navigated_To_HomePage");
+        screenshot.take("TC_13_Successfully_Navigated_To_HomePage");
         Log.info("Title"+driver.getTitle());
         String url = driver.getCurrentUrl();
 
