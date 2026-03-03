@@ -22,6 +22,7 @@ public class BaseTest {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--blink-settings=imagesEnabled=true");
+//        options.addArguments("--headless=new");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get(configReader.getProp("baseUrl"));

@@ -5366,3 +5366,1220 @@ COULD BE BETTER:
 14:19:10.116 INFO  Log - Msg: No results match "InvalidCityName123"
 14:19:19.978 INFO  Log - Notify_Me_ScreenShot Captured
 >>>>>>> e5c363ca50e7c7ab28d06c791ffc771b628746bb
+09:09:36.015 INFO  Log - Test passed: 24 bikes brands displayed
+09:09:46.349 INFO  Log - Filtered Bikes
+09:09:52.575 INFO  Log - 
+--- Processing 20 Bikes ---
+09:09:52.651 INFO  Log - Processed: Bajaj Pulsar N160
+09:09:52.675 INFO  Log - Processed: Bajaj Pulsar NS200
+09:09:52.695 INFO  Log - Processed: Bajaj Pulsar 125
+09:09:52.722 INFO  Log - Processed: Bajaj Pulsar NS125
+09:09:52.744 INFO  Log - Processed: Bajaj Pulsar NS400Z
+09:09:52.774 INFO  Log - Processed: Bajaj Pulsar NS160
+09:09:52.799 INFO  Log - Processed: Bajaj Pulsar 150
+09:09:52.825 INFO  Log - Processed: EV
+09:09:52.845 INFO  Log - Processed: Bajaj Pulsar N250
+09:09:52.875 INFO  Log - Processed: Bajaj Pulsar RS 200
+09:09:52.896 INFO  Log - Processed: Bajaj Pulsar 220 F
+09:09:52.925 INFO  Log - Processed: Bajaj Dominar 250
+09:09:52.950 INFO  Log - Processed: Bajaj Pulsar N125
+09:09:52.976 INFO  Log - Processed: CNG
+09:09:53.035 INFO  Log - Processed: Bajaj Avenger Cruise 220
+09:09:53.080 INFO  Log - Processed: EV
+09:09:53.113 INFO  Log - Processed: Bajaj Platina 100
+09:09:53.144 INFO  Log - Processed: Bajaj Platina 110
+09:09:53.175 INFO  Log - Processed: Bajaj CT 110
+09:09:53.212 INFO  Log - Processed: Bajaj Avenger Street 160
+09:09:54.260 INFO  Log - Test passed: 20 filtered bikes displayed
+09:10:07.750 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+09:10:07.804 INFO  Log - The Beast is here
+09:10:07.804 INFO  Log - #1
+Bajaj Platina 100
+102 cc|7.79 bhp|75 kmpl
+₹ 66,593
+Avg. Ex-Showroom price
+Check On-Road Price
+09:10:07.804 INFO  Log - ----------------------------------------------
+09:10:07.804 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+09:10:18.779 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+09:10:18.822 INFO  Log - Bajaj Pulsar N160
+₹ 1,40,676
+Onwards
+On-Road Price, Pune
+Check On-Road Price
+09:10:18.822 INFO  Log - ----------------------------------------------
+09:10:18.822 INFO  Log - Bike get selected from particular city
+09:10:29.936 INFO  Log - Toggle button is working fine! 
+09:10:45.940 INFO  Log - Availability Status: Test_Case_06_CityPune
+09:10:45.949 INFO  Log - Honda Shine price in Pune - March 2026 on road price of Shine in Pune
+09:11:00.469 INFO  Log - Msg: No results match "InvalidCityName123"
+09:11:13.092 INFO  Log - Notify_Me_ScreenShot Captured
+09:11:38.548 INFO  Log - Current Page Title: Reviews of Honda Shine | User Reviews on Honda Shine- BikeWale
+09:11:54.784 INFO  Log - https://www.youtube.com/channel/UCYq67N0oJticIVD36iaXXgQ
+09:11:54.912 INFO  Log - TC_11_YouTube_navigation_check Passed.
+09:12:18.597 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+09:12:19.050 INFO  Log - TitleNew Bikes, New Scooters, Electric Bikes - BikeWale
+09:12:19.056 INFO  Log - TC_13_Breadcrumb_Working_Check Passed: Breadcrumb Working Successfully
+09:12:28.649 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+09:12:31.419 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+09:12:31.827 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+09:12:31.870 INFO  Log - URLhttps://www.bikewale.com/
+09:12:31.924 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+09:12:31.959 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+09:12:31.959 INFO  Log - Navigation working perfectly
+09:12:31.959 INFO  Log - TC_14_Browser_Navigation_Check: Browser Navigation Check Successfull
+09:12:46.567 INFO  Log - Bikes Found: 6
+09:12:46.632 INFO  Log - 1. Bajaj Chetak
+09:12:46.670 INFO  Log - 2. Ather Rizta
+09:12:46.708 INFO  Log - 3. Bajaj Chetak C2501
+09:12:46.744 INFO  Log - 4. Ather 450X
+09:12:46.805 INFO  Log - 5. Ather 450S
+09:12:46.851 INFO  Log - 6. Ather 450 Apex
+09:12:46.979 INFO  Log - TC_15_Search_Electric_Bikes Passed Successfully
+09:12:55.687 INFO  Log -  Scrolling TO Brands Page
+09:12:56.630 INFO  Log - Brands Button Selected
+09:12:57.507 INFO  Log - Brand Name Retrieved
+09:12:57.519 INFO  Log - Brand Name Retrieved
+09:12:57.535 INFO  Log - Brand Name Retrieved
+09:12:57.535 INFO  Log - Brand Name Retrieved
+09:12:57.551 INFO  Log - Brand Name Retrieved
+09:12:57.567 INFO  Log - Brand Name Retrieved
+09:12:57.585 INFO  Log - Brand Name Retrieved
+09:12:57.600 INFO  Log - Brand Name Retrieved
+09:12:57.610 INFO  Log - Brand Name Retrieved
+09:12:57.621 INFO  Log - Brand Name Retrieved
+09:12:57.630 INFO  Log - Brand Name Retrieved
+09:12:57.637 INFO  Log - Brand Name Retrieved
+09:12:57.646 INFO  Log - Brand Name Retrieved
+09:12:57.662 INFO  Log - Brand Name Retrieved
+09:12:57.670 INFO  Log - Brand Name Retrieved
+09:12:57.678 INFO  Log - Brand Name Retrieved
+09:12:57.678 INFO  Log - Brand Name Retrieved
+09:12:57.694 INFO  Log - Brand Name Retrieved
+09:12:57.694 INFO  Log - Brand Name Retrieved
+09:12:57.709 INFO  Log - Brand Name Retrieved
+09:12:57.709 INFO  Log - Brand Name Retrieved
+09:12:57.725 INFO  Log - Brand Name Retrieved
+09:12:57.738 INFO  Log - Brand Name Retrieved
+09:12:57.749 INFO  Log - Brand Name Retrieved
+09:12:57.757 INFO  Log - Brand Name Retrieved
+09:12:57.762 INFO  Log - Brand Name Retrieved
+09:12:57.777 INFO  Log - Brand Name Retrieved
+09:12:57.832 INFO  Log - Brand Name Retrieved
+09:12:57.848 INFO  Log - Brand Name Retrieved
+09:12:57.860 INFO  Log - Brand Name Retrieved
+09:12:57.892 INFO  Log - Brand Name Retrieved
+09:12:57.905 INFO  Log - Brand Name Retrieved
+09:12:57.914 INFO  Log - Brand Name Retrieved
+09:12:57.920 INFO  Log - Brand Name Retrieved
+09:12:57.930 INFO  Log - Brand Name Retrieved
+09:12:57.935 INFO  Log - Brand Name Retrieved
+09:12:57.947 INFO  Log - Brand Name Retrieved
+09:12:57.961 INFO  Log - Brand Name Retrieved
+09:12:57.977 INFO  Log - Brand Name Retrieved
+09:12:57.977 INFO  Log - Brand Name Retrieved
+09:12:57.996 INFO  Log - Brand Name Retrieved
+09:12:58.005 INFO  Log - Brand Name Retrieved
+09:12:58.012 INFO  Log - Brand Name Retrieved
+09:12:58.025 INFO  Log - Brand Name Retrieved
+09:12:58.025 INFO  Log - Brand Name Retrieved
+09:12:58.041 INFO  Log - Brand Name Retrieved
+09:12:58.060 INFO  Log - Brand Name Retrieved
+09:12:58.060 INFO  Log - Brand Name Retrieved
+09:12:58.073 INFO  Log - Brand Name Retrieved
+09:12:58.089 INFO  Log - Brand Name Retrieved
+09:12:58.089 INFO  Log - Brand Name Retrieved
+09:12:58.105 INFO  Log - Brand Name Retrieved
+09:12:58.121 INFO  Log - Brand Name Retrieved
+09:12:58.121 INFO  Log - Brand Name Retrieved
+09:12:58.143 INFO  Log - Brand Name Retrieved
+09:12:58.153 INFO  Log - Brand Name Retrieved
+09:12:58.153 INFO  Log - Brand Name Retrieved
+09:12:58.177 INFO  Log - Brand Name Retrieved
+09:12:58.188 INFO  Log - Brand Name Retrieved
+09:12:58.193 INFO  Log - Brand Name Retrieved
+09:12:58.205 INFO  Log - Brand Name Retrieved
+09:12:58.282 INFO  Log - Data Written To Excel Successfully
+09:13:06.363 INFO  Log -  Bikes Comparison Started ....
+09:13:08.579 INFO  Log - First Bike Added
+09:13:09.238 INFO  Log - Selected Brand For First Bike
+09:13:09.845 INFO  Log - Choosed First Bike
+09:13:10.574 INFO  Log - Choosed Variant For First Bike
+09:13:11.749 INFO  Log - Second Bike Added
+09:13:12.446 INFO  Log - Selected Brand For Second Bike
+09:13:13.115 INFO  Log - Choosed Second Bike
+09:13:14.619 INFO  Log - Choosed variant For Second Bike
+09:13:15.469 INFO  Log - Showing Specs Of Bikes
+09:13:16.193 INFO  Log - Screenshot Taken Successfully
+09:13:16.193 INFO  Log -  Bikes Comparison Done Successfully ...
+09:13:25.527 INFO  Log - EMI Calculation Started
+09:13:25.580 INFO  Log - Menu Opened
+09:13:27.792 INFO  Log - EMI Option Selected
+09:13:28.000 INFO  Log - Passed Loan Amount 
+09:13:28.143 INFO  Log - Passed Rate Of Interest 
+09:13:28.174 INFO  Log - EMI IN Advance Selected
+09:13:28.204 INFO  Log - EMI Calculated
+09:13:28.947 INFO  Log - Screenshot Taken Successfully
+09:13:28.947 INFO  Log - EMI Calculation Done Successfully
+09:13:37.169 INFO  Log - Fetching Similar Bikes
+09:13:38.526 INFO  Log - Searched Bike
+09:13:39.867 INFO  Log - Similar Bikes Retrieved
+09:13:42.127 INFO  Log - Screenshot Taken Successfully
+09:13:42.127 INFO  Log - Similar Bikes Fetched Successfully
+09:13:53.479 INFO  Log - Scrolling for View
+09:13:54.010 INFO  Log - Scrolled to Bikes
+09:13:54.726 INFO  Log - Screenshot taken successfully
+09:13:54.835 INFO  Log - Bike Name - royal enfield continental gt 650
+09:13:54.859 INFO  Log - Bike Name - triumph thruxton 400
+09:13:54.870 INFO  Log - Bike Name - husqvarna vitpilen 250
+09:13:54.899 INFO  Log - Bike Name - bmw r 12 nine t
+09:13:54.899 INFO  Log - Bikes Fetched Successfully
+09:14:16.549 INFO  Log - 1: Design and styling -> 4
+09:14:16.710 INFO  Log - 2: Reliability -> 4
+09:14:16.805 INFO  Log - 3: Performance -> 4
+09:14:16.877 INFO  Log - 4: Service experience -> 4
+09:14:16.967 INFO  Log - 5: Maintenance cost -> 3
+09:14:17.055 INFO  Log - 6: Extra Features -> 4
+09:14:17.225 INFO  Log - 7: Comfort -> 4
+09:14:17.366 INFO  Log - 8: Value for money -> 4
+09:14:17.864 INFO  Log - 9: Features and Technology -> 4
+09:14:51.038 INFO  Log - Total bikes found: 135
+09:15:02.081 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+09:15:02.929 INFO  Log - 
+GOOD THINGS:
+09:15:02.963 INFO  Log -  - The aggressive styling is enticing
+09:15:02.978 INFO  Log -  - Gets dual-channel ABS system
+09:15:02.994 INFO  Log -  - Access to affordable spares
+09:15:03.086 INFO  Log - 
+COULD BE BETTER:
+09:15:03.126 INFO  Log -  - Misses out of full digital instrument cluster
+09:15:03.145 INFO  Log -  - A bit pricier than rivals
+09:15:03.157 INFO  Log -  - Ride quality is a bit stiff
+09:15:44.525 INFO  Log - Found Bike 1: 2020 Suzuki Gixxer Standard - BS IV -> ₹ 1.2 Lakh
+09:15:44.592 INFO  Log - Found Bike 2: 2021 Suzuki Gixxer Standard -> ₹ 1 Lakh
+09:15:44.657 INFO  Log - Found Bike 3: 2015 Suzuki Gixxer Standard - BS4 -> ₹ 35,000
+09:15:44.718 INFO  Log - Found Bike 4: 2024 Suzuki Gixxer Ride Connect -> ₹ 1.25 Lakh
+09:15:44.777 INFO  Log - Found Bike 5: 2024 Suzuki Gixxer Ride Connect [2023-2024] -> ₹ 1.55 Lakh
+09:15:44.844 INFO  Log - Found Bike 6: 2021 Suzuki Gixxer ABS -> ₹ 95,000
+09:15:44.893 INFO  Log - Found Bike 7: 2015 Suzuki Gixxer Rear Drum -> ₹ 20,000
+09:15:44.965 INFO  Log - Found Bike 8: 2015 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 45,000
+09:15:45.026 INFO  Log - Found Bike 9: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+09:15:45.070 INFO  Log - Found Bike 10: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+09:15:45.132 INFO  Log - Found Bike 11: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+09:15:45.205 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+09:15:45.266 INFO  Log - Found Bike 13: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+09:15:45.338 INFO  Log - Found Bike 14: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+09:15:45.397 INFO  Log - Found Bike 15: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+09:15:45.466 INFO  Log - Found Bike 16: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+09:15:45.528 INFO  Log - Found Bike 17: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+09:15:45.592 INFO  Log - Found Bike 18: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+09:15:45.639 INFO  Log - Found Bike 19: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+09:15:45.707 INFO  Log - Found Bike 20: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+09:15:45.766 INFO  Log - Found Bike 21: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+09:15:45.822 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+09:15:45.882 INFO  Log - Found Bike 23: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+09:15:45.939 INFO  Log - Found Bike 24: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+16:42:25.988 INFO  Log - Test passed: 24 bikes brands displayed
+16:42:34.945 INFO  Log - Filtered Bikes
+16:42:41.070 INFO  Log - 
+--- Processing 20 Bikes ---
+16:42:41.110 INFO  Log - Processed: Bajaj Pulsar N160
+16:42:41.132 INFO  Log - Processed: Bajaj Pulsar NS200
+16:42:41.154 INFO  Log - Processed: Bajaj Pulsar 125
+16:42:41.176 INFO  Log - Processed: Bajaj Pulsar NS125
+16:42:41.195 INFO  Log - Processed: Bajaj Pulsar NS400Z
+16:42:41.218 INFO  Log - Processed: Bajaj Pulsar NS160
+16:42:41.238 INFO  Log - Processed: Bajaj Pulsar 150
+16:42:41.262 INFO  Log - Processed: EV
+16:42:41.283 INFO  Log - Processed: Bajaj Pulsar N250
+16:42:41.304 INFO  Log - Processed: Bajaj Pulsar RS 200
+16:42:41.326 INFO  Log - Processed: Bajaj Pulsar 220 F
+16:42:41.349 INFO  Log - Processed: Bajaj Dominar 250
+16:42:41.371 INFO  Log - Processed: Bajaj Pulsar N125
+16:42:41.410 INFO  Log - Processed: CNG
+16:42:41.431 INFO  Log - Processed: Bajaj Avenger Cruise 220
+16:42:41.460 INFO  Log - Processed: EV
+16:42:41.483 INFO  Log - Processed: Bajaj Platina 100
+16:42:41.524 INFO  Log - Processed: Bajaj Platina 110
+16:42:41.546 INFO  Log - Processed: Bajaj CT 110
+16:42:41.568 INFO  Log - Processed: Bajaj Avenger Street 160
+16:42:42.435 INFO  Log - Test passed: 20 filtered bikes displayed
+16:42:55.901 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+16:42:55.949 INFO  Log - The Beast is here
+16:42:55.949 INFO  Log - #1
+Bajaj Platina 100
+102 cc|7.79 bhp|75 kmpl
+₹ 66,593
+Avg. Ex-Showroom price
+Check On-Road Price
+16:42:55.950 INFO  Log - ----------------------------------------------
+16:42:55.950 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+16:43:07.584 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+16:43:07.641 INFO  Log - Bajaj Pulsar N160
+₹ 1,40,676
+Onwards
+On-Road Price, Pune
+Check On-Road Price
+16:43:07.641 INFO  Log - ----------------------------------------------
+16:43:07.641 INFO  Log - Bike get selected from particular city
+16:43:17.264 INFO  Log - Toggle button is working fine! 
+16:44:17.644 INFO  Log - Notify_Me_ScreenShot Captured
+16:44:42.074 INFO  Log - Current Page Title: Reviews of Honda Shine | User Reviews on Honda Shine- BikeWale
+16:44:58.889 INFO  Log - https://www.youtube.com/channel/UCYq67N0oJticIVD36iaXXgQ
+16:44:59.024 INFO  Log - TC_11_YouTube_navigation_check Passed.
+16:45:23.027 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+16:45:23.434 INFO  Log - TitleNew Bikes, New Scooters, Electric Bikes - BikeWale
+16:45:23.439 INFO  Log - TC_13_Breadcrumb_Working_Check Passed: Breadcrumb Working Successfully
+16:45:33.087 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+16:45:35.694 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+16:45:36.041 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+16:45:36.086 INFO  Log - URLhttps://www.bikewale.com/
+16:45:36.123 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+16:45:36.162 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+16:45:36.162 INFO  Log - Navigation working perfectly
+16:45:36.162 INFO  Log - TC_14_Browser_Navigation_Check: Browser Navigation Check Successfull
+16:45:51.411 INFO  Log - Bikes Found: 6
+16:45:51.466 INFO  Log - 1. Bajaj Chetak
+16:45:51.502 INFO  Log - 2. Ather Rizta
+16:45:51.542 INFO  Log - 3. Bajaj Chetak C2501
+16:45:51.582 INFO  Log - 4. Ather 450X
+16:45:51.621 INFO  Log - 5. Ather 450S
+16:45:51.658 INFO  Log - 6. Ather 450 Apex
+16:45:51.741 INFO  Log - TC_15_Search_Electric_Bikes Passed Successfully
+16:45:59.397 INFO  Log -  Scrolling TO Brands Page
+16:46:00.281 INFO  Log - Brands Button Selected
+16:46:00.993 INFO  Log - Brand Name Retrieved
+16:46:01.001 INFO  Log - Brand Name Retrieved
+16:46:01.012 INFO  Log - Brand Name Retrieved
+16:46:01.021 INFO  Log - Brand Name Retrieved
+16:46:01.031 INFO  Log - Brand Name Retrieved
+16:46:01.040 INFO  Log - Brand Name Retrieved
+16:46:01.049 INFO  Log - Brand Name Retrieved
+16:46:01.057 INFO  Log - Brand Name Retrieved
+16:46:01.065 INFO  Log - Brand Name Retrieved
+16:46:01.074 INFO  Log - Brand Name Retrieved
+16:46:01.082 INFO  Log - Brand Name Retrieved
+16:46:01.090 INFO  Log - Brand Name Retrieved
+16:46:01.098 INFO  Log - Brand Name Retrieved
+16:46:01.108 INFO  Log - Brand Name Retrieved
+16:46:01.116 INFO  Log - Brand Name Retrieved
+16:46:01.126 INFO  Log - Brand Name Retrieved
+16:46:01.135 INFO  Log - Brand Name Retrieved
+16:46:01.143 INFO  Log - Brand Name Retrieved
+16:46:01.151 INFO  Log - Brand Name Retrieved
+16:46:01.160 INFO  Log - Brand Name Retrieved
+16:46:01.169 INFO  Log - Brand Name Retrieved
+16:46:01.177 INFO  Log - Brand Name Retrieved
+16:46:01.186 INFO  Log - Brand Name Retrieved
+16:46:01.194 INFO  Log - Brand Name Retrieved
+16:46:01.205 INFO  Log - Brand Name Retrieved
+16:46:01.218 INFO  Log - Brand Name Retrieved
+16:46:01.230 INFO  Log - Brand Name Retrieved
+16:46:01.241 INFO  Log - Brand Name Retrieved
+16:46:01.251 INFO  Log - Brand Name Retrieved
+16:46:01.261 INFO  Log - Brand Name Retrieved
+16:46:01.271 INFO  Log - Brand Name Retrieved
+16:46:01.281 INFO  Log - Brand Name Retrieved
+16:46:01.299 INFO  Log - Brand Name Retrieved
+16:46:01.308 INFO  Log - Brand Name Retrieved
+16:46:01.317 INFO  Log - Brand Name Retrieved
+16:46:01.326 INFO  Log - Brand Name Retrieved
+16:46:01.335 INFO  Log - Brand Name Retrieved
+16:46:01.344 INFO  Log - Brand Name Retrieved
+16:46:01.354 INFO  Log - Brand Name Retrieved
+16:46:01.364 INFO  Log - Brand Name Retrieved
+16:46:01.372 INFO  Log - Brand Name Retrieved
+16:46:01.405 INFO  Log - Brand Name Retrieved
+16:46:01.461 INFO  Log - Brand Name Retrieved
+16:46:01.485 INFO  Log - Brand Name Retrieved
+16:46:01.495 INFO  Log - Brand Name Retrieved
+16:46:01.506 INFO  Log - Brand Name Retrieved
+16:46:01.516 INFO  Log - Brand Name Retrieved
+16:46:01.525 INFO  Log - Brand Name Retrieved
+16:46:01.534 INFO  Log - Brand Name Retrieved
+16:46:01.543 INFO  Log - Brand Name Retrieved
+16:46:01.552 INFO  Log - Brand Name Retrieved
+16:46:01.562 INFO  Log - Brand Name Retrieved
+16:46:01.571 INFO  Log - Brand Name Retrieved
+16:46:01.581 INFO  Log - Brand Name Retrieved
+16:46:01.589 INFO  Log - Brand Name Retrieved
+16:46:01.599 INFO  Log - Brand Name Retrieved
+16:46:01.609 INFO  Log - Brand Name Retrieved
+16:46:01.619 INFO  Log - Brand Name Retrieved
+16:46:01.628 INFO  Log - Brand Name Retrieved
+16:46:01.638 INFO  Log - Brand Name Retrieved
+16:46:01.647 INFO  Log - Brand Name Retrieved
+16:46:01.729 INFO  Log - Data Written To Excel Successfully
+16:46:09.127 INFO  Log -  Bikes Comparison Started ....
+16:46:11.305 INFO  Log - First Bike Added
+16:46:12.027 INFO  Log - Selected Brand For First Bike
+16:46:12.541 INFO  Log - Choosed First Bike
+16:46:13.219 INFO  Log - Choosed Variant For First Bike
+16:46:14.363 INFO  Log - Second Bike Added
+16:46:15.066 INFO  Log - Selected Brand For Second Bike
+16:46:15.613 INFO  Log - Choosed Second Bike
+16:46:16.980 INFO  Log - Choosed variant For Second Bike
+16:46:17.635 INFO  Log - Showing Specs Of Bikes
+16:46:18.228 INFO  Log - Screenshot Taken Successfully
+16:46:18.228 INFO  Log -  Bikes Comparison Done Successfully ...
+16:46:26.793 INFO  Log - EMI Calculation Started
+16:46:26.831 INFO  Log - Menu Opened
+16:46:28.584 INFO  Log - EMI Option Selected
+16:46:28.740 INFO  Log - Passed Loan Amount 
+16:46:28.835 INFO  Log - Passed Rate Of Interest 
+16:46:28.860 INFO  Log - EMI IN Advance Selected
+16:46:28.905 INFO  Log - EMI Calculated
+16:46:29.533 INFO  Log - Screenshot Taken Successfully
+16:46:29.533 INFO  Log - EMI Calculation Done Successfully
+16:46:37.415 INFO  Log - Fetching Similar Bikes
+16:46:38.659 INFO  Log - Searched Bike
+16:46:39.911 INFO  Log - Similar Bikes Retrieved
+16:46:42.064 INFO  Log - Screenshot Taken Successfully
+16:46:42.064 INFO  Log - Similar Bikes Fetched Successfully
+16:46:52.573 INFO  Log - Scrolling for View
+16:46:53.098 INFO  Log - Scrolled to Bikes
+16:46:53.712 INFO  Log - Screenshot taken successfully
+16:46:53.829 INFO  Log - Bike Name - royal enfield continental gt 650
+16:46:53.847 INFO  Log - Bike Name - triumph thruxton 400
+16:46:53.866 INFO  Log - Bike Name - husqvarna vitpilen 250
+16:46:53.884 INFO  Log - Bike Name - bmw r 12 nine t
+16:46:53.884 INFO  Log - Bikes Fetched Successfully
+16:47:07.946 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+16:47:07.995 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+16:47:08.046 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+16:47:08.105 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+16:47:08.160 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+16:47:08.209 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+16:47:08.260 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+16:47:08.306 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+16:47:08.355 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+16:47:08.406 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+16:47:08.456 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+16:47:08.502 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+16:47:08.553 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+16:47:08.597 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+16:47:08.649 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+16:47:08.699 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+16:47:08.770 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+16:47:08.817 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+16:47:08.871 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+16:47:08.922 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+16:47:08.972 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+16:47:09.023 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+16:47:09.075 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+16:47:09.128 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+16:47:52.031 INFO  Log - Total bikes found: 135
+16:48:03.265 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+16:48:04.003 INFO  Log - 
+GOOD THINGS:
+16:48:04.032 INFO  Log -  - The aggressive styling is enticing
+16:48:04.043 INFO  Log -  - Gets dual-channel ABS system
+16:48:04.063 INFO  Log -  - Access to affordable spares
+16:48:04.084 INFO  Log - 
+COULD BE BETTER:
+16:48:04.104 INFO  Log -  - Misses out of full digital instrument cluster
+16:48:04.113 INFO  Log -  - A bit pricier than rivals
+16:48:04.130 INFO  Log -  - Ride quality is a bit stiff
+16:55:26.816 INFO  Log - Found Bike 1: 2017 Suzuki Gixxer Standard -> ₹ 38,000
+16:55:26.884 INFO  Log - Found Bike 2: 2016 Suzuki Gixxer Standard -> ₹ 48,500
+16:55:26.952 INFO  Log - Found Bike 3: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 70,000
+16:55:27.014 INFO  Log - Found Bike 4: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+16:55:27.077 INFO  Log - Found Bike 5: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+16:55:27.134 INFO  Log - Found Bike 6: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+16:55:27.192 INFO  Log - Found Bike 7: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+16:55:27.259 INFO  Log - Found Bike 8: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+16:55:27.314 INFO  Log - Found Bike 9: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+16:55:27.369 INFO  Log - Found Bike 10: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+16:55:27.429 INFO  Log - Found Bike 11: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+16:55:27.491 INFO  Log - Found Bike 12: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+16:55:27.554 INFO  Log - Found Bike 13: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+16:55:27.619 INFO  Log - Found Bike 14: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+16:55:27.676 INFO  Log - Found Bike 15: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+16:55:27.732 INFO  Log - Found Bike 16: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+16:55:27.788 INFO  Log - Found Bike 17: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+16:55:27.848 INFO  Log - Found Bike 18: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+16:55:27.908 INFO  Log - Found Bike 19: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+16:55:28.001 INFO  Log - Found Bike 20: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+16:55:28.049 INFO  Log - Found Bike 21: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+16:55:28.101 INFO  Log - Found Bike 22: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+16:55:28.151 INFO  Log - Found Bike 23: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+16:55:28.203 INFO  Log - Found Bike 24: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+16:56:15.596 INFO  Log - Total bikes found: 135
+16:56:26.135 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+16:56:26.879 INFO  Log - 
+GOOD THINGS:
+16:56:26.905 INFO  Log -  - The aggressive styling is enticing
+16:56:26.947 INFO  Log -  - Gets dual-channel ABS system
+16:56:26.958 INFO  Log -  - Access to affordable spares
+16:56:26.985 INFO  Log - 
+COULD BE BETTER:
+16:56:27.006 INFO  Log -  - Misses out of full digital instrument cluster
+16:56:27.016 INFO  Log -  - A bit pricier than rivals
+16:56:27.028 INFO  Log -  - Ride quality is a bit stiff
+17:03:41.699 INFO  Log - 1: Design and styling -> 4
+17:03:41.974 INFO  Log - 2: Reliability -> 4
+17:03:42.170 INFO  Log - 3: Performance -> 4
+17:03:42.374 INFO  Log - 4: Service experience -> 4
+17:03:42.539 INFO  Log - 5: Maintenance cost -> 3
+17:03:42.859 INFO  Log - 6: Extra Features -> 4
+17:03:42.994 INFO  Log - 7: Comfort -> 4
+17:03:43.067 INFO  Log - 8: Value for money -> 4
+17:03:43.182 INFO  Log - 9: Features and Technology -> 4
+17:03:43.279 INFO  Log - 10:  -> 
+17:03:43.359 INFO  Log - 11:  -> 
+17:03:43.486 INFO  Log - 12:  -> 
+17:03:43.561 INFO  Log - 13:  -> 
+17:03:43.634 INFO  Log - 14:  -> 
+17:03:43.694 INFO  Log - 15:  -> 
+17:03:43.779 INFO  Log - 16:  -> 
+17:03:43.857 INFO  Log - 17:  -> 
+17:03:43.926 INFO  Log - 18:  -> 
+17:03:44.001 INFO  Log - 19:  -> 
+17:03:44.110 INFO  Log - 20:  -> 
+17:03:44.210 INFO  Log - 21:  -> 
+17:03:44.285 INFO  Log - 22:  -> 
+17:03:44.353 INFO  Log - 23:  -> 
+17:03:44.420 INFO  Log - 24:  -> 
+17:03:44.488 INFO  Log - 25:  -> 
+17:03:44.559 INFO  Log - 26:  -> 
+17:03:44.624 INFO  Log - 27:  -> 
+17:03:44.691 INFO  Log - 28:  -> 
+17:03:44.761 INFO  Log - 29:  -> 
+17:03:44.820 INFO  Log - 30:  -> 
+17:03:44.894 INFO  Log - 31:  -> 
+17:03:44.960 INFO  Log - 32:  -> 
+17:03:45.059 INFO  Log - 33:  -> 
+17:03:45.177 INFO  Log - 34:  -> 
+17:03:45.293 INFO  Log - 35:  -> 
+17:03:45.358 INFO  Log - 36:  -> 
+17:03:45.423 INFO  Log - 37:  -> 
+17:03:45.492 INFO  Log - 38:  -> 
+17:03:45.559 INFO  Log - 39:  -> 
+17:03:45.626 INFO  Log - 40:  -> 
+17:03:45.691 INFO  Log - 41:  -> 
+17:03:45.743 INFO  Log - 42:  -> 
+17:03:45.816 INFO  Log - 43:  -> 
+17:03:45.874 INFO  Log - 44:  -> 
+17:03:45.937 INFO  Log - 45:  -> 
+17:03:46.000 INFO  Log - 46:  -> 
+17:03:46.072 INFO  Log - 47:  -> 
+17:03:46.136 INFO  Log - 48:  -> 
+17:03:46.200 INFO  Log - 49:  -> 
+17:03:46.262 INFO  Log - 50:  -> 
+17:03:46.313 INFO  Log - 51:  -> 
+17:03:46.373 INFO  Log - 52:  -> 
+17:03:46.443 INFO  Log - 53:  -> 
+17:03:46.507 INFO  Log - 54:  -> 
+17:03:46.570 INFO  Log - 55:  -> 
+17:03:46.643 INFO  Log - 56:  -> 
+17:03:46.704 INFO  Log - 57:  -> 
+17:03:46.769 INFO  Log - 58:  -> 
+17:03:46.833 INFO  Log - 59:  -> 
+17:03:46.895 INFO  Log - 60:  -> 
+17:03:46.952 INFO  Log - 61:  -> 
+17:03:47.016 INFO  Log - 62:  -> 
+17:03:47.077 INFO  Log - 63:  -> 
+17:03:47.144 INFO  Log - 64:  -> 
+17:03:47.204 INFO  Log - 65:  -> 
+17:03:47.264 INFO  Log - 66:  -> 
+17:03:47.326 INFO  Log - 67:  -> 
+17:03:47.385 INFO  Log - 68:  -> 
+17:03:47.448 INFO  Log - 69:  -> 
+17:03:47.509 INFO  Log - 70:  -> 
+17:03:47.568 INFO  Log - 71:  -> 
+17:03:47.624 INFO  Log - 72:  -> 
+17:03:47.695 INFO  Log - 73:  -> 
+17:03:47.745 INFO  Log - 74:  -> 
+17:03:47.803 INFO  Log - 75:  -> 
+17:03:47.873 INFO  Log - 76:  -> 
+17:03:47.930 INFO  Log - 77:  -> 
+17:03:47.992 INFO  Log - 78:  -> 
+17:03:48.063 INFO  Log - 79:  -> 
+17:03:48.122 INFO  Log - 80:  -> 
+17:03:48.177 INFO  Log - 81:  -> 
+17:03:48.241 INFO  Log - 82:  -> 
+17:03:48.301 INFO  Log - 83:  -> 
+17:03:48.362 INFO  Log - 84:  -> 
+17:03:48.421 INFO  Log - 85:  -> 
+17:03:48.479 INFO  Log - 86:  -> 
+17:03:48.547 INFO  Log - 87:  -> 
+17:03:48.616 INFO  Log - 88:  -> 
+17:03:48.679 INFO  Log - 89:  -> 
+17:03:48.746 INFO  Log - 90:  -> 
+17:03:48.807 INFO  Log - 91:  -> 
+17:03:48.855 INFO  Log - 92:  -> 
+17:03:48.925 INFO  Log - 93:  -> 
+17:03:48.990 INFO  Log - 94:  -> 
+17:03:49.049 INFO  Log - 95:  -> 
+17:03:49.100 INFO  Log - 96:  -> 
+17:03:49.175 INFO  Log - 97:  -> 
+17:03:49.281 INFO  Log - 98:  -> 
+17:03:49.342 INFO  Log - 99:  -> 
+17:03:49.406 INFO  Log - 100:  -> 
+17:03:49.467 INFO  Log - 101:  -> 
+17:03:49.529 INFO  Log - 102:  -> 
+17:03:49.592 INFO  Log - 103:  -> 
+17:03:49.658 INFO  Log - 104:  -> 
+17:03:49.725 INFO  Log - 105:  -> 
+17:03:49.796 INFO  Log - 106:  -> 
+17:03:49.859 INFO  Log - 107:  -> 
+17:03:49.920 INFO  Log - 108:  -> 
+17:03:49.983 INFO  Log - 109:  -> 
+17:03:50.072 INFO  Log - 110:  -> 
+17:03:50.155 INFO  Log - 111:  -> 
+17:03:50.223 INFO  Log - 112:  -> 
+17:04:24.864 INFO  Log - Test passed: 24 bikes brands displayed
+17:04:34.176 INFO  Log - Filtered Bikes
+17:04:40.126 INFO  Log - 
+--- Processing 20 Bikes ---
+17:04:40.181 INFO  Log - Processed: Bajaj Pulsar N160
+17:04:40.206 INFO  Log - Processed: Bajaj Pulsar NS200
+17:04:40.220 INFO  Log - Processed: Bajaj Pulsar 125
+17:04:40.247 INFO  Log - Processed: Bajaj Pulsar NS125
+17:04:40.259 INFO  Log - Processed: Bajaj Pulsar NS400Z
+17:04:40.275 INFO  Log - Processed: Bajaj Pulsar NS160
+17:04:40.310 INFO  Log - Processed: Bajaj Pulsar 150
+17:04:40.340 INFO  Log - Processed: EV
+17:04:40.355 INFO  Log - Processed: Bajaj Pulsar N250
+17:04:40.383 INFO  Log - Processed: Bajaj Pulsar RS 200
+17:04:40.407 INFO  Log - Processed: Bajaj Pulsar 220 F
+17:04:40.421 INFO  Log - Processed: Bajaj Dominar 250
+17:04:40.449 INFO  Log - Processed: Bajaj Pulsar N125
+17:04:40.473 INFO  Log - Processed: CNG
+17:04:40.494 INFO  Log - Processed: Bajaj Avenger Cruise 220
+17:04:40.522 INFO  Log - Processed: EV
+17:04:40.577 INFO  Log - Processed: Bajaj Platina 100
+17:04:40.637 INFO  Log - Processed: Bajaj Platina 110
+17:04:40.659 INFO  Log - Processed: Bajaj CT 110
+17:04:40.720 INFO  Log - Processed: Bajaj Avenger Street 160
+17:04:41.762 INFO  Log - Test passed: 20 filtered bikes displayed
+17:04:55.359 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+17:04:55.399 INFO  Log - The Beast is here
+17:04:55.399 INFO  Log - #1
+Bajaj Platina 100
+102 cc|7.79 bhp|75 kmpl
+₹ 66,593
+Avg. Ex-Showroom price
+Check On-Road Price
+17:04:55.399 INFO  Log - ----------------------------------------------
+17:04:55.399 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+17:05:07.807 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+17:05:07.848 INFO  Log - Bajaj Pulsar N160
+₹ 1,40,676
+Onwards
+On-Road Price, Pune
+Check On-Road Price
+17:05:07.848 INFO  Log - ----------------------------------------------
+17:05:07.848 INFO  Log - Bike get selected from particular city
+17:05:18.653 INFO  Log - Toggle button is working fine! 
+17:05:35.281 INFO  Log - Availability Status: Test_Case_06_CityPune
+17:05:35.483 INFO  Log - Honda Shine price in Pune - March 2026 on road price of Shine in Pune
+17:05:50.058 INFO  Log - Msg: No results match "InvalidCityName123"
+17:06:02.441 INFO  Log - Notify_Me_ScreenShot Captured
+17:06:27.381 INFO  Log - Current Page Title: Reviews of Honda Shine | User Reviews on Honda Shine- BikeWale
+17:06:44.601 INFO  Log - https://www.youtube.com/channel/UCYq67N0oJticIVD36iaXXgQ
+17:06:44.804 INFO  Log - TC_11_YouTube_navigation_check Passed.
+17:07:07.287 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+17:07:07.722 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+17:07:07.730 INFO  Log - TC_13_Breadcrumb_Working_Check Passed: Breadcrumb Working Successfully
+17:07:17.501 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:07:19.968 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+17:07:20.335 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:07:20.385 INFO  Log - URLhttps://www.bikewale.com/
+17:07:20.415 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:07:20.469 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+17:07:20.469 INFO  Log - Navigation working perfectly
+17:07:20.469 INFO  Log - TC_14_Browser_Navigation_Check: Browser Navigation Check Successfull
+17:07:34.801 INFO  Log - Bikes Found: 6
+17:07:34.836 INFO  Log - 1. Bajaj Chetak
+17:07:34.868 INFO  Log - 2. Ather Rizta
+17:07:34.902 INFO  Log - 3. Bajaj Chetak C2501
+17:07:34.957 INFO  Log - 4. Ather 450X
+17:07:34.985 INFO  Log - 5. Ather 450S
+17:07:35.018 INFO  Log - 6. Ather 450 Apex
+17:07:35.120 INFO  Log - TC_15_Search_Electric_Bikes Passed Successfully
+17:07:45.163 INFO  Log -  Scrolling TO Brands Page
+17:07:46.053 INFO  Log - Brands Button Selected
+17:07:46.808 INFO  Log - Brand Name Retrieved
+17:07:46.808 INFO  Log - Brand Name Retrieved
+17:07:46.824 INFO  Log - Brand Name Retrieved
+17:07:46.840 INFO  Log - Brand Name Retrieved
+17:07:46.840 INFO  Log - Brand Name Retrieved
+17:07:46.861 INFO  Log - Brand Name Retrieved
+17:07:46.871 INFO  Log - Brand Name Retrieved
+17:07:46.871 INFO  Log - Brand Name Retrieved
+17:07:46.887 INFO  Log - Brand Name Retrieved
+17:07:46.909 INFO  Log - Brand Name Retrieved
+17:07:46.921 INFO  Log - Brand Name Retrieved
+17:07:46.927 INFO  Log - Brand Name Retrieved
+17:07:46.939 INFO  Log - Brand Name Retrieved
+17:07:46.949 INFO  Log - Brand Name Retrieved
+17:07:46.951 INFO  Log - Brand Name Retrieved
+17:07:46.968 INFO  Log - Brand Name Retrieved
+17:07:46.968 INFO  Log - Brand Name Retrieved
+17:07:46.983 INFO  Log - Brand Name Retrieved
+17:07:46.999 INFO  Log - Brand Name Retrieved
+17:07:46.999 INFO  Log - Brand Name Retrieved
+17:07:47.014 INFO  Log - Brand Name Retrieved
+17:07:47.030 INFO  Log - Brand Name Retrieved
+17:07:47.046 INFO  Log - Brand Name Retrieved
+17:07:47.061 INFO  Log - Brand Name Retrieved
+17:07:47.072 INFO  Log - Brand Name Retrieved
+17:07:47.084 INFO  Log - Brand Name Retrieved
+17:07:47.094 INFO  Log - Brand Name Retrieved
+17:07:47.104 INFO  Log - Brand Name Retrieved
+17:07:47.116 INFO  Log - Brand Name Retrieved
+17:07:47.125 INFO  Log - Brand Name Retrieved
+17:07:47.141 INFO  Log - Brand Name Retrieved
+17:07:47.148 INFO  Log - Brand Name Retrieved
+17:07:47.165 INFO  Log - Brand Name Retrieved
+17:07:47.173 INFO  Log - Brand Name Retrieved
+17:07:47.189 INFO  Log - Brand Name Retrieved
+17:07:47.201 INFO  Log - Brand Name Retrieved
+17:07:47.211 INFO  Log - Brand Name Retrieved
+17:07:47.222 INFO  Log - Brand Name Retrieved
+17:07:47.227 INFO  Log - Brand Name Retrieved
+17:07:47.242 INFO  Log - Brand Name Retrieved
+17:07:47.286 INFO  Log - Brand Name Retrieved
+17:07:47.340 INFO  Log - Brand Name Retrieved
+17:07:47.347 INFO  Log - Brand Name Retrieved
+17:07:47.347 INFO  Log - Brand Name Retrieved
+17:07:47.363 INFO  Log - Brand Name Retrieved
+17:07:47.363 INFO  Log - Brand Name Retrieved
+17:07:47.380 INFO  Log - Brand Name Retrieved
+17:07:47.380 INFO  Log - Brand Name Retrieved
+17:07:47.395 INFO  Log - Brand Name Retrieved
+17:07:47.411 INFO  Log - Brand Name Retrieved
+17:07:47.411 INFO  Log - Brand Name Retrieved
+17:07:47.429 INFO  Log - Brand Name Retrieved
+17:07:47.443 INFO  Log - Brand Name Retrieved
+17:07:47.443 INFO  Log - Brand Name Retrieved
+17:07:47.461 INFO  Log - Brand Name Retrieved
+17:07:47.474 INFO  Log - Brand Name Retrieved
+17:07:47.474 INFO  Log - Brand Name Retrieved
+17:07:47.490 INFO  Log - Brand Name Retrieved
+17:07:47.506 INFO  Log - Brand Name Retrieved
+17:07:47.518 INFO  Log - Brand Name Retrieved
+17:07:47.522 INFO  Log - Brand Name Retrieved
+17:07:47.607 INFO  Log - Data Written To Excel Successfully
+17:07:55.720 INFO  Log -  Bikes Comparison Started ....
+17:07:57.915 INFO  Log - First Bike Added
+17:07:58.522 INFO  Log - Selected Brand For First Bike
+17:07:59.019 INFO  Log - Choosed First Bike
+17:07:59.708 INFO  Log - Choosed Variant For First Bike
+17:08:00.893 INFO  Log - Second Bike Added
+17:08:01.694 INFO  Log - Selected Brand For Second Bike
+17:08:02.234 INFO  Log - Choosed Second Bike
+17:08:03.642 INFO  Log - Choosed variant For Second Bike
+17:08:04.391 INFO  Log - Showing Specs Of Bikes
+17:08:05.098 INFO  Log - Screenshot Taken Successfully
+17:08:05.098 INFO  Log -  Bikes Comparison Done Successfully ...
+17:08:13.505 INFO  Log - EMI Calculation Started
+17:08:13.568 INFO  Log - Menu Opened
+17:08:15.468 INFO  Log - EMI Option Selected
+17:08:15.675 INFO  Log - Passed Loan Amount 
+17:08:15.819 INFO  Log - Passed Rate Of Interest 
+17:08:15.844 INFO  Log - EMI IN Advance Selected
+17:08:15.888 INFO  Log - EMI Calculated
+17:08:16.619 INFO  Log - Screenshot Taken Successfully
+17:08:16.619 INFO  Log - EMI Calculation Done Successfully
+17:08:25.833 INFO  Log - Fetching Similar Bikes
+17:08:27.176 INFO  Log - Searched Bike
+17:08:28.270 INFO  Log - Similar Bikes Retrieved
+17:08:30.559 INFO  Log - Screenshot Taken Successfully
+17:08:30.559 INFO  Log - Similar Bikes Fetched Successfully
+17:08:41.437 INFO  Log - Scrolling for View
+17:08:41.968 INFO  Log - Scrolled to Bikes
+17:08:42.693 INFO  Log - Screenshot taken successfully
+17:08:42.803 INFO  Log - Bike Name - royal enfield continental gt 650
+17:08:42.826 INFO  Log - Bike Name - triumph thruxton 400
+17:08:42.844 INFO  Log - Bike Name - husqvarna vitpilen 250
+17:08:42.868 INFO  Log - Bike Name - bmw r 12 nine t
+17:08:42.868 INFO  Log - Bikes Fetched Successfully
+17:08:57.351 INFO  Log - Found Bike 1: 2021 Suzuki Gixxer ABS -> ₹ 95,000
+17:08:57.406 INFO  Log - Found Bike 2: 2021 Suzuki Gixxer Standard -> ₹ 1 Lakh
+17:08:57.463 INFO  Log - Found Bike 3: 2015 Suzuki Gixxer Standard - BS4 -> ₹ 35,000
+17:08:57.527 INFO  Log - Found Bike 4: 2024 Suzuki Gixxer Ride Connect -> ₹ 1.25 Lakh
+17:08:57.590 INFO  Log - Found Bike 5: 2024 Suzuki Gixxer Ride Connect [2023-2024] -> ₹ 1.55 Lakh
+17:08:57.654 INFO  Log - Found Bike 6: 2020 Suzuki Gixxer Standard -> ₹ 1 Lakh
+17:08:57.718 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:08:57.766 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:08:57.821 INFO  Log - Found Bike 9: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:08:57.877 INFO  Log - Found Bike 10: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:08:57.925 INFO  Log - Found Bike 11: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:08:57.988 INFO  Log - Found Bike 12: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:08:58.044 INFO  Log - Found Bike 13: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:08:58.099 INFO  Log - Found Bike 14: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:08:58.155 INFO  Log - Found Bike 15: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:08:58.218 INFO  Log - Found Bike 16: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:08:58.265 INFO  Log - Found Bike 17: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:08:58.339 INFO  Log - Found Bike 18: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:08:58.391 INFO  Log - Found Bike 19: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:08:58.448 INFO  Log - Found Bike 20: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:08:58.487 INFO  Log - Found Bike 21: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:08:58.551 INFO  Log - Found Bike 22: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:08:58.598 INFO  Log - Found Bike 23: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:08:58.670 INFO  Log - Found Bike 24: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:09:12.753 INFO  Log - 1: Design and styling -> 4
+17:09:12.859 INFO  Log - 2: Reliability -> 4
+17:09:12.955 INFO  Log - 3: Performance -> 4
+17:09:13.078 INFO  Log - 4: Service experience -> 4
+17:09:13.392 INFO  Log - 5: Maintenance cost -> 3
+17:09:13.780 INFO  Log - 6: Extra Features -> 4
+17:09:14.120 INFO  Log - 7: Comfort -> 4
+17:09:14.288 INFO  Log - 8: Value for money -> 4
+17:09:14.351 INFO  Log - 9: Features and Technology -> 4
+17:09:14.409 INFO  Log - 10:  -> 
+17:09:14.489 INFO  Log - 11:  -> 
+17:09:14.544 INFO  Log - 12:  -> 
+17:09:14.609 INFO  Log - 13:  -> 
+17:09:14.664 INFO  Log - 14:  -> 
+17:09:14.752 INFO  Log - 15:  -> 
+17:09:14.809 INFO  Log - 16:  -> 
+17:09:14.872 INFO  Log - 17:  -> 
+17:09:14.931 INFO  Log - 18:  -> 
+17:09:14.991 INFO  Log - 19:  -> 
+17:09:15.051 INFO  Log - 20:  -> 
+17:09:15.113 INFO  Log - 21:  -> 
+17:09:15.170 INFO  Log - 22:  -> 
+17:09:15.235 INFO  Log - 23:  -> 
+17:09:15.294 INFO  Log - 24:  -> 
+17:09:15.386 INFO  Log - 25:  -> 
+17:09:15.439 INFO  Log - 26:  -> 
+17:09:15.497 INFO  Log - 27:  -> 
+17:09:15.552 INFO  Log - 28:  -> 
+17:09:15.613 INFO  Log - 29:  -> 
+17:09:15.671 INFO  Log - 30:  -> 
+17:09:15.713 INFO  Log - 31:  -> 
+17:09:15.777 INFO  Log - 32:  -> 
+17:09:15.904 INFO  Log - 33:  -> 
+17:09:15.983 INFO  Log - 34:  -> 
+17:09:16.040 INFO  Log - 35:  -> 
+17:09:16.092 INFO  Log - 36:  -> 
+17:09:16.153 INFO  Log - 37:  -> 
+17:09:16.197 INFO  Log - 38:  -> 
+17:09:16.251 INFO  Log - 39:  -> 
+17:09:16.312 INFO  Log - 40:  -> 
+17:09:16.353 INFO  Log - 41:  -> 
+17:09:16.420 INFO  Log - 42:  -> 
+17:09:16.471 INFO  Log - 43:  -> 
+17:09:16.511 INFO  Log - 44:  -> 
+17:09:16.579 INFO  Log - 45:  -> 
+17:09:16.630 INFO  Log - 46:  -> 
+17:09:16.687 INFO  Log - 47:  -> 
+17:09:16.730 INFO  Log - 48:  -> 
+17:09:16.797 INFO  Log - 49:  -> 
+17:09:16.850 INFO  Log - 50:  -> 
+17:09:16.896 INFO  Log - 51:  -> 
+17:09:16.967 INFO  Log - 52:  -> 
+17:09:17.014 INFO  Log - 53:  -> 
+17:09:17.071 INFO  Log - 54:  -> 
+17:09:17.139 INFO  Log - 55:  -> 
+17:09:17.198 INFO  Log - 56:  -> 
+17:09:17.254 INFO  Log - 57:  -> 
+17:09:17.310 INFO  Log - 58:  -> 
+17:09:17.367 INFO  Log - 59:  -> 
+17:09:17.413 INFO  Log - 60:  -> 
+17:09:17.481 INFO  Log - 61:  -> 
+17:09:17.546 INFO  Log - 62:  -> 
+17:09:17.609 INFO  Log - 63:  -> 
+17:09:17.664 INFO  Log - 64:  -> 
+17:09:17.720 INFO  Log - 65:  -> 
+17:09:17.772 INFO  Log - 66:  -> 
+17:09:17.836 INFO  Log - 67:  -> 
+17:09:17.892 INFO  Log - 68:  -> 
+17:09:17.952 INFO  Log - 69:  -> 
+17:09:18.006 INFO  Log - 70:  -> 
+17:09:18.064 INFO  Log - 71:  -> 
+17:09:18.121 INFO  Log - 72:  -> 
+17:09:18.178 INFO  Log - 73:  -> 
+17:09:18.239 INFO  Log - 74:  -> 
+17:09:18.322 INFO  Log - 75:  -> 
+17:09:18.383 INFO  Log - 76:  -> 
+17:09:18.440 INFO  Log - 77:  -> 
+17:09:18.499 INFO  Log - 78:  -> 
+17:09:18.555 INFO  Log - 79:  -> 
+17:09:18.601 INFO  Log - 80:  -> 
+17:09:18.673 INFO  Log - 81:  -> 
+17:09:18.734 INFO  Log - 82:  -> 
+17:09:18.801 INFO  Log - 83:  -> 
+17:09:18.857 INFO  Log - 84:  -> 
+17:09:18.914 INFO  Log - 85:  -> 
+17:09:18.972 INFO  Log - 86:  -> 
+17:09:19.030 INFO  Log - 87:  -> 
+17:09:19.073 INFO  Log - 88:  -> 
+17:09:19.130 INFO  Log - 89:  -> 
+17:09:19.185 INFO  Log - 90:  -> 
+17:09:19.245 INFO  Log - 91:  -> 
+17:09:19.304 INFO  Log - 92:  -> 
+17:09:19.376 INFO  Log - 93:  -> 
+17:09:19.434 INFO  Log - 94:  -> 
+17:09:19.488 INFO  Log - 95:  -> 
+17:09:19.544 INFO  Log - 96:  -> 
+17:09:19.597 INFO  Log - 97:  -> 
+17:09:19.654 INFO  Log - 98:  -> 
+17:09:19.697 INFO  Log - 99:  -> 
+17:09:19.764 INFO  Log - 100:  -> 
+17:09:19.822 INFO  Log - 101:  -> 
+17:09:19.908 INFO  Log - 102:  -> 
+17:09:19.966 INFO  Log - 103:  -> 
+17:09:20.029 INFO  Log - 104:  -> 
+17:09:20.088 INFO  Log - 105:  -> 
+17:09:20.146 INFO  Log - 106:  -> 
+17:09:20.208 INFO  Log - 107:  -> 
+17:09:20.262 INFO  Log - 108:  -> 
+17:09:20.317 INFO  Log - 109:  -> 
+17:09:20.375 INFO  Log - 110:  -> 
+17:09:20.434 INFO  Log - 111:  -> 
+17:09:20.491 INFO  Log - 112:  -> 
+17:09:50.755 INFO  Log - Total bikes found: 135
+17:10:01.750 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+17:10:02.637 INFO  Log - 
+GOOD THINGS:
+17:10:02.665 INFO  Log -  - The aggressive styling is enticing
+17:10:02.677 INFO  Log -  - Gets dual-channel ABS system
+17:10:02.695 INFO  Log -  - Access to affordable spares
+17:10:02.719 INFO  Log - 
+COULD BE BETTER:
+17:10:02.742 INFO  Log -  - Misses out of full digital instrument cluster
+17:10:02.753 INFO  Log -  - A bit pricier than rivals
+17:10:02.764 INFO  Log -  - Ride quality is a bit stiff
+17:16:34.971 INFO  Log - TC_12_Brochure_Download_Check Passed: Brochure Download Successfully
+17:17:02.071 INFO  Log - Test passed: 24 bikes brands displayed
+17:17:10.346 INFO  Log - Filtered Bikes
+17:17:16.446 INFO  Log - 
+--- Processing 20 Bikes ---
+17:17:16.495 INFO  Log - Processed: Bajaj Pulsar N160
+17:17:16.520 INFO  Log - Processed: Bajaj Pulsar NS200
+17:17:16.540 INFO  Log - Processed: Bajaj Pulsar 125
+17:17:16.565 INFO  Log - Processed: Bajaj Pulsar NS125
+17:17:16.586 INFO  Log - Processed: Bajaj Pulsar NS400Z
+17:17:16.613 INFO  Log - Processed: Bajaj Pulsar NS160
+17:17:16.637 INFO  Log - Processed: Bajaj Pulsar 150
+17:17:16.672 INFO  Log - Processed: EV
+17:17:16.709 INFO  Log - Processed: Bajaj Pulsar N250
+17:17:16.741 INFO  Log - Processed: Bajaj Pulsar RS 200
+17:17:16.757 INFO  Log - Processed: Bajaj Pulsar 220 F
+17:17:16.782 INFO  Log - Processed: Bajaj Dominar 250
+17:17:16.803 INFO  Log - Processed: Bajaj Pulsar N125
+17:17:16.825 INFO  Log - Processed: CNG
+17:17:16.847 INFO  Log - Processed: Bajaj Avenger Cruise 220
+17:17:16.874 INFO  Log - Processed: EV
+17:17:16.894 INFO  Log - Processed: Bajaj Platina 100
+17:17:16.918 INFO  Log - Processed: Bajaj Platina 110
+17:17:16.936 INFO  Log - Processed: Bajaj CT 110
+17:17:16.969 INFO  Log - Processed: Bajaj Avenger Street 160
+17:17:17.801 INFO  Log - Test passed: 20 filtered bikes displayed
+17:17:31.374 INFO  Log - 
+=========== Bike With Highest Mileage ===========
+
+17:17:31.449 INFO  Log - The Beast is here
+17:17:31.450 INFO  Log - #1
+Bajaj Platina 100
+102 cc|7.79 bhp|75 kmpl
+₹ 66,593
+Avg. Ex-Showroom price
+Check On-Road Price
+17:17:31.450 INFO  Log - ----------------------------------------------
+17:17:31.450 INFO  Log - Test passed: Successfully navigated to Best Mileage Bikes
+17:17:44.231 INFO  Log - 
+=========== Pune's Most Favourite Bike ===========
+
+17:17:44.286 INFO  Log - Bajaj Pulsar N160
+₹ 1,40,676
+Onwards
+On-Road Price, Pune
+Check On-Road Price
+17:17:44.286 INFO  Log - ----------------------------------------------
+17:17:44.286 INFO  Log - Bike get selected from particular city
+17:17:54.128 INFO  Log - Toggle button is working fine! 
+17:18:08.823 INFO  Log - Availability Status: Test_Case_06_CityPune
+17:18:08.834 INFO  Log - Honda Shine price in Pune - March 2026 on road price of Shine in Pune
+17:18:22.823 INFO  Log - Msg: No results match "InvalidCityName123"
+17:18:34.542 INFO  Log - Notify_Me_ScreenShot Captured
+17:18:58.664 INFO  Log - Current Page Title: Reviews of Honda Shine | User Reviews on Honda Shine- BikeWale
+17:19:14.188 INFO  Log - https://www.youtube.com/channel/UCYq67N0oJticIVD36iaXXgQ
+17:19:14.313 INFO  Log - TC_11_YouTube_navigation_check Passed.
+17:19:26.997 INFO  Log - TC_12_Brochure_Download_Check Passed: Brochure Download Successfully
+17:19:37.772 INFO  Log - TitleHero Xtreme 125R Price - Mileage, Images, Colours | BikeWale
+17:19:38.359 INFO  Log - TitleNew Bikes, New Scooters, Electric Bikes - BikeWale
+17:19:38.370 INFO  Log - TC_13_Breadcrumb_Working_Check Passed: Breadcrumb Working Successfully
+17:19:47.483 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:19:50.112 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+17:19:50.502 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:19:50.553 INFO  Log - URLhttps://www.bikewale.com/
+17:19:50.589 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/
+17:19:50.627 INFO  Log - URLhttps://www.bikewale.com/honda-bikes/cb350rs/colours/
+17:19:50.627 INFO  Log - Navigation working perfectly
+17:19:50.627 INFO  Log - TC_14_Browser_Navigation_Check: Browser Navigation Check Successfull
+17:20:06.713 INFO  Log - Bikes Found: 6
+17:20:06.765 INFO  Log - 1. Bajaj Chetak
+17:20:06.800 INFO  Log - 2. Ather Rizta
+17:20:06.833 INFO  Log - 3. Bajaj Chetak C2501
+17:20:06.865 INFO  Log - 4. Ather 450X
+17:20:06.899 INFO  Log - 5. Ather 450S
+17:20:06.932 INFO  Log - 6. Ather 450 Apex
+17:20:07.049 INFO  Log - TC_15_Search_Electric_Bikes Passed Successfully
+17:20:15.490 INFO  Log -  Scrolling TO Brands Page
+17:20:16.408 INFO  Log - Brands Button Selected
+17:20:17.249 INFO  Log - Brand Name Retrieved
+17:20:17.261 INFO  Log - Brand Name Retrieved
+17:20:17.272 INFO  Log - Brand Name Retrieved
+17:20:17.283 INFO  Log - Brand Name Retrieved
+17:20:17.294 INFO  Log - Brand Name Retrieved
+17:20:17.305 INFO  Log - Brand Name Retrieved
+17:20:17.315 INFO  Log - Brand Name Retrieved
+17:20:17.329 INFO  Log - Brand Name Retrieved
+17:20:17.342 INFO  Log - Brand Name Retrieved
+17:20:17.349 INFO  Log - Brand Name Retrieved
+17:20:17.363 INFO  Log - Brand Name Retrieved
+17:20:17.378 INFO  Log - Brand Name Retrieved
+17:20:17.378 INFO  Log - Brand Name Retrieved
+17:20:17.392 INFO  Log - Brand Name Retrieved
+17:20:17.408 INFO  Log - Brand Name Retrieved
+17:20:17.414 INFO  Log - Brand Name Retrieved
+17:20:17.424 INFO  Log - Brand Name Retrieved
+17:20:17.439 INFO  Log - Brand Name Retrieved
+17:20:17.439 INFO  Log - Brand Name Retrieved
+17:20:17.455 INFO  Log - Brand Name Retrieved
+17:20:17.476 INFO  Log - Brand Name Retrieved
+17:20:17.489 INFO  Log - Brand Name Retrieved
+17:20:17.500 INFO  Log - Brand Name Retrieved
+17:20:17.503 INFO  Log - Brand Name Retrieved
+17:20:17.521 INFO  Log - Brand Name Retrieved
+17:20:17.553 INFO  Log - Brand Name Retrieved
+17:20:17.567 INFO  Log - Brand Name Retrieved
+17:20:17.637 INFO  Log - Brand Name Retrieved
+17:20:17.659 INFO  Log - Brand Name Retrieved
+17:20:17.664 INFO  Log - Brand Name Retrieved
+17:20:17.678 INFO  Log - Brand Name Retrieved
+17:20:17.678 INFO  Log - Brand Name Retrieved
+17:20:17.694 INFO  Log - Brand Name Retrieved
+17:20:17.709 INFO  Log - Brand Name Retrieved
+17:20:17.709 INFO  Log - Brand Name Retrieved
+17:20:17.725 INFO  Log - Brand Name Retrieved
+17:20:17.740 INFO  Log - Brand Name Retrieved
+17:20:17.740 INFO  Log - Brand Name Retrieved
+17:20:17.756 INFO  Log - Brand Name Retrieved
+17:20:17.772 INFO  Log - Brand Name Retrieved
+17:20:17.778 INFO  Log - Brand Name Retrieved
+17:20:17.788 INFO  Log - Brand Name Retrieved
+17:20:17.788 INFO  Log - Brand Name Retrieved
+17:20:17.804 INFO  Log - Brand Name Retrieved
+17:20:17.820 INFO  Log - Brand Name Retrieved
+17:20:17.820 INFO  Log - Brand Name Retrieved
+17:20:17.836 INFO  Log - Brand Name Retrieved
+17:20:17.836 INFO  Log - Brand Name Retrieved
+17:20:17.852 INFO  Log - Brand Name Retrieved
+17:20:17.868 INFO  Log - Brand Name Retrieved
+17:20:17.878 INFO  Log - Brand Name Retrieved
+17:20:17.883 INFO  Log - Brand Name Retrieved
+17:20:17.915 INFO  Log - Brand Name Retrieved
+17:20:17.915 INFO  Log - Brand Name Retrieved
+17:20:17.931 INFO  Log - Brand Name Retrieved
+17:20:17.947 INFO  Log - Brand Name Retrieved
+17:20:17.947 INFO  Log - Brand Name Retrieved
+17:20:17.968 INFO  Log - Brand Name Retrieved
+17:20:17.968 INFO  Log - Brand Name Retrieved
+17:20:17.979 INFO  Log - Brand Name Retrieved
+17:20:17.995 INFO  Log - Brand Name Retrieved
+17:20:18.079 INFO  Log - Data Written To Excel Successfully
+17:20:26.101 INFO  Log -  Bikes Comparison Started ....
+17:20:28.343 INFO  Log - First Bike Added
+17:20:29.037 INFO  Log - Selected Brand For First Bike
+17:20:29.596 INFO  Log - Choosed First Bike
+17:20:30.330 INFO  Log - Choosed Variant For First Bike
+17:20:31.581 INFO  Log - Second Bike Added
+17:20:31.958 INFO  Log - Selected Brand For Second Bike
+17:20:32.607 INFO  Log - Choosed Second Bike
+17:20:34.025 INFO  Log - Choosed variant For Second Bike
+17:20:34.660 INFO  Log - Showing Specs Of Bikes
+17:20:35.377 INFO  Log - Screenshot Taken Successfully
+17:20:35.378 INFO  Log -  Bikes Comparison Done Successfully ...
+17:20:44.091 INFO  Log - EMI Calculation Started
+17:20:44.165 INFO  Log - Menu Opened
+17:20:45.912 INFO  Log - EMI Option Selected
+17:20:46.088 INFO  Log - Passed Loan Amount 
+17:20:46.218 INFO  Log - Passed Rate Of Interest 
+17:20:46.248 INFO  Log - EMI IN Advance Selected
+17:20:46.272 INFO  Log - EMI Calculated
+17:20:46.998 INFO  Log - Screenshot Taken Successfully
+17:20:46.998 INFO  Log - EMI Calculation Done Successfully
+17:20:55.102 INFO  Log - Fetching Similar Bikes
+17:20:55.911 INFO  Log - Searched Bike
+17:20:57.113 INFO  Log - Similar Bikes Retrieved
+17:20:59.339 INFO  Log - Screenshot Taken Successfully
+17:20:59.339 INFO  Log - Similar Bikes Fetched Successfully
+17:21:10.117 INFO  Log - Scrolling for View
+17:21:10.649 INFO  Log - Scrolled to Bikes
+17:21:11.378 INFO  Log - Screenshot taken successfully
+17:21:11.512 INFO  Log - Bike Name - royal enfield continental gt 650
+17:21:11.531 INFO  Log - Bike Name - triumph thruxton 400
+17:21:11.564 INFO  Log - Bike Name - husqvarna vitpilen 250
+17:21:11.576 INFO  Log - Bike Name - bmw r 12 nine t
+17:21:11.576 INFO  Log - Bikes Fetched Successfully
+17:21:25.935 INFO  Log - Found Bike 1: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 99,900
+17:21:25.984 INFO  Log - Found Bike 2: 2017 Suzuki Gixxer Single Channel ABS -> ₹ 50,000
+17:21:26.031 INFO  Log - Found Bike 3: 2021 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 80,000
+17:21:26.111 INFO  Log - Found Bike 4: 2014 Suzuki Gixxer Ride Connect -> ₹ 38,000
+17:21:26.183 INFO  Log - Found Bike 5: 2023 Suzuki Gixxer Ride Connect -> ₹ 90,000
+17:21:26.238 INFO  Log - Found Bike 6: 2019 Suzuki Gixxer ABS -> ₹ 1.1 Lakh
+17:21:26.301 INFO  Log - Found Bike 7: 2022 Suzuki Gixxer Standard -> ₹ 90,000
+17:21:26.364 INFO  Log - Found Bike 8: 2017 Suzuki Gixxer Dual Tone Rear Disc -> ₹ 55,000
+17:21:26.425 INFO  Log - Found Bike 9: 2016 Suzuki Gixxer Dual Tone -> ₹ 45,000
+17:21:26.511 INFO  Log - Found Bike 10: 2022 Suzuki Gixxer Standard -> ₹ 1.4 Lakh
+17:21:26.562 INFO  Log - Found Bike 11: 2019 Suzuki Gixxer Single Channel ABS -> ₹ 48,000
+17:21:26.610 INFO  Log - Found Bike 12: 2014 Suzuki Gixxer Single Channel ABS -> ₹ 40,000
+17:21:26.689 INFO  Log - Found Bike 13: 2020 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:21:26.753 INFO  Log - Found Bike 14: 2021 Suzuki Gixxer ABS -> ₹ 90,000
+17:21:26.817 INFO  Log - Found Bike 15: 2015 Suzuki Gixxer Single Channel ABS -> ₹ 25,000
+17:21:26.865 INFO  Log - Found Bike 16: 2019 Suzuki Gixxer ABS -> ₹ 45,000
+17:21:26.936 INFO  Log - Found Bike 17: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 40,000
+17:21:26.989 INFO  Log - Found Bike 18: 2017 Suzuki Gixxer Standard - BS4 -> ₹ 42,000
+17:21:27.053 INFO  Log - Found Bike 19: 2017 Suzuki Gixxer Standard -> ₹ 41,000
+17:21:27.122 INFO  Log - Found Bike 20: 2015 Suzuki Gixxer Ride Connect -> ₹ 60,000
+17:21:27.181 INFO  Log - Found Bike 21: 2024 Suzuki Gixxer Ride Connect Special Edition - OBD 2B -> ₹ 1.3 Lakh
+17:21:27.235 INFO  Log - Found Bike 22: 2021 Suzuki Gixxer Special Edition -> ₹ 1 Lakh
+17:21:27.288 INFO  Log - Found Bike 23: 2022 Suzuki Gixxer Single Channel ABS -> ₹ 1.1 Lakh
+17:21:27.335 INFO  Log - Found Bike 24: 2018 Suzuki Gixxer Single Channel ABS - BS4 -> ₹ 50,000
+17:21:40.512 INFO  Log - 1: Design and styling -> 4
+17:21:40.609 INFO  Log - 2: Reliability -> 4
+17:21:40.705 INFO  Log - 3: Performance -> 4
+17:21:40.893 INFO  Log - 4: Service experience -> 4
+17:21:41.257 INFO  Log - 5: Maintenance cost -> 3
+17:21:41.573 INFO  Log - 6: Extra Features -> 4
+17:21:41.651 INFO  Log - 7: Comfort -> 4
+17:21:41.735 INFO  Log - 8: Value for money -> 4
+17:21:41.848 INFO  Log - 9: Features and Technology -> 4
+17:21:42.097 INFO  Log - 10:  -> 
+17:21:42.163 INFO  Log - 11:  -> 
+17:21:42.224 INFO  Log - 12:  -> 
+17:21:42.281 INFO  Log - 13:  -> 
+17:21:42.347 INFO  Log - 14:  -> 
+17:21:42.431 INFO  Log - 15:  -> 
+17:21:42.498 INFO  Log - 16:  -> 
+17:21:42.581 INFO  Log - 17:  -> 
+17:21:42.635 INFO  Log - 18:  -> 
+17:21:42.694 INFO  Log - 19:  -> 
+17:21:42.758 INFO  Log - 20:  -> 
+17:21:42.806 INFO  Log - 21:  -> 
+17:21:42.881 INFO  Log - 22:  -> 
+17:21:42.930 INFO  Log - 23:  -> 
+17:21:42.998 INFO  Log - 24:  -> 
+17:21:43.057 INFO  Log - 25:  -> 
+17:21:43.137 INFO  Log - 26:  -> 
+17:21:43.215 INFO  Log - 27:  -> 
+17:21:43.275 INFO  Log - 28:  -> 
+17:21:43.330 INFO  Log - 29:  -> 
+17:21:43.394 INFO  Log - 30:  -> 
+17:21:43.448 INFO  Log - 31:  -> 
+17:21:43.496 INFO  Log - 32:  -> 
+17:21:43.558 INFO  Log - 33:  -> 
+17:21:43.613 INFO  Log - 34:  -> 
+17:21:43.675 INFO  Log - 35:  -> 
+17:21:43.824 INFO  Log - 36:  -> 
+17:21:43.887 INFO  Log - 37:  -> 
+17:21:43.945 INFO  Log - 38:  -> 
+17:21:44.002 INFO  Log - 39:  -> 
+17:21:44.056 INFO  Log - 40:  -> 
+17:21:44.110 INFO  Log - 41:  -> 
+17:21:44.164 INFO  Log - 42:  -> 
+17:21:44.221 INFO  Log - 43:  -> 
+17:21:44.281 INFO  Log - 44:  -> 
+17:21:44.349 INFO  Log - 45:  -> 
+17:21:44.392 INFO  Log - 46:  -> 
+17:21:44.462 INFO  Log - 47:  -> 
+17:21:44.524 INFO  Log - 48:  -> 
+17:21:44.581 INFO  Log - 49:  -> 
+17:21:44.635 INFO  Log - 50:  -> 
+17:21:44.681 INFO  Log - 51:  -> 
+17:21:44.740 INFO  Log - 52:  -> 
+17:21:44.797 INFO  Log - 53:  -> 
+17:21:44.857 INFO  Log - 54:  -> 
+17:21:44.913 INFO  Log - 55:  -> 
+17:21:44.960 INFO  Log - 56:  -> 
+17:21:45.021 INFO  Log - 57:  -> 
+17:21:45.074 INFO  Log - 58:  -> 
+17:21:45.130 INFO  Log - 59:  -> 
+17:21:45.193 INFO  Log - 60:  -> 
+17:21:45.253 INFO  Log - 61:  -> 
+17:21:45.330 INFO  Log - 62:  -> 
+17:21:45.393 INFO  Log - 63:  -> 
+17:21:45.447 INFO  Log - 64:  -> 
+17:21:45.513 INFO  Log - 65:  -> 
+17:21:45.560 INFO  Log - 66:  -> 
+17:21:45.614 INFO  Log - 67:  -> 
+17:21:45.676 INFO  Log - 68:  -> 
+17:21:45.739 INFO  Log - 69:  -> 
+17:21:45.782 INFO  Log - 70:  -> 
+17:21:45.844 INFO  Log - 71:  -> 
+17:21:45.898 INFO  Log - 72:  -> 
+17:21:45.953 INFO  Log - 73:  -> 
+17:21:45.999 INFO  Log - 74:  -> 
+17:21:46.061 INFO  Log - 75:  -> 
+17:21:46.116 INFO  Log - 76:  -> 
+17:21:46.161 INFO  Log - 77:  -> 
+17:21:46.216 INFO  Log - 78:  -> 
+17:21:46.281 INFO  Log - 79:  -> 
+17:21:46.332 INFO  Log - 80:  -> 
+17:21:46.393 INFO  Log - 81:  -> 
+17:21:46.448 INFO  Log - 82:  -> 
+17:21:46.511 INFO  Log - 83:  -> 
+17:21:46.568 INFO  Log - 84:  -> 
+17:21:46.625 INFO  Log - 85:  -> 
+17:21:46.675 INFO  Log - 86:  -> 
+17:21:46.745 INFO  Log - 87:  -> 
+17:21:46.801 INFO  Log - 88:  -> 
+17:21:46.845 INFO  Log - 89:  -> 
+17:21:46.898 INFO  Log - 90:  -> 
+17:21:46.965 INFO  Log - 91:  -> 
+17:21:47.025 INFO  Log - 92:  -> 
+17:21:47.086 INFO  Log - 93:  -> 
+17:21:47.140 INFO  Log - 94:  -> 
+17:21:47.198 INFO  Log - 95:  -> 
+17:21:47.255 INFO  Log - 96:  -> 
+17:21:47.314 INFO  Log - 97:  -> 
+17:21:47.382 INFO  Log - 98:  -> 
+17:21:47.447 INFO  Log - 99:  -> 
+17:21:47.508 INFO  Log - 100:  -> 
+17:21:47.566 INFO  Log - 101:  -> 
+17:21:47.614 INFO  Log - 102:  -> 
+17:21:47.666 INFO  Log - 103:  -> 
+17:21:47.759 INFO  Log - 104:  -> 
+17:21:47.834 INFO  Log - 105:  -> 
+17:21:47.877 INFO  Log - 106:  -> 
+17:21:47.949 INFO  Log - 107:  -> 
+17:21:48.010 INFO  Log - 108:  -> 
+17:21:48.063 INFO  Log - 109:  -> 
+17:21:48.131 INFO  Log - 110:  -> 
+17:21:48.192 INFO  Log - 111:  -> 
+17:21:48.255 INFO  Log - 112:  -> 
+17:22:20.322 INFO  Log - Total bikes found: 135
+17:22:31.764 INFO  Log - 
+--- Bike Expert Review: Pros & Cons of Bajaj Pulsar N160---
+17:22:32.656 INFO  Log - 
+GOOD THINGS:
+17:22:32.689 INFO  Log -  - The aggressive styling is enticing
+17:22:32.720 INFO  Log -  - Gets dual-channel ABS system
+17:22:32.731 INFO  Log -  - Access to affordable spares
+17:22:32.777 INFO  Log - 
+COULD BE BETTER:
+17:22:32.811 INFO  Log -  - Misses out of full digital instrument cluster
+17:22:32.828 INFO  Log -  - A bit pricier than rivals
+17:22:32.840 INFO  Log -  - Ride quality is a bit stiff

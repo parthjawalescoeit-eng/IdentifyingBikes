@@ -66,9 +66,10 @@ public class BikeReview {
         wait.until(ExpectedConditions.elementToBeClickable(gt));
         js.clickByJS(gt);
 
+        wait.until(ExpectedConditions.visibilityOf(reviewStarBtn));
         wait.until(ExpectedConditions.elementToBeClickable(reviewStarBtn));
         reviewStarBtn.click();
-        Thread.sleep(500);
+        Thread.sleep(800);
     }
 
     public String toString() {
@@ -78,8 +79,9 @@ public class BikeReview {
     public List<BikeReview> getList(){
 
         List<BikeReview> bikeReviewStar=new ArrayList<>();
+        int count = Math.min(review.size(), star.size());
 
-        for(int i=0;i<9;i++){
+        for(int i=0;i<count;i++){
 
             String reviews=review.get(i).getText().trim();
             String stars=star.get(i).getText().trim();
