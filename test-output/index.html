@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Bikewale_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Bikewale Suite</span>
+              <span class="suite-name border-failed">Bikewale Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">25 methods,   25 passed</span>
+                    <span class="method-stats">25 methods, 2 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Bikewale_Suite" class="hide-methods failed suite-Bikewale_Suite"> (hide)</a> <!-- hide-methods failed suite-Bikewale_Suite -->
+                      <a href="#" panel-name="suite-Bikewale_Suite" class="show-methods failed suite-Bikewale_Suite"> (show)</a> <!-- show-methods failed suite-Bikewale_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Bikewale_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_12_Brochure_Download_Check" class="method navigator-link" hash-for-method="downloadBrochureOfModel">downloadBrochureOfModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_07_Verify_Invalid_City_Error" class="method navigator-link" hash-for-method="verifyInvalidCityError">verifyInvalidCityError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Bikewale_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -149,11 +168,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_17_Compare_Bikes" class="method navigator-link" hash-for-method="compareBikes">compareBikes</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_12_Brochure_Download_Check" class="method navigator-link" hash-for-method="downloadBrochureOfModel">downloadBrochureOfModel</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -218,11 +232,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_07_Verify_Invalid_City_Error" class="method navigator-link" hash-for-method="verifyInvalidCityError">verifyInvalidCityError</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Bikewale_Suite" title="testcases.TC_11_YouTube_navigation_check" class="method navigator-link" hash-for-method="verifyVideoPopupPlayback_TC06">verifyVideoPopupPlayback_TC06</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -238,54 +247,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Bikewale_Suite" class="panel Bikewale_Suite">
-          <div class="suite-Bikewale_Suite-class-passed">
+          <div class="suite-Bikewale_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_02_FilterBikes</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BikeFilterTestScenario">
-                  </a> <!-- BikeFilterTestScenario -->
-                  <span class="method-name">BikeFilterTestScenario</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_19_Similar_Bikes</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getSimilarBikes">
-                  </a> <!-- getSimilarBikes -->
-                  <span class="method-name">getSimilarBikes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_03_MileageBikes</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getBikesHavingBestMileage">
-                  </a> <!-- getBikesHavingBestMileage -->
-                  <span class="method-name">getBikesHavingBestMileage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testcases.TC_12_Brochure_Download_Check</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -294,13 +258,45 @@
                   <a name="downloadBrochureOfModel">
                   </a> <!-- downloadBrochureOfModel -->
                   <span class="method-name">downloadBrochureOfModel</span>
+                  <div class="stack-trace">java.lang.AssertionError: Download Failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testcases.TC_12_Brochure_Download_Check.downloadBrochureOfModel(TC_12_Brochure_Download_Check.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
+          </div> <!-- suite-Bikewale_Suite-class-failed -->
+          <div class="suite-Bikewale_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testcases.TC_07_Verify_Invalid_City_Error</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -309,66 +305,60 @@
                   <a name="verifyInvalidCityError">
                   </a> <!-- verifyInvalidCityError -->
                   <span class="method-name">verifyInvalidCityError</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (d56c8030ef883244d6fdbaadeab431f5)] -&gt; xpath: //span[text()=&apos;New Bikes&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2464377\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51388}, goog:processID: 12768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51388/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56c8030ef883244d6fdbaadeab431f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.automation.utility.CommonCode.safeClickToWebElement(CommonCode.java:74)
+	at org.automation.pages.OnRoadPrice.navigateToOnRoadPriceSection(OnRoadPrice.java:90)
+	at org.automation.pages.OnRoadPrice.checkInvalidCity(OnRoadPrice.java:61)
+	at testcases.TC_07_Verify_Invalid_City_Error.verifyInvalidCityError(TC_07_Verify_Invalid_City_Error.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          </div> <!-- suite-Bikewale_Suite-class-failed -->
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_20_Body_Style</span>
+              <span class="class-name">testcases.TC_08_Check_Notify_Functionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getBikes">
-                  </a> <!-- getBikes -->
-                  <span class="method-name">getBikes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_04_SelectCity</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectCityToPurchasedVehicle">
-                  </a> <!-- selectCityToPurchasedVehicle -->
-                  <span class="method-name">selectCityToPurchasedVehicle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_14_Browser_Navigation_Check</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BrowserNavigationCheck">
-                  </a> <!-- BrowserNavigationCheck -->
-                  <span class="method-name">BrowserNavigationCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_25_BikeProsAndCons</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="bikeColorVariantImageUpdate">
-                  </a> <!-- bikeColorVariantImageUpdate -->
-                  <span class="method-name">bikeColorVariantImageUpdate</span>
+                  <a name="validateUpcomingBikeNotifyMe">
+                  </a> <!-- validateUpcomingBikeNotifyMe -->
+                  <span class="method-name">validateUpcomingBikeNotifyMe</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -391,14 +381,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_06_Check_Bike_At_Location</span>
+              <span class="class-name">testcases.TC_05_ToggleButton</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getBikeAtLocation">
-                  </a> <!-- getBikeAtLocation -->
-                  <span class="method-name">getBikeAtLocation</span>
+                  <a name="checkToggleButton">
+                  </a> <!-- checkToggleButton -->
+                  <span class="method-name">checkToggleButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -406,14 +396,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_10_Validate_Bike_Reviews</span>
+              <span class="class-name">testcases.TC_25_BikeProsAndCons</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateReviewSearch">
-                  </a> <!-- validateReviewSearch -->
-                  <span class="method-name">validateReviewSearch</span>
+                  <a name="bikeColorVariantImageUpdate">
+                  </a> <!-- bikeColorVariantImageUpdate -->
+                  <span class="method-name">bikeColorVariantImageUpdate</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -421,14 +411,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_17_Compare_Bikes</span>
+              <span class="class-name">testcases.TC_09_Validate_News_Headlines</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="compareBikes">
-                  </a> <!-- compareBikes -->
-                  <span class="method-name">compareBikes</span>
+                  <a name="validateNewsHeadlines">
+                  </a> <!-- validateNewsHeadlines -->
+                  <span class="method-name">validateNewsHeadlines</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -436,14 +426,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_16_Listed_Brands</span>
+              <span class="class-name">testcases.TC_13_Breadcrumb_Working_Check</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getBrandNames">
-                  </a> <!-- getBrandNames -->
-                  <span class="method-name">getBrandNames</span>
+                  <a name="BreadcrumbWorkingCheck">
+                  </a> <!-- BreadcrumbWorkingCheck -->
+                  <span class="method-name">BreadcrumbWorkingCheck</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -451,44 +441,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_24_MultiFilterCombination</span>
+              <span class="class-name">testcases.TC_03_MileageBikes</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="multiFilterCombinationTest">
-                  </a> <!-- multiFilterCombinationTest -->
-                  <span class="method-name">multiFilterCombinationTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_23_ComparingBikes</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="bikeCompare">
-                  </a> <!-- bikeCompare -->
-                  <span class="method-name">bikeCompare</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_22_BikeReview</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="bikeReviewsPrint">
-                  </a> <!-- bikeReviewsPrint -->
-                  <span class="method-name">bikeReviewsPrint</span>
+                  <a name="getBikesHavingBestMileage">
+                  </a> <!-- getBikesHavingBestMileage -->
+                  <span class="method-name">getBikesHavingBestMileage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -504,6 +464,51 @@
                   <a name="usedBikeCity">
                   </a> <!-- usedBikeCity -->
                   <span class="method-name">usedBikeCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_14_Browser_Navigation_Check</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserNavigationCheck">
+                  </a> <!-- BrowserNavigationCheck -->
+                  <span class="method-name">BrowserNavigationCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_19_Similar_Bikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSimilarBikes">
+                  </a> <!-- getSimilarBikes -->
+                  <span class="method-name">getSimilarBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_22_BikeReview</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bikeReviewsPrint">
+                  </a> <!-- bikeReviewsPrint -->
+                  <span class="method-name">bikeReviewsPrint</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -541,44 +546,14 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_08_Check_Notify_Functionality</span>
+              <span class="class-name">testcases.TC_10_Validate_Bike_Reviews</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateUpcomingBikeNotifyMe">
-                  </a> <!-- validateUpcomingBikeNotifyMe -->
-                  <span class="method-name">validateUpcomingBikeNotifyMe</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_13_Breadcrumb_Working_Check</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BreadcrumbWorkingCheck">
-                  </a> <!-- BreadcrumbWorkingCheck -->
-                  <span class="method-name">BreadcrumbWorkingCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bikewale_Suite-class-passed -->
-          <div class="suite-Bikewale_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC_09_Validate_News_Headlines</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateNewsHeadlines">
-                  </a> <!-- validateNewsHeadlines -->
-                  <span class="method-name">validateNewsHeadlines</span>
+                  <a name="validateReviewSearch">
+                  </a> <!-- validateReviewSearch -->
+                  <span class="method-name">validateReviewSearch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -601,14 +576,119 @@
           <div class="suite-Bikewale_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC_05_ToggleButton</span>
+              <span class="class-name">testcases.TC_04_SelectCity</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkToggleButton">
-                  </a> <!-- checkToggleButton -->
-                  <span class="method-name">checkToggleButton</span>
+                  <a name="selectCityToPurchasedVehicle">
+                  </a> <!-- selectCityToPurchasedVehicle -->
+                  <span class="method-name">selectCityToPurchasedVehicle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_20_Body_Style</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBikes">
+                  </a> <!-- getBikes -->
+                  <span class="method-name">getBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_23_ComparingBikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bikeCompare">
+                  </a> <!-- bikeCompare -->
+                  <span class="method-name">bikeCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_02_FilterBikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BikeFilterTestScenario">
+                  </a> <!-- BikeFilterTestScenario -->
+                  <span class="method-name">BikeFilterTestScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_16_Listed_Brands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBrandNames">
+                  </a> <!-- getBrandNames -->
+                  <span class="method-name">getBrandNames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_17_Compare_Bikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compareBikes">
+                  </a> <!-- compareBikes -->
+                  <span class="method-name">compareBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_06_Check_Bike_At_Location</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBikeAtLocation">
+                  </a> <!-- getBikeAtLocation -->
+                  <span class="method-name">getBikeAtLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bikewale_Suite-class-passed -->
+          <div class="suite-Bikewale_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC_24_MultiFilterCombination</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiFilterCombinationTest">
+                  </a> <!-- multiFilterCombinationTest -->
+                  <span class="method-name">multiFilterCombinationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -695,105 +775,105 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(25);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchForElectricBikes')
-data.setCell(0, 2, 'testcases.TC_15_Search_Electric_Bikes')
-data.setCell(0, 3, 14687);
+data.setCell(0, 1, 'bikeReviewsPrint')
+data.setCell(0, 2, 'testcases.TC_22_BikeReview')
+data.setCell(0, 3, 11183);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyVideoPopupPlayback_TC06')
-data.setCell(1, 2, 'testcases.TC_11_YouTube_navigation_check')
-data.setCell(1, 3, 11679);
+data.setCell(1, 1, 'verifyInvalidCityError')
+data.setCell(1, 2, 'testcases.TC_07_Verify_Invalid_City_Error')
+data.setCell(1, 3, 10399);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'downloadBrochureOfModel')
-data.setCell(2, 2, 'testcases.TC_12_Brochure_Download_Check')
-data.setCell(2, 3, 11586);
+data.setCell(2, 1, 'compareBikes')
+data.setCell(2, 2, 'testcases.TC_17_Compare_Bikes')
+data.setCell(2, 3, 8779);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'compareBikes')
-data.setCell(3, 2, 'testcases.TC_17_Compare_Bikes')
-data.setCell(3, 3, 10971);
+data.setCell(3, 1, 'bikeCompare')
+data.setCell(3, 2, 'testcases.TC_23_ComparingBikes')
+data.setCell(3, 3, 8366);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'bikeCompare')
-data.setCell(4, 2, 'testcases.TC_23_ComparingBikes')
-data.setCell(4, 3, 9080);
+data.setCell(4, 1, 'usedBikeCity')
+data.setCell(4, 2, 'testcases.TC_21_BuyUsedBikes')
+data.setCell(4, 3, 8252);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'getBikeAtLocation')
 data.setCell(5, 2, 'testcases.TC_06_Check_Bike_At_Location')
-data.setCell(5, 3, 8901);
+data.setCell(5, 3, 7269);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'usedBikeCity')
-data.setCell(6, 2, 'testcases.TC_21_BuyUsedBikes')
-data.setCell(6, 3, 8726);
+data.setCell(6, 1, 'BikeFilterTestScenario')
+data.setCell(6, 2, 'testcases.TC_02_FilterBikes')
+data.setCell(6, 3, 6793);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'BikeFilterTestScenario')
-data.setCell(7, 2, 'testcases.TC_02_FilterBikes')
-data.setCell(7, 3, 7292);
+data.setCell(7, 1, 'verifyVideoPopupPlayback_TC06')
+data.setCell(7, 2, 'testcases.TC_11_YouTube_navigation_check')
+data.setCell(7, 3, 6336);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'BrowserNavigationCheck')
-data.setCell(8, 2, 'testcases.TC_14_Browser_Navigation_Check')
-data.setCell(8, 3, 7195);
+data.setCell(8, 1, 'SearchForElectricBikes')
+data.setCell(8, 2, 'testcases.TC_15_Search_Electric_Bikes')
+data.setCell(8, 3, 6266);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyInvalidCityError')
-data.setCell(9, 2, 'testcases.TC_07_Verify_Invalid_City_Error')
-data.setCell(9, 3, 6702);
+data.setCell(9, 1, 'validateReviewSearch')
+data.setCell(9, 2, 'testcases.TC_10_Validate_Bike_Reviews')
+data.setCell(9, 3, 5813);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validateReviewSearch')
-data.setCell(10, 2, 'testcases.TC_10_Validate_Bike_Reviews')
-data.setCell(10, 3, 6686);
+data.setCell(10, 1, 'getSimilarBikes')
+data.setCell(10, 2, 'testcases.TC_19_Similar_Bikes')
+data.setCell(10, 3, 4533);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'bikeReviewsPrint')
-data.setCell(11, 2, 'testcases.TC_22_BikeReview')
-data.setCell(11, 3, 6172);
+data.setCell(11, 1, 'getBikesHavingBestMileage')
+data.setCell(11, 2, 'testcases.TC_03_MileageBikes')
+data.setCell(11, 3, 4506);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'BreadcrumbWorkingCheck')
-data.setCell(12, 2, 'testcases.TC_13_Breadcrumb_Working_Check')
-data.setCell(12, 3, 5873);
+data.setCell(12, 1, 'getBikes')
+data.setCell(12, 2, 'testcases.TC_20_Body_Style')
+data.setCell(12, 3, 4326);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'getBikesHavingBestMileage')
-data.setCell(13, 2, 'testcases.TC_03_MileageBikes')
-data.setCell(13, 3, 5019);
+data.setCell(13, 1, 'multiFilterCombinationTest')
+data.setCell(13, 2, 'testcases.TC_24_MultiFilterCombination')
+data.setCell(13, 3, 4321);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'getSimilarBikes')
-data.setCell(14, 2, 'testcases.TC_19_Similar_Bikes')
-data.setCell(14, 3, 4890);
+data.setCell(14, 1, 'BrowserNavigationCheck')
+data.setCell(14, 2, 'testcases.TC_14_Browser_Navigation_Check')
+data.setCell(14, 3, 3945);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'multiFilterCombinationTest')
-data.setCell(15, 2, 'testcases.TC_24_MultiFilterCombination')
-data.setCell(15, 3, 4718);
+data.setCell(15, 1, 'EMICalculator')
+data.setCell(15, 2, 'testcases.TC_18_Calculate_EMI')
+data.setCell(15, 3, 3404);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'getBikes')
-data.setCell(16, 2, 'testcases.TC_20_Body_Style')
-data.setCell(16, 3, 4254);
+data.setCell(16, 2, 'testcases.TC_01_HomePage')
+data.setCell(16, 3, 3257);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'selectCityToPurchasedVehicle')
-data.setCell(17, 2, 'testcases.TC_04_SelectCity')
-data.setCell(17, 3, 3943);
+data.setCell(17, 1, 'bikeColorVariantImageUpdate')
+data.setCell(17, 2, 'testcases.TC_25_BikeProsAndCons')
+data.setCell(17, 3, 3251);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'bikeColorVariantImageUpdate')
-data.setCell(18, 2, 'testcases.TC_25_BikeProsAndCons')
-data.setCell(18, 3, 3615);
+data.setCell(18, 1, 'BreadcrumbWorkingCheck')
+data.setCell(18, 2, 'testcases.TC_13_Breadcrumb_Working_Check')
+data.setCell(18, 3, 3104);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'getBikes')
-data.setCell(19, 2, 'testcases.TC_01_HomePage')
-data.setCell(19, 3, 3571);
+data.setCell(19, 1, 'selectCityToPurchasedVehicle')
+data.setCell(19, 2, 'testcases.TC_04_SelectCity')
+data.setCell(19, 3, 3040);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'EMICalculator')
-data.setCell(20, 2, 'testcases.TC_18_Calculate_EMI')
-data.setCell(20, 3, 3453);
+data.setCell(20, 1, 'validateUpcomingBikeNotifyMe')
+data.setCell(20, 2, 'testcases.TC_08_Check_Notify_Functionality')
+data.setCell(20, 3, 2991);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'validateUpcomingBikeNotifyMe')
-data.setCell(21, 2, 'testcases.TC_08_Check_Notify_Functionality')
-data.setCell(21, 3, 3350);
+data.setCell(21, 1, 'downloadBrochureOfModel')
+data.setCell(21, 2, 'testcases.TC_12_Brochure_Download_Check')
+data.setCell(21, 3, 2698);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'validateNewsHeadlines')
-data.setCell(22, 2, 'testcases.TC_09_Validate_News_Headlines')
-data.setCell(22, 3, 2860);
+data.setCell(22, 1, 'getBrandNames')
+data.setCell(22, 2, 'testcases.TC_16_Listed_Brands')
+data.setCell(22, 3, 2423);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'getBrandNames')
-data.setCell(23, 2, 'testcases.TC_16_Listed_Brands')
-data.setCell(23, 3, 2626);
+data.setCell(23, 1, 'validateNewsHeadlines')
+data.setCell(23, 2, 'testcases.TC_09_Validate_News_Headlines')
+data.setCell(23, 3, 2238);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'checkToggleButton')
 data.setCell(24, 2, 'testcases.TC_05_ToggleButton')
-data.setCell(24, 3, 2259);
+data.setCell(24, 3, 1916);
 window.suiteTableData['Bikewale_Suite']= { tableData: data, tableDiv: 'times-div-Bikewale_Suite'}
 return data;
 }
@@ -831,389 +911,375 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getBikes</span>
-                <span class="method-start">8258 ms</span>
+                <span class="method-start">3432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11837 ms</span>
+                <span class="method-start">6703 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_02_FilterBikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">14095 ms</span>
+                <span class="method-start">8640 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">BikeFilterTestScenario</span>
-                <span class="method-start">25387 ms</span>
+                <span class="method-start">11604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32682 ms</span>
+                <span class="method-start">18397 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_03_MileageBikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">35456 ms</span>
+                <span class="method-start">20661 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getBikesHavingBestMileage</span>
-                <span class="method-start">40811 ms</span>
+                <span class="method-start">23774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45830 ms</span>
+                <span class="method-start">28284 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_04_SelectCity</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">48210 ms</span>
+                <span class="method-start">30212 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">selectCityToPurchasedVehicle</span>
-                <span class="method-start">52983 ms</span>
+                <span class="method-start">33344 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">56926 ms</span>
+                <span class="method-start">36384 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_05_ToggleButton</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">58980 ms</span>
+                <span class="method-start">38249 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkToggleButton</span>
-                <span class="method-start">63792 ms</span>
+                <span class="method-start">41703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">66051 ms</span>
+                <span class="method-start">43619 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_06_Check_Bike_At_Location</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">68298 ms</span>
+                <span class="method-start">45615 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getBikeAtLocation</span>
-                <span class="method-start">72921 ms</span>
+                <span class="method-start">48940 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">81822 ms</span>
+                <span class="method-start">56209 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_07_Verify_Invalid_City_Error</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">84826 ms</span>
+                <span class="method-start">58745 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyInvalidCityError</span>
-                <span class="method-start">89434 ms</span>
+                <span class="method-start">60885 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96138 ms</span>
+                <span class="method-start">71304 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_08_Check_Notify_Functionality</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">98634 ms</span>
+                <span class="method-start">73295 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateUpcomingBikeNotifyMe</span>
-                <span class="method-start">103751 ms</span>
+                <span class="method-start">76130 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">107102 ms</span>
+                <span class="method-start">79121 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_09_Validate_News_Headlines</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">109583 ms</span>
+                <span class="method-start">81038 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateNewsHeadlines</span>
-                <span class="method-start">114015 ms</span>
+                <span class="method-start">86680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">116876 ms</span>
+                <span class="method-start">88918 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_10_Validate_Bike_Reviews</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">119016 ms</span>
+                <span class="method-start">90926 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateReviewSearch</span>
-                <span class="method-start">123731 ms</span>
+                <span class="method-start">93904 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">130418 ms</span>
+                <span class="method-start">99717 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_11_YouTube_navigation_check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">132887 ms</span>
+                <span class="method-start">101879 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyVideoPopupPlayback_TC06</span>
-                <span class="method-start">137530 ms</span>
+                <span class="method-start">104956 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111293 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_12_Brochure_Download_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">149209 ms</span>
+                <span class="method-start">113728 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_11_YouTube_navigation_check</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">149209 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_12_Brochure_Download_Check</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">downloadBrochureOfModel</span>
-                <span class="method-start">153478 ms</span>
+                <span class="method-start">117290 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">165064 ms</span>
+                <span class="method-start">119988 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_13_Breadcrumb_Working_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">165064 ms</span>
+                <span class="method-start">122005 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">BreadcrumbWorkingCheck</span>
-                <span class="method-start">170137 ms</span>
+                <span class="method-start">125671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">176010 ms</span>
+                <span class="method-start">128777 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_14_Browser_Navigation_Check</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">176012 ms</span>
+                <span class="method-start">130811 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">BrowserNavigationCheck</span>
-                <span class="method-start">180759 ms</span>
+                <span class="method-start">134647 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138592 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_15_Search_Electric_Bikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">187954 ms</span>
+                <span class="method-start">140661 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_14_Browser_Navigation_Check</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">187954 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_15_Search_Electric_Bikes</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">SearchForElectricBikes</span>
-                <span class="method-start">192811 ms</span>
+                <span class="method-start">143758 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150024 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_16_Listed_Brands</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">207498 ms</span>
+                <span class="method-start">152028 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_15_Search_Electric_Bikes</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">207498 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC_16_Listed_Brands</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getBrandNames</span>
-                <span class="method-start">212033 ms</span>
+                <span class="method-start">155496 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">214659 ms</span>
+                <span class="method-start">157920 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_17_Compare_Bikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">216676 ms</span>
+                <span class="method-start">159721 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">compareBikes</span>
-                <span class="method-start">220420 ms</span>
+                <span class="method-start">163196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">231391 ms</span>
+                <span class="method-start">171987 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_18_Calculate_EMI</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">236089 ms</span>
+                <span class="method-start">174333 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">EMICalculator</span>
-                <span class="method-start">238917 ms</span>
+                <span class="method-start">177858 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">242370 ms</span>
+                <span class="method-start">181262 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_19_Similar_Bikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">244266 ms</span>
+                <span class="method-start">183214 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getSimilarBikes</span>
-                <span class="method-start">248731 ms</span>
+                <span class="method-start">186473 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">253621 ms</span>
+                <span class="method-start">191006 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_20_Body_Style</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">256294 ms</span>
+                <span class="method-start">193063 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getBikes</span>
-                <span class="method-start">260261 ms</span>
+                <span class="method-start">196041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">264515 ms</span>
+                <span class="method-start">200367 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_21_BuyUsedBikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">266838 ms</span>
+                <span class="method-start">202458 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">usedBikeCity</span>
-                <span class="method-start">271021 ms</span>
+                <span class="method-start">205939 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">279762 ms</span>
+                <span class="method-start">214191 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_22_BikeReview</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">282363 ms</span>
+                <span class="method-start">216534 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">bikeReviewsPrint</span>
-                <span class="method-start">287230 ms</span>
+                <span class="method-start">219928 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">293402 ms</span>
+                <span class="method-start">231111 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_23_ComparingBikes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">296269 ms</span>
+                <span class="method-start">233375 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">bikeCompare</span>
-                <span class="method-start">300411 ms</span>
+                <span class="method-start">236939 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">309491 ms</span>
+                <span class="method-start">245305 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_24_MultiFilterCombination</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">312352 ms</span>
+                <span class="method-start">247864 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">multiFilterCombinationTest</span>
-                <span class="method-start">316051 ms</span>
+                <span class="method-start">252370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">320769 ms</span>
+                <span class="method-start">256695 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC_25_BikeProsAndCons</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">323135 ms</span>
+                <span class="method-start">258696 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">bikeColorVariantImageUpdate</span>
-                <span class="method-start">326972 ms</span>
+                <span class="method-start">262466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">330587 ms</span>
+                <span class="method-start">265718 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

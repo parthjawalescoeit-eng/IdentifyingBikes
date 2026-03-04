@@ -30,6 +30,10 @@ public class CommonCode {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
+    public void waitForNewWindowToOpen(int element) {
+         getWait().until(ExpectedConditions.numberOfWindowsToBe(element+1));
+    }
+
     public void pageReady() {
         getWait().until(driver ->
                 ((JavascriptExecutor) driver).executeScript("return document.readyState")

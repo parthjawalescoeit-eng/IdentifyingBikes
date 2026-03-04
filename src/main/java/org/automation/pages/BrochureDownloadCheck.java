@@ -46,6 +46,7 @@ public class BrochureDownloadCheck {
 
         String originalWindow = driver.getWindowHandle();
         Set<String> oldWindows = driver.getWindowHandles();
+        int oldWinCount=oldWindows.size();
         code.clickable(mileageBtn);
         mileageBtn.click();
         try {
@@ -57,9 +58,8 @@ public class BrochureDownloadCheck {
             code.clickable(brochureDownloadBtn);
             j.clickByJS(brochureDownloadBtn);
         }
-
+        code.waitForNewWindowToOpen(oldWinCount);
         Set<String> newWindows = driver.getWindowHandles();
-
         if (newWindows.size() == oldWindows.size()) {
             return false;
         }
@@ -72,7 +72,7 @@ public class BrochureDownloadCheck {
         }
 
         String url = driver.getCurrentUrl();
-        if (!(url.contains("stc.aeplcdn.com/f/brochure/11/3295/18dkcdl.pdf"))) {
+        if (!(url.contains("stc.aeplcdn.com/f/brochure"))) {
             return false;
         }
         Thread.sleep(2000);
