@@ -30,8 +30,9 @@ public class CommonCode {
         return getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public void waitForNewWindowToOpen(int element) {
-         getWait().until(ExpectedConditions.numberOfWindowsToBe(element+1));
+
+    public void waitForNewWindowToOpen(int currentWindowCount) {
+        getWait().until(ExpectedConditions.numberOfWindowsToBe(currentWindowCount + 1));
     }
 
     public void pageReady() {
