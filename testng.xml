@@ -37,7 +37,6 @@
             <class name="testcases.TC_23_ComparingBikes" />
             <class name="testcases.TC_24_MultiFilterCombination" />
             <class name="testcases.TC_25_BikeProsAndCons"/>
-
         </classes>
     </test>
 </suite>
